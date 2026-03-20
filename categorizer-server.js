@@ -209,17 +209,49 @@ async function processNext() {
   const label = `[${product.id}] "${product.name}"`;
   stats.processed++;
 
-  try {
-    const result = await classifyWithAI(product);
-    console.log(`🤖 ${label} → "${result.category}" (confianza: ${result.confidence})`);
+  // Filtro previo — nombre con menos de 3 palabras va directo a INFORMACIÓN INSUFICIENTE
+  const wordCount = product.name.trim().split(/\s+/).filter(w => w.length > 1).length;
+  if (wordCount < 3) {
+    const categId = await getCategId(uid, "INFORMACIÓN INSUFICIENTE");
+    if (categId) {
+      await odooCall("object", "execute_kw", [
+        DB, uid, PASS,
+        "product.template", "write",
+        [[product.id], { categ_id: categId }]
+      ]);
+      console.log(`⚠️  ${label} — nombre insuficiente (${wordCount} palabras) → INFORMACIÓN INSUFICIENTE`);
+    }
+    stats.skipped++;
+    processedIds.add(product.id);
+    saveProcessed(processedIds);
+    scheduleNext();
+    return;
+  }
 
-    if (result.category === "SIN_CATEGORIA" || result.confidence < 0.75) {
-      console.log(`⏭️  ${label} omitido — confianza insuficiente`);
-      stats.skipped++;
+  try {
+    // Intento 1: diccionario de palabras clave (gratis, instantáneo)
+    const keywordCategory = classifyByKeyword(product.name);
+    let finalCategory = null;
+
+    if (keywordCategory) {
+      console.log(`📖 ${label} → "${keywordCategory}" (diccionario)`);
+      finalCategory = keywordCategory;
     } else {
-      const categId = await getCategId(uid, result.category);
+      // Intento 2: Claude para lo que el diccionario no reconoció
+      const result = await classifyWithAI(product);
+      console.log(`🤖 ${label} → "${result.category}" (confianza: ${result.confidence})`);
+      if (result.category !== "SIN_CATEGORIA" && result.confidence >= 0.75) {
+        finalCategory = result.category;
+      } else {
+        console.log(`⏭️  ${label} omitido — confianza insuficiente`);
+        stats.skipped++;
+      }
+    }
+
+    if (finalCategory) {
+      const categId = await getCategId(uid, finalCategory);
       if (!categId) {
-        console.warn(`⚠️  ${label} — categ_id no encontrado para "${result.category}"`);
+        console.warn(`⚠️  ${label} — categ_id no encontrado para "${finalCategory}"`);
         stats.errors++;
       } else {
         await odooCall("object", "execute_kw", [
@@ -227,7 +259,7 @@ async function processNext() {
           "product.template", "write",
           [[product.id], { categ_id: categId }]
         ]);
-        console.log(`✅ ${label} → "${result.category}" (categ_id: ${categId})`);
+        console.log(`✅ ${label} → "${finalCategory}" (categ_id: ${categId})`);
         stats.categorized++;
       }
     }
