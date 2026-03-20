@@ -121,27 +121,24 @@ async function getCategId(uid, categoryName) {
 }
 
 async function classifyWithAI(product) {
-  const response = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "x-api-key": ANTHROPIC_API_KEY,
-      "anthropic-version": "2023-06-01"
-    },
-    body: JSON.stringify({
-      model: "claude-haiku-4-5-20251001",
-      max_tokens: 128,
-      system: SYSTEM_PROMPT,
-      messages: [{
-        role: "user",
-        content: `Nombre: ${product.name}\nReferencia: ${product.default_code || "sin referencia"}`
-      }]
-    })
-  });
+  const response = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${process.env.GEMINI_API_KEY}`,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        system_instruction: { parts: [{ text: SYSTEM_PROMPT }] },
+        contents: [{
+          parts: [{ text: `Nombre: ${product.name}\nReferencia: ${product.default_code || "sin referencia"}` }]
+        }],
+        generationConfig: { temperature: 0.1 }
+      })
+    }
+  );
 
-  if (!response.ok) throw new Error(`Claude API ${response.status}: ${await response.text()}`);
+  if (!response.ok) throw new Error(`Gemini API ${response.status}: ${await response.text()}`);
   const data = await response.json();
-  const text = data.content[0].text.trim().replace(/```json|```/g, "").trim();
+  const text = data.candidates[0].content.parts[0].text.trim().replace(/```json|```/g, "").trim();
   return JSON.parse(text);
 }
 
