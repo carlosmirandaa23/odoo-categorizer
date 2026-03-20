@@ -320,11 +320,15 @@ app.get("/health", (req, res) => res.send("OK"));
   const PORT = process.env.CATEGORIZER_PORT || 3001;
   app.listen(PORT, () => {
     console.log(`🚀 Categorizer corriendo en puerto ${PORT}`);
-    console.log(`   POST /start            — iniciar o reanudar`);
     console.log(`   POST /pause            — pausar`);
     console.log(`   POST /stop             — detener`);
     console.log(`   GET  /status           — ver estado y stats`);
     console.log(`   POST /reset-processed  — borrar lista de IDs`);
     console.log(`   POST /reprocess/:id    — re-procesar un producto`);
   });
+
+  isRunning = true;
+  stats = { processed: 0, categorized: 0, errors: 0, skipped: 0, startedAt: new Date().toISOString() };
+  console.log("▶️  Arrancando loop automáticamente...");
+  processNext();
 })();
