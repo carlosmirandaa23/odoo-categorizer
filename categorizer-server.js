@@ -10,41 +10,66 @@ const { ODOO_URL, DB, USER, PASS, ANTHROPIC_API_KEY } = process.env;
 
 const PROCESSED_FILE = path.join(__dirname, "processed_ids.json");
 const INTERVAL_MS    = 15000;
+const GITHUB_REPO    = "carlosmirandaa23/odoo-categorizer";
 
 // ─────────────────────────────────────────
 // ESTADO EN MEMORIA
 // ─────────────────────────────────────────
 
+let processedIds = new Set();
 let isRunning    = false;
 let isPaused     = false;
 let currentTimer = null;
 let stats = { processed: 0, categorized: 0, errors: 0, skipped: 0, startedAt: null };
 
 // ─────────────────────────────────────────
-// PERSISTENCIA DE IDs PROCESADOS
+// PERSISTENCIA EN GITHUB
 // ─────────────────────────────────────────
 
-function loadProcessed() {
+async function loadProcessed() {
   try {
-    if (fs.existsSync(PROCESSED_FILE)) {
-      return new Set(JSON.parse(fs.readFileSync(PROCESSED_FILE, "utf8")));
-    }
+    const res = await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/contents/processed_ids.json`,
+      { headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` } }
+    );
+    if (!res.ok) return new Set();
+    const data = await res.json();
+    const content = Buffer.from(data.content, "base64").toString("utf8");
+    return new Set(JSON.parse(content));
   } catch (e) {
-    console.error("⚠️  No se pudo leer processed_ids.json, empezando vacío:", e.message);
+    console.error("⚠️  No se pudo leer de GitHub, empezando vacío:", e.message);
+    return new Set();
   }
-  return new Set();
 }
 
-function saveProcessed(set) {
+async function saveProcessed(set) {
   try {
     fs.writeFileSync(PROCESSED_FILE, JSON.stringify([...set]), "utf8");
+    const content = Buffer.from(JSON.stringify([...set])).toString("base64");
+    const getRes = await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/contents/processed_ids.json`,
+      { headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` } }
+    );
+    const getData = await getRes.json();
+    await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/contents/processed_ids.json`,
+      {
+        method: "PUT",
+        headers: {
+          Authorization: `token ${process.env.GITHUB_TOKEN}`,
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          message: "update processed ids",
+          content,
+          sha: getData.sha
+        })
+      }
+    );
   } catch (e) {
-    console.error("⚠️  No se pudo guardar processed_ids.json:", e.message);
+    console.error("⚠️  No se pudo guardar en GitHub:", e.message);
   }
 }
-
-const processedIds = loadProcessed();
-console.log(`📂 IDs ya procesados cargados: ${processedIds.size}`);
 
 // ─────────────────────────────────────────
 // CATÁLOGO DE CATEGORÍAS
@@ -125,7 +150,7 @@ async function classifyWithAI(product) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "x-api-key": process.env.ANTHROPIC_API_KEY,
+      "x-api-key": ANTHROPIC_API_KEY,
       "anthropic-version": "2023-06-01"
     },
     body: JSON.stringify({
@@ -146,7 +171,7 @@ async function classifyWithAI(product) {
 }
 
 // ─────────────────────────────────────────
-// LOOP PRINCIPAL — un producto cada 15 segundos
+// LOOP PRINCIPAL — un producto cada 15s
 // ─────────────────────────────────────────
 
 async function processNext() {
@@ -161,7 +186,6 @@ async function processNext() {
     return;
   }
 
-  // Buscar siguiente producto no procesado, paginando en lotes de 50
   let product = null;
   let offset = 0;
   while (!product) {
@@ -289,13 +313,18 @@ app.get("/health", (req, res) => res.send("OK"));
 // ARRANQUE
 // ─────────────────────────────────────────
 
-const PORT = process.env.CATEGORIZER_PORT || 3001;
-app.listen(PORT, () => {
-  console.log(`🚀 Categorizer corriendo en puerto ${PORT}`);
-  console.log(`   POST /start            — iniciar o reanudar`);
-  console.log(`   POST /pause            — pausar`);
-  console.log(`   POST /stop             — detener`);
-  console.log(`   GET  /status           — ver estado y stats`);
-  console.log(`   POST /reset-processed  — borrar lista de IDs`);
-  console.log(`   POST /reprocess/:id    — re-procesar un producto`);
-});
+(async () => {
+  processedIds = await loadProcessed();
+  console.log(`📂 IDs ya procesados cargados: ${processedIds.size}`);
+
+  const PORT = process.env.CATEGORIZER_PORT || 3001;
+  app.listen(PORT, () => {
+    console.log(`🚀 Categorizer corriendo en puerto ${PORT}`);
+    console.log(`   POST /start            — iniciar o reanudar`);
+    console.log(`   POST /pause            — pausar`);
+    console.log(`   POST /stop             — detener`);
+    console.log(`   GET  /status           — ver estado y stats`);
+    console.log(`   POST /reset-processed  — borrar lista de IDs`);
+    console.log(`   POST /reprocess/:id    — re-procesar un producto`);
+  });
+})();
