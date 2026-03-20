@@ -99,6 +99,39 @@ const CATEGORY_CATALOG = [
   { name: "CUIDADO Y MANTENIMIENTO", parent: "ACCESORIOS",              examples: "limpia calzado, spray desodorante, cintas deportivas" },
 ];
 
+const KEYWORD_MAP = [
+  { keywords: ["playera", "camiseta", "jersey", "polo", "top", "tank"],           category: "PRENDAS SUPERIORES" },
+  { keywords: ["short", "legging", "pants", "jogger", "licra"],                   category: "PRENDAS INFERIORES" },
+  { keywords: ["sudadera", "hoodie", "chamarra", "cortaviento", "jacket"],        category: "ABRIGO Y EXTERIOR" },
+  { keywords: ["calcetín", "calcetines", "bañador", "traje de baño"],             category: "ROPA INTERIOR Y BAÑO" },
+  { keywords: ["tenis", "zapatilla", "running", "training", "cross"],             category: "RUNNING Y ENTRENAMIENTO" },
+  { keywords: ["tachón", "tachones", "cleat", "spike"],                           category: "TACHONES" },
+  { keywords: ["futsal", "indoor", "cancha"],                                     category: "CANCHA - INDOOR" },
+  { keywords: ["lifestyle", "sneaker", "casual"],                                 category: "CASUAL - SNEAKERS" },
+  { keywords: ["sandalia", "chancla", "slide", "flip flop"],                      category: "SANDALIAS Y CHANCLAS" },
+  { keywords: ["balón", "balon", "pelota", "ball"],                               category: "PELOTAS Y BALONES" },
+  { keywords: ["raqueta", "pala", "padel", "pádel", "bádminton"],                category: "RAQUETAS Y PALAS" },
+  { keywords: ["espinillera", "casco", "guante", "rodillera", "protector"],       category: "PROTECCIONES" },
+  { keywords: ["mancuerna", "liga", "esterilla", "cuerda", "pesa", "kettlebell"], category: "ENTRENAMIENTO EN CASA" },
+  { keywords: ["foam roller", "masaje", "recovery", "recuperación"],              category: "RECUPERACIÓN" },
+  { keywords: ["tobillera", "muñequera", "faja", "soporte", "vendaje"],          category: "SOPORTE Y PREVENCIÓN" },
+  { keywords: ["primeros auxilios", "botiquín", "compresa"],                      category: "PRIMEROS AUXILIOS" },
+  { keywords: ["mochila", "backpack", "bolsa", "maleta", "morral"],              category: "BOLSAS Y MOCHILAS" },
+  { keywords: ["reloj", "audífono", "auricular", "banda inteligente", "gps"],    category: "ELECTRÓNICA" },
+  { keywords: ["gorra", "cap", "botella", "bidón", "cinturón"],                  category: "COMPLEMENTOS" },
+  { keywords: ["limpiador", "spray", "desodorante", "cinta deportiva"],          category: "CUIDADO Y MANTENIMIENTO" },
+];
+
+function classifyByKeyword(name) {
+  const lower = name.toLowerCase();
+  for (const entry of KEYWORD_MAP) {
+    if (entry.keywords.some(k => lower.includes(k))) {
+      return entry.category;
+    }
+  }
+  return null;
+}
+
 const SYSTEM_PROMPT = `Eres un clasificador de productos deportivos. Recibes el nombre y referencia de UN producto y debes asignar la categoría más apropiada del catálogo.
 
 CATÁLOGO:
