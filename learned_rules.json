@@ -247,5 +247,41 @@
     "reason": "La palabra 'entrenamiento' es un indicador directo de productos de gym o training. D4M es una línea de Adidas para actividades de entrenamiento general. Excluimos 'adidas' por ser marca genérica.",
     "example": "ADIDAS D4M ENTRENAMIENTO  (copia)",
     "addedAt": "2026-03-21T05:16:22.045Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "football",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": null,
+    "reason": "La palabra 'football' combinada con el contexto de calzado deportivo especializado identifica inequívocamente tachones de fútbol americano o asociados. 'Tachones' como keyword de confirmación evita confusión con calzado casual de fútbol.",
+    "example": "ADIDAS DIME FOOTBALL ",
+    "addedAt": "2026-03-21T05:17:28.527Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "freak",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": null,
+    "reason": "ADIDAS FREAK es una línea icónica de tachones de fútbol americano. La palabra 'tachones' en el nombre o contexto identifica claramente este calzado especializado para deportes de contacto.",
+    "example": "ADIDAS FREAK 23 7V7 10.5A",
+    "addedAt": "2026-03-21T05:18:22.040Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "freak",
+      "inline"
+    ],
+    "category": "TACHONES",
+    "match": null,
+    "reason": "FREAK 23 INLINE es un modelo específico de tachones de fútbol americano. La palabra 'inline' en contexto de calzado deportivo identifica tachones de fútbol americano, y 'freak' es su línea de producto. Juntas evitan confusión con otros tipos de calzado.",
+    "example": "ADIDAS FREAK 23 INLINE 10.5A",
+    "addedAt": "2026-03-21T05:20:45.682Z"
   }
 ]
