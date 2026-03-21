@@ -4906,5 +4906,29 @@
     "reason": "Banderas de flag football son equipamiento de protección/seguridad para el deporte",
     "example": "BANDERAS DE TOCHITO /PK24",
     "addedAt": "2026-03-21T20:33:13.373Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "serving",
+      "end"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "BCY es marca de accesorios de arco; 'serving' y 'end' son componentes específicos de cuerdas de arco deportivo",
+    "example": "BCY 2S End Serving",
+    "addedAt": "2026-03-21T20:46:15.997Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "string",
+      "material"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "BCY es fabricante de cuerdas para arcos y raquetas. 452X es modelo de cuerda. String material en contexto deportivo refiere a cuerdas de raqueta/pádel.",
+    "example": "BCY 452X String Material 1/4# BK",
+    "addedAt": "2026-03-21T20:46:22.794Z"
   }
 ]
