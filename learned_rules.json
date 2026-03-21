@@ -5891,5 +5891,17 @@
     "reason": "Uruguayito es modelo de tachón de fútbol rápido/futsal",
     "example": "MANRIQUEZ URUGUAYITO RED FUTBOL RAPIDO ",
     "addedAt": "2026-03-21T23:31:37.698Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "field",
+      "fita"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Field + FITA identifica pelotas/balones de deportes específicos de campo",
+    "example": "MAPLE LEAF 40 CM Y 20 CM  FITA FIELD ",
+    "addedAt": "2026-03-21T23:31:47.079Z"
   }
 ]
