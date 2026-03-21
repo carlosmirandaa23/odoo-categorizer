@@ -2908,5 +2908,77 @@
     "reason": "DeMarini es marca de béisbol, 'short' + contexto béisbol = pantalón corto deportivo",
     "example": "DEMARINI M 10TH INNING SHORT",
     "addedAt": "2026-03-21T13:09:09.532Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "short",
+      "inning"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "short es prenda inferior; inning refiere a béisbol, contexto deportivo que confirma uso atlético",
+    "example": "DEMARINI M 10TH INNING SHORT",
+    "addedAt": "2026-03-21T13:09:49.280Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "maleta",
+      "wheels"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Maleta con ruedas es equipaje deportivo de transporte",
+    "example": "DEMARINI MOMENTUM MALETA ORANGE WHEELS",
+    "addedAt": "2026-03-21T13:10:10.561Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pants",
+      "talla"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Pants deportivos con indicación de talla son prenda inferior",
+    "example": "DEMARINI PANTS TALLA 36",
+    "addedAt": "2026-03-21T13:11:08.406Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "glove",
+      "demarini"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "DeMARINI es marca de béisbol/softball, glove en este contexto refiere a guante de campo de béisbol",
+    "example": "DEMARINI ROGUE GLOVE 11.5''",
+    "addedAt": "2026-03-21T13:15:12.764Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "wristband",
+      "wristbands"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "wristbands son complementos deportivos que se usan en muñeca para absorción de sudor, independientemente de marca o deporte",
+    "example": "DEMARINI WRISTBANDS EXTRA LONG 4'' 1PAIR ",
+    "addedAt": "2026-03-21T13:15:33.149Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pelota",
+      "ping pong"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Identifica pelotas de ping pong evitando ambigüedad con otras pelotas",
+    "example": "DHS PELOTA PIN PONG PROFESIONAL SUELTA",
+    "addedAt": "2026-03-21T13:16:31.072Z"
   }
 ]
