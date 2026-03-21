@@ -6334,5 +6334,17 @@
     "reason": "Las leg sleeves son prendas de compresión para soporte y prevención de lesiones en piernas, componente clave de protección deportiva",
     "example": "MCDAVID LEG SLEEVES L",
     "addedAt": "2026-03-21T23:46:26.172Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "blitzing",
+      "train"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Blitzing es una línea de camisetas de entrenamiento deportivo, confirmado por el contexto de uso TRAIN",
+    "example": "MEN'S HEATHERED BLITZING 30 / color: BLACK-GRAPHITE-BLACK / talla: L/XL / uso: TRAIN",
+    "addedAt": "2026-03-21T23:47:53.633Z"
   }
 ]
