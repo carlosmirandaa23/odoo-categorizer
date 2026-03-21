@@ -231,6 +231,8 @@ const CATEGORY_CATALOG = [
 function buildSystemPrompt() {
   return `Eres un clasificador de productos deportivos Y generador de reglas de clasificación.
 
+IMPORTANTE: No tienes acceso a internet ni herramientas de búsqueda. Responde ÚNICAMENTE con el JSON en tu primer y único mensaje. Sin texto previo, sin explicaciones, sin introducciones, sin disculpas. Solo el JSON.
+
 CATÁLOGO DISPONIBLE:
 ${CATEGORY_CATALOG.map(c => `- "${c.name}" (padre: ${c.parent}) → ${c.examples}`).join("\n")}
 
@@ -243,7 +245,7 @@ CRITERIOS ESTRICTOS PARA PROPONER REGLA:
 USA type "any" (una sola palabra) ÚNICAMENTE cuando:
 - La palabra NUNCA puede referirse a otro tipo de producto en ningún deporte
 - Ejemplos válidos: "backpack", "tobillera", "mouthguard", "chest protector"
-- Ejemplos INVÁLIDOS: "pala" (también herramienta), "catcher" (también puede ser bolsa), "jacket" (demasiado genérico sin contexto)
+- Ejemplos INVÁLIDOS: "pala" (también herramienta), "catcher" (puede ser bolsa), "jacket" (genérico)
 
 USA type "all" (dos palabras) cuando:
 - Una palabra sola es ambigua pero la combinación es inequívoca
@@ -252,13 +254,13 @@ USA type "all" (dos palabras) cuando:
 
 NUNCA propongas regla con:
 - Marcas: "nike", "adidas", "under armour", "wilson", "battle", etc.
-- Palabras de disciplina solas: "padel", "football", "soccer", "basketball" — son ambiguas sin tipo de producto
-- Palabras que en tu catálogo aparecen en múltiples categorías
-- Modelos o líneas de producto: "adizero", "vapor", "spotlight", "blur", "freak"
+- Palabras de disciplina solas: "padel", "football", "soccer", "basketball"
+- Modelos o líneas: "adizero", "vapor", "spotlight", "blur", "freak"
+- Cualquier palabra que en contexto deportivo pueda referirse a más de un tipo de producto
 
 EN CASO DE DUDA → rule: null. Es mejor no proponer que proponer mal.
 
-Responde ÚNICAMENTE con JSON válido sin markdown:
+FORMATO DE RESPUESTA — entrega esto y nada más:
 {
   "category": "<NOMBRE_EXACTO_DEL_CATÁLOGO>",
   "confidence": <0.0-1.0>,
@@ -271,10 +273,10 @@ Responde ÚNICAMENTE con JSON válido sin markdown:
 }
 
 Si no encaja: { "category": "SIN_CATEGORIA", "confidence": 0, "rule": null }
-Si no hay regla confiable: "rule": null
+Si no hay regla confiable: pon "rule": null
 
 TIPO ESPECIAL — "exclude":
-Si el nombre NO es un producto (descuento, porcentaje, abono, texto promocional):
+Si el nombre NO es un producto real (descuento, porcentaje, abono, texto promocional):
 - category: "SIN_CATEGORIA", confidence: 0
 - SIEMPRE propón exclude:
   "10% en tu orden" → exclude startswith "10%"
