@@ -3320,5 +3320,101 @@
     "reason": "EASTON POINT es línea de tachones de béisbol/fútbol americano. CB indica cleats de béisbol. 100G es peso/especificación técnica.",
     "example": "EASTON POINT CB 100G",
     "addedAt": "2026-03-21T13:47:11.778Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "speed",
+      "30/20"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "SPEED es línea de bates de béisbol Easton; 30/20 es especificación (largo/peso) característica de tachones de béisbol",
+    "example": "EASTON SPEED 30/20",
+    "addedAt": "2026-03-21T13:51:05.292Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bushing",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Componente específico de tachones de béisbol (EASTON es marca de equipamiento de béisbol, bushing es pieza del cleat)",
+    "example": "EASTON UNI BUSHING CB ICS SUPER",
+    "addedAt": "2026-03-21T13:52:23.518Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "glove",
+      "pro"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Guante de protección deportiva de marca Ektelon (pádel/squash), 'glove' + 'pro' evita confusión con guantes casuales",
+    "example": "EKTELON CLASSIC PRO GLOVE",
+    "addedAt": "2026-03-21T13:53:43.050Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "vanes",
+      "paraboli"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Vanes parabólicas de 56mm son componentes de balones de futsal/indoor con tecnología específica de vuelo",
+    "example": "ELI PERFORMANCE VANES 56MM PARABOLI",
+    "addedAt": "2026-03-21T13:54:41.542Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "vanes",
+      "pala"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Vanes son las aletas de una pala de pádel/raqueta; ELI es marca conocida en equipamiento de raqueta",
+    "example": "ELI VANES RH P2",
+    "addedAt": "2026-03-21T13:55:01.765Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cinturon",
+      "fitness"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Cinturón de fitness es complemento deportivo para soporte y entrenamiento",
+    "example": "ELITE FITNESS CINTURON",
+    "addedAt": "2026-03-21T13:55:21.648Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "encordado",
+      "multifilamentos"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Encordado es accesorio específico de raquetas/palas de tenis. Multifilamentos es característica técnica exclusiva de cuerdas deportivas.",
+    "example": "ENCORDADO TECNIFIBRE CAFE MULTIFILAMENTOS",
+    "addedAt": "2026-03-21T13:56:02.029Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "encordado",
+      "sintetico"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Encordado es componente exclusivo de raquetas y palas; sintético refuerza producto de tenis/pádel",
+    "example": "ENCORDADO TECNIFIBRE NEGRO SINTETICO",
+    "addedAt": "2026-03-21T13:56:22.102Z"
   }
 ]
