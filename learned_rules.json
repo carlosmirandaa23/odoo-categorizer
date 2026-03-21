@@ -3234,5 +3234,17 @@
     "reason": "Easton Hammer es un bate de béisbol/softball de marca reconocida; medidas en pulgadas y onzas son estándar de bates",
     "example": "EASTON HAMMER 34\" 28oz",
     "addedAt": "2026-03-21T13:41:51.375Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "havoc",
+      "easton"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "EASTON HAVOC es bate de béisbol de -10 (junior), pero por especificaciones (31IN, 2 1/4) podría ser tachón de béisbol. Sin referencia clara, clasificado en TACHONES por ser equipamiento de béisbol especializado.",
+    "example": "EASTON HAVOC 31IN -10 2 1/4",
+    "addedAt": "2026-03-21T13:42:50.559Z"
   }
 ]
