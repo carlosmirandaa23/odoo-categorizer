@@ -221,5 +221,17 @@
     "reason": "Combinación de 'pala' + 'padel' evita ambigüedad con herramientas u otros usos",
     "example": "ADIDAS ADIPOWER CTRL TEAM 3.3 PADEL",
     "addedAt": "2026-03-21T07:29:16.955Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "gloves",
+      "box"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Guantes de box requieren palabra 'gloves' + disciplina o tipo de protección para evitar confusión con guantes de otros deportes",
+    "example": "ADIDAS ADIZERO 13 GLOVES BLACK M",
+    "addedAt": "2026-03-21T07:31:00.798Z"
   }
 ]
