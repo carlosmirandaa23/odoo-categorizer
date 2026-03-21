@@ -410,5 +410,27 @@
     "reason": "Pantalonera es prenda inferior deportiva, excluyendo marca",
     "example": "ADIDAS PANTALONERA 2XL",
     "addedAt": "2026-03-21T08:07:12.676Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "pantalonera"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Pantalonera es prenda inferior deportiva, genérico sin marca específica",
+    "example": "ADIDAS PANTALONERA 2XL",
+    "addedAt": "2026-03-21T08:07:30.161Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "pullover"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "pullover es siempre una prenda deportiva de abrigo, nunca otro tipo de producto",
+    "example": "ADIDAS PULLOVER XL",
+    "addedAt": "2026-03-21T08:10:16.454Z"
   }
 ]
