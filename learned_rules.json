@@ -6095,5 +6095,41 @@
     "reason": "Tee de fútbol americano/golf para colocar balón. Complemento deportivo específico.",
     "example": "MARKWORT KICK OFF TEE",
     "addedAt": "2026-03-21T23:37:46.820Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tee",
+      "kick-off"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Tee de fútbol americano/fútbol para entrenamiento, accesorio de equipamiento de entrenamiento",
+    "example": "MARKWORT KICK-OFF TEE 2\" ",
+    "addedAt": "2026-03-21T23:37:56.023Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "kicking",
+      "tee"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Tee de pateo para entrenamiento, accesorio específico de práctica sin necesidad de disciplina adicional",
+    "example": "MARKWORT KICKING TEE 1''",
+    "addedAt": "2026-03-21T23:38:05.346Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "manopla",
+      "guante"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Manopla es equipamiento de protección específico para deportes de contacto (box, béisbol, etc.)",
+    "example": "MARKWORT MANOPLA GY002 12.5''",
+    "addedAt": "2026-03-21T23:38:38.182Z"
   }
 ]
