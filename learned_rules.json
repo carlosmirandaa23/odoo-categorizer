@@ -184,5 +184,16 @@
     "reason": "Los productos con 'team light' en su nombre son típicamente camisetas o jerseys deportivos ligeros para competencia en equipo",
     "example": "ADIDAS ADIPOWER TEAM LIGHT",
     "addedAt": "2026-03-21T02:52:28.832Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "adizero"
+    ],
+    "category": "RUNNING Y ENTRENAMIENTO",
+    "match": "contains",
+    "reason": "Adizero es la línea de tenis de running/entrenamiento de Adidas, independientemente del modelo numérico",
+    "example": "ADIDAS ADIZERO 12",
+    "addedAt": "2026-03-21T02:52:46.416Z"
   }
 ]
