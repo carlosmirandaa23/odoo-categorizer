@@ -1,3 +1,4 @@
+[2026-03-21T06:49:25.992Z] ERROR [407990] "ADX BALON BASKETBALL LAMINADO #6" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFnBLuhKp4jvRGrKwYuQ"}
 [2026-03-21T06:49:09.406Z] ERROR [407989] "ADX BALON BASKETBALL LAMINADO #5" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFnA7Yk4UHFocqjWAvqP"}
 [2026-03-21T06:48:52.514Z] ERROR [412604] "ADX BALON BASKETBALL BXM-5  #5" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFn8skzfBSJJK8ra2a2y"}
 [2026-03-21T06:45:13.276Z] ERROR [413429] "ADX BALON BASKETBALL 1005 HULE #5" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFmriWBqjXhnK4G4tfDP"}
