@@ -257,5 +257,17 @@
     "reason": "Guantes de fútbol americano (ADIZERO es línea de AF, no marca propia)",
     "example": "ADIDAS ADIZERO 13 GLOVES GREY M",
     "addedAt": "2026-03-21T07:31:35.507Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "calceta",
+      "sock"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Calceta es sinónimo de calcetín deportivo, categoría específica de ROPA INTERIOR Y BAÑO",
+    "example": "ADIDAS CALCETA ADISOCK 12",
+    "addedAt": "2026-03-21T07:38:43.506Z"
   }
 ]
