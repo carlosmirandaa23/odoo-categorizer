@@ -202,5 +202,16 @@
     "reason": "ADIPOWER TEAM LIGHT es una línea de camisetas/jerseys deportivos de Adidas. La palabra 'team' combinada con 'light' identifica prendas superiores diseñadas para competición en equipo con tecnología de peso ligero.",
     "example": "ADIDAS ADIPOWER TEAM LIGHT",
     "addedAt": "2026-03-21T05:04:45.291Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "adizero"
+    ],
+    "category": "RUNNING Y ENTRENAMIENTO",
+    "match": null,
+    "reason": "Adizero es la línea de tenis de running de Adidas, diseñada específicamente para carreras y entrenamientos de velocidad. Esta keyword identifica sin ambigüedad productos de la categoría RUNNING Y ENTRENAMIENTO",
+    "example": "ADIDAS ADIZERO 12",
+    "addedAt": "2026-03-21T05:05:02.953Z"
   }
 ]
