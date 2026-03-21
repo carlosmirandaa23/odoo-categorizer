@@ -6167,5 +6167,17 @@
     "reason": "Pitcher plate es equipamiento específico de béisbol, usado en el montículo. Se clasifica con tachones deportivos de béisbol.",
     "example": "MARKWORT PITCHER PLATE ",
     "addedAt": "2026-03-21T23:39:38.650Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "push-up",
+      "bar"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Push-up bars son herramientas de entrenamiento en casa para ejercicios de cuerpo completo",
+    "example": "MARKWORT PUSH-UP BAR",
+    "addedAt": "2026-03-21T23:39:47.994Z"
   }
 ]
