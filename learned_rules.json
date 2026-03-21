@@ -751,5 +751,28 @@
     "reason": "Cuerda de entrenamiento para uso en casa, material yute típico de cuerdas de batalla",
     "example": "ADX CUERDA YUTE 38mm x 15m",
     "addedAt": "2026-03-21T08:49:40.324Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "desodorizante",
+      "guantes"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Producto de limpieza/mantenimiento específico para equipamiento deportivo",
+    "example": "ADX DESODORIZANTE PARA GUANTES DE BOX",
+    "addedAt": "2026-03-21T08:49:58.141Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "escalera de coordinacion"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Equipo de entrenamiento portátil para trabajo de agilidad y coordinación, usado en gimnasios y entrenamientos en casa",
+    "example": "ADX ESCALERA DE COORDINACION 11 PELDAÑOS",
+    "addedAt": "2026-03-21T08:50:16.176Z"
   }
 ]
