@@ -2002,5 +2002,39 @@
     "reason": "Cap es gorra deportiva; leather confirma prenda de vestir accesoria, no es marca Bowtech sino producto",
     "example": "BOWTECH LEATHER CAP",
     "addedAt": "2026-03-21T11:26:16.041Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "sand"
+    ],
+    "category": "SANDALIAS Y CHANCLAS",
+    "match": "contains",
+    "reason": "Sand es abreviatura de sandalia, indicador directo de categoría de sandalias deportivas",
+    "example": "BP MULT SAND ",
+    "addedAt": "2026-03-21T11:26:53.948Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bullpadel",
+      "pala"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Bullpadel es marca especializada en palas de pádel; 'pala' + contexto de pádel elimina ambigüedad con herramientas",
+    "example": "BULLPADEL VERTEX 05 GEO",
+    "addedAt": "2026-03-21T11:31:01.445Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "silencer"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Accesorio de arco/tiro deportivo para reducir ruido. Silenciadores son componentes específicos de equipamiento deportivo sin ambigüedad de uso.",
+    "example": "Bearpaw Beaver Puff String Silencers",
+    "addedAt": "2026-03-21T11:33:14.437Z"
   }
 ]
