@@ -5711,5 +5711,28 @@
     "reason": "Batera con ruedas es una maleta/bolsa de transporte para equipamiento deportivo, generalmente usada en béisbol",
     "example": "LOUISVILLE BATERA CON RUEDAS",
     "addedAt": "2026-03-21T23:11:57.457Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "slugger"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Louisville Slugger es marca exclusiva de bates de béisbol y equipamiento de béisbol. Genesis 1884 es modelo de bate. SKU BG43 sugiere categoría de bate/bat de béisbol, clasificable en RAQUETAS Y PALAS como equipamiento deportivo de impacto.",
+    "example": "LOUISVILLE SLUGGER GENESIS 1884",
+    "addedAt": "2026-03-21T23:13:39.888Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "shooting",
+      "glove"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Guantes de tiro (shooting) son protecciones deportivas especializadas",
+    "example": "Legacy Leather Hill Style Shooting Glove L",
+    "addedAt": "2026-03-21T23:19:55.384Z"
   }
 ]
