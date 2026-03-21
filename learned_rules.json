@@ -91,20 +91,7 @@
     "addedAt": "2026-03-21T07:22:48.749Z"
   },
   {
-    "type": "all",
-    "keywords": [
-      "blade",
-      "rest",
-      "target"
-    ],
-    "category": "RAQUETAS Y PALAS",
-    "match": "contains",
-    "reason": "Combinación de palabras indica accesorios de soporte/descanso para palas de tenis/bádminton",
-    "example": "AAE FREAK SHOW BLADE REST TARGET",
-    "addedAt": "2026-03-21T07:23:22.512Z"
-  },
-  {
-    "type": "all",
+    "type": "any",
     "keywords": [
       "armguard",
       "arm guard"
@@ -187,7 +174,7 @@
     "addedAt": "2026-03-21T07:26:47.004Z"
   },
   {
-    "type": "all",
+    "type": "any",
     "keywords": [
       "gloves",
       "youth"
@@ -199,7 +186,7 @@
     "addedAt": "2026-03-21T07:28:08.007Z"
   },
   {
-    "type": "all",
+    "type": "any",
     "keywords": [
       "adilette",
       "aqua"
@@ -223,7 +210,7 @@
     "addedAt": "2026-03-21T07:29:16.955Z"
   },
   {
-    "type": "all",
+    "type": "any",
     "keywords": [
       "gloves",
       "box"
@@ -235,7 +222,7 @@
     "addedAt": "2026-03-21T07:31:00.798Z"
   },
   {
-    "type": "all",
+    "type": "any",
     "keywords": [
       "gloves",
       "boxing"
@@ -247,7 +234,7 @@
     "addedAt": "2026-03-21T07:31:18.345Z"
   },
   {
-    "type": "all",
+    "type": "any",
     "keywords": [
       "gloves",
       "football"
@@ -321,18 +308,6 @@
     "type": "all",
     "keywords": [
       "metalbone",
-      "carbon"
-    ],
-    "category": "TACHONES",
-    "match": "contains",
-    "reason": "Metalbone Carbon es línea de tachones de fútbol de Adidas, identificable por estos términos técnicos específicos del producto",
-    "example": "ADIDAS METALBONE CARBON",
-    "addedAt": "2026-03-21T08:01:56.134Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "metalbone",
       "padel"
     ],
     "category": "RAQUETAS Y PALAS",
@@ -342,37 +317,13 @@
     "addedAt": "2026-03-21T08:04:20.174Z"
   },
   {
-    "type": "all",
-    "keywords": [
-      "metalbone",
-      "pala"
-    ],
-    "category": "RAQUETAS Y PALAS",
-    "match": "contains",
-    "reason": "Metalbone es línea de palas de pádel Adidas; requiere contexto 'pala' para evitar ambigüedad con otros productos",
-    "example": "ADIDAS METALBONE PRO-EDT ",
-    "addedAt": "2026-03-21T08:04:37.527Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "metalbone",
-      "team light"
-    ],
-    "category": "PRENDAS SUPERIORES",
-    "match": "contains",
-    "reason": "Metalbone Team Light es una línea de camisetas/jerseys deportivos de Adidas para equipos",
-    "example": "ADIDAS METALBONE TEAM LIGHT",
-    "addedAt": "2026-03-21T08:05:13.098Z"
-  },
-  {
     "type": "any",
     "keywords": [
       "metalbone"
     ],
-    "category": "PROTECCIONES",
+    "category": "RAQUETAS Y PALAS",
     "match": "contains",
-    "reason": "Metalbone es exclusivamente protector de espinillas/canilleras, nunca se refiere a otro tipo de producto",
+    "reason": "Metalbone es línea de palas de pádel de Adidas — corregido",
     "example": "ADIDAS METALBONE YOUTH",
     "addedAt": "2026-03-21T08:05:30.838Z"
   },
@@ -387,17 +338,6 @@
     "reason": "Tiro es la línea de pantalones deportivos de Adidas. 'Tiro' + 'pant' identifica inequívocamente pants deportivos",
     "example": "ADIDAS NEW NAVY TIRO 11 PANT",
     "addedAt": "2026-03-21T08:06:04.736Z"
-  },
-  {
-    "type": "any",
-    "keywords": [
-      "grip"
-    ],
-    "category": "COMPLEMENTOS",
-    "match": "contains",
-    "reason": "Grip es accesorio envolvente para raquetas/palas, clasificado en complementos deportivos",
-    "example": "ADIDAS OVER GRIP ",
-    "addedAt": "2026-03-21T08:06:22.181Z"
   },
   {
     "type": "all",
@@ -975,18 +915,6 @@
   {
     "type": "all",
     "keywords": [
-      "red",
-      "voleibol"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Red de voleibol es equipamiento específico de cancha, pero pertenece a accesorios de juego junto con balones",
-    "example": "ADX RED DE VOLEIBOL",
-    "addedAt": "2026-03-21T09:02:10.815Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "rodillera",
       "menisco"
     ],
@@ -1252,18 +1180,6 @@
     "reason": "Producto oficial de balón/pelota deportiva, 'ball' + contexto oficial elimina ambigüedad con otros usos",
     "example": "AMERICA 54 OFICIAL BALL DZ",
     "addedAt": "2026-03-21T09:34:04.019Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "nock",
-      "american"
-    ],
-    "category": "TACHONES",
-    "match": "contains",
-    "reason": "NOCK es componente específico de tachones de fútbol americano; requiere 'american' para evitar confusión con otros deportes",
-    "example": "AMERICAN BJ NOCK ",
-    "addedAt": "2026-03-21T09:34:40.644Z"
   },
   {
     "type": "all",
@@ -1746,9 +1662,9 @@
     "keywords": [
       "battle"
     ],
-    "category": "PRENDAS SUPERIORES",
+    "category": "PROTECCIONES",
     "match": "contains",
-    "reason": "Battle es marca/línea de ropa deportiva; DOOM 1.0 es modelo de playera/camiseta",
+    "reason": "Battle es marca de protecciones bucales y chin straps — corregido",
     "example": "BATTLE DOOM 1.0 BLACK L",
     "addedAt": "2026-03-21T10:39:53.310Z"
   },
@@ -1763,17 +1679,6 @@
     "reason": "Cuerda de entrenamiento deportivo para uso en casa, acondicionamiento y salto",
     "example": "BCY #24 Loop Rope .080\" (100') C/1\" ",
     "addedAt": "2026-03-21T11:01:33.995Z"
-  },
-  {
-    "type": "any",
-    "keywords": [
-      "serving"
-    ],
-    "category": "COMPLEMENTOS",
-    "match": "contains",
-    "reason": "Serving es material de mantenimiento/reparación de arcos en arquería, accesorio complementario",
-    "example": "BCY Halo .007 BRAIDED SERVING",
-    "addedAt": "2026-03-21T11:03:06.865Z"
   },
   {
     "type": "all",
@@ -1879,9 +1784,9 @@
     "keywords": [
       "fins"
     ],
-    "category": "SANDALIAS Y CHANCLAS",
+    "category": "ROPA INTERIOR Y BAÑO",
     "match": "contains",
-    "reason": "Fins son aletas/chanclas deportivas de recuperación/natación",
+    "reason": "Fins son aletas de natación — corregido",
     "example": "BODOODLE SPEED FINS SIZE ",
     "addedAt": "2026-03-21T11:14:15.585Z"
   },
@@ -2002,17 +1907,6 @@
     "reason": "Cap es gorra deportiva; leather confirma prenda de vestir accesoria, no es marca Bowtech sino producto",
     "example": "BOWTECH LEATHER CAP",
     "addedAt": "2026-03-21T11:26:16.041Z"
-  },
-  {
-    "type": "any",
-    "keywords": [
-      "sand"
-    ],
-    "category": "SANDALIAS Y CHANCLAS",
-    "match": "contains",
-    "reason": "Sand es abreviatura de sandalia, indicador directo de categoría de sandalias deportivas",
-    "example": "BP MULT SAND ",
-    "addedAt": "2026-03-21T11:26:53.948Z"
   },
   {
     "type": "all",
@@ -3117,7 +3011,7 @@
     "addedAt": "2026-03-21T13:31:45.081Z"
   },
   {
-    "type": "all",
+    "type": "any",
     "keywords": [
       "racquetball"
     ],
@@ -3360,30 +3254,6 @@
   {
     "type": "all",
     "keywords": [
-      "vanes",
-      "paraboli"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Vanes parabólicas de 56mm son componentes de balones de futsal/indoor con tecnología específica de vuelo",
-    "example": "ELI PERFORMANCE VANES 56MM PARABOLI",
-    "addedAt": "2026-03-21T13:54:41.542Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "vanes",
-      "pala"
-    ],
-    "category": "RAQUETAS Y PALAS",
-    "match": "contains",
-    "reason": "Vanes son las aletas de una pala de pádel/raqueta; ELI es marca conocida en equipamiento de raqueta",
-    "example": "ELI VANES RH P2",
-    "addedAt": "2026-03-21T13:55:01.765Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "cinturon",
       "fitness"
     ],
@@ -3422,9 +3292,9 @@
     "keywords": [
       "escualo baby"
     ],
-    "category": "CASUAL - SNEAKERS",
+    "category": "ROPA INTERIOR Y BAÑO",
     "match": "startswith",
-    "reason": "Escualo Baby es un modelo de tenis lifestyle/casual para niños, uso deportivo diario",
+    "reason": "Escualo Baby es línea de trajes de natación infantil — corregido",
     "example": "ESCUALO BABY AZUL",
     "addedAt": "2026-03-21T13:57:40.764Z"
   },
@@ -3445,9 +3315,9 @@
     "keywords": [
       "escualo"
     ],
-    "category": "CASUAL - SNEAKERS",
+    "category": "ROPA INTERIOR Y BAÑO",
     "match": "contains",
-    "reason": "Escualo es una marca de tenis lifestyle/casual deportivos, commonmente usados para uso diario",
+    "reason": "Escualo es marca de ropa de natación — corregido",
     "example": "ESCUALO BEAST NEGRO",
     "addedAt": "2026-03-21T13:58:59.660Z"
   },
@@ -3537,9 +3407,9 @@
       "double end bag",
       "everhide"
     ],
-    "category": "EQUIPAMIENTO Y MATERIAL",
+    "category": "PROTECCIONES",
     "match": "contains",
-    "reason": "Double end bag es equipo de entrenamiento de boxeo específico, everhide es tecnología de material de Everlast",
+    "reason": "Costal de box — corregido",
     "example": "EVERLAST EVERHIDE DOUBLE END BAG",
     "addedAt": "2026-03-21T14:24:01.170Z"
   },
@@ -3876,17 +3746,6 @@
   {
     "type": "all",
     "keywords": [
-      "baseball"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Baseball es disciplina deportiva específica que identifica unívocamente pelotas/balones de béisbol",
-    "example": "FRANKLIN PRO FLEX BASEBALL 12.5\"",
-    "addedAt": "2026-03-21T14:57:28.978Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "glove",
       "softball"
     ],
@@ -4052,7 +3911,7 @@
     "addedAt": "2026-03-21T15:51:03.963Z"
   },
   {
-    "type": "all",
+    "type": "any",
     "keywords": [
       "mouthguard",
       "mgard"
@@ -4074,18 +3933,6 @@
     "reason": "GILBERT Match Omega es un balón de rugby profesional. La combinación de 'match' + 'omega' identifica específicamente este balón de competencia.",
     "example": "GILBERT MATCH OMEGA",
     "addedAt": "2026-03-21T15:51:46.825Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "dardos",
-      "plastico"
-    ],
-    "category": "EQUIPAMIENTO Y MATERIAL",
-    "match": "contains",
-    "reason": "Dardos de plástico son equipamiento deportivo para juegos de precisión, distingue de herramientas o artículos no deportivos",
-    "example": "GIM DARDOS DE PLASTICO",
-    "addedAt": "2026-03-21T15:52:27.700Z"
   },
   {
     "type": "all",
@@ -4352,9 +4199,9 @@
       "gym",
       "bag"
     ],
-    "category": "ENTRENAMIENTO EN CASA",
+    "category": "BOLSAS Y MOCHILAS",
     "match": "contains",
-    "reason": "Producto portátil de entrenamiento doméstico con múltiples accesorios",
+    "reason": "Gym bag es bolsa deportiva — corregido",
     "example": "GOFIT ULTIMATE PRO GYM in a bag",
     "addedAt": "2026-03-21T16:12:21.912Z"
   },
@@ -4538,5 +4385,1050 @@
     "reason": "Palabra 'racquet' indica inequívocamente raqueta de tenis o deporte de raqueta",
     "example": "HEAD MX CYCLONE RACQUET",
     "addedAt": "2026-03-21T16:46:35.045Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "short"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Short solo identifica prenda inferior sin ambigüedad",
+    "example": "NIKE HERTHA KNIT SHORT LG",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "shorts"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Shorts sin ambigüedad",
+    "example": "NIKE JORDAN SHORT XL",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "legging"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Legging sin ambigüedad",
+    "example": "NIKE LEGGING MUJER M",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tights"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Tights son mallas/licras deportivas",
+    "example": "UA HEATGEAR TIGHTS M",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "polo"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Polo sin ambigüedad en catálogo deportivo",
+    "example": "NIKE DRY FRANCHISE POLO L",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "coldgear"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Coldgear es línea de ropa térmica Under Armour",
+    "example": "UA COLDGEAR MOCK LS L",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "heatgear"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Heatgear es línea de ropa Under Armour",
+    "example": "UA HEATGEAR ARMOUR SS L",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "drifit"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Dri-FIT es tecnología de camisetas Nike",
+    "example": "NIKE DRIFIT POLO L",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "hoodie"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "Hoodie sin ambigüedad — sudadera con capucha",
+    "example": "NIKE JORDAN DRY-FIT HOODIE L",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "fleece"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "Fleece sin ambigüedad — sudadera polar",
+    "example": "NIKE MEN JORDAN DRI-FIT FLEECE HOODIE L",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "richardson"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Richardson es marca exclusiva de gorras",
+    "example": "RICHARDSON 112 SOLID BLACK OSFM",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "spotlight",
+      "football"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Spotlight es modelo de tachón UA para americano",
+    "example": "UA SPOTLIGHT 2 FOOTBALL",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "blur",
+      "football"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Blur es modelo de tachón Nike para americano",
+    "example": "NIKE BLUR FOOTBALL CLEAT",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "highlight",
+      "football"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Highlight es modelo de tachón UA para americano",
+    "example": "UA HIGHLIGHT FOOTBALL",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "rival",
+      "football"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Rival es modelo de tachón Nike para americano",
+    "example": "NIKE RIVAL FOOTBALL CLEAT",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "alpha",
+      "menace"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Alpha Menace es línea de tachones Nike",
+    "example": "NIKE ALPHA MENACE KIDS 2 SHARK GS",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "molten"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Molten es marca exclusiva de balones deportivos",
+    "example": "MOLTEN #7 BG2000 HULE",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "swim cap"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Gorra de natación sin ambigüedad",
+    "example": "SWIM CAP SILICON",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "snorkel"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Accesorio de natación/buceo",
+    "example": "MOLKS MASCARA CON SNORKEL",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "ab wheel"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Rueda abdominal sin ambigüedad",
+    "example": "SG AB WHEEL",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "trx"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "TRX es sistema de entrenamiento funcional",
+    "example": "P3 PRO SISTEMA TRX",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "knee",
+      "pads"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Rodilleras deportivas",
+    "example": "MARKWORT KNEE PADS",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tube",
+      "bag"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Bolsa tubular para balones",
+    "example": "MIKASA TUBE BAG",
+    "addedAt": "2026-03-21T08:00:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "compression top"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "reason": "Top de compresión deportivo",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "long sleeve"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "reason": "Camiseta manga larga deportiva",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "mock neck"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "reason": "Cuello alto deportivo",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tank top"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "reason": "Camiseta sin mangas",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "rashguard"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "reason": "Rashguard deportivo sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "dri-fit",
+      "top"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "reason": "Top Dri-FIT Nike",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tech",
+      "top"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "reason": "Top tecnológico deportivo",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "locker",
+      "tee"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "reason": "Camiseta locker room",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "sweatpant"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "reason": "Pants deportivos sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "jogger"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "reason": "Jogger sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "compression",
+      "tight"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "reason": "Malla de compresión",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "training",
+      "pant"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "reason": "Pants de entrenamiento",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "dri-fit",
+      "pant"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "reason": "Pants Dri-FIT Nike",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "windbreaker"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "reason": "Rompevientos sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "cortaviento"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "reason": "Cortaviento sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "full",
+      "zip"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "reason": "Sudadera/chamarra cierre completo",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "half",
+      "zip"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "reason": "Pullover medio cierre",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "calcetín"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "reason": "Calcetín sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "calcetines"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "reason": "Calcetines sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "swimsuit"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "reason": "Traje de baño sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "natacion"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "reason": "Producto de natación",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "gorra",
+      "natacion"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "reason": "Gorra de natación — distinto de gorra deportiva",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "traje",
+      "bano"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "reason": "Traje de baño",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "calf",
+      "sleeve"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "reason": "Manga de compresión para pantorrilla",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "cleat"
+    ],
+    "category": "TACHONES",
+    "reason": "Cleat es tachón en inglés, sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tachon"
+    ],
+    "category": "TACHONES",
+    "reason": "Tachón sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "menace",
+      "shark"
+    ],
+    "category": "TACHONES",
+    "reason": "Línea Nike Alpha Menace Shark",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "zoom",
+      "cleat"
+    ],
+    "category": "TACHONES",
+    "reason": "Tachón Nike Zoom",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "vapor",
+      "cleat"
+    ],
+    "category": "TACHONES",
+    "reason": "Tachón Nike Vapor",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "running shoe"
+    ],
+    "category": "RUNNING Y ENTRENAMIENTO",
+    "reason": "Tenis de correr",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "free",
+      "run"
+    ],
+    "category": "RUNNING Y ENTRENAMIENTO",
+    "reason": "Nike Free Run",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "zoom",
+      "air"
+    ],
+    "category": "RUNNING Y ENTRENAMIENTO",
+    "reason": "Nike Zoom Air running",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "futsal",
+      "shoe"
+    ],
+    "category": "CANCHA - INDOOR",
+    "reason": "Tenis de futsal",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "court",
+      "shoe"
+    ],
+    "category": "CANCHA - INDOOR",
+    "reason": "Tenis de cancha indoor",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "lifestyle shoe"
+    ],
+    "category": "CASUAL - SNEAKERS",
+    "reason": "Tenis lifestyle",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "air",
+      "force"
+    ],
+    "category": "CASUAL - SNEAKERS",
+    "reason": "Nike Air Force 1 — lifestyle",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "air",
+      "max"
+    ],
+    "category": "CASUAL - SNEAKERS",
+    "reason": "Nike Air Max — lifestyle",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "pelota"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "reason": "Pelota sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "voleibol"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "reason": "Producto de voleibol = balón",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "balón",
+      "futbol"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "reason": "Balón de fútbol",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "soccer",
+      "ball"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "reason": "Balón de soccer",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "overgrip"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "reason": "Overgrip es exclusivo de raquetas/palas",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "raqueta",
+      "padel"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "reason": "Raqueta de pádel",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "head",
+      "padel"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "reason": "Marca Head en pádel",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "shin guard"
+    ],
+    "category": "PROTECCIONES",
+    "reason": "Espinillera en inglés",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "shoulder pad"
+    ],
+    "category": "PROTECCIONES",
+    "reason": "Hombreras sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "facemask"
+    ],
+    "category": "PROTECCIONES",
+    "reason": "Careta protectora",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "chinstrap"
+    ],
+    "category": "PROTECCIONES",
+    "reason": "Barbiquejo sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "batting",
+      "helmet"
+    ],
+    "category": "PROTECCIONES",
+    "reason": "Casco de bateo béisbol",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "football",
+      "helmet"
+    ],
+    "category": "PROTECCIONES",
+    "reason": "Casco de americano",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "ankle brace"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "reason": "Tobillera/soporte de tobillo",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "knee brace"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "reason": "Rodillera/soporte de rodilla",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "wrist brace"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "reason": "Muñequera de soporte",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "compression sleeve"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "reason": "Manga de compresión",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "kettlebell"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "reason": "Kettlebell sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "dumbbell"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "reason": "Mancuerna en inglés",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "jump rope"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "reason": "Cuerda de saltar",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "resistance band"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "reason": "Banda de resistencia",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "foam roller"
+    ],
+    "category": "RECUPERACIÓN",
+    "reason": "Foam roller sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "esterilla"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "reason": "Esterilla/tapete deportivo",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "duffle"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "reason": "Bolsa deportiva tipo duffle",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "equipment bag"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "reason": "Bolsa de equipo deportivo",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "headband"
+    ],
+    "category": "COMPLEMENTOS",
+    "reason": "Diadema deportiva sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "wristband"
+    ],
+    "category": "COMPLEMENTOS",
+    "reason": "Muñequera decorativa/sudadera",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "visor"
+    ],
+    "category": "COMPLEMENTOS",
+    "reason": "Visera deportiva sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "vendaje"
+    ],
+    "category": "PRIMEROS AUXILIOS",
+    "reason": "Vendaje sin ambigüedad",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "ice pack"
+    ],
+    "category": "PRIMEROS AUXILIOS",
+    "reason": "Bolsa de hielo",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "elastic bandage"
+    ],
+    "category": "PRIMEROS AUXILIOS",
+    "reason": "Vendaje elástico",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "shoe cleaner"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "reason": "Limpiador de calzado",
+    "match": "contains",
+    "example": "",
+    "addedAt": "2026-03-21T08:30:00.000Z"
   }
 ]
