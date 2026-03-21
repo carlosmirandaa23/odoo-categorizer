@@ -6155,5 +6155,17 @@
     "reason": "Conjunto de protecciones (pads) para deportes de contacto, específicamente para categoría pee-wee (infantil)",
     "example": "MARKWORT PEE-WEE 7-PC PAD SET SNAPPED",
     "addedAt": "2026-03-21T23:38:56.652Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pitcher",
+      "plate"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Pitcher plate es equipamiento específico de béisbol, usado en el montículo. Se clasifica con tachones deportivos de béisbol.",
+    "example": "MARKWORT PITCHER PLATE ",
+    "addedAt": "2026-03-21T23:39:38.650Z"
   }
 ]
