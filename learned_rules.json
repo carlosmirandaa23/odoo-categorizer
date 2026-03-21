@@ -5430,5 +5430,17 @@
     "match": "contains",
     "example": "",
     "addedAt": "2026-03-21T08:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "catchers",
+      "leg"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Equipamiento de protección específico para catcher (béisbol) que requiere ambas palabras para identificar sin ambigüedad",
+    "example": "ADAMS CATCHERS LEG CUARDS 15'",
+    "addedAt": "2026-03-21T17:50:08.949Z"
   }
 ]
