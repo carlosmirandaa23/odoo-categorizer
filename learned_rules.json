@@ -1609,5 +1609,41 @@
     "reason": "Palabra 'balon' siempre refiere a equipamiento deportivo de la categoría pelotas y balones",
     "example": "BALON ACENTEC #5 ",
     "addedAt": "2026-03-21T09:56:15.103Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "banda",
+      "resistencia"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Las bandas de resistencia son equipamiento típico de entrenamiento en casa, sin ambigüedad con otros productos",
+    "example": "BANDA DE RESISTENCIA MORADA",
+    "addedAt": "2026-03-21T10:02:20.035Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "barbiquejo",
+      "gel"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Barbiquejo es protección facial/de mandíbula usada en deportes de contacto, combinado con 'gel' indica protección acolchada",
+    "example": "BARBIQUEJO VICTORY GEL ",
+    "addedAt": "2026-03-21T10:03:14.941Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bases",
+      "beisbol"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Bases de béisbol son equipamiento de protección/seguridad para campos de juego",
+    "example": "BASES BEISBOL CON TRES ALMOHADILLAS GENCO",
+    "addedAt": "2026-03-21T10:04:44.120Z"
   }
 ]
