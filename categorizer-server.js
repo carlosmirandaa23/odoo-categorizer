@@ -236,36 +236,49 @@ ${CATEGORY_CATALOG.map(c => `- "${c.name}" (padre: ${c.parent}) → ${c.examples
 
 Tu tarea es:
 1. Clasificar el producto en la categoría correcta
-2. Proponer UNA regla simple y reutilizable que capture productos similares
+2. Proponer UNA regla SOLO si estás completamente seguro
 
-CRITERIOS PARA PROPONER REGLA:
-- Si UNA palabra sola identifica el tipo sin ambigüedad (ej: "short", "gorra", "helmet") → type: "any", una keyword
-- Si necesitas DOS palabras para evitar confusión (ej: "spotlight"+"football", "pala"+"padel") → type: "all", dos keywords  
-- Las keywords deben estar en minúsculas y ser lo más genéricas posible
-- Si el nombre es demasiado específico, críptico o ambiguo → rule: null
-- NO propongas reglas con marcas genéricas como "nike", "adidas", "under armour"
+CRITERIOS ESTRICTOS PARA PROPONER REGLA:
 
-Responde ÚNICAMENTE con JSON válido sin markdown ni texto adicional:
+USA type "any" (una sola palabra) ÚNICAMENTE cuando:
+- La palabra NUNCA puede referirse a otro tipo de producto en ningún deporte
+- Ejemplos válidos: "backpack", "tobillera", "mouthguard", "chest protector"
+- Ejemplos INVÁLIDOS: "pala" (también herramienta), "catcher" (también puede ser bolsa), "jacket" (demasiado genérico sin contexto)
+
+USA type "all" (dos palabras) cuando:
+- Una palabra sola es ambigua pero la combinación es inequívoca
+- Ejemplos válidos: "pala"+"padel", "gloves"+"football", "ball"+"basketball"
+- Siempre prefiere "all" sobre "any" cuando tengas la mínima duda
+
+NUNCA propongas regla con:
+- Marcas: "nike", "adidas", "under armour", "wilson", "battle", etc.
+- Palabras de disciplina solas: "padel", "football", "soccer", "basketball" — son ambiguas sin tipo de producto
+- Palabras que en tu catálogo aparecen en múltiples categorías
+- Modelos o líneas de producto: "adizero", "vapor", "spotlight", "blur", "freak"
+
+EN CASO DE DUDA → rule: null. Es mejor no proponer que proponer mal.
+
+Responde ÚNICAMENTE con JSON válido sin markdown:
 {
   "category": "<NOMBRE_EXACTO_DEL_CATÁLOGO>",
   "confidence": <0.0-1.0>,
   "rule": {
-    "type": "any|all",
+    "type": "any|all|exclude",
+    "match": "startswith|contains",
     "keywords": ["keyword1"],
-    "reason": "explicación breve de por qué esta regla es confiable"
+    "reason": "explicación breve"
   }
 }
 
-Si no encaja en ninguna categoría: { "category": "SIN_CATEGORIA", "confidence": 0, "rule": null }
-Si no hay regla confiable que proponer: incluye "rule": null en la respuesta
+Si no encaja: { "category": "SIN_CATEGORIA", "confidence": 0, "rule": null }
+Si no hay regla confiable: "rule": null
 
-TIPO ESPECIAL DE REGLA — "exclude":
-Si el nombre claramente NO es un producto (descuentos, porcentajes, notas, abonos, textos promocionales):
-- Responde con category: "SIN_CATEGORIA", confidence: 0
-- Propón una regla de exclusión:
-  { "type": "exclude", "match": "startswith|contains", "keywords": ["patron"], "reason": "..." }
-- Ejemplo: "10% en tu orden" → exclude startswith "10%"
-- Ejemplo: "abono" → exclude contains "abono"`;
+TIPO ESPECIAL — "exclude":
+Si el nombre NO es un producto (descuento, porcentaje, abono, texto promocional):
+- category: "SIN_CATEGORIA", confidence: 0
+- SIEMPRE propón exclude:
+  "10% en tu orden" → exclude startswith "10%"
+  "abono richardson" → exclude contains "abono"`;
 }
 
 // ─────────────────────────────────────────
