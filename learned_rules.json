@@ -2980,5 +2980,17 @@
     "reason": "Identifica pelotas de ping pong evitando ambigüedad con otras pelotas",
     "example": "DHS PELOTA PIN PONG PROFESIONAL SUELTA",
     "addedAt": "2026-03-21T13:16:31.072Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pelota",
+      "tenis mesa"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Pelotas específicas para tenis de mesa, evita confusión con tenis de cancha",
+    "example": "DHS PELOTA TENIS MESA 10PC",
+    "addedAt": "2026-03-21T13:16:51.363Z"
   }
 ]
