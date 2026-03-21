@@ -808,5 +808,17 @@
     "reason": "Costalito es una bolsa/mochila pequeña de transporte, específicamente para actividades deportivas",
     "example": "ADX KIT COSTALITO",
     "addedAt": "2026-03-21T08:54:32.395Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "escalera",
+      "platos"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Conjunto de equipos de entrenamiento funcional para uso doméstico",
+    "example": "ADX KIT ESCALERA, BOLSA, PLATOS",
+    "addedAt": "2026-03-21T08:54:50.348Z"
   }
 ]
