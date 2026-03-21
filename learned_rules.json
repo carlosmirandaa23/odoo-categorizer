@@ -912,5 +912,16 @@
     "reason": "Paracaídas de entrenamiento es equipamiento específico para resistencia y acondicionamiento usado en casa o aire libre",
     "example": "ADX PARACAIDAS DE PLASTICO BK",
     "addedAt": "2026-03-21T08:58:55.763Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "pelota de reacción"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Pelota de reacción es un producto específico de entrenamiento que no se confunde con otros artículos deportivos",
+    "example": "ADX PELOTA DE REACCIÓN",
+    "addedAt": "2026-03-21T08:59:14.282Z"
   }
 ]
