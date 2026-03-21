@@ -4206,5 +4206,182 @@
     "reason": "Liquid chalk y magnesia son productos de agarre específicos para deportes de fuerza y levantamiento, nunca se refieren a otros productos",
     "example": "GOFIT LIQUID CHALK MAGNESIA",
     "addedAt": "2026-03-21T16:00:40.750Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "abdominal wheel"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Equipo de entrenamiento de core para uso doméstico, nunca refiere a otra categoría de producto deportivo",
+    "example": "GOFIT ONAROLL ABDOMINAL WHEEL",
+    "addedAt": "2026-03-21T16:01:01.686Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "power handles"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Power handles son accesorios de entrenamiento para uso doméstico, generalmente para ejercicios de resistencia y fuerza",
+    "example": "GOFIT POWER HANDLES",
+    "addedAt": "2026-03-21T16:01:42.704Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "power tube",
+      "resistance tube"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Tubos de resistencia para entrenamiento en casa, claramente equipamiento de ejercicio doméstico",
+    "example": "GOFIT POWER TUBE ",
+    "addedAt": "2026-03-21T16:02:04.540Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "power tube"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Power tube es siempre equipo de entrenamiento en casa/resistencia, nunca otro tipo de producto",
+    "example": "GOFIT POWER TUBE 40lb",
+    "addedAt": "2026-03-21T16:02:25.839Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "powertube"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "powertube es una liga/tubo de resistencia para entrenamiento, nunca tiene otro uso en contexto deportivo",
+    "example": "GOFIT POWERTUBE 30",
+    "addedAt": "2026-03-21T16:03:27.116Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "lifting",
+      "belt"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Faja de levantamiento de pesas es soporte deportivo para prevención de lesiones lumbares",
+    "example": "GOFIT PREMIUM LIFTING BELT M 31\"-38\"",
+    "addedAt": "2026-03-21T16:03:48.336Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "loops",
+      "bands"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Las palabras 'loops' y 'bands' juntas identifican exclusivamente ligas de entrenamiento/resistance bands para uso doméstico",
+    "example": "GOFIT PRO POWER LOOPS- SET 3 BANDS",
+    "addedAt": "2026-03-21T16:04:10.333Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "wrist",
+      "wrap"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Combinación específica de 'wrist' + 'wrap' identifica muñequeras de soporte sin ambigüedad",
+    "example": "GOFIT PRO TRAINER WRIST WRAP MENS/ L",
+    "addedAt": "2026-03-21T16:05:51.995Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "wrist",
+      "support"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Wrist support es muñequera deportiva, categoría específica en SOPORTE Y PREVENCIÓN",
+    "example": "GOFIT PRO WRIST SUPPORT CANILLERA",
+    "addedAt": "2026-03-21T16:07:33.081Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "ligas",
+      "anclaje"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Las ligas de resistencia con anclaje son equipamiento específico para entrenamiento en casa/funcional",
+    "example": "GOFIT SET EXTREME 4 LIGAS Y ANCLAJE",
+    "addedAt": "2026-03-21T16:09:34.116Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "stability ball"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Stability ball es un equipamiento exclusivo de entrenamiento en casa/gym",
+    "example": "GOFIT STABILITY BALL",
+    "addedAt": "2026-03-21T16:10:15.204Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "elastiloop",
+      "elastico"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Elastiloop es una banda elástica de soporte/prevención, similar a muñequeras y tobilleras",
+    "example": "GOFIT SUPER ELASTILOOP S/M",
+    "addedAt": "2026-03-21T16:10:39.462Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "gym",
+      "bag"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Producto portátil de entrenamiento doméstico con múltiples accesorios",
+    "example": "GOFIT ULTIMATE PRO GYM in a bag",
+    "addedAt": "2026-03-21T16:12:21.912Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "soft",
+      "weight",
+      "ball"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Combinación de términos indica balón/pelota de peso suave para entrenamiento doméstico, diferenciándola de pelotas de deporte (fútbol, básquetbol)",
+    "example": "GOLD'S GYM SOFT WEIGHT BALL",
+    "addedAt": "2026-03-21T16:21:19.203Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "gols",
+      "tip",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "GOLS es marca especializada en tachones; TIP PRO es línea de tachones de fútbol",
+    "example": "GOLS TIP PRO SERIES 22 ARROW C/U",
+    "addedAt": "2026-03-21T16:21:40.358Z"
   }
 ]
