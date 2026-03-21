@@ -657,5 +657,75 @@
     "reason": "Bucal es un término médico para productos de protección oral/bucal en deportes de contacto",
     "example": "ADX BUCAL SENCILLO",
     "addedAt": "2026-03-21T08:41:22.381Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cinturon",
+      "pesista"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Cinturón de levantamiento de pesas proporciona soporte lumbar específico para entrenamiento de fuerza",
+    "example": "ADX CINTURON PESISTA CH",
+    "addedAt": "2026-03-21T08:41:40.358Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "codera"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Codera es un soporte específico de codo que nunca puede confundirse con otro tipo de producto",
+    "example": "ADX CODERA ELASTICA",
+    "addedAt": "2026-03-21T08:42:50.651Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "concha protectora"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Concha protectora es equipamiento de protección específico para deportes de contacto, nunca puede referirse a otro tipo de producto",
+    "example": "ADX CONCHA PROTECTORA ADULTO",
+    "addedAt": "2026-03-21T08:45:56.488Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "cono",
+      "entrenamiento"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Los conos de entrenamiento son accesorios estándar para trabajos de agilidad y coordinación en entrenamientos",
+    "example": "ADX CONO PARA ENTRENAMIENTO 23CM",
+    "addedAt": "2026-03-21T08:46:14.985Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "costal",
+      "box"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Costal de boxeo es equipamiento de entrenamiento específico para boxeo, clasificado en protecciones/equipamiento",
+    "example": "ADX COSTAL PARA BOX",
+    "addedAt": "2026-03-21T08:47:06.396Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cuerda",
+      "cross"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Cuerda de entrenamiento funcional para ejercicios de cross training en casa",
+    "example": "ADX CUERDA CROSS ACERO 3M/PESO",
+    "addedAt": "2026-03-21T08:47:40.747Z"
   }
 ]
