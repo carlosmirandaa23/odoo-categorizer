@@ -6179,5 +6179,40 @@
     "reason": "Push-up bars son herramientas de entrenamiento en casa para ejercicios de cuerpo completo",
     "example": "MARKWORT PUSH-UP BAR",
     "addedAt": "2026-03-21T23:39:47.994Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "chain",
+      "net"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Producto de protección deportiva (red/malla con cadena, típicamente para defensa en deportes de contacto)",
+    "example": "MARKWORT SECURE METAL CHAIN NET",
+    "addedAt": "2026-03-21T23:40:05.438Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "snap post"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Snap post es un componente de protección deportiva (cierre de cascos/protecciones)",
+    "example": "MARKWORT SNAP POST LONG 3/8",
+    "addedAt": "2026-03-21T23:40:22.595Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "badminton",
+      "racket"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Badminton racket es específico del deporte de bádminton, evita confusión con otras raquetas",
+    "example": "MARKWORT STEEL BADMINTON RACKET",
+    "addedAt": "2026-03-21T23:40:56.001Z"
   }
 ]
