@@ -5477,5 +5477,84 @@
     "reason": "Over grip es un accesorio para envolver raquetas y palas, complemento deportivo.",
     "example": "ADIDAS OVER GRIP ",
     "addedAt": "2026-03-21T18:00:11.331Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "pants"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "La palabra 'pants' identifica sin ambigüedad prendas inferiores deportivas",
+    "example": "ADIDAS WOMENS CLASSIC PANTS",
+    "addedAt": "2026-03-21T18:03:06.557Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "basquetbol",
+      "par"
+    ],
+    "category": "CANCHA - INDOOR",
+    "match": "contains",
+    "reason": "Producto de calzado: 'par' indica zapatos y 'basquetbol' especifica uso en cancha indoor",
+    "example": "ADX RED BASQUETBOL PAR ",
+    "addedAt": "2026-03-21T18:14:23.974Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "swivel"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Swivel es un componente de artículos de soporte y prevención como tobilleras y muñequeras",
+    "example": "ADX SWIVEL ACERO INOXIDABLE",
+    "addedAt": "2026-03-21T18:18:05.960Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "baseball",
+      "america"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Modelo específico A2000 es guante de béisbol profesional. 'Baseball' + marca identifica claramente guante de tachones de béisbol",
+    "example": "AMERICA 2000 BASEBALL DZ",
+    "addedAt": "2026-03-21T18:22:43.588Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "esponja"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Esponja identifica pelotas/balones de espuma sin ambigüedad en contexto deportivo",
+    "example": "AMERICA 50e ESPONJA DZ",
+    "addedAt": "2026-03-21T18:23:00.041Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "ball"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "La palabra 'ball' identifica sin ambigüedad un balón/pelota deportiva",
+    "example": "AMERICA 52 OFFICIALL BALL DZ",
+    "addedAt": "2026-03-21T18:23:10.787Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "babolat"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Babolat es marca especializada en raquetas de tenis y pádel. Air Veron es modelo de raqueta de tenis",
+    "example": "BABOLAT AIR VERON",
+    "addedAt": "2026-03-21T18:27:06.944Z"
   }
 ]
