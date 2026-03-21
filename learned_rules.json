@@ -1324,5 +1324,40 @@
     "reason": "Jammer es una prenda de baño específica (pantalón corto de natación). Combinado con 'dama' y contexto de baño asegura clasificación única.",
     "example": "AQUA ZONE TB DAMA JAMMER PBT ANGLEBLOCK",
     "addedAt": "2026-03-21T09:36:46.815Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "goggle"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Goggle es término específico para gafas deportivas de natación/acuáticas, nunca referencia otra categoría",
+    "example": "AQUA-ZONE PERFORMANCE NEO AMBAR GOGGLE",
+    "addedAt": "2026-03-21T09:37:06.078Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "aleta",
+      "hule"
+    ],
+    "category": "SANDALIAS Y CHANCLAS",
+    "match": "contains",
+    "reason": "Aletas de hule son equipamiento de natación/agua, asociadas a sandalias y accesorios de baño deportivo",
+    "example": "AQUAZONE ALETA HULE LARGA M/L",
+    "addedAt": "2026-03-21T09:37:41.931Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "jammer",
+      "swimwear"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Jammer es prenda de natación específica, no ambigua cuando se acompaña de contexto acuático",
+    "example": "AQUAZONE TB CAB. PBT BASIC SOLID JAMMER",
+    "addedAt": "2026-03-21T09:38:17.970Z"
   }
 ]
