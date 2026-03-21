@@ -42,5 +42,16 @@
     "reason": "Frontenis es un deporte específico de pelota con raqueta. La palabra 'frontenis' combinada con contexto de producto garantiza clasificación en pelotas/balones sin ambigüedad.",
     "example": "201 OFICIAL FRONTENIS",
     "addedAt": "2026-03-21T04:22:15.045Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "shoulder pads"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Shoulder pads are unambiguous protective equipment in sports context; used in football, lacrosse, ice hockey for upper body protection",
+    "example": "2in1 Shoulder Pads",
+    "addedAt": "2026-03-21T04:22:37.530Z"
   }
 ]
