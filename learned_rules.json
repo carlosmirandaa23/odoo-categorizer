@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "type": "any",
+    "keywords": [
+      "backpack"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": null,
+    "reason": "La palabra 'backpack' es un identificador único y no ambiguo para mochilas deportivas/de uso general en catálogos de productos deportivos. Es suficientemente genérica y se aplica consistentemente a todos los productos similares.",
+    "example": " Nike Varsity Elite Backpack",
+    "addedAt": "2026-03-21T03:44:59.137Z"
+  },
+  {
+    "type": "exclude",
+    "match": "startswith",
+    "keywords": [
+      "10%"
+    ],
+    "category": "EXCLUIDO",
+    "reason": "Patrón automático — no es un producto",
+    "example": "10% en productos de padel",
+    "addedAt": "2026-03-21T03:46:24.137Z"
+  },
+  {
+    "type": "exclude",
+    "match": "startswith",
+    "keywords": [
+      "15%"
+    ],
+    "category": "EXCLUIDO",
+    "reason": "Patrón automático — no es un producto",
+    "example": "15% en tu orden",
+    "addedAt": "2026-03-21T03:49:37.032Z"
+  },
+  {
+    "type": "exclude",
+    "match": "startswith",
+    "keywords": [
+      "30%"
+    ],
+    "category": "EXCLUIDO",
+    "reason": "Patrón automático — no es un producto",
+    "example": "30% en tu orden",
+    "addedAt": "2026-03-21T03:51:17.201Z"
+  }
+]
