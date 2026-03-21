@@ -5806,5 +5806,66 @@
     "reason": "Hilo de serving es un cordaje/accesorio específico para encordado de raquetas de tenis",
     "example": "MAJESTY HILO DE SERVING",
     "addedAt": "2026-03-21T23:28:09.379Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "malla",
+      "bateo"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Malla de bateo es equipo de protección específico para béisbol",
+    "example": "MALLA DE BATEO BEISBOL ZENSPORTS",
+    "addedAt": "2026-03-21T23:28:26.876Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "manga",
+      "licra"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Prendas de compresión/protección específicas para deportes (arquería, tiro, etc.), no son prendas superiores de uso general",
+    "example": "MANGA DE LICRA SOLO ARQUERIA",
+    "addedAt": "2026-03-21T23:29:08.644Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "bandera"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Bandera de árbitro es accesorio deportivo de uso en competiciones y entrenamientos",
+    "example": "MANRIQUEZ BANDERA ARBITRO PAR",
+    "addedAt": "2026-03-21T23:29:44.060Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tachones",
+      "fut",
+      "soccer"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Combinación de 'tachones', 'fut' y 'soccer' identifica calzado con tachones para fútbol",
+    "example": "MANRIQUEZ RED FUT SOCCER EMBREADA GRUESA",
+    "addedAt": "2026-03-21T23:30:42.751Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "futbol",
+      "soccer",
+      "hilo grueso"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Combinación de términos futbol/soccer + hilo grueso indica tachones de fútbol, no camiseta",
+    "example": "MANRIQUEZ RED FUTBOL SOCCER HILO GRUESO",
+    "addedAt": "2026-03-21T23:30:52.053Z"
   }
 ]
