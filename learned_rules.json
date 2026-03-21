@@ -1693,5 +1693,41 @@
     "reason": "Las bandas para bíceps son equipamiento de entrenamiento de fuerza en casa, resistencia elástica",
     "example": "BATTLE BICEP BANDS WHITE",
     "addedAt": "2026-03-21T10:12:44.325Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "skull",
+      "cap"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Gorra deportiva identificada por material skull (calavera/patrón) y cap (gorra). Excluye caps de construcción o laboral.",
+    "example": "BATTLE BLACK SKULL CAP",
+    "addedAt": "2026-03-21T10:13:03.422Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "bucacarbon"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Bucacarbon es un protector bucal/mouthguard deportivo especializado, producto específico sin ambigüedad",
+    "example": "BATTLE BUCACARBON CHROME OXIGEN-GOLD",
+    "addedAt": "2026-03-21T10:13:22.178Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "battle",
+      "carbon",
+      "chrome"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Combinación de materiales premium (carbono, cromo) típica de tachones de fútbol de alto rendimiento",
+    "example": "BATTLE CARBON CHROME OXYGEN-SILVER ",
+    "addedAt": "2026-03-21T10:30:57.873Z"
   }
 ]
