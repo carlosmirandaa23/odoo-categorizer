@@ -4990,5 +4990,29 @@
     "reason": "Home plate es equipo de protección específico en béisbol (pectoral protector del catcher)",
     "example": "CHAMPION SPORTS HOME PLATE PROFESIONAL",
     "addedAt": "2026-03-21T21:05:31.602Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tabla",
+      "soccer"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "TABLA SOCCER es un balón/balero para entrenamientos de fútbol (tabla de entrenamiento con balón integrado)",
+    "example": "CHAMPION TABLA SOCCER",
+    "addedAt": "2026-03-21T21:06:07.884Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "almohadillas",
+      "beisbol"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protecciones específicas para béisbol; 'almohadillas' sola es ambigua (cojines), pero con 'beisbol' es clara",
+    "example": "COMAX ALMOHADILLAS PARA BEISBOL/ JUEGO 3",
+    "addedAt": "2026-03-21T21:12:09.681Z"
   }
 ]
