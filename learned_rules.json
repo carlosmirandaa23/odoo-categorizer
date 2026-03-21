@@ -774,5 +774,28 @@
     "reason": "Equipo de entrenamiento portátil para trabajo de agilidad y coordinación, usado en gimnasios y entrenamientos en casa",
     "example": "ADX ESCALERA DE COORDINACION 11 PELDAÑOS",
     "addedAt": "2026-03-21T08:50:16.176Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "espinillera"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Espinillera es un término específico para protección de tibia, nunca refiere otro producto",
+    "example": "ADX ESPINILLERA 3 HAWK AD RED",
+    "addedAt": "2026-03-21T08:50:34.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "guante",
+      "box"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Combinación específica de guante + box evita ambigüedad con otros tipos de guantes deportivos",
+    "example": "ADX GUANTE BOX PRISMA",
+    "addedAt": "2026-03-21T08:51:58.875Z"
   }
 ]
