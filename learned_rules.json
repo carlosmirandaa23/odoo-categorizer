@@ -6310,5 +6310,17 @@
     "reason": "Faja/soporte lumbar para espalda, claramente paramédico de prevención",
     "example": "MC DAVID BACK SUPPORT R 27\"-42\"/L44\"-60\"-Regular",
     "addedAt": "2026-03-21T23:45:02.042Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "forearm",
+      "sleeve"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Manga de compresión para antebrazo, protección y soporte específico",
+    "example": "MCDAVID FOREARM SLEEVE MEDIUM",
+    "addedAt": "2026-03-21T23:45:44.238Z"
   }
 ]
