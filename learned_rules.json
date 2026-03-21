@@ -317,5 +317,38 @@
     "reason": "La palabra 'guantes' en contexto deportivo identifica sin ambigüedad productos de protección (box, karate, artes marciales). Es genérica, reutilizable y evita confusión con otros equipos.",
     "example": "ADIDAS GUANTES DE KARATE AZULES",
     "addedAt": "2026-03-21T05:31:40.551Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "hooded"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": null,
+    "reason": "La palabra 'hooded' identifica inequívocamente una sudadera o chamarra con capucha, prenda de abrigo exterior en contexto deportivo",
+    "example": "ADIDAS HOODED NAVY M",
+    "addedAt": "2026-03-21T05:32:30.936Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "jacket"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": null,
+    "reason": "La palabra 'jacket' identifica sin ambigüedad prendas de abrigo exterior. Es genérica y reutilizable para cualquier marca de chamarras deportivas.",
+    "example": "ADIDAS JACKET XL",
+    "addedAt": "2026-03-21T05:33:54.208Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "padel"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": null,
+    "reason": "La palabra 'padel' identifica sin ambigüedad productos de esta categoría. Es el deporte específico y único descriptor necesario para clasificar en RAQUETAS Y PALAS.",
+    "example": "ADIDAS METALBONE 3.3 PADEL",
+    "addedAt": "2026-03-21T05:35:22.176Z"
   }
 ]
