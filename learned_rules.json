@@ -3103,5 +3103,40 @@
     "reason": "Combinación de 'voly' (voleibol) + 'pvc cocido' identifica inequívocamente un balón de voleibol",
     "example": "DUXX VOLY PVC COCIDO VD2000",
     "addedAt": "2026-03-21T13:31:25.176Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cleat",
+      "claws"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Ambos términos refieren exclusivamente a calzado con tachones para deportes de campo",
+    "example": "DYNA CLAWS PERFORMANCE FIELD CLEAT/ PK14",
+    "addedAt": "2026-03-21T13:31:45.081Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "racquetball"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Racquetball es una disciplina específica que se juega con raqueta; 'racquetball' como término nunca se refiere a otro producto deportivo",
+    "example": "E-FORCE BREAKOUT RACQUETBALL",
+    "addedAt": "2026-03-21T13:33:41.558Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "helmet",
+      "strike"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Combinación de helmet (casco) + strike (golpe) indica protección deportiva para contacto",
+    "example": "EAGLE EYE ELECTR HMPLATE STRIKE1",
+    "addedAt": "2026-03-21T13:34:58.025Z"
   }
 ]
