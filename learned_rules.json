@@ -2684,5 +2684,97 @@
     "reason": "Tape/cinta deportiva es material de mantenimiento y soporte preventivo, usado para vendaje y sujeción",
     "example": "CRAMER BAJO TAPE / CAJA",
     "addedAt": "2026-03-21T12:49:30.181Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "carry bag"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Carry bag es un término específico para bolsas de transporte deportivo, nunca refiere a otro tipo de producto",
+    "example": "CRAMER CARRY BAG",
+    "addedAt": "2026-03-21T12:50:10.232Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cold",
+      "spray"
+    ],
+    "category": "PRIMEROS AUXILIOS",
+    "match": "contains",
+    "reason": "Cold spray es claramente un producto de recuperación/primeros auxilios para tratamiento inmediato de lesiones",
+    "example": "CRAMER COLD SPRAY  6 OZ",
+    "addedAt": "2026-03-21T12:50:30.468Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "cramergesic"
+    ],
+    "category": "PARAMÉDICOS",
+    "match": "contains",
+    "reason": "Cramergesic es un producto de recuperación/alivio muscular de marca Cramer, típicamente gel o bálsamo para masaje",
+    "example": "CRAMER CRAMERGESIC 1 POUND",
+    "addedAt": "2026-03-21T12:51:46.302Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "cramerol"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Cramerol es cinta deportiva/vendaje estándar para soporte y protección en actividades deportivas",
+    "example": "CRAMER CRAMEROL 1ROLL",
+    "addedAt": "2026-03-21T12:52:43.639Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "calf",
+      "slv"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Calf sleeve indica tobillera/muñequera de soporte, categoría SOPORTE Y PREVENCIÓN bajo PARAMÉDICOS",
+    "example": "CRAMER ESS REFLECTIVE CALF SLV",
+    "addedAt": "2026-03-21T12:53:03.300Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "flexi-wrap",
+      "wrap"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Flexi-wrap es un vendaje elástico de soporte y prevención de lesiones, no primeros auxilios básicos",
+    "example": "CRAMER FLEXI-WRAP 6 ROLLS ONLY",
+    "addedAt": "2026-03-21T12:55:14.144Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "flexiwrap",
+      "wrap"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Flexiwrap es una banda elástica de soporte y prevención de lesiones, no es una marca sino un tipo de producto",
+    "example": "CRAMER FLEXIWRAP 4\"",
+    "addedAt": "2026-03-21T12:55:34.003Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "moleskin"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Moleskin es una cinta adhesiva especializada para prevención de ampollas y fricción, usada en contextos deportivos para cuidado y protección de pies",
+    "example": "CRAMER MOLESKIN 1ROLL",
+    "addedAt": "2026-03-21T12:56:13.335Z"
   }
 ]
