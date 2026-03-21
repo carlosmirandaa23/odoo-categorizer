@@ -104,5 +104,29 @@
     "reason": "Las palabras 'bat' y 'pack' juntas identifican una bolsa/mochila deportiva diseñada específicamente para transportar bates (baseball/sóftbol). 'Bat pack' es un término estándar en equipamiento deportivo.",
     "example": "ADAMS BAT PACK ",
     "addedAt": "2026-03-21T02:47:59.306Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "catcher",
+      "leg guard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Los términos 'catcher' y 'leg guard' identifican inequívocamente protecciones para el receptor en béisbol, evitando confusiones con otras prendas",
+    "example": "ADAMS CATCHERS LEG CUARDS 15'",
+    "addedAt": "2026-03-21T02:48:16.454Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "catcher",
+      "helmet"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Los términos 'catcher' y 'helmet' identifican claramente un casco de protección para béisbol, que es equipo de seguridad clasificado en PROTECCIONES",
+    "example": "ADAMS CH6000 CATCHERS HELMET",
+    "addedAt": "2026-03-21T02:48:33.648Z"
   }
 ]
