@@ -9,5 +9,16 @@
     "reason": "Backpack es un término inequívoco que siempre refiere a mochilas en contexto deportivo",
     "example": " Nike Varsity Elite Backpack",
     "addedAt": "2026-03-21T04:17:19.812Z"
+  },
+  {
+    "type": "exclude",
+    "match": "startswith",
+    "keywords": [
+      "10%"
+    ],
+    "category": "EXCLUIDO",
+    "reason": "Patrón automático — no es un producto",
+    "example": "10% en productos de padel",
+    "addedAt": "2026-03-21T04:18:41.140Z"
   }
 ]
