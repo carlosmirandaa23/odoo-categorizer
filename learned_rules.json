@@ -5927,5 +5927,40 @@
     "reason": "Barbiquejo es protección facial específica para cascos/gorras deportivas, nunca aparece en otro contexto",
     "example": "MARKWORT 4 PT LOW BARBIQUEJO YTH",
     "addedAt": "2026-03-21T23:32:48.484Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "barbiquejo"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Barbiquejo es equipamiento de protección específico para cascos deportivos, nunca tiene otro uso",
+    "example": "MARKWORT BARBIQUEJO NEGRO",
+    "addedAt": "2026-03-21T23:33:47.583Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "shoulder",
+      "broche"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Broche específicamente para shoulder pad/protección de hombro en deportes de contacto",
+    "example": "MARKWORT BROCHE PARA SHOULDER",
+    "addedAt": "2026-03-21T23:34:13.050Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "flap",
+      "catcher"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "C-flap es protección específica para catcher en béisbol",
+    "example": "MARKWORT C-FLAP LHB",
+    "addedAt": "2026-03-21T23:34:22.184Z"
   }
 ]
