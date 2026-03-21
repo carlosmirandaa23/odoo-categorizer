@@ -277,7 +277,7 @@ async function classifyWithAI(product) {
       "anthropic-beta": "prompt-caching-2024-07-31"
     },
     body: JSON.stringify({
-      model: "claude-haiku-3-5-20241022",
+      model: "claude-3-5-haiku-20241022",
       max_tokens: 256,
       system: [
         {
