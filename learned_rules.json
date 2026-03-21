@@ -126,5 +126,16 @@
     "reason": "Tobillo + estabilizador identifica únicamente tobilleras/soportes de tobillo",
     "example": "ACTIVE ANKLE T2 ESTABILIZADOR TOBILLO LG",
     "addedAt": "2026-03-21T07:25:03.521Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "chest protector"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Chest protector es equipo de protección específico para deportes de contacto, nunca puede referirse a otro tipo de producto",
+    "example": "ADAMS ACP CHEST PROTECTOR 16'",
+    "addedAt": "2026-03-21T07:25:37.625Z"
   }
 ]
