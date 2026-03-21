@@ -10,7 +10,7 @@ const { ODOO_URL, DB, USER, PASS, ANTHROPIC_API_KEY } = process.env;
 
 const PROCESSED_FILE = path.join(__dirname, "processed_ids.json");
 const RULES_FILE     = path.join(__dirname, "learned_rules.json");
-const INTERVAL_MS    = 15000;
+const INTERVAL_MS    = 10000;
 const GITHUB_REPO      = "carlosmirandaa23/odoo-categorizer";
 const GITHUB_RULES_PATH = "learned_rules.json";
 const GITHUB_IDS_PATH   = "processed_ids.json";
@@ -193,39 +193,34 @@ Tu tarea es:
 1. Clasificar el producto en la categoría correcta
 2. Proponer UNA regla simple y reutilizable que capture productos similares
 
-CRITERIOS PARA PROPONER REGLA DE CATEGORIZACIÓN:
-- Si UNA palabra sola identifica el tipo sin ambigüedad (ej: "helmet", "backpack") → type: "any", una keyword
-- Si necesitas DOS palabras para evitar confusión (ej: "pala"+"padel") → type: "all", dos keywords
+CRITERIOS PARA PROPONER REGLA:
+- Si UNA palabra sola identifica el tipo sin ambigüedad (ej: "short", "gorra", "helmet") → type: "any", una keyword
+- Si necesitas DOS palabras para evitar confusión (ej: "spotlight"+"football", "pala"+"padel") → type: "all", dos keywords  
 - Las keywords deben estar en minúsculas y ser lo más genéricas posible
+- Si el nombre es demasiado específico, críptico o ambiguo → rule: null
 - NO propongas reglas con marcas genéricas como "nike", "adidas", "under armour"
-
-CASO ESPECIAL — NO ES UN PRODUCTO:
-Si el nombre es claramente un descuento, porcentaje, promoción, abono, o texto que no representa un artículo físico:
-- Usa category: "SIN_CATEGORIA", confidence: 0
-- SIEMPRE propón una regla de exclusión para evitar consultar por productos similares en el futuro
-- Usa match: "startswith" si el patrón aparece al inicio (ej: "10%", "15%", "30%")
-- Usa match: "contains" si el patrón puede aparecer en cualquier parte (ej: "abono", "descuento")
-- Ejemplos:
-  "10% en productos de padel" → exclude startswith "10%"
-  "30% en tu orden" → exclude startswith "30%" (misma regla que 10%, generaliza el patrón)
-  "Abono Richardson" → exclude contains "abono"
-
-CASO ESPECIAL — ES UN PRODUCTO PERO NO ENCAJA EN NINGUNA CATEGORÍA:
-- Usa category: "SIN_CATEGORIA", confidence: 0, rule: null
 
 Responde ÚNICAMENTE con JSON válido sin markdown ni texto adicional:
 {
   "category": "<NOMBRE_EXACTO_DEL_CATÁLOGO>",
   "confidence": <0.0-1.0>,
   "rule": {
-    "type": "any|all|exclude",
-    "match": "startswith|contains",
+    "type": "any|all",
     "keywords": ["keyword1"],
-    "reason": "explicación breve"
+    "reason": "explicación breve de por qué esta regla es confiable"
   }
 }
 
-Si no hay regla que proponer: "rule": null`;
+Si no encaja en ninguna categoría: { "category": "SIN_CATEGORIA", "confidence": 0, "rule": null }
+Si no hay regla confiable que proponer: incluye "rule": null en la respuesta
+
+TIPO ESPECIAL DE REGLA — "exclude":
+Si el nombre claramente NO es un producto (descuentos, porcentajes, notas, abonos, textos promocionales):
+- Responde con category: "SIN_CATEGORIA", confidence: 0
+- Propón una regla de exclusión:
+  { "type": "exclude", "match": "startswith|contains", "keywords": ["patron"], "reason": "..." }
+- Ejemplo: "10% en tu orden" → exclude startswith "10%"
+- Ejemplo: "abono" → exclude contains "abono"`;
 }
 
 // ─────────────────────────────────────────
@@ -265,28 +260,65 @@ async function getCategId(uid, categoryName) {
 }
 
 async function classifyWithAI(product) {
-  const response = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "x-api-key": ANTHROPIC_API_KEY,
-      "anthropic-version": "2023-06-01"
-    },
-    body: JSON.stringify({
-      model: "claude-haiku-4-5-20251001",
-      max_tokens: 256,
-      system: buildSystemPrompt(),
-      messages: [{
-        role: "user",
-        content: `Nombre: ${product.name}\nReferencia: ${product.default_code || "sin referencia"}`
-      }]
-    })
-  });
+  const messages = [{
+    role: "user",
+    content: `Nombre: ${product.name}\nReferencia: ${product.default_code || "sin referencia"}\n\nAntes de proponer una regla, si el término clave que identifies puede referirse a múltiples tipos de producto, usa web_search para verificarlo.`
+  }];
 
-  if (!response.ok) throw new Error(`Claude API ${response.status}: ${await response.text()}`);
-  const data = await response.json();
-  let text = data.content[0].text.trim().replace(/```json|```/g, "").trim();
-  // Extraer solo el primer objeto JSON válido si hay texto extra
+  // Loop para manejar tool use (web search)
+  let finalText = null;
+  while (!finalText) {
+    const response = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "x-api-key": ANTHROPIC_API_KEY,
+        "anthropic-version": "2023-06-01"
+      },
+      body: JSON.stringify({
+        model: "claude-haiku-4-5-20251001",
+        max_tokens: 1024,
+        system: buildSystemPrompt(),
+        tools: [{ type: "web_search_20250305", name: "web_search" }],
+        messages
+      })
+    });
+
+    if (!response.ok) throw new Error(`Claude API ${response.status}: ${await response.text()}`);
+    const data = await response.json();
+
+    // Si Claude terminó con texto — extraer JSON
+    if (data.stop_reason === "end_turn") {
+      const textBlock = data.content.find(b => b.type === "text");
+      if (!textBlock) throw new Error("No text block in response");
+      finalText = textBlock.text;
+      break;
+    }
+
+    // Si Claude quiere usar web search — ejecutar y continuar
+    if (data.stop_reason === "tool_use") {
+      const toolUse = data.content.find(b => b.type === "tool_use");
+      console.log(`🔍 Buscando: "${toolUse.input.query}"`);
+
+      // Agregar respuesta del asistente y resultado de tool al historial
+      messages.push({ role: "assistant", content: data.content });
+      messages.push({
+        role: "user",
+        content: [{
+          type: "tool_result",
+          tool_use_id: toolUse.id,
+          content: "Búsqueda completada. Usa los resultados para determinar si el término es específico de un tipo de producto o aparece en múltiples categorías."
+        }]
+      });
+      continue;
+    }
+
+    // Cualquier otro stop_reason — salir
+    break;
+  }
+
+  if (!finalText) throw new Error("No se obtuvo respuesta final de Claude");
+  let text = finalText.trim().replace(/\`\`\`json|\`\`\`/g, "").trim();
   const match = text.match(/\{[\s\S]*\}/);
   if (!match) throw new Error(`Respuesta no contiene JSON válido: ${text.slice(0, 100)}`);
   return JSON.parse(match[0]);
