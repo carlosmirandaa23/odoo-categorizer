@@ -55,5 +55,17 @@
     "reason": "La combinación de 'blade' (pala) y 'rest' (descanso/soporte) identifica accesorios de soporte para palas de pádel o raquetas. 'Freak show' es identificador de marca/línea pero 'blade rest' es genérico para este tipo de productos de equipamiento.",
     "example": "AAE FREAK SHOW BLADE REST TARGET",
     "addedAt": "2026-03-21T02:45:28.689Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "armguard",
+      "arm guard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Los términos 'armguard' o 'arm guard' identifican de forma única protecciones para brazos usadas en deportes como tiro con arco y otros deportes de contacto",
+    "example": "AAE TARGET STYLE ARMGUARD",
+    "addedAt": "2026-03-21T02:46:51.208Z"
   }
 ]
