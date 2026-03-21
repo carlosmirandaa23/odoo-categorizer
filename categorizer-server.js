@@ -10,7 +10,7 @@ const { ODOO_URL, DB, USER, PASS, ANTHROPIC_API_KEY } = process.env;
 
 const PROCESSED_FILE = path.join(__dirname, "processed_ids.json");
 const RULES_FILE     = path.join(__dirname, "learned_rules.json");
-const INTERVAL_MS    = 15000;
+const INTERVAL_MS    = 2000;
 const GITHUB_REPO       = "carlosmirandaa23/odoo-categorizer";
 const GITHUB_RULES_PATH = "learned_rules.json";
 const GITHUB_IDS_PATH   = "processed_ids.json";
