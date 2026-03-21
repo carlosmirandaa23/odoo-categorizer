@@ -3861,5 +3861,27 @@
     "reason": "Franklin Digitek es línea de guantes de béisbol juveniles, digitek refiere a tecnología de cierre digital",
     "example": "FRANKLIN DIGITEK YOUTH L",
     "addedAt": "2026-03-21T14:55:29.466Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "pine tar stick"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Pine tar stick es un accesorio deportivo para mejorar agarre en béisbol, usado por bateadores",
+    "example": "FRANKLIN PINE TAR STICK ",
+    "addedAt": "2026-03-21T14:57:08.542Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "baseball"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Baseball es disciplina deportiva específica que identifica unívocamente pelotas/balones de béisbol",
+    "example": "FRANKLIN PRO FLEX BASEBALL 12.5\"",
+    "addedAt": "2026-03-21T14:57:28.978Z"
   }
 ]
