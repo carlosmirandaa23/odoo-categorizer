@@ -5120,5 +5120,100 @@
     "reason": "Protección específica de muñeca para deportes de contacto/impacto",
     "example": "EVOSHIELD WRIST GUAR9",
     "addedAt": "2026-03-21T21:47:37.005Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "stabilizer",
+      "cex"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Estabilizador de arco de tiro con arco - accesorios específicos para archery",
+    "example": "FIVICS CEX5 STAINLESS STABILIZER WE CAP 51G-CEX5",
+    "addedAt": "2026-03-21T21:51:43.504Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "supporter"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Supporter es un dispositivo de soporte/contención para articulaciones, nunca se refiere a otro tipo de producto deportivo",
+    "example": "FLARICO SUPPORTER YTH REG",
+    "addedAt": "2026-03-21T21:52:03.585Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "feather",
+      "full length"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Feather full length típicamente refiere a protecciones deportivas (espinilleras o protectores de canilla). Gateway es marca de protección. Tamaño 10-12 pulgadas confirma protector corporal.",
+    "example": "GATEWAY 10\"-12\" FULL LENGTH FEATHER C/U",
+    "addedAt": "2026-03-21T22:11:07.920Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "dardo",
+      "dardos"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Los dardos son proyectiles de juego/entrenamiento, clasificados en equipamiento deportivo similar a pelotas y balones",
+    "example": "GIM DARDOS DE PLASTICO",
+    "addedAt": "2026-03-21T22:12:45.728Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "escalera",
+      "coordinación"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Escalera de coordinación es equipo de entrenamiento funcional para uso en casa o campo",
+    "example": "GIM ESCALERA DE CORDINACION",
+    "addedAt": "2026-03-21T22:12:53.669Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "xtrainer",
+      "trainer"
+    ],
+    "category": "RUNNING Y ENTRENAMIENTO",
+    "match": "contains",
+    "reason": "Xtrainer es modelo de tenis de entrenamiento/cross training, 'L W' indica talla",
+    "example": "GO FIT XTRAINER BLK L W",
+    "addedAt": "2026-03-21T22:13:55.211Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "canillera",
+      "elástica"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Canillera elástica es protección/soporte para pierna, parte de paramédicos > soporte y prevención",
+    "example": "GOFIT CANILLERA ELASTICA",
+    "addedAt": "2026-03-21T22:14:30.446Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "elastiloop",
+      "elastica"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Elastiloop es una liga/banda elástica para entrenamiento, artículo de ENTRENAMIENTO EN CASA",
+    "example": "GOFIT SUPER ELASTILOOP S/M",
+    "addedAt": "2026-03-21T22:18:46.083Z"
   }
 ]
