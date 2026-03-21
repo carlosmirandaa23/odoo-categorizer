@@ -5263,5 +5263,40 @@
     "reason": "Prestige es línea de raquetas de tenis HEAD, overwrap es accesorio de agarre específico para raquetas",
     "example": "HEAD PRESTIGE PRO SINGLE OVERWRAP",
     "addedAt": "2026-03-21T22:32:20.838Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "raqueta",
+      "radical"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "HEAD Radical es una raqueta de tenis reconocida; 'raqueta' es palabra clave específica del equipamiento",
+    "example": "HEAD RADICAL S GRAPHENE TOUCH RAQUETA",
+    "addedAt": "2026-03-21T22:32:56.949Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "dampener"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Dampener es un accesorio específico de raqueta que nunca se refiere a otro tipo de producto",
+    "example": "HEAD ZVEREV DAMPENER",
+    "addedAt": "2026-03-21T22:34:16.841Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "aerotec",
+      "2pz"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "AEROTEC es tecnología de prenda superior deportiva; 2PZ indica conjunto de 2 piezas tipo camiseta/playera",
+    "example": "HOLLOWAY AEROTEC 2PZ",
+    "addedAt": "2026-03-21T22:35:09.106Z"
   }
 ]
