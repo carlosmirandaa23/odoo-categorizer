@@ -98,5 +98,16 @@
     "reason": "Palabra única y específica en contexto deportivo: un estabilizador de tobillo es SIEMPRE un artículo de protección/soporte, nunca puede referirse a otro tipo de producto deportivo.",
     "example": "ACTIVE ANKLE T2 ESTABILIZADOR TOBILLO LG",
     "addedAt": "2026-03-21T04:44:46.585Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "chest protector"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Término específico y unívoco en equipamiento deportivo de protección. Nunca refiere a otro tipo de producto.",
+    "example": "ADAMS ACP CHEST PROTECTOR 16'",
+    "addedAt": "2026-03-21T04:45:22.694Z"
   }
 ]
