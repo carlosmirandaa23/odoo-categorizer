@@ -293,5 +293,64 @@
     "reason": "guante + portero identifica inequívocamente protección de arquero, evita confusión con otros guantes deportivos",
     "example": "ADIDAS GUANTE PORTERO",
     "addedAt": "2026-03-21T07:57:44.358Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "guantes",
+      "karate"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Guantes de karate son protecciones específicas para artes marciales",
+    "example": "ADIDAS GUANTES DE KARATE AZULES",
+    "addedAt": "2026-03-21T07:58:01.517Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "hooded"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "Hooded indica sudadera con capucha, categoría ABRIGO Y EXTERIOR",
+    "example": "ADIDAS HOODED NAVY M",
+    "addedAt": "2026-03-21T07:58:51.420Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "metalbone",
+      "carbon"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Metalbone Carbon es línea de tachones de fútbol de Adidas, identificable por estos términos técnicos específicos del producto",
+    "example": "ADIDAS METALBONE CARBON",
+    "addedAt": "2026-03-21T08:01:56.134Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "metalbone",
+      "padel"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Metalbone es específico de palas de pádel Adidas; 'padel' con 'pala' evita ambigüedad de disciplina",
+    "example": "ADIDAS METALBONE PADEL",
+    "addedAt": "2026-03-21T08:04:20.174Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "metalbone",
+      "pala"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Metalbone es línea de palas de pádel Adidas; requiere contexto 'pala' para evitar ambigüedad con otros productos",
+    "example": "ADIDAS METALBONE PRO-EDT ",
+    "addedAt": "2026-03-21T08:04:37.527Z"
   }
 ]
