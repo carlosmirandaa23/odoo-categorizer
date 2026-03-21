@@ -4086,5 +4086,41 @@
     "reason": "Dardos de plástico son equipamiento deportivo para juegos de precisión, distingue de herramientas o artículos no deportivos",
     "example": "GIM DARDOS DE PLASTICO",
     "addedAt": "2026-03-21T15:52:27.700Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "escalera",
+      "coordinacion"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Escalera de coordinación es equipo de entrenamiento para uso doméstico o en campo",
+    "example": "GIM ESCALERA DE CORDINACION",
+    "addedAt": "2026-03-21T15:52:48.673Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "inner",
+      "glove"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Inner glove es guante interior de boxeo/combate, necesita ambos términos para evitar confundir con guantes de otro tipo",
+    "example": "GLOBAL GLOBE INNER GLOVE",
+    "addedAt": "2026-03-21T15:53:49.713Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "power tube",
+      "tubo de resistencia"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Los tubos de resistencia (power tubes/ligas de entrenamiento) son equipamiento para ejercicio en casa",
+    "example": "GO FIT POWER TUBE 25",
+    "addedAt": "2026-03-21T15:55:29.802Z"
   }
 ]
