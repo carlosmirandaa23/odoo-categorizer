@@ -727,5 +727,29 @@
     "reason": "Cuerda de entrenamiento funcional para ejercicios de cross training en casa",
     "example": "ADX CUERDA CROSS ACERO 3M/PESO",
     "addedAt": "2026-03-21T08:47:40.747Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cuerda",
+      "azote"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Cuerda de azote es equipo de entrenamiento funcional para uso en casa/gym, diferente de cuerdas para otros usos",
+    "example": "ADX CUERDA DE AZOTE 38mm X 15m",
+    "addedAt": "2026-03-21T08:47:58.837Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cuerda",
+      "yute"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Cuerda de entrenamiento para uso en casa, material yute típico de cuerdas de batalla",
+    "example": "ADX CUERDA YUTE 38mm x 15m",
+    "addedAt": "2026-03-21T08:49:40.324Z"
   }
 ]
