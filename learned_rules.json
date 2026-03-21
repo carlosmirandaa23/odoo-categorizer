@@ -1515,5 +1515,99 @@
     "reason": "Raqueta de tenis infantil. 'Raqueta' + contexto junior evita confusión con palas de pádel",
     "example": "BABOLAT NADAL JR 25",
     "addedAt": "2026-03-21T09:50:16.213Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "paletero"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "paletero es un bolso especializado para transportar palas/raquetas de tenis o pádel",
+    "example": "BABOLAT PALETERO MULTICOLOR",
+    "addedAt": "2026-03-21T09:50:34.726Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "raqueta",
+      "racquet"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Raqueta de tenis infantil - 'Pure Aero' es línea de raquetas, 'JR 25' indica tamaño junior",
+    "example": "BABOLAT PURE AERO JR 25",
+    "addedAt": "2026-03-21T09:50:53.202Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "raqueta",
+      "racket"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Babolat Pure Aero es una raqueta de tenis reconocida; JR 26 indica tamaño junior (26 pulgadas)",
+    "example": "BABOLAT PURE AERO JR 26",
+    "addedAt": "2026-03-21T09:51:11.611Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "raqueta",
+      "aero"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Babolat Pure Aero es una raqueta de tenis profesional. El término 'aero' combinado con marca de tenis identifica inequívocamente raquetas de tenis.",
+    "example": "BABOLAT PURE AERO RAFA team/lite",
+    "addedAt": "2026-03-21T09:51:30.160Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pure drive",
+      "raqueta"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Pure Drive es modelo de raqueta de tenis; combined con 'raqueta' evita ambigüedad",
+    "example": "BABOLAT PURE DRIVE ABSOLUTE POWER 3/4",
+    "addedAt": "2026-03-21T09:52:07.043Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "vertuo",
+      "raqueta"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Vertuo es línea de raquetas de tenis Babolat; al combinarse con 'raqueta' evita ambigüedad con otros productos",
+    "example": "BABOLAT TECH VERTUO JUAN LEBRON",
+    "addedAt": "2026-03-21T09:53:37.007Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "babolat",
+      "viper"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Babolat Viper es una raqueta de tenis profesional de la marca Babolat",
+    "example": "BABOLAT TECHNICAL VIPER",
+    "addedAt": "2026-03-21T09:53:55.241Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "balon"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "startswith",
+    "reason": "Palabra 'balon' siempre refiere a equipamiento deportivo de la categoría pelotas y balones",
+    "example": "BALON ACENTEC #5 ",
+    "addedAt": "2026-03-21T09:56:15.103Z"
   }
 ]
