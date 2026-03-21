@@ -43,5 +43,17 @@
     "reason": "Combinación específica que identifica protecciones de hombro sin ambigüedad",
     "example": "2in1 Shoulder Pads",
     "addedAt": "2026-03-21T07:19:41.346Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "finger",
+      "saver"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protección específica para dedos en deportes de contacto/impacto",
+    "example": "3 FINGERS UNDER COLOR FINGER SAVER",
+    "addedAt": "2026-03-21T07:19:58.690Z"
   }
 ]
