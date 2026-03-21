@@ -2896,5 +2896,17 @@
     "reason": "Bean bags de árbitro son equipamiento de protección/control en deportes de contacto",
     "example": "DAVIS BOX OFFICIAL'S BEAN BAG",
     "addedAt": "2026-03-21T13:07:29.497Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "short",
+      "baseball"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "DeMarini es marca de béisbol, 'short' + contexto béisbol = pantalón corto deportivo",
+    "example": "DEMARINI M 10TH INNING SHORT",
+    "addedAt": "2026-03-21T13:09:09.532Z"
   }
 ]
