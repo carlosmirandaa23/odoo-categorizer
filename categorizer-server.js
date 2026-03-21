@@ -10,7 +10,7 @@ const { ODOO_URL, DB, USER, PASS, ANTHROPIC_API_KEY } = process.env;
 
 const PROCESSED_FILE = path.join(__dirname, "processed_ids.json");
 const RULES_FILE     = path.join(__dirname, "learned_rules.json");
-const INTERVAL_MS    = 10000;
+const INTERVAL_MS    = 15000;
 const GITHUB_REPO      = "carlosmirandaa23/odoo-categorizer";
 const GITHUB_RULES_PATH = "learned_rules.json";
 const GITHUB_IDS_PATH   = "processed_ids.json";
@@ -24,6 +24,7 @@ let isRunning    = false;
 let isPaused     = false;
 let currentTimer = null;
 let stats = { processed: 0, categorized: 0, errors: 0, skipped: 0, startedAt: null };
+const claudeLogs = []; // Últimas 50 respuestas completas de Claude
 
 // ─────────────────────────────────────────
 // PERSISTENCIA EN GITHUB
@@ -259,15 +260,38 @@ async function getCategId(uid, categoryName) {
   return found[0].id;
 }
 
+function extractJSON(text) {
+  const cleaned = text.replace(/```json|```/g, "").trim();
+  // Buscar todos los bloques JSON y quedarse con el que tenga "category"
+  let depth = 0, start = -1, results = [];
+  for (let i = 0; i < cleaned.length; i++) {
+    if (cleaned[i] === "{") { if (depth === 0) start = i; depth++; }
+    else if (cleaned[i] === "}") {
+      depth--;
+      if (depth === 0 && start !== -1) {
+        results.push(cleaned.slice(start, i + 1));
+        start = -1;
+      }
+    }
+  }
+  for (const r of results.reverse()) {
+    try { const p = JSON.parse(r); if (p.category !== undefined) return p; } catch (e) {}
+  }
+  try { const p = JSON.parse(cleaned); if (p.category !== undefined) return p; } catch (e) {}
+  throw new Error("Sin JSON válido: " + text.slice(0, 120));
+}
+
 async function classifyWithAI(product) {
   const messages = [{
     role: "user",
-    content: `Nombre: ${product.name}\nReferencia: ${product.default_code || "sin referencia"}\n\nAntes de proponer una regla, si el término clave que identifies puede referirse a múltiples tipos de producto, usa web_search para verificarlo.`
+    content: "Nombre: " + product.name + "\nReferencia: " + (product.default_code || "sin referencia") + "\n\nSi vas a proponer una regla con un término que podría referirse a múltiples tipos de producto, usa web_search para verificarlo primero."
   }];
 
-  // Loop para manejar tool use (web search)
   let finalText = null;
-  while (!finalText) {
+  let iterations = 0;
+
+  while (!finalText && iterations < 3) {
+    iterations++;
     const response = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: {
@@ -284,44 +308,33 @@ async function classifyWithAI(product) {
       })
     });
 
-    if (!response.ok) throw new Error(`Claude API ${response.status}: ${await response.text()}`);
+    if (!response.ok) throw new Error("Claude API " + response.status + ": " + await response.text());
     const data = await response.json();
 
-    // Si Claude terminó con texto — extraer JSON
     if (data.stop_reason === "end_turn") {
       const textBlock = data.content.find(b => b.type === "text");
-      if (!textBlock) throw new Error("No text block in response");
-      finalText = textBlock.text;
-      break;
+      if (textBlock) { finalText = textBlock.text; break; }
     }
 
-    // Si Claude quiere usar web search — ejecutar y continuar
     if (data.stop_reason === "tool_use") {
       const toolUse = data.content.find(b => b.type === "tool_use");
-      console.log(`🔍 Buscando: "${toolUse.input.query}"`);
-
-      // Agregar respuesta del asistente y resultado de tool al historial
+      console.log("🔍 [" + product.id + "] Buscando: \"" + toolUse.input.query + "\"");
       messages.push({ role: "assistant", content: data.content });
       messages.push({
         role: "user",
         content: [{
           type: "tool_result",
           tool_use_id: toolUse.id,
-          content: "Búsqueda completada. Usa los resultados para determinar si el término es específico de un tipo de producto o aparece en múltiples categorías."
+          content: "Resultados obtenidos. Úsalos para determinar si el término es exclusivo de un tipo de producto. Responde ahora con el JSON solicitado."
         }]
       });
       continue;
     }
-
-    // Cualquier otro stop_reason — salir
     break;
   }
 
-  if (!finalText) throw new Error("No se obtuvo respuesta final de Claude");
-  let text = finalText.trim().replace(/\`\`\`json|\`\`\`/g, "").trim();
-  const match = text.match(/\{[\s\S]*\}/);
-  if (!match) throw new Error(`Respuesta no contiene JSON válido: ${text.slice(0, 100)}`);
-  return JSON.parse(match[0]);
+  if (!finalText) throw new Error("Sin respuesta final de Claude");
+  return extractJSON(finalText);
 }
 
 // ─────────────────────────────────────────
@@ -444,6 +457,32 @@ async function processNext() {
       } else {
         console.log(`⏭️  ${label} omitido — confianza insuficiente`);
         stats.skipped++;
+
+        // Generar regla de exclusión automática para patrones obvios
+        const name = product.name.trim();
+        let autoRule = null;
+
+        if (/^\d+%/.test(name)) {
+          // "10% en...", "15% en...", "30% en..."
+          autoRule = { type: "exclude", match: "startswith", keywords: [name.match(/^\d+%/)[0]] };
+        } else if (/^abono/i.test(name)) {
+          autoRule = { type: "exclude", match: "startswith", keywords: ["abono"] };
+        } else if (/^descuento/i.test(name)) {
+          autoRule = { type: "exclude", match: "startswith", keywords: ["descuento"] };
+        }
+
+        if (autoRule && !ruleAlreadyExists(autoRule)) {
+          const newRule = {
+            ...autoRule,
+            category: "EXCLUIDO",
+            reason: "Patrón automático — no es un producto",
+            example: name,
+            addedAt: new Date().toISOString()
+          };
+          learnedRules.push(newRule);
+          saveRules(learnedRules);
+          console.log(`🚫 Regla de exclusión automática: "${newRule.keywords[0]}"`);
+        }
       }
     }
 
@@ -536,6 +575,11 @@ app.post("/reprocess/:id", (req, res) => {
   } else {
     res.json({ message: `Producto ${id} no estaba en la lista.` });
   }
+});
+
+// Ver últimas respuestas completas de Claude
+app.get("/claude-logs", (req, res) => {
+  res.json({ total: claudeLogs.length, logs: claudeLogs });
 });
 
 app.get("/health", (req, res) => res.send("OK"));
