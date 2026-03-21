@@ -1729,5 +1729,86 @@
     "reason": "Combinación de materiales premium (carbono, cromo) típica de tachones de fútbol de alto rendimiento",
     "example": "BATTLE CARBON CHROME OXYGEN-SILVER ",
     "addedAt": "2026-03-21T10:30:57.873Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "gloves"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Guantes de combate/box. 'Gloves' es término específico de protecciones deportivas, nunca se refiere a otro tipo de producto.",
+    "example": "BATTLE CLOWN GLOVES MD",
+    "addedAt": "2026-03-21T10:33:04.409Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "battle"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Battle es marca/línea de ropa deportiva; DOOM 1.0 es modelo de playera/camiseta",
+    "example": "BATTLE DOOM 1.0 BLACK L",
+    "addedAt": "2026-03-21T10:39:53.310Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "loop rope",
+      "jump rope"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Cuerda de entrenamiento deportivo para uso en casa, acondicionamiento y salto",
+    "example": "BCY #24 Loop Rope .080\" (100') C/1\" ",
+    "addedAt": "2026-03-21T11:01:33.995Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "serving"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Serving es material de mantenimiento/reparación de arcos en arquería, accesorio complementario",
+    "example": "BCY Halo .007 BRAIDED SERVING",
+    "addedAt": "2026-03-21T11:03:06.865Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bow",
+      "set"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Bow set refiere a equipamiento de arquería completo",
+    "example": "BEAR BRAVE BOW SET ",
+    "addedAt": "2026-03-21T11:03:44.063Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "feather",
+      "tracer"
+    ],
+    "category": "RUNNING Y ENTRENAMIENTO",
+    "match": "contains",
+    "reason": "Feather Tracers es línea de tenis de running/entrenamiento de BEARPAW, diseñados para actividad deportiva",
+    "example": "BEARPAW FEATHER TRACERS",
+    "addedAt": "2026-03-21T11:04:40.219Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "beman",
+      "balón"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Beman es marca reconocida de balones de fútbol; 'FUN CLUB 5.0' es línea de producto específica",
+    "example": "BEMAN FUN CLUB 5.0",
+    "addedAt": "2026-03-21T11:07:29.243Z"
   }
 ]
