@@ -3041,5 +3041,67 @@
     "reason": "Shoulder pads son protecciones deportivas específicas; 'comando' refuerza contexto de protección",
     "example": "DOUGLAS SHOULDER COMANDO YOUT",
     "addedAt": "2026-03-21T13:20:04.329Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "shoulder",
+      "pad"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "shoulder protector requires both words to avoid ambiguity with other products",
+    "example": "DOUGLAS SHOULDER D2 MEDIUM",
+    "addedAt": "2026-03-21T13:20:44.242Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "nitro",
+      "dunlop"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Nitro es línea de raquetas de tenis Dunlop, el número 25 indica tamaño infantil",
+    "example": "DUNLOP NITRO 25",
+    "addedAt": "2026-03-21T13:25:01.086Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "soporte",
+      "tobillo"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Producto de soporte y prevención de lesiones para extremidad inferior",
+    "example": "DUNLOP SOPORTE ELASTICO PARA TOBILLO",
+    "addedAt": "2026-03-21T13:25:20.857Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "basketball",
+      "balón",
+      "pelota"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Basketball es disciplina específica, balón/pelota es el producto. 'all' evita confusión con otros usos de 'ball'",
+    "example": "DUXX BASKETBALL SINTETICO #5",
+    "addedAt": "2026-03-21T13:26:58.640Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "voly",
+      "pvc",
+      "cocido"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Combinación de 'voly' (voleibol) + 'pvc cocido' identifica inequívocamente un balón de voleibol",
+    "example": "DUXX VOLY PVC COCIDO VD2000",
+    "addedAt": "2026-03-21T13:31:25.176Z"
   }
 ]
