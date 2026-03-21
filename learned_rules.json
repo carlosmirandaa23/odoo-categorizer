@@ -31,5 +31,17 @@
     "reason": "Patrón automático — no es un producto",
     "example": "15% en tu orden",
     "addedAt": "2026-03-21T07:19:07.703Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "shoulder",
+      "pads"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Combinación específica que identifica protecciones de hombro sin ambigüedad",
+    "example": "2in1 Shoulder Pads",
+    "addedAt": "2026-03-21T07:19:41.346Z"
   }
 ]
