@@ -1064,5 +1064,97 @@
     "reason": "Step de entrenamiento en casa para ejercicios de cardio y tonificación",
     "example": "ADX STEP POLIPROPILENO 80cmx30cm",
     "addedAt": "2026-03-21T09:14:28.295Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "steps"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Steps es un aparato de entrenamiento en casa para ejercicio cardiovascular y de bajo impacto, nunca se refiere a otro tipo de producto deportivo",
+    "example": "ADX STEPS 68cmx28cm",
+    "addedAt": "2026-03-21T09:14:46.442Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sueter",
+      "portero"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "Suéter diseñado específicamente para porteros (sudadera gruesa de abrigo para uso deportivo en cancha)",
+    "example": "ADX SUETER PORTERO GD",
+    "addedAt": "2026-03-21T09:15:04.721Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tapete"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Tapete es sinónimo de esterilla de ejercicio, producto exclusivo de entrenamiento en casa",
+    "example": "ADX TAPETE PARA EJERCICIO C/4",
+    "addedAt": "2026-03-21T09:15:57.784Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tobillera"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Tobillera es un producto específico de soporte/prevención que nunca se refiere a otra categoría",
+    "example": "ADX TOBILLERA ELASTICA CH",
+    "addedAt": "2026-03-21T09:16:15.775Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "venda",
+      "box"
+    ],
+    "category": "PRIMEROS AUXILIOS",
+    "match": "contains",
+    "reason": "Venda específica para box es material de protección y primeros auxilios en contexto deportivo",
+    "example": "ADX VENDA PARA BOX ",
+    "addedAt": "2026-03-21T09:18:16.856Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "agarradera",
+      "handle"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Handle/agarradera para martillo de entrenamiento, componente de equipamiento de entrenamiento en casa",
+    "example": "AGARRADERA MARTILLO HANDLE",
+    "addedAt": "2026-03-21T09:18:35.229Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "aguja infla"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Accesorio específico para inflar balones, pertenece a equipamiento de balones",
+    "example": "AGUJA INFLA BALON C/U",
+    "addedAt": "2026-03-21T09:19:11.172Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "turf",
+      "varsity"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Turf + varsity indica calzado de fútbol americano/béisbol con tachones para cancha de césped sintético",
+    "example": "AIR DIAMOND VARSITY TURF 10.5A",
+    "addedAt": "2026-03-21T09:19:30.475Z"
   }
 ]
