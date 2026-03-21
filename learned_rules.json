@@ -3883,5 +3883,40 @@
     "reason": "Baseball es disciplina deportiva específica que identifica unívocamente pelotas/balones de béisbol",
     "example": "FRANKLIN PRO FLEX BASEBALL 12.5\"",
     "addedAt": "2026-03-21T14:57:28.978Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "glove",
+      "softball"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Guante de softball es equipo de protección específico para la disciplina",
+    "example": "FRANKLIN RTP SOFTBALL GLOVE 13\"",
+    "addedAt": "2026-03-21T14:57:49.604Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "funda",
+      "integrada"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Funda integrada es característica de protecciones deportivas (ej: protectores de pecho, hombreras con funda integrada)",
+    "example": "FUNDA INTEGRADA Adult 2XLarge BLACK",
+    "addedAt": "2026-03-21T14:59:28.964Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "funda"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "startswith",
+    "reason": "Funda es contenedor de protección/transporte, típicamente accesorio de bolsas",
+    "example": "FUNDA SENCILLA Adult Medium BLACK",
+    "addedAt": "2026-03-21T15:22:44.378Z"
   }
 ]
