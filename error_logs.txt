@@ -1,3 +1,4 @@
+[2026-03-21T07:00:41.719Z] ERROR [406832] "ADX CUERDA CROSS ACERO 3M/PESO" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFo39xmsC1BQmHTg4zq3"}
 [2026-03-21T07:00:25.022Z] ERROR [414022] "ADX COSTAL PARA BOX VACIO 35X150cm" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFo1vYqoqXgYfBAhUYji"}
 [2026-03-21T07:00:08.295Z] ERROR [409505] "ADX COSTAL PARA BOX" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFnzh1V7AM4EArNGrdhv"}
 [2026-03-21T06:59:01.279Z] ERROR [405810] "ADX CONCHA PROTECTORA ADULTO" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFnukZuRq4uqiT3t4AxB"}
