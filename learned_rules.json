@@ -5986,5 +5986,66 @@
     "reason": "Canastilla es un contenedor/bolsa deportiva para transportar equipamiento y botellas",
     "example": "MARKWORT CANASTILLA  W/BOTTLE",
     "addedAt": "2026-03-21T23:35:06.740Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "catcher",
+      "mitt",
+      "pad"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Equipamiento protector específico para catcher en béisbol",
+    "example": "MARKWORT CATCHER'S MITT SPONGE PAD",
+    "addedAt": "2026-03-21T23:35:16.205Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "catchers",
+      "mask"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Máscara de catcher es equipo de protección específico para béisbol",
+    "example": "MARKWORT CATCHERS MASK/ BLACK-BLACK ADULT",
+    "addedAt": "2026-03-21T23:35:25.254Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "catcher",
+      "wedge"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Catcher es equipo específico de béisbol (protección). Wedge es parte del equipamiento del catcher (cuña/soporte pectoral). La combinación evita ambigüedad con otros usos genéricos.",
+    "example": "MARKWORT CATCHERS WEDGE ADULT",
+    "addedAt": "2026-03-21T23:35:35.004Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pee-wee",
+      "peewee"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Pee-Wee es un tamaño estándar de pelota/balón en deportes juveniles (béisbol, fútbol). Markwort es fabricante de balones deportivos. SKU '715S PEEWEL' refuerza que es un balón de tamaño reducido.",
+    "example": "MARKWORT CONJUNCIONES PEE-WEE ",
+    "addedAt": "2026-03-21T23:36:27.706Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "game face",
+      "steel"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Game Face es protector facial de acero, típicamente usado en béisbol/deportes de contacto",
+    "example": "MARKWORT GAME FACE STEEL",
+    "addedAt": "2026-03-21T23:36:44.953Z"
   }
 ]
