@@ -4478,5 +4478,65 @@
     "reason": "Combinación característica de raqueta de tenis HEAD con serie Speed y tamaño midplus",
     "example": "HEAD GRAPHENE 360 SPEED MP LITE ",
     "addedAt": "2026-03-21T16:43:25.106Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "graphene",
+      "speed pro"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Graphene XT Speed Pro es raqueta de tenis profesional de HEAD",
+    "example": "HEAD GRAPHENE XT SPEED PRO",
+    "addedAt": "2026-03-21T16:44:06.966Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "protective",
+      "eyewear"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Combinación de 'protective' + 'eyewear' identifica únicamente protección ocular deportiva",
+    "example": "HEAD IMPULSE PROTECTIVE EYEWEAR TRANSPARENT ",
+    "addedAt": "2026-03-21T16:44:28.567Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "instinct",
+      "jr"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "HEAD Instinct es una línea de raquetas de tenis junior. La palabra 'instinct' combinada con 'jr' (junior) identifica productos de raqueta específicamente",
+    "example": "HEAD INSTINCT JR 21",
+    "addedAt": "2026-03-21T16:45:10.355Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "head",
+      "tour"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "HEAD es marca de raquetas de tenis; TOUR indica línea profesional de tenis",
+    "example": "HEAD LEATHER TOUR",
+    "addedAt": "2026-03-21T16:46:12.637Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "racquet",
+      "racket"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Palabra 'racquet' indica inequívocamente raqueta de tenis o deporte de raqueta",
+    "example": "HEAD MX CYCLONE RACQUET",
+    "addedAt": "2026-03-21T16:46:35.045Z"
   }
 ]
