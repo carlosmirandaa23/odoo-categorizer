@@ -6298,5 +6298,17 @@
     "reason": "Estabilizador de tobillo es equipamiento de soporte y prevención de lesiones",
     "example": "MAX JAX STABILIZER 7\"",
     "addedAt": "2026-03-21T23:44:44.617Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "back",
+      "support"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Faja/soporte lumbar para espalda, claramente paramédico de prevención",
+    "example": "MC DAVID BACK SUPPORT R 27\"-42\"/L44\"-60\"-Regular",
+    "addedAt": "2026-03-21T23:45:02.042Z"
   }
 ]
