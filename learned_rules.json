@@ -4894,5 +4894,17 @@
     "reason": "Arrow rest es un accesorio de protección/estabilización específico de tiro con arco",
     "example": "ARROW REST PLASTIC",
     "addedAt": "2026-03-21T20:27:56.997Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bandera",
+      "tochito"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Banderas de flag football son equipamiento de protección/seguridad para el deporte",
+    "example": "BANDERAS DE TOCHITO /PK24",
+    "addedAt": "2026-03-21T20:33:13.373Z"
   }
 ]
