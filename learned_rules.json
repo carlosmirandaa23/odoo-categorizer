@@ -3271,5 +3271,18 @@
     "reason": "EASTON RPS es línea de tachones de béisbol/softbol; modelo específico de calzado con tachones",
     "example": "EASTON INERST AL/RPS 8-32 C/U",
     "addedAt": "2026-03-21T13:43:50.175Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "easton",
+      "pin",
+      "a/c"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "EASTON PIN es marca y modelo de tachones de béisbol, A/C/E y A/C/C son especificaciones de tachones",
+    "example": "EASTON PIN A/C/E A/C/C -00ACG 610-1000",
+    "addedAt": "2026-03-21T13:45:09.356Z"
   }
 ]
