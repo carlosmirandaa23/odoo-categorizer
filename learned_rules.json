@@ -53,5 +53,17 @@
     "reason": "Término inequívoco para mochila de béisbol/sóftbol con compartimentos para bates y equipo deportivo",
     "example": "ADAMS BAT PACK ",
     "addedAt": "2026-03-21T03:17:00.879Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "catcher",
+      "helmet"
+    ],
+    "category": "PROTECCIONES",
+    "match": null,
+    "reason": "La combinación 'catcher' + 'helmet' es específica del equipo de protección para el catcher de béisbol/softbol. 'Helmet' solo podría referirse a varios tipos de cascos, pero 'catcher's helmet' es inequívoco y corresponde a PROTECCIONES.",
+    "example": "ADAMS CH6000 CATCHERS HELMET",
+    "addedAt": "2026-03-21T03:17:31.500Z"
   }
 ]
