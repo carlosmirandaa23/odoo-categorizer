@@ -6394,5 +6394,17 @@
     "reason": "Balón de fútbol americano identificado por marca deportiva y material",
     "example": "MIKASA F6000 AMERICANO PIEL SINTETICA",
     "addedAt": "2026-03-21T23:54:21.395Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "americano",
+      "pelota"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Balón de fútbol americano, independientemente de marca o material",
+    "example": "MIKASA F6007 AMERICANO PIEL SINTETICA YTH",
+    "addedAt": "2026-03-21T23:54:40.555Z"
   }
 ]
