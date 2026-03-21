@@ -5974,5 +5974,17 @@
     "reason": "C-flap es protección específica de béisbol (oreja del casco)",
     "example": "MARKWORT C-FLAP RHB",
     "addedAt": "2026-03-21T23:34:32.188Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "canastilla",
+      "basket"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Canastilla es un contenedor/bolsa deportiva para transportar equipamiento y botellas",
+    "example": "MARKWORT CANASTILLA  W/BOTTLE",
+    "addedAt": "2026-03-21T23:35:06.740Z"
   }
 ]
