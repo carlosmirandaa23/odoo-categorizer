@@ -135,6 +135,18 @@ function applyLearnedRules(name) {
   return null;
 }
 
+function applyExclusionRule(name) {
+  const lower = name.toLowerCase();
+  for (const rule of learnedRules) {
+    if (rule.type === "exclude") {
+      if (rule.match === "startswith" && lower.startsWith(rule.keywords[0])) return true;
+      if (rule.match === "contains"   && rule.keywords.some(k => lower.includes(k))) return true;
+      if (!rule.match                 && rule.keywords.some(k => lower.includes(k))) return true;
+    }
+  }
+  return false;
+}
+
 function ruleAlreadyExists(rule) {
   return learnedRules.some(r =>
     r.type === rule.type &&
@@ -200,7 +212,15 @@ Responde ÚNICAMENTE con JSON válido sin markdown ni texto adicional:
 }
 
 Si no encaja en ninguna categoría: { "category": "SIN_CATEGORIA", "confidence": 0, "rule": null }
-Si no hay regla confiable que proponer: incluye "rule": null en la respuesta`;
+Si no hay regla confiable que proponer: incluye "rule": null en la respuesta
+
+TIPO ESPECIAL DE REGLA — "exclude":
+Si el nombre claramente NO es un producto (descuentos, porcentajes, notas, abonos, textos promocionales):
+- Responde con category: "SIN_CATEGORIA", confidence: 0
+- Propón una regla de exclusión:
+  { "type": "exclude", "match": "startswith|contains", "keywords": ["patron"], "reason": "..." }
+- Ejemplo: "10% en tu orden" → exclude startswith "10%"
+- Ejemplo: "abono" → exclude contains "abono"`;
 }
 
 // ─────────────────────────────────────────
@@ -260,8 +280,11 @@ async function classifyWithAI(product) {
 
   if (!response.ok) throw new Error(`Claude API ${response.status}: ${await response.text()}`);
   const data = await response.json();
-  const text = data.content[0].text.trim().replace(/```json|```/g, "").trim();
-  return JSON.parse(text);
+  let text = data.content[0].text.trim().replace(/```json|```/g, "").trim();
+  // Extraer solo el primer objeto JSON válido si hay texto extra
+  const match = text.match(/\{[\s\S]*\}/);
+  if (!match) throw new Error(`Respuesta no contiene JSON válido: ${text.slice(0, 100)}`);
+  return JSON.parse(match[0]);
 }
 
 // ─────────────────────────────────────────
@@ -317,7 +340,25 @@ async function processNext() {
       }
     }
 
-    // Intento 2: nombre insuficiente → INFORMACIÓN INSUFICIENTE sin gastar tokens
+    // Intento 2a: regla de exclusión aprendida → sin gastar tokens
+    if (!finalCategory && applyExclusionRule(product.name)) {
+      const insufId = await getCategId(uid, "INFORMACIÓN INSUFICIENTE");
+      if (insufId) {
+        await odooCall("object", "execute_kw", [
+          DB, uid, PASS,
+          "product.template", "write",
+          [[product.id], { categ_id: insufId }]
+        ]);
+      }
+      console.log(`🚫 ${label} — excluido por regla → INFORMACIÓN INSUFICIENTE`);
+      stats.skipped++;
+      processedIds.add(product.id);
+      saveProcessed(processedIds);
+      scheduleNext();
+      return;
+    }
+
+    // Intento 2b: nombre insuficiente → INFORMACIÓN INSUFICIENTE sin gastar tokens
     if (!finalCategory) {
       const wordCount = product.name.trim().split(/\s+/).filter(w => w.length > 1).length;
       if (wordCount < 3) {
@@ -352,14 +393,16 @@ async function processNext() {
           const newRule = {
             type:     result.rule.type,
             keywords: result.rule.keywords.map(k => k.toLowerCase()),
-            category: result.category,
+            category: result.rule.type === "exclude" ? "EXCLUIDO" : result.category,
+            match:    result.rule.match || null,
             reason:   result.rule.reason || "",
             example:  product.name,
             addedAt:  new Date().toISOString()
           };
           learnedRules.push(newRule);
           saveRules(learnedRules);
-          console.log(`💡 Nueva regla aprendida: ${JSON.stringify(newRule.keywords)} → "${result.category}"`);
+          const icon = result.rule.type === "exclude" ? "🚫" : "💡";
+          console.log(`${icon} Nueva regla aprendida [${result.rule.type}]: ${JSON.stringify(newRule.keywords)} → "${newRule.category}"`);
         }
       } else {
         console.log(`⏭️  ${label} omitido — confianza insuficiente`);
