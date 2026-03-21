@@ -350,5 +350,97 @@
     "reason": "La palabra 'padel' identifica sin ambigüedad productos de esta categoría. Es el deporte específico y único descriptor necesario para clasificar en RAQUETAS Y PALAS.",
     "example": "ADIDAS METALBONE 3.3 PADEL",
     "addedAt": "2026-03-21T05:35:22.176Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "metalbone",
+      "pala"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": null,
+    "reason": "Metalbone es la línea de palas de pádel de Adidas. La palabra 'metalbone' es un identificador específico del producto que, combinado con 'pala', evita ambigüedad con otros productos deportivos.",
+    "example": "ADIDAS METALBONE CARBON CTRL",
+    "addedAt": "2026-03-21T05:35:57.290Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "pant"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": null,
+    "reason": "La palabra 'pant' identifica sin ambigüedad una prenda inferior deportiva. Los pantalones deportivos (pants) son productos claramente clasificables en PRENDAS INFERIORES independientemente de marca o modelo.",
+    "example": "ADIDAS NEW NAVY TIRO 11 PANT",
+    "addedAt": "2026-03-21T05:39:36.207Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "grip"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": null,
+    "reason": "Over grip es un accesorio envolvente para raquetas y palas. La palabra 'grip' identifica sin ambigüedad este tipo de complemento deportivo usado en tenis, pádel y bádminton",
+    "example": "ADIDAS OVER GRIP ",
+    "addedAt": "2026-03-21T05:39:53.875Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "pullover"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": null,
+    "reason": "Pullover es una prenda de abrigo deportivo identificable sin ambigüedad, independientemente de la marca o talla",
+    "example": "ADIDAS PULLOVER XL",
+    "addedAt": "2026-03-21T05:43:43.332Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "racketbag"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": null,
+    "reason": "El término 'racketbag' identifica sin ambigüedad bolsas diseñadas específicamente para transportar raquetas de tenis, pádel u otros deportes de raqueta. Es una palabra clave que las distingue de mochilas deportivas genéricas.",
+    "example": "ADIDAS RACKETBAG CONTROL  3.3 PINK",
+    "addedAt": "2026-03-21T05:44:17.512Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "scorch",
+      "destroy"
+    ],
+    "category": "TACHONES",
+    "match": null,
+    "reason": "Scorch Destroy es línea de tachones de fútbol americano de Adidas. La combinación de estas palabras identifica específicamente este tipo de calzado especializado sin ambigüedad.",
+    "example": "ADIDAS SCORCH DESTROY 2 LG",
+    "addedAt": "2026-03-21T05:45:40.971Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "sprintstar"
+    ],
+    "category": "TACHONES",
+    "match": null,
+    "reason": "Sprintstar es un modelo de tachones de atletismo de Adidas, identificable por su nombre específico de producto de pista y campo",
+    "example": "ADIDAS SPRINTSTAR # 10",
+    "addedAt": "2026-03-21T05:46:48.618Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "jkt",
+      "jacket",
+      "light jacket"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": null,
+    "reason": "JKT es abreviación estándar de jacket/chaqueta ligera. La palabra 'light' confirma que es una prenda de abrigo exterior deportiva, no una chaqueta pesada de montaña.",
+    "example": "ADIDAS WOMENS LIGHT JKT",
+    "addedAt": "2026-03-21T05:51:13.052Z"
   }
 ]
