@@ -1180,5 +1180,65 @@
     "reason": "Combinación de 'bajo' (prenda inferior) + 'funda' (cobertura/protección) indica pantalón o shorts deportivo con protección integrada",
     "example": "ALLESON ATHLETIC CORE BAJO FUNDA",
     "addedAt": "2026-03-21T09:23:17.045Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "jersey"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Jersey es una prenda superior deportiva, nunca puede ser otro tipo de producto",
+    "example": "ALLESON ATHLETIC JERSEY 2X/3X",
+    "addedAt": "2026-03-21T09:23:36.472Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pant",
+      "baseball"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Pants de béisbol son prendas inferiores deportivas específicas para la disciplina",
+    "example": "ALLESON PANT BASEBALL BLANCO ",
+    "addedAt": "2026-03-21T09:31:04.576Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "ball",
+      "lime"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Palabra 'ball' combinada con color 'lime' indica claramente un balón deportivo",
+    "example": "AMERICA 1000L LIME BALL 1/2 D",
+    "addedAt": "2026-03-21T09:31:57.005Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "ball",
+      "balón",
+      "pelota"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Producto deportivo de pelota/balón confirmado por 'BALL' en nombre y contexto de producto oficial",
+    "example": "AMERICA 50 OFICIAL BALL DZ ",
+    "addedAt": "2026-03-21T09:32:51.753Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "ball",
+      "balón"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Palabra 'ball' indica explícitamente un balón/pelota deportiva, evitando ambigüedad con otros productos",
+    "example": "AMERICA 52 OFFICIALL BALL DZ",
+    "addedAt": "2026-03-21T09:33:45.669Z"
   }
 ]
