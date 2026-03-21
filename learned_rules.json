@@ -4954,5 +4954,29 @@
     "reason": "Nocks son accesorios específicos de flechas para arquería, equipamiento de precisión",
     "example": "BEITER OUT-NOCKS 04,5/1",
     "addedAt": "2026-03-21T20:47:45.011Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "arrow",
+      "wraps"
+    ],
+    "category": "EQUIPAMIENTO Y MATERIAL",
+    "match": "contains",
+    "reason": "Arrow wraps son accesorios para flechas/arquería, parte de equipamiento deportivo especializado",
+    "example": "Bohning Arrow Wraps 4\" ",
+    "addedAt": "2026-03-21T20:55:29.314Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "compound",
+      "rest"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Compound rest es accesor específico de arcos compuestos (tiro con arco). Crux es marca de descansos de arco.",
+    "example": "CARTEL INFITEC CRUX COMPOUND REST WITH BLADES",
+    "addedAt": "2026-03-21T21:01:05.977Z"
   }
 ]
