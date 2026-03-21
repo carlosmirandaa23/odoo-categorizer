@@ -432,5 +432,17 @@
     "reason": "pullover es siempre una prenda deportiva de abrigo, nunca otro tipo de producto",
     "example": "ADIDAS PULLOVER XL",
     "addedAt": "2026-03-21T08:10:16.454Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "racketbag",
+      "bag"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Racketbag es una bolsa especializada para transportar raquetas de tenis/pádel",
+    "example": "ADIDAS RACKETBAG CONTROL  3.3 PINK",
+    "addedAt": "2026-03-21T08:10:50.076Z"
   }
 ]
