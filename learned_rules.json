@@ -9,5 +9,16 @@
     "reason": "Palabra 'backpack' es específica para mochilas deportivas, nunca aplica a otra categoría",
     "example": " Nike Varsity Elite Backpack",
     "addedAt": "2026-03-21T07:14:34.215Z"
+  },
+  {
+    "type": "exclude",
+    "match": "startswith",
+    "keywords": [
+      "10%"
+    ],
+    "category": "EXCLUIDO",
+    "reason": "Patrón automático — no es un producto",
+    "example": "10% en productos de padel",
+    "addedAt": "2026-03-21T07:15:55.209Z"
   }
 ]
