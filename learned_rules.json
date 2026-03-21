@@ -387,5 +387,28 @@
     "reason": "Tiro es la línea de pantalones deportivos de Adidas. 'Tiro' + 'pant' identifica inequívocamente pants deportivos",
     "example": "ADIDAS NEW NAVY TIRO 11 PANT",
     "addedAt": "2026-03-21T08:06:04.736Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "grip"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Grip es accesorio envolvente para raquetas/palas, clasificado en complementos deportivos",
+    "example": "ADIDAS OVER GRIP ",
+    "addedAt": "2026-03-21T08:06:22.181Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pantalonera",
+      "short"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Pantalonera es prenda inferior deportiva, excluyendo marca",
+    "example": "ADIDAS PANTALONERA 2XL",
+    "addedAt": "2026-03-21T08:07:12.676Z"
   }
 ]
