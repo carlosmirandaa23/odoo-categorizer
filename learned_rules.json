@@ -42,5 +42,16 @@
     "reason": "Patrón automático — no es un producto",
     "example": "30% en tu orden",
     "addedAt": "2026-03-21T03:51:17.201Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tobillera"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": null,
+    "reason": "El término 'tobillera' identifica sin ambigüedad dispositivos de soporte y estabilización del tobillo, componente clave para prevención de lesiones deportivas",
+    "example": "ACTIVE ANKLE T2 ESTABILIZADOR TOBILLO LG",
+    "addedAt": "2026-03-21T03:56:48.006Z"
   }
 ]
