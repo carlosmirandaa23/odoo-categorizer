@@ -3427,5 +3427,120 @@
     "reason": "Escualo Baby es un modelo de tenis lifestyle/casual para niños, uso deportivo diario",
     "example": "ESCUALO BABY AZUL",
     "addedAt": "2026-03-21T13:57:40.764Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bandit",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Escualo Bandit es línea de tachones para fútbol; 'aqua' indica color/variante",
+    "example": "ESCUALO BANDIT M. AQUA",
+    "addedAt": "2026-03-21T13:58:19.938Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "escualo"
+    ],
+    "category": "CASUAL - SNEAKERS",
+    "match": "contains",
+    "reason": "Escualo es una marca de tenis lifestyle/casual deportivos, commonmente usados para uso diario",
+    "example": "ESCUALO BEAST NEGRO",
+    "addedAt": "2026-03-21T13:58:59.660Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "basketball",
+      "ball"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Producto deportivo de pelota/balón basketball identificado por marca y referencia",
+    "example": "ESPN BASKETBALL TWO PLAYER",
+    "addedAt": "2026-03-21T14:17:28.230Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "mochila"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Palabra 'mochila' identifica inequívocamente producto de transporte/almacenamiento deportivo",
+    "example": "EVEREST MOCHILA HK100 BLACK",
+    "addedAt": "2026-03-21T14:17:48.215Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "waist pack",
+      "waist bag"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Waist pack es una bolsa deportiva de cadera, claramente diferente de mochilas por su forma y uso específico",
+    "example": "EVEREST WAIST PACK CB6P CAMO",
+    "addedAt": "2026-03-21T14:19:06.330Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "waist pack"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "waist pack es una bolsa de cintura deportiva, nunca puede referirse a otro tipo de producto",
+    "example": "EVEREST WAIST PACK CB8 BLACK",
+    "addedAt": "2026-03-21T14:19:26.626Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "mouthguard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "mouthguard es equipo de protección específico para boxeo, nunca otro tipo de producto",
+    "example": "EVERLAST BOXING MOUTHGUARD DOUBL BLACK",
+    "addedAt": "2026-03-21T14:20:26.292Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "hand",
+      "wraps"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Hand wraps son equipamiento de protección específico para boxeo y artes marciales, la combinación evita ambigüedad con otros productos",
+    "example": "EVERLAST CORE HAND WRAPS",
+    "addedAt": "2026-03-21T14:21:05.967Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "mouth guard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "mouth guard es protección bucal específica de boxeo/combate, nunca otro producto",
+    "example": "EVERLAST DOUBLE MOUTH GUARD",
+    "addedAt": "2026-03-21T14:21:45.461Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "double end bag",
+      "everhide"
+    ],
+    "category": "EQUIPAMIENTO Y MATERIAL",
+    "match": "contains",
+    "reason": "Double end bag es equipo de entrenamiento de boxeo específico, everhide es tecnología de material de Everlast",
+    "example": "EVERLAST EVERHIDE DOUBLE END BAG",
+    "addedAt": "2026-03-21T14:24:01.170Z"
   }
 ]
