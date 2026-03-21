@@ -5442,5 +5442,16 @@
     "reason": "Equipamiento de protección específico para catcher (béisbol) que requiere ambas palabras para identificar sin ambigüedad",
     "example": "ADAMS CATCHERS LEG CUARDS 15'",
     "addedAt": "2026-03-21T17:50:08.949Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "adizero impact"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Adizero Impact es línea de tachones de fútbol americano de Adidas, identificable por modelo específico",
+    "example": "ADIDAS ADIZERO IMPACT 10.5A",
+    "addedAt": "2026-03-21T17:52:07.154Z"
   }
 ]
