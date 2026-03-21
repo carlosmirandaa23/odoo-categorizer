@@ -3978,5 +3978,113 @@
     "reason": "Gaser es marca fabricante de balones de fútbol; 'fut' confirma disciplina",
     "example": "GASER FUT #4 SUKA",
     "addedAt": "2026-03-21T15:42:19.731Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "gaser"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "startswith",
+    "reason": "Gaser es marca de balones/pelotas deportivas, especialmente para fútbol y voleibol",
+    "example": "GASER NEON LAMINADO NO 4",
+    "addedAt": "2026-03-21T15:44:39.467Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "feather",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Feather es un tipo de tachón específico para deportes con tachones (fútbol, rugby, béisbol)",
+    "example": "GATEWAY 10\"-12\" FULL LENGTH FEATHER C/U",
+    "addedAt": "2026-03-21T15:47:39.524Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "squeeze",
+      "bottle"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Botella deportiva reutilizable de hidratación, accesorio complementario",
+    "example": "GATORADE SQUEEZE BOTTLE 30oz",
+    "addedAt": "2026-03-21T15:48:41.566Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "movement",
+      "glove"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Guante de movimiento específico para entrenamiento/protección deportiva",
+    "example": "GEARBOX LEATHER MOVEMENT GLOVE L",
+    "addedAt": "2026-03-21T15:49:41.973Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "wrist",
+      "sling"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "wrist sling es dispositivo de soporte/inmovilización para muñeca",
+    "example": "GEASTON PREMIUM WRIST SLING",
+    "addedAt": "2026-03-21T15:50:42.901Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "mouthguard",
+      "mouth guard",
+      "ythmgard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "YTHMGARD es claramente abreviación de 'youth mouthguard', protección bucal deportiva",
+    "example": "GELMAX CONVRT YTHMGARD BUBBLEGUM",
+    "addedAt": "2026-03-21T15:51:03.963Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "mouthguard",
+      "mgard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "mouthguard es equipo de protección específico para boxeo/combate, nunca refiere a otro producto",
+    "example": "GELMX CONVRT YTH MGARD FR. PUNCH",
+    "addedAt": "2026-03-21T15:51:25.080Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "match",
+      "omega"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "GILBERT Match Omega es un balón de rugby profesional. La combinación de 'match' + 'omega' identifica específicamente este balón de competencia.",
+    "example": "GILBERT MATCH OMEGA",
+    "addedAt": "2026-03-21T15:51:46.825Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "dardos",
+      "plastico"
+    ],
+    "category": "EQUIPAMIENTO Y MATERIAL",
+    "match": "contains",
+    "reason": "Dardos de plástico son equipamiento deportivo para juegos de precisión, distingue de herramientas o artículos no deportivos",
+    "example": "GIM DARDOS DE PLASTICO",
+    "addedAt": "2026-03-21T15:52:27.700Z"
   }
 ]
