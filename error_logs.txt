@@ -1,3 +1,4 @@
+[2026-03-21T04:25:39.231Z] PARSE_ERROR [406613] "34" OLY TRICEP BAR" — Sin JSON válido: Based on my research, 
 [2026-03-21T04:24:39.548Z] PARSE_ERROR [408334] "30.06 MUSTANG ULTRA COMPACT RELEASE" — Sin JSON válido: Voy a clasificar este producto. Primero, déjame verificar algunos términos clave mediante búsqueda para asegurar que pro
 [2026-03-21T04:22:59.681Z] PARSE_ERROR [404918] "3 FINGERS UNDER COLOR FINGER SAVER" — Sin JSON válido: Voy a analizar este producto. "FINGER SAVER" es un término específico que podría referirse a un protector de dedos. Déja
 
