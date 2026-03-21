@@ -5782,5 +5782,17 @@
     "reason": "Combinación de 'knee' + 'support' identifica inequívocamente soportes de rodilla sin ambigüedad de marca",
     "example": "MACH KNEE SUPPORT",
     "addedAt": "2026-03-21T23:26:18.628Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "patella",
+      "support"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Patella support es específicamente un soporte de rodilla para prevención/estabilización",
+    "example": "MACH PATELLA SUPPORT- EXTRA GRANDE",
+    "addedAt": "2026-03-21T23:26:27.608Z"
   }
 ]
