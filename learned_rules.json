@@ -1810,5 +1810,19 @@
     "reason": "Beman es marca reconocida de balones de fútbol; 'FUN CLUB 5.0' es línea de producto específica",
     "example": "BEMAN FUN CLUB 5.0",
     "addedAt": "2026-03-21T11:07:29.243Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "hunter",
+      "carbon",
+      "400",
+      "500"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "BEMAN Hunter es una línea clásica de flechas/proyectiles para arco, típicamente clasificados con equipamiento de tiro deportivo próximo a raquetas/palas",
+    "example": "BEMAN HUNTER CLASSIC CARBON 400/500 C/U",
+    "addedAt": "2026-03-21T11:07:48.585Z"
   }
 ]
