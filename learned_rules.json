@@ -820,5 +820,40 @@
     "reason": "Conjunto de equipos de entrenamiento funcional para uso doméstico",
     "example": "ADX KIT ESCALERA, BOLSA, PLATOS",
     "addedAt": "2026-03-21T08:54:50.348Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "liga",
+      "latex"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Las ligas de latex multifuncionales son equipamiento para entrenamiento en casa y ejercicio funcional",
+    "example": "ADX LIGA LATEX MULTIFUNCIONAL",
+    "addedAt": "2026-03-21T08:55:08.254Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "manopla",
+      "poliuretano"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Manopla curva de poliuretano es equipo de protección específico para boxeo/combat sports",
+    "example": "ADX MANOPLA CURVA POLIURETANO",
+    "addedAt": "2026-03-21T08:55:26.248Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "menisquera"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Menisquera es protección específica de rodilla para soporte de menisco, producto único sin ambigüedad",
+    "example": "ADX MENISQUERA PAR",
+    "addedAt": "2026-03-21T08:55:44.339Z"
   }
 ]
