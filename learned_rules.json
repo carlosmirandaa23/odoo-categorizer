@@ -5096,5 +5096,29 @@
     "reason": "Vanes son aletas/componentes de pelotas de badminton/voleibol de alta performance",
     "example": "ELI PERFORMANCE VANES 56MM PARABOLI",
     "addedAt": "2026-03-21T21:35:27.568Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "headgear",
+      "protección"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "headgear es equipo de protección específico para cabeza en deportes de combate",
+    "example": "EVERLAST HEADGEAR ADULT",
+    "addedAt": "2026-03-21T21:44:51.119Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "wrist",
+      "guard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protección específica de muñeca para deportes de contacto/impacto",
+    "example": "EVOSHIELD WRIST GUAR9",
+    "addedAt": "2026-03-21T21:47:37.005Z"
   }
 ]
