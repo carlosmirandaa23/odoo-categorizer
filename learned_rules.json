@@ -1156,5 +1156,29 @@
     "reason": "Turf + varsity indica calzado de fútbol americano/béisbol con tachones para cancha de césped sintético",
     "example": "AIR DIAMOND VARSITY TURF 10.5A",
     "addedAt": "2026-03-21T09:19:30.475Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "visor",
+      "catcher"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Visor deportivo específico para catcher (béisbol), accesorio de cabeza/protección visual",
+    "example": "ALL-STAR MVP VISOR CATCHER",
+    "addedAt": "2026-03-21T09:22:23.345Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bajo",
+      "funda"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Combinación de 'bajo' (prenda inferior) + 'funda' (cobertura/protección) indica pantalón o shorts deportivo con protección integrada",
+    "example": "ALLESON ATHLETIC CORE BAJO FUNDA",
+    "addedAt": "2026-03-21T09:23:17.045Z"
   }
 ]
