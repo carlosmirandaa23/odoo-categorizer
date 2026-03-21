@@ -207,5 +207,16 @@
     "reason": "Calceta es un término genérico para identificar calcetines deportivos, sin importar marca o modelo específico",
     "example": "ADIDAS CALCETA ADISOCK 12",
     "addedAt": "2026-03-21T03:00:18.671Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "entrenamiento"
+    ],
+    "category": "RUNNING Y ENTRENAMIENTO",
+    "match": "contains",
+    "reason": "La palabra 'entrenamiento' identifica productos de training sin ambigüedad. Incluye tenis diseñados para gym y ejercicio general.",
+    "example": "ADIDAS D4M ENTRENAMIENTO ",
+    "addedAt": "2026-03-21T03:03:46.935Z"
   }
 ]
