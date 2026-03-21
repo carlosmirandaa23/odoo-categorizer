@@ -8,5 +8,15 @@
     "reason": "La palabra 'backpack' identifica sin ambigüedad un producto de almacenamiento deportivo que pertenece a la categoría de bolsas y mochilas, independientemente de la marca o modelo específico.",
     "example": " Nike Varsity Elite Backpack",
     "addedAt": "2026-03-21T02:17:41.607Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "frontenis"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "reason": "Frontenis es un deporte de raqueta específico, similar a pádel y tenis. La palabra 'frontenis' por sí sola identifica inequívocamente un producto de raqueta/pala sin ambigüedad.",
+    "example": "201 OFICIAL FRONTENIS",
+    "addedAt": "2026-03-21T02:22:40.234Z"
   }
 ]
