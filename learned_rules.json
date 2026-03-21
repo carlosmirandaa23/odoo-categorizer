@@ -9,5 +9,16 @@
     "reason": "La palabra 'backpack' es un término específico y unívoco que identifica mochilas deportivas sin ambigüedad. Es ampliamente usado en el catálogo deportivo para este tipo de producto.",
     "example": " Nike Varsity Elite Backpack",
     "addedAt": "2026-03-21T03:07:39.668Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "shoulder pad"
+    ],
+    "category": "PROTECCIONES",
+    "match": null,
+    "reason": "El término 'shoulder pad' identifica sin ambigüedad un equipo de protección deportiva usado en deportes de contacto, específicamente para proteger hombros y pecho. Es un tipo de protección estándar en el catálogo.",
+    "example": "2in1 Shoulder Pads",
+    "addedAt": "2026-03-21T03:11:34.261Z"
   }
 ]
