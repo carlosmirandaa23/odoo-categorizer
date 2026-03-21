@@ -128,5 +128,16 @@
     "reason": "Los términos 'catcher' y 'helmet' identifican claramente un casco de protección para béisbol, que es equipo de seguridad clasificado en PROTECCIONES",
     "example": "ADAMS CH6000 CATCHERS HELMET",
     "addedAt": "2026-03-21T02:48:33.648Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "jkt"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "JKT es abreviatura estándar para jacket/chaqueta. Productos con esta abreviatura son prendas de abrigo exterior.",
+    "example": "ADIDAS 5.10 FLOOCE JKT M",
+    "addedAt": "2026-03-21T02:48:50.971Z"
   }
 ]
