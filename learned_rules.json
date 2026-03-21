@@ -923,5 +923,88 @@
     "reason": "Pelota de reacción es un producto específico de entrenamiento que no se confunde con otros artículos deportivos",
     "example": "ADX PELOTA DE REACCIÓN",
     "addedAt": "2026-03-21T08:59:14.282Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pelota",
+      "pilates"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Pelota de pilates/gym ball es equipo de entrenamiento en casa, no balón de deporte",
+    "example": "ADX PELOTA PILATES 65CM",
+    "addedAt": "2026-03-21T08:59:32.719Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pera",
+      "box"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Pera fija de box es equipo de entrenamiento de boxeo, clasificado como protección/equipamiento de boxeo",
+    "example": "ADX PERA FIJA DE BOX #50",
+    "addedAt": "2026-03-21T08:59:51.227Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "polaina",
+      "muñeq"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Polaina con muñequera indica protección/soporte de muñeca, elemento de prevención de lesiones",
+    "example": "ADX POLAINA MUÑEQ 1.5KG C/CINTA",
+    "addedAt": "2026-03-21T09:00:27.480Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "basquetbol",
+      "basketball"
+    ],
+    "category": "CANCHA - INDOOR",
+    "match": "contains",
+    "reason": "Tenis específicos para cancha de básquetbol indoor",
+    "example": "ADX RED BASQUETBOL PAR ",
+    "addedAt": "2026-03-21T09:01:52.838Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "red",
+      "voleibol"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Red de voleibol es equipamiento específico de cancha, pero pertenece a accesorios de juego junto con balones",
+    "example": "ADX RED DE VOLEIBOL",
+    "addedAt": "2026-03-21T09:02:10.815Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "rodillera",
+      "menisco"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Rodillera específica para soporte articular y prevención de lesiones de menisco",
+    "example": "ADX RODILLERA CON MENISCO G",
+    "addedAt": "2026-03-21T09:02:28.802Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "rodillera"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Rodillera es producto específico de soporte articular, nunca se refiere a otro tipo de equipamiento",
+    "example": "ADX RODILLERA CON RESORTES CH",
+    "addedAt": "2026-03-21T09:03:03.628Z"
   }
 ]
