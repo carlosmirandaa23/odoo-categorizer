@@ -10,7 +10,7 @@ const { ODOO_URL, DB, USER, PASS, ANTHROPIC_API_KEY } = process.env;
 
 const PROCESSED_FILE = path.join(__dirname, "processed_ids.json");
 const RULES_FILE     = path.join(__dirname, "learned_rules.json");
-const INTERVAL_MS    = 15000;
+const INTERVAL_MS    = 3000;
 const GITHUB_REPO       = "carlosmirandaa23/odoo-categorizer";
 const GITHUB_RULES_PATH = "learned_rules.json";
 const GITHUB_IDS_PATH   = "processed_ids.json";
@@ -190,13 +190,19 @@ TAREA:
 
 CRITERIOS ESTRICTOS PARA PROPONER REGLA:
 
-USA type "any" ÚNICAMENTE cuando la palabra NUNCA puede referirse a otro tipo de producto:
-- Válidos: "backpack", "tobillera", "mouthguard", "chest protector", "tricep bar"
-- INVÁLIDOS: "pala" (herramienta), "catcher" (múltiples usos), "padel" (disciplina sola)
+USA type "any" cuando UNA palabra o sinónimos identifican el producto sin ambigüedad:
+- El nombre solo necesita contener CUALQUIERA de las keywords
+- Una keyword: "backpack", "tobillera", "mouthguard", "chest protector"
+- Sinónimos: ["armguard", "arm guard"], ["mouthguard", "mouth guard"] — misma cosa escrita diferente
+- INVÁLIDOS como any solo: "pala" (herramienta), "padel" (disciplina), "catcher" (múltiple uso)
 
-USA type "all" cuando necesitas dos palabras para evitar ambigüedad:
-- Válidos: "pala"+"padel", "gloves"+"football", "shoulder"+"pads"
-- Prefiere SIEMPRE "all" sobre "any" cuando tengas la mínima duda
+USA type "all" cuando necesitas DOS palabras DISTINTAS presentes AL MISMO TIEMPO en el nombre:
+- AMBAS palabras deben aparecer juntas — NO son sinónimos, son palabras complementarias
+- ✅ ["pala","padel"] → el nombre dice "pala" Y "padel" al mismo tiempo
+- ✅ ["gloves","football"] → dice "gloves" Y "football" al mismo tiempo
+- ❌ ["armguard","arm guard"] → son sinónimos, usa "any" no "all"
+- ❌ ["mouthguard","mouth guard"] → son sinónimos, usa "any" no "all"
+- Prefiere "all" sobre "any" cuando una sola palabra sea ambigua
 
 NUNCA propongas regla con:
 - Marcas: "nike", "adidas", "under armour", "wilson", etc.
