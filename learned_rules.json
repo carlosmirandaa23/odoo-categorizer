@@ -2165,5 +2165,184 @@
     "reason": "Combinación de protección deportiva genital/atlética, independiente de marca o talla",
     "example": "CHAMPION ATHLETIC SUPPORTER & CUP BOYS MEDIUM",
     "addedAt": "2026-03-21T12:07:24.143Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "basketball",
+      "net"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Basketball net es equipamiento específico para básquetbol, accesorio de cancha",
+    "example": "CHAMPION BASKETBALL NET",
+    "addedAt": "2026-03-21T12:08:20.134Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tubing",
+      "exercise tubing",
+      "fitness tubing"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Tubing is resistance equipment for home/gym training, distinct from other accessories",
+    "example": "CHAMPION EXERCISE&FITNESS TUBING FIT 8 LOOPS",
+    "addedAt": "2026-03-21T12:08:58.167Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "volleyball",
+      "voleibol"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Balón de voleibol identificado por disciplina + product descriptor",
+    "example": "CHAMPION RED VOLLEYBALL OLIMPIC ",
+    "addedAt": "2026-03-21T12:09:53.714Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "athletic support"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Athletic support es término genérico para soporte corporal deportivo (tobilleras, muñequeras, fajas). Requiere contexto adicional para precisar.",
+    "example": "CHAMPION SPORTS ATHLETIC SUPPORT ",
+    "addedAt": "2026-03-21T12:10:13.356Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "mesh",
+      "royal"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Mesh es indicador de prenda transpirable deportiva superior; royal refuerza identificación de playera/camiseta",
+    "example": "CHAMPION SPORTS MESH ROYAL",
+    "addedAt": "2026-03-21T12:11:27.849Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "water bottle"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "water bottle es un producto específico de hidratación deportiva, nunca refiere a otra categoría",
+    "example": "CHAMPION SPORTS WATER BOTTLE C/6",
+    "addedAt": "2026-03-21T12:11:47.184Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "paddles",
+      "paddle"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Paddles es término específico para palas de pádel/ping pong, elimina ambigüedad de 'pala' genérica",
+    "example": "CHAMPION SSC RATINGS PADDLES",
+    "addedAt": "2026-03-21T12:12:25.621Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tabla",
+      "baseball"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Tabla específica para béisbol/sóftbol indica equipo de bateo, pero podría ser accesorio de entrenamiento. TACHONES es la mejor aproximación disponible dado que no existe categoría específica para bates/tablas.",
+    "example": "CHAMPION TABLA BASEBALL/SOFTBALL",
+    "addedAt": "2026-03-21T12:12:45.760Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tabla",
+      "basketball"
+    ],
+    "category": "CANCHA - INDOOR",
+    "match": "contains",
+    "reason": "Tabla de basquetbol es equipamiento específico para cancha indoor",
+    "example": "CHAMPION TABLA BASKETBALL",
+    "addedAt": "2026-03-21T12:13:05.390Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sliding",
+      "short"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Sliding shorts son pantalones cortos deportivos específicos para béisbol/softbol, claramente en categoría PRENDAS INFERIORES",
+    "example": "CHAMPRO ON DECK SLIDING SHORT YXS",
+    "addedAt": "2026-03-21T12:14:20.405Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cintas",
+      "tenis"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Cintas deportivas para tenis (grip, overgrip, cintas de soporte) son complementos de accesorios, no confundir con raquetas ni disciplina",
+    "example": "CINTAS PARA TENIS",
+    "addedAt": "2026-03-21T12:14:58.385Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cinto",
+      "americano"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Cinto americano es equipo de protección específico para fútbol americano",
+    "example": "CINTO AMERICANO 1\" Navy",
+    "addedAt": "2026-03-21T12:15:18.227Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cinturón",
+      "tirantes"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Cinturón deportivo multiusos con tirantes es un accesorio complementario",
+    "example": "CINTURON MULTIUSOS CON TIRANTES",
+    "addedAt": "2026-03-21T12:17:46.684Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "raqueta",
+      "ping pong"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Raquetas de ping pong son equipamiento deportivo de juego con raqueta",
+    "example": "CIS SET DE RAQUETAS DE PING PONG",
+    "addedAt": "2026-03-21T12:18:24.911Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "batting",
+      "glove"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Guantes de béisbol específicos para bateo, protección deportiva",
+    "example": "CLEAN UP BATTING GLOVE",
+    "addedAt": "2026-03-21T12:18:44.210Z"
   }
 ]
