@@ -20,5 +20,16 @@
     "reason": "El término 'shoulder pad' identifica sin ambigüedad un equipo de protección deportiva usado en deportes de contacto, específicamente para proteger hombros y pecho. Es un tipo de protección estándar en el catálogo.",
     "example": "2in1 Shoulder Pads",
     "addedAt": "2026-03-21T03:11:34.261Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "finger saver"
+    ],
+    "category": "PROTECCIONES",
+    "match": null,
+    "reason": "El término 'finger saver' en contexto deportivo se refiere consistentemente a protectores de dedos para varias disciplinas (portería, arquería, béisbol). Es específico en nomenclatura deportiva y se clasifica como protección.",
+    "example": "3 FINGERS UNDER COLOR FINGER SAVER",
+    "addedAt": "2026-03-21T03:11:51.600Z"
   }
 ]
