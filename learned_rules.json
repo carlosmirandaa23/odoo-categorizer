@@ -245,5 +245,17 @@
     "reason": "La palabra 'gloves' combinada con contexto de boxeo/deporte de contacto evita ambigüedad con otros tipos de guantes",
     "example": "ADIDAS ADIZERO 13 GLOVES GREY L",
     "addedAt": "2026-03-21T07:31:18.345Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "gloves",
+      "football"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Guantes de fútbol americano (ADIZERO es línea de AF, no marca propia)",
+    "example": "ADIDAS ADIZERO 13 GLOVES GREY M",
+    "addedAt": "2026-03-21T07:31:35.507Z"
   }
 ]
