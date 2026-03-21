@@ -5239,5 +5239,29 @@
     "reason": "Botellas de agua deportivas son complementos de hidratación",
     "example": "GYM WATER CHIC",
     "addedAt": "2026-03-21T22:26:12.996Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "peep",
+      "kit"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Peep kit es componente de arco (tiro con arco), clasificable como protección/equipamiento especializado",
+    "example": "HAMSKEA INSIGHT STANDARD PEEP KIT",
+    "addedAt": "2026-03-21T22:27:50.861Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "prestige",
+      "overwrap"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Prestige es línea de raquetas de tenis HEAD, overwrap es accesorio de agarre específico para raquetas",
+    "example": "HEAD PRESTIGE PRO SINGLE OVERWRAP",
+    "addedAt": "2026-03-21T22:32:20.838Z"
   }
 ]
