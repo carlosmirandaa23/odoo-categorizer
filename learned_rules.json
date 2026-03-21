@@ -4882,5 +4882,17 @@
     "reason": "Grip es accesorio específico de raquetas y palas de pádel/tenis",
     "example": "ADX HAN GRIP",
     "addedAt": "2026-03-21T20:17:56.952Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "arrow",
+      "rest"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Arrow rest es un accesorio de protección/estabilización específico de tiro con arco",
+    "example": "ARROW REST PLASTIC",
+    "addedAt": "2026-03-21T20:27:56.997Z"
   }
 ]
