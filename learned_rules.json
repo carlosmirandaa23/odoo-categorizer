@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "type": "any",
+    "keywords": [
+      "backpack"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "reason": "La palabra 'backpack' identifica sin ambigüedad un producto de almacenamiento deportivo que pertenece a la categoría de bolsas y mochilas, independientemente de la marca o modelo específico.",
+    "example": " Nike Varsity Elite Backpack",
+    "addedAt": "2026-03-21T02:17:41.607Z"
+  }
+]
