@@ -2153,5 +2153,17 @@
     "reason": "Gaiter es prenda de cuello/cabeza deportiva única, nunca otro tipo de producto",
     "example": "CGI Fleece Gaiter",
     "addedAt": "2026-03-21T12:07:04.353Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "athletic supporter",
+      "cup"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Combinación de protección deportiva genital/atlética, independiente de marca o talla",
+    "example": "CHAMPION ATHLETIC SUPPORTER & CUP BOYS MEDIUM",
+    "addedAt": "2026-03-21T12:07:24.143Z"
   }
 ]
