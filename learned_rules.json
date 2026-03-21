@@ -76,5 +76,16 @@
     "reason": "La combinación 'leg guards' es específica para protecciones de extremidades inferiores en deportes. El término 'guards' solo es ambiguo (podría ser rodilleras, tobilleras, etc.), pero 'leg guards' identifica sin confusión este tipo de protección. 'Leg' + 'guards' juntos evita falsos positivos.",
     "example": "ADAMS CATCHERS LEG CUARDS 15'",
     "addedAt": "2026-03-21T03:58:08.254Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "catcher"
+    ],
+    "category": "PROTECCIONES",
+    "match": null,
+    "reason": "El término 'catcher' es específico del béisbol/sóftbol y siempre refiere a cascos de protección para el receptor. No hay ambigüedad con otras categorías deportivas o tipos de equipo.",
+    "example": "ADAMS CH6000 CATCHERS HELMET",
+    "addedAt": "2026-03-21T03:58:28.207Z"
   }
 ]
