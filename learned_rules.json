@@ -4182,5 +4182,29 @@
     "reason": "Bandas elásticas de látex para entrenamiento, nunca son otras categorías cuando aparecen ambos términos",
     "example": "GOFIT FLAT BANDS LATEX 3 SET BANDS",
     "addedAt": "2026-03-21T15:57:59.880Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "roller",
+      "massage"
+    ],
+    "category": "RECUPERACIÓN",
+    "match": "contains",
+    "reason": "Roller y massage identifican inequívocamente herramientas de recuperación muscular",
+    "example": "GOFIT GO ROLLER MASSAGE KIT",
+    "addedAt": "2026-03-21T15:59:39.979Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "chalk",
+      "magnesia"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Liquid chalk y magnesia son productos de agarre específicos para deportes de fuerza y levantamiento, nunca se refieren a otros productos",
+    "example": "GOFIT LIQUID CHALK MAGNESIA",
+    "addedAt": "2026-03-21T16:00:40.750Z"
   }
 ]
