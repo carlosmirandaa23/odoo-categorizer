@@ -145,5 +145,17 @@
     "reason": "Catcher helmet is a specific baseball/softball protective equipment used only by catchers, with no ambiguity across other sports or product types",
     "example": "ADAMS CH6000 CATCHERS HELMET",
     "addedAt": "2026-03-21T04:46:23.344Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "rain",
+      "jkt"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "Combinación inequívoca de 'rain' (lluvia) y 'jkt' (jacket abreviado) que identifica chaquetas impermeables deportivas para deportes al aire libre (ciclismo, senderismo, escalada), nunca se refiere a otro tipo de producto",
+    "example": "ADIDAS 5.10 RAIN JKT L",
+    "addedAt": "2026-03-21T04:47:35.960Z"
   }
 ]
