@@ -6131,5 +6131,29 @@
     "reason": "Manopla es equipamiento de protección específico para deportes de contacto (box, béisbol, etc.)",
     "example": "MARKWORT MANOPLA GY002 12.5''",
     "addedAt": "2026-03-21T23:38:38.182Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "markwort",
+      "nitros"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Markwort Nitros es línea de protecciones deportivas (típicamente rodilleras/tobilleras), el 2SET indica set de 2 unidades",
+    "example": "MARKWORT NITROS 2SET KNPY7",
+    "addedAt": "2026-03-21T23:38:47.447Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pad",
+      "set"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Conjunto de protecciones (pads) para deportes de contacto, específicamente para categoría pee-wee (infantil)",
+    "example": "MARKWORT PEE-WEE 7-PC PAD SET SNAPPED",
+    "addedAt": "2026-03-21T23:38:56.652Z"
   }
 ]
