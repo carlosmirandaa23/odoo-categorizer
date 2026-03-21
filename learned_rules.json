@@ -63,22 +63,21 @@
       "arm guard"
     ],
     "category": "PROTECCIONES",
-    "match": "contains",
-    "reason": "Los términos 'armguard' o 'arm guard' identifican de forma única protecciones para brazos usadas en deportes como tiro con arco y otros deportes de contacto",
+    "match": null,
+    "reason": "Armguard es un protector de brazo específico del equipamiento deportivo, usado en archery, tiro con arco y otros deportes. La combinación con 'guard' o 'armguard' evita confusiones con otras prendas de brazo.",
     "example": "AAE TARGET STYLE ARMGUARD",
-    "addedAt": "2026-03-21T02:46:51.208Z"
+    "addedAt": "2026-03-21T02:46:53.206Z"
   },
   {
-    "type": "any",
+    "type": "all",
     "keywords": [
-      "tobillera",
-      "ankle",
-      "estabilizador tobillo"
+      "tobillo",
+      "estabilizador"
     ],
     "category": "SOPORTE Y PREVENCIÓN",
-    "match": "contains",
-    "reason": "Los productos que mencionan 'tobillera', 'ankle' o 'estabilizador tobillo' son claramente soportes de prevención para el tobillo",
+    "match": null,
+    "reason": "La combinación de 'tobillo' + 'estabilizador' identifica unívocamente tobilleras de soporte y prevención, diferenciándose de otras protecciones",
     "example": "ACTIVE ANKLE T2 ESTABILIZADOR TOBILLO LG",
-    "addedAt": "2026-03-21T02:47:08.424Z"
+    "addedAt": "2026-03-21T02:47:10.438Z"
   }
 ]
