@@ -53,5 +53,16 @@
     "reason": "El término 'tobillera' identifica sin ambigüedad dispositivos de soporte y estabilización del tobillo, componente clave para prevención de lesiones deportivas",
     "example": "ACTIVE ANKLE T2 ESTABILIZADOR TOBILLO LG",
     "addedAt": "2026-03-21T03:56:48.006Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "chest protector"
+    ],
+    "category": "PROTECCIONES",
+    "match": null,
+    "reason": "El término 'chest protector' identifica inequívocamente un producto de protección corporal deportiva sin ambigüedad. Es el nombre estándar en la industria para este tipo de equipamiento.",
+    "example": "ADAMS ACP CHEST PROTECTOR 16'",
+    "addedAt": "2026-03-21T03:57:27.622Z"
   }
 ]
