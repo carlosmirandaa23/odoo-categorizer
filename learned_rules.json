@@ -3741,5 +3741,77 @@
     "reason": "Guante deportivo específico para golf, evita confusión con guantes de box o entrenamiento",
     "example": "FJ WEATHER SOF 2 GLOVE GOLF",
     "addedAt": "2026-03-21T14:48:05.135Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "supporter",
+      "youth"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Supporter indica producto de soporte/protección; youth denota línea juvenil. Categoría paramédico de soporte.",
+    "example": "FLARICO SUPPORTER YTH REG",
+    "addedAt": "2026-03-21T14:48:25.765Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "compress",
+      "hot",
+      "cold"
+    ],
+    "category": "PRIMEROS AUXILIOS",
+    "match": "contains",
+    "reason": "Producto de compresa térmica (calor/frío) para primeros auxilios y recuperación",
+    "example": "FLEXIPAC COMPRESS HOT & COLD",
+    "addedAt": "2026-03-21T14:49:26.518Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "girdle",
+      "football"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Girdle es prenda protectora específica de football con bolsillos para insertos, no es solo la disciplina",
+    "example": "FOOTBALL 6 POCKET GIRDLE WHITE MD",
+    "addedAt": "2026-03-21T14:49:47.489Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "padded",
+      "top"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Padded top es prenda superior acolchada deportiva, independiente de la disciplina",
+    "example": "FOOTBALL PADDED TOP UA/ color: BLACK-ZINC GRAY / talla: LG ",
+    "addedAt": "2026-03-21T14:50:46.831Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "polaina",
+      "set"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Polaina con peso es equipamiento de soporte y prevención para extremidades inferiores",
+    "example": "FORMFIT POLAINA 2LB SET",
+    "addedAt": "2026-03-21T14:51:27.044Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "fox40"
+    ],
+    "category": "PROTECCIONES",
+    "match": "startswith",
+    "reason": "FOX40 es un silbato deportivo de arbitraje icónico, nunca refiere a otro producto",
+    "example": "FOX40 CLASIC 115 dB",
+    "addedAt": "2026-03-21T14:52:30.571Z"
   }
 ]
