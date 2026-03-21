@@ -149,5 +149,17 @@
     "reason": "Bolsa/mochila específica para transporte de bates de béisbol",
     "example": "ADAMS BAT PACK ",
     "addedAt": "2026-03-21T07:25:55.042Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "catcher",
+      "leg guard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Equipamiento de protección específico para catcher en béisbol",
+    "example": "ADAMS CATCHERS LEG CUARDS 15'",
+    "addedAt": "2026-03-21T07:26:12.235Z"
   }
 ]
