@@ -6226,5 +6226,65 @@
     "reason": "T-hook en acero inoxidable es un accesorio de protección para equipamiento deportivo (típicamente para cascos, mochilas o sistemas de sujeción en deportes de contacto)",
     "example": "MARKWORT T-HOOK STAINLESS STEEL 1´´",
     "addedAt": "2026-03-21T23:41:14.793Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tablas",
+      "thpa"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Tablas de natación adulto son equipamiento de protección/flotación en deporte acuático",
+    "example": "MARKWORT TABLAS ADULTO 2SET THPA9",
+    "addedAt": "2026-03-21T23:42:41.147Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "game face",
+      "markwort"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Game face es protección facial deportiva universal, markwort es marca especializada en protecciones",
+    "example": "MARKWORT UNIVERSAL GAME FACE",
+    "addedAt": "2026-03-21T23:42:50.488Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pro model",
+      "cherry"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Bate de béisbol profesional - marca + modelo específico de jugador",
+    "example": "MARUCCI ANDREW MCCUTCHEN PRO MODEL CHERRY 33\"",
+    "addedAt": "2026-03-21T23:43:32.281Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "maple",
+      "bat"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Marucci produce bates de béisbol. Maple es el material estándar. Sin embargo, no hay certeza absoluta sin ver 'bat' explícito",
+    "example": "MARUCCI MAPLE 31\"",
+    "addedAt": "2026-03-21T23:44:09.368Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "roller",
+      "foam"
+    ],
+    "category": "RECUPERACIÓN",
+    "match": "contains",
+    "reason": "ROLGR indica rodillo de espuma/foam roller, producto de recuperación muscular",
+    "example": "MATHEWS RUBBER HDS ROLGR",
+    "addedAt": "2026-03-21T23:44:35.105Z"
   }
 ]
