@@ -4930,5 +4930,29 @@
     "reason": "BCY es fabricante de cuerdas para arcos y raquetas. 452X es modelo de cuerda. String material en contexto deportivo refiere a cuerdas de raqueta/pádel.",
     "example": "BCY 452X String Material 1/4# BK",
     "addedAt": "2026-03-21T20:46:22.794Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sight",
+      "tunnel"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Componente de mira para arco (tiro con arco), accesorio de equipamiento deportivo especializado",
+    "example": "BEITER LARGE SIGHT TUNNEL",
+    "addedAt": "2026-03-21T20:47:16.443Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "nock",
+      "nocks"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Nocks son accesorios específicos de flechas para arquería, equipamiento de precisión",
+    "example": "BEITER OUT-NOCKS 04,5/1",
+    "addedAt": "2026-03-21T20:47:45.011Z"
   }
 ]
