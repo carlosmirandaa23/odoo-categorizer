@@ -2589,5 +2589,41 @@
     "reason": "Conderas son protecciones específicas para UFC/MMA, nunca confundibles con otro producto",
     "example": "CONTENDER UFC CONDERAS ",
     "addedAt": "2026-03-21T12:41:55.515Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "contrapeso",
+      "bat"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Contrapesos específicos para entrenamiento de bateo, accesorios de entrenamiento deportivo",
+    "example": "CONTRAPESOS PARA BAT 12 OZ",
+    "addedAt": "2026-03-21T12:42:15.011Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "field point",
+      "screw"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Field point screw-in es un componente específico de tachones de fútbol americano",
+    "example": "CONVERTA FIELD POINT SCREW IN",
+    "addedAt": "2026-03-21T12:43:11.606Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "finger",
+      "sling"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Finger sling es un dispositivo de soporte para dedos, típicamente usado en recuperación y prevención de lesiones",
+    "example": "CR FINGER SLING ",
+    "addedAt": "2026-03-21T12:44:26.447Z"
   }
 ]
