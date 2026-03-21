@@ -5061,5 +5061,40 @@
     "reason": "Patrón de nombrado común en camisetas deportivas con diseño de rayas duales",
     "example": "DRIVE TEAM DUAL STRIPE",
     "addedAt": "2026-03-21T21:26:12.392Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "helmet",
+      "strike"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Casco de protección para deportes de contacto (football, hockey, etc.)",
+    "example": "EAGLE EYE ELECTR HMPLATE STRIKE1",
+    "addedAt": "2026-03-21T21:29:28.297Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "inserts",
+      "fatboy"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Insertos Easton Fatboy son protecciones de impacto para equipos deportivos (bates, cascos)",
+    "example": "EASTON FATBOY INSERTS",
+    "addedAt": "2026-03-21T21:30:50.476Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "vanes"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Vanes son aletas/componentes de pelotas de badminton/voleibol de alta performance",
+    "example": "ELI PERFORMANCE VANES 56MM PARABOLI",
+    "addedAt": "2026-03-21T21:35:27.568Z"
   }
 ]
