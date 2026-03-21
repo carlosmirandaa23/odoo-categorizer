@@ -281,5 +281,17 @@
     "reason": "Freak es línea de tachones de fútbol americano; 7v7 indica variante competitiva de fútbol americano",
     "example": "ADIDAS FREAK 23 7V7 6.5Y",
     "addedAt": "2026-03-21T07:45:36.028Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "guante",
+      "portero"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "guante + portero identifica inequívocamente protección de arquero, evita confusión con otros guantes deportivos",
+    "example": "ADIDAS GUANTE PORTERO",
+    "addedAt": "2026-03-21T07:57:44.358Z"
   }
 ]
