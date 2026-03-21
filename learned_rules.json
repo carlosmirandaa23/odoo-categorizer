@@ -101,5 +101,16 @@
     "reason": "La combinación de 'catcher' (posición específica de béisbol) + 'leg' identifica sin ambigüedad las protecciones de pierna para receptores de béisbol, distinguiéndolo de otras protecciones.",
     "example": "ADAMS CATCHERS LEG CUARDS 15'",
     "addedAt": "2026-03-21T03:38:30.443Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "gloves"
+    ],
+    "category": "PROTECCIONES",
+    "match": null,
+    "reason": "La palabra 'gloves' identifica de forma inequívoca guantes de boxeo y protección. En contexto deportivo, este término es específico para este tipo de equipo de protección.",
+    "example": "ADIDAS ADIFAST 3.0 GLOVES YTH L",
+    "addedAt": "2026-03-21T03:40:52.017Z"
   }
 ]
