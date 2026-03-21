@@ -133,5 +133,17 @@
     "reason": "Combinación inequívoca: 'catcher' (posición específica en béisbol) + 'leg guard' (protección de piernas) es única en deportes.",
     "example": "ADAMS CATCHERS LEG CUARDS 15'",
     "addedAt": "2026-03-21T04:46:03.344Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "catcher",
+      "helmet"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Catcher helmet is a specific baseball/softball protective equipment used only by catchers, with no ambiguity across other sports or product types",
+    "example": "ADAMS CH6000 CATCHERS HELMET",
+    "addedAt": "2026-03-21T04:46:23.344Z"
   }
 ]
