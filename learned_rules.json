@@ -6322,5 +6322,17 @@
     "reason": "Manga de compresión para antebrazo, protección y soporte específico",
     "example": "MCDAVID FOREARM SLEEVE MEDIUM",
     "addedAt": "2026-03-21T23:45:44.238Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sleeve",
+      "leg"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Las leg sleeves son prendas de compresión para soporte y prevención de lesiones en piernas, componente clave de protección deportiva",
+    "example": "MCDAVID LEG SLEEVES L",
+    "addedAt": "2026-03-21T23:46:26.172Z"
   }
 ]
