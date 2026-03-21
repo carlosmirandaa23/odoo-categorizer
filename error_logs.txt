@@ -1,3 +1,4 @@
+[2026-03-21T07:03:12.725Z] ERROR [409801] "ADX ESCALERA DE COORDINACION 11 PELDAÑOS" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFoEHcTGJ4yNXgKbwU8Z"}
 [2026-03-21T07:02:05.517Z] ERROR [407925] "ADX CUERDA PARA SALTAR MANGOS NEOPRENO" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFo9LEZydGKPg4kNCrD9"}
 [2026-03-21T07:01:48.718Z] ERROR [404556] "ADX CUERDA PARA SALTAR INTERMEDIOS" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFo86DvpS5C6Bd1DoHx2"}
 [2026-03-21T07:01:15.276Z] ERROR [404558] "ADX CUERDA PARA SALTAR AVANZADO" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFo5dN6ZyEL8bV72qT2n"}
