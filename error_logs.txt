@@ -1,3 +1,4 @@
+[2026-03-21T06:38:29.979Z] ERROR [408358] "ADX BOSU PELOTA DE EQUILIBRIO" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-3-5-haiku-20241022"},"request_id":"req_011CZFmLz7TMEqXRinrfmjLE"}
 [2026-03-21T06:38:13.134Z] ERROR [411889] "ADX BANDA P/ PILATES SUAVE" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-3-5-haiku-20241022"},"request_id":"req_011CZFmKkBXYBaA1SWbj7SZn"}
 [2026-03-21T06:37:56.398Z] ERROR [407112] "ADX BANDA P/ PILATES SUAVE" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-3-5-haiku-20241022"},"request_id":"req_011CZFmJWVUu4HTet7zumDkG"}
 [2026-03-21T06:37:39.618Z] ERROR [411890] "ADX BANDA P/ PILATES MEDIA" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-3-5-haiku-20241022"},"request_id":"req_011CZFmHGsQb93EDfnrDYp46"}
