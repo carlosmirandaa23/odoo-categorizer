@@ -127,6 +127,50 @@ async function saveRules(rules) {
   }
 }
 
+const GITHUB_ERRORS_PATH = "error_logs.txt";
+
+async function appendErrorLog(entry) {
+  try {
+    // Leer contenido actual
+    const getRes = await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_ERRORS_PATH}`,
+      { headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` } }
+    );
+
+    let currentContent = "";
+    let sha = undefined;
+    if (getRes.ok) {
+      const getData = await getRes.json();
+      currentContent = Buffer.from(getData.content, "base64").toString("utf8");
+      sha = getData.sha;
+    }
+
+    // Agregar nueva línea al inicio
+    const newLine = `[${entry.at}] ${entry.type} [${entry.productId}] "${entry.productName}" — ${entry.message}
+`;
+    const newContent = newLine + currentContent;
+
+    // Guardar
+    await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_ERRORS_PATH}`,
+      {
+        method: "PUT",
+        headers: {
+          Authorization: `token ${process.env.GITHUB_TOKEN}`,
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          message: "append error log",
+          content: Buffer.from(newContent).toString("base64"),
+          ...(sha ? { sha } : {})
+        })
+      }
+    );
+  } catch (e) {
+    console.error("⚠️  No se pudo guardar error log:", e.message);
+  }
+}
+
 function applyLearnedRules(name) {
   const lower = name.toLowerCase();
   for (const rule of learnedRules) {
@@ -504,6 +548,14 @@ async function processNext() {
   } catch (e) {
     console.error(`❌ ${label} — error:`, e.message);
     stats.errors++;
+    // Guardar error en GitHub de forma asíncrona (sin bloquear el loop)
+    appendErrorLog({
+      at: new Date().toISOString(),
+      type: e.message.includes("429") ? "RATE_LIMIT" : e.message.includes("Sin JSON") ? "PARSE_ERROR" : "ERROR",
+      productId: product.id,
+      productName: product.name.trim(),
+      message: e.message.slice(0, 200)
+    }).catch(() => {});
   }
 
   processedIds.add(product.id);
