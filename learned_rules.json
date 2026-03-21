@@ -5794,5 +5794,17 @@
     "reason": "Patella support es específicamente un soporte de rodilla para prevención/estabilización",
     "example": "MACH PATELLA SUPPORT- EXTRA GRANDE",
     "addedAt": "2026-03-21T23:26:27.608Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "serving",
+      "hilo"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Hilo de serving es un cordaje/accesorio específico para encordado de raquetas de tenis",
+    "example": "MAJESTY HILO DE SERVING",
+    "addedAt": "2026-03-21T23:28:09.379Z"
   }
 ]
