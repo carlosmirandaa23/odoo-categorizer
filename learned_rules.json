@@ -6047,5 +6047,41 @@
     "reason": "Game Face es protector facial de acero, típicamente usado en béisbol/deportes de contacto",
     "example": "MARKWORT GAME FACE STEEL",
     "addedAt": "2026-03-21T23:36:44.953Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "glove",
+      "markwort"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Guante de protección deportiva; 'glove' combinado con marca deportiva reconocida",
+    "example": "MARKWORT GLOVE 12.5",
+    "addedAt": "2026-03-21T23:36:54.051Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "home plate",
+      "markwort"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "home plate es equipamiento de protección específico en béisbol, usado por catcher. Markwort es marca especializada en equipamiento de béisbol.",
+    "example": "MARKWORT HOME PLATE",
+    "addedAt": "2026-03-21T23:37:28.330Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "arreos",
+      "catcher"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Equipo de protección específico para catcher en béisbol",
+    "example": "MARKWORT JUEGO DE ARREOS PARA CATCHER 9-12",
+    "addedAt": "2026-03-21T23:37:37.500Z"
   }
 ]
