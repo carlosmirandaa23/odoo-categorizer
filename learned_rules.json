@@ -2672,5 +2672,17 @@
     "reason": "Balm es ungüento/bálsamo de recuperación y cuidado muscular, exclusivo de paramédicos",
     "example": "CRAMER ATOMIC BALM 1 LB",
     "addedAt": "2026-03-21T12:47:56.435Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tape",
+      "cinta"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Tape/cinta deportiva es material de mantenimiento y soporte preventivo, usado para vendaje y sujeción",
+    "example": "CRAMER BAJO TAPE / CAJA",
+    "addedAt": "2026-03-21T12:49:30.181Z"
   }
 ]
