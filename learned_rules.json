@@ -283,5 +283,39 @@
     "reason": "FREAK 23 INLINE es un modelo específico de tachones de fútbol americano. La palabra 'inline' en contexto de calzado deportivo identifica tachones de fútbol americano, y 'freak' es su línea de producto. Juntas evitan confusión con otros tipos de calzado.",
     "example": "ADIDAS FREAK 23 INLINE 10.5A",
     "addedAt": "2026-03-21T05:20:45.682Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "freak",
+      "md"
+    ],
+    "category": "TACHONES",
+    "match": null,
+    "reason": "FREAK SPARK MD es un modelo de tachones de fútbol americano de Adidas. El sufijo 'MD' (Mid-top) y el nombre FREAK (línea específica de cleats) son identificadores confiables de este tipo de calzado especializado.",
+    "example": "ADIDAS FREAK SPARK MD 10.5A",
+    "addedAt": "2026-03-21T05:23:13.853Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "guante portero"
+    ],
+    "category": "PROTECCIONES",
+    "match": null,
+    "reason": "Los guantes de portero son equipamiento de protección específico para fútbol. La palabra 'portero' identifica sin ambigüedad este tipo de guante deportivo de protección.",
+    "example": "ADIDAS GUANTE PORTERO",
+    "addedAt": "2026-03-21T05:31:22.869Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "guantes"
+    ],
+    "category": "PROTECCIONES",
+    "match": null,
+    "reason": "La palabra 'guantes' en contexto deportivo identifica sin ambigüedad productos de protección (box, karate, artes marciales). Es genérica, reutilizable y evita confusión con otros equipos.",
+    "example": "ADIDAS GUANTES DE KARATE AZULES",
+    "addedAt": "2026-03-21T05:31:40.551Z"
   }
 ]
