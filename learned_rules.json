@@ -6286,5 +6286,17 @@
     "reason": "ROLGR indica rodillo de espuma/foam roller, producto de recuperación muscular",
     "example": "MATHEWS RUBBER HDS ROLGR",
     "addedAt": "2026-03-21T23:44:35.105Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "stabilizer",
+      "tobillera"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Estabilizador de tobillo es equipamiento de soporte y prevención de lesiones",
+    "example": "MAX JAX STABILIZER 7\"",
+    "addedAt": "2026-03-21T23:44:44.617Z"
   }
 ]
