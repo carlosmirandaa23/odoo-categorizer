@@ -2093,5 +2093,17 @@
     "reason": "Las bandas elásticas de estiramiento son equipamiento de entrenamiento en casa y ejercicio",
     "example": "CARTEL STRECH BANDS",
     "addedAt": "2026-03-21T11:56:08.228Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "casco",
+      "helmet"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Casco es equipo de protección deportiva específico, nunca puede ser otro tipo de producto",
+    "example": "CASCO AMERICANO RECONSTRUIDO HELMET",
+    "addedAt": "2026-03-21T11:59:54.126Z"
   }
 ]
