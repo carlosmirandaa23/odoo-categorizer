@@ -224,5 +224,28 @@
     "reason": "La palabra 'calceta' identifica sin ambigüedad productos de calcetería deportiva, independientemente de la marca o modelo específico",
     "example": "ADIDAS CALCETA ADISOCK 12",
     "addedAt": "2026-03-21T05:12:36.103Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "entrenamiento",
+      "tenis"
+    ],
+    "category": "RUNNING Y ENTRENAMIENTO",
+    "match": null,
+    "reason": "D4M es una línea de tenis de entrenamiento de Adidas. La palabra 'entrenamiento' es indicativa de calzado deportivo para gym/cross-training, evitando confusión con otras categorías de calzado.",
+    "example": "ADIDAS D4M ENTRENAMIENTO ",
+    "addedAt": "2026-03-21T05:16:04.550Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "entrenamiento"
+    ],
+    "category": "RUNNING Y ENTRENAMIENTO",
+    "match": null,
+    "reason": "La palabra 'entrenamiento' es un indicador directo de productos de gym o training. D4M es una línea de Adidas para actividades de entrenamiento general. Excluimos 'adidas' por ser marca genérica.",
+    "example": "ADIDAS D4M ENTRENAMIENTO  (copia)",
+    "addedAt": "2026-03-21T05:16:22.045Z"
   }
 ]
