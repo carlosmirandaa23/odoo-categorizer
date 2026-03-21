@@ -168,5 +168,28 @@
     "reason": "La palabra 'gloves' identifica inequívocamente guantes de protección. En contexto deportivo, los guantes son protecciones de equipamiento.",
     "example": "ADIDAS ADIFAST 3.0 GLOVES YTH L",
     "addedAt": "2026-03-21T05:02:27.849Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "adilette"
+    ],
+    "category": "SANDALIAS Y CHANCLAS",
+    "match": null,
+    "reason": "Adilette es el nombre genérico de la línea de sandalias deportivas de Adidas, identificable sin ambigüedad independientemente de la marca",
+    "example": "ADIDAS ADILETTE AQUA",
+    "addedAt": "2026-03-21T05:03:17.358Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pala",
+      "padel"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": null,
+    "reason": "La combinación de 'pala' y 'padel' identifica sin ambigüedad productos de esta categoría, evitando confusión con raquetas de tenis u otros deportes",
+    "example": "ADIDAS ADIPOWER CTRL TEAM 3.3 PADEL",
+    "addedAt": "2026-03-21T05:03:34.817Z"
   }
 ]
