@@ -110,5 +110,16 @@
     "reason": "La combinación de 'pala' + 'padel' identifica inequívocamente palas de pádel, evitando confusión con raquetas de tenis u otro equipamiento deportivo",
     "example": "ADIDAS ADIPOWER CTRL TEAM 3.3 PADEL",
     "addedAt": "2026-03-21T04:01:48.460Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "pádel"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": null,
+    "reason": "La palabra 'pádel' identifica unívocamente un tipo de deporte de raqueta y sus palas asociadas. No hay ambigüedad con otros productos deportivos. El término 'pádel' aparece en todos los contextos como descriptor del deporte y su equipamiento principal.",
+    "example": "ADIDAS ADIPOWER JUNIOR PADEL",
+    "addedAt": "2026-03-21T04:02:30.556Z"
   }
 ]
