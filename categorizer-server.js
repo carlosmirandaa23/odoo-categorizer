@@ -9,8 +9,11 @@ app.use(express.json());
 const { ODOO_URL, DB, USER, PASS, ANTHROPIC_API_KEY } = process.env;
 
 const PROCESSED_FILE = path.join(__dirname, "processed_ids.json");
-const INTERVAL_MS    = 15000;
-const GITHUB_REPO    = "carlosmirandaa23/odoo-categorizer";
+const RULES_FILE     = path.join(__dirname, "learned_rules.json");
+const INTERVAL_MS    = 30000;
+const GITHUB_REPO      = "carlosmirandaa23/odoo-categorizer";
+const GITHUB_RULES_PATH = "learned_rules.json";
+const GITHUB_IDS_PATH   = "processed_ids.json";
 
 // ─────────────────────────────────────────
 // ESTADO EN MEMORIA
@@ -29,7 +32,7 @@ let stats = { processed: 0, categorized: 0, errors: 0, skipped: 0, startedAt: nu
 async function loadProcessed() {
   try {
     const res = await fetch(
-      `https://api.github.com/repos/${GITHUB_REPO}/contents/processed_ids.json`,
+      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_IDS_PATH}`,
       { headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` } }
     );
     if (!res.ok) return new Set();
@@ -47,12 +50,12 @@ async function saveProcessed(set) {
     fs.writeFileSync(PROCESSED_FILE, JSON.stringify([...set]), "utf8");
     const content = Buffer.from(JSON.stringify([...set])).toString("base64");
     const getRes = await fetch(
-      `https://api.github.com/repos/${GITHUB_REPO}/contents/processed_ids.json`,
+      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_IDS_PATH}`,
       { headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` } }
     );
     const getData = await getRes.json();
     await fetch(
-      `https://api.github.com/repos/${GITHUB_REPO}/contents/processed_ids.json`,
+      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_IDS_PATH}`,
       {
         method: "PUT",
         headers: {
@@ -69,6 +72,75 @@ async function saveProcessed(set) {
   } catch (e) {
     console.error("⚠️  No se pudo guardar en GitHub:", e.message);
   }
+}
+
+// ─────────────────────────────────────────
+// REGLAS APRENDIDAS POR IA
+// ─────────────────────────────────────────
+
+let learnedRules = [];
+
+async function loadRules() {
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_RULES_PATH}`,
+      { headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` } }
+    );
+    if (!res.ok) return [];
+    const data = await res.json();
+    const rules = JSON.parse(Buffer.from(data.content, "base64").toString("utf8"));
+    console.log(`📚 ${rules.length} reglas aprendidas cargadas desde GitHub`);
+    return rules;
+  } catch (e) {
+    console.error("⚠️  No se pudieron cargar reglas:", e.message);
+    return [];
+  }
+}
+
+async function saveRules(rules) {
+  try {
+    fs.writeFileSync(RULES_FILE, JSON.stringify(rules, null, 2), "utf8");
+    const content = Buffer.from(JSON.stringify(rules, null, 2)).toString("base64");
+    const getRes = await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_RULES_PATH}`,
+      { headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` } }
+    );
+    const sha = getRes.ok ? (await getRes.json()).sha : undefined;
+    await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_RULES_PATH}`,
+      {
+        method: "PUT",
+        headers: {
+          Authorization: `token ${process.env.GITHUB_TOKEN}`,
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          message: "update learned rules",
+          content,
+          ...(sha ? { sha } : {})
+        })
+      }
+    );
+  } catch (e) {
+    console.error("⚠️  No se pudieron guardar reglas:", e.message);
+  }
+}
+
+function applyLearnedRules(name) {
+  const lower = name.toLowerCase();
+  for (const rule of learnedRules) {
+    if (rule.type === "any" && rule.keywords.some(k => lower.includes(k)))  return rule.category;
+    if (rule.type === "all" && rule.keywords.every(k => lower.includes(k))) return rule.category;
+  }
+  return null;
+}
+
+function ruleAlreadyExists(rule) {
+  return learnedRules.some(r =>
+    r.type === rule.type &&
+    r.keywords.length === rule.keywords.length &&
+    r.keywords.every(k => rule.keywords.includes(k))
+  );
 }
 
 // ─────────────────────────────────────────
@@ -99,48 +171,48 @@ const CATEGORY_CATALOG = [
   { name: "CUIDADO Y MANTENIMIENTO", parent: "ACCESORIOS",              examples: "limpia calzado, spray desodorante, cintas deportivas" },
 ];
 
-const KEYWORD_MAP = [
-  { keywords: ["playera", "camiseta", "jersey", "polo", "top", "tank"],           category: "PRENDAS SUPERIORES" },
-  { keywords: ["short", "legging", "pants", "jogger", "licra"],                   category: "PRENDAS INFERIORES" },
-  { keywords: ["sudadera", "hoodie", "chamarra", "cortaviento", "jacket"],        category: "ABRIGO Y EXTERIOR" },
-  { keywords: ["calcetín", "calcetines", "bañador", "traje de baño"],             category: "ROPA INTERIOR Y BAÑO" },
-  { keywords: ["tenis", "zapatilla", "running", "training", "cross"],             category: "RUNNING Y ENTRENAMIENTO" },
-  { keywords: ["tachón", "tachones", "cleat", "spike"],                           category: "TACHONES" },
-  { keywords: ["futsal", "indoor", "cancha"],                                     category: "CANCHA - INDOOR" },
-  { keywords: ["lifestyle", "sneaker", "casual"],                                 category: "CASUAL - SNEAKERS" },
-  { keywords: ["sandalia", "chancla", "slide", "flip flop"],                      category: "SANDALIAS Y CHANCLAS" },
-  { keywords: ["balón", "balon", "pelota", "ball"],                               category: "PELOTAS Y BALONES" },
-  { keywords: ["raqueta", "pala", "padel", "pádel", "bádminton"],                category: "RAQUETAS Y PALAS" },
-  { keywords: ["espinillera", "casco", "guante", "rodillera", "protector"],       category: "PROTECCIONES" },
-  { keywords: ["mancuerna", "liga", "esterilla", "cuerda", "pesa", "kettlebell"], category: "ENTRENAMIENTO EN CASA" },
-  { keywords: ["foam roller", "masaje", "recovery", "recuperación"],              category: "RECUPERACIÓN" },
-  { keywords: ["tobillera", "muñequera", "faja", "soporte", "vendaje"],          category: "SOPORTE Y PREVENCIÓN" },
-  { keywords: ["primeros auxilios", "botiquín", "compresa"],                      category: "PRIMEROS AUXILIOS" },
-  { keywords: ["mochila", "backpack", "bolsa", "maleta", "morral"],              category: "BOLSAS Y MOCHILAS" },
-  { keywords: ["reloj", "audífono", "auricular", "banda inteligente", "gps"],    category: "ELECTRÓNICA" },
-  { keywords: ["gorra", "cap", "botella", "bidón", "cinturón"],                  category: "COMPLEMENTOS" },
-  { keywords: ["limpiador", "spray", "desodorante", "cinta deportiva"],          category: "CUIDADO Y MANTENIMIENTO" },
-];
 
-function classifyByKeyword(name) {
-  const lower = name.toLowerCase();
-  for (const entry of KEYWORD_MAP) {
-    if (entry.keywords.some(k => lower.includes(k))) {
-      return entry.category;
-    }
+
+
+  return null;
+}
+  return null;
+}
   }
   return null;
 }
 
-const SYSTEM_PROMPT = `Eres un clasificador de productos deportivos. Recibes el nombre y referencia de UN producto y debes asignar la categoría más apropiada del catálogo.
+function buildSystemPrompt() {
+  return `Eres un clasificador de productos deportivos Y generador de reglas de clasificación.
 
-CATÁLOGO:
+CATÁLOGO DISPONIBLE:
 ${CATEGORY_CATALOG.map(c => `- "${c.name}" (padre: ${c.parent}) → ${c.examples}`).join("\n")}
 
-Responde ÚNICAMENTE con JSON válido sin markdown:
-{ "category": "<NOMBRE_EXACTO_DEL_CATÁLOGO>", "confidence": <0.0-1.0> }
+Tu tarea es:
+1. Clasificar el producto en la categoría correcta
+2. Proponer UNA regla simple y reutilizable que capture productos similares
 
-Si no encaja en ninguna categoría usa: { "category": "SIN_CATEGORIA", "confidence": 0 }`;
+CRITERIOS PARA PROPONER REGLA:
+- Si UNA palabra sola identifica el tipo sin ambigüedad (ej: "short", "gorra", "helmet") → type: "any", una keyword
+- Si necesitas DOS palabras para evitar confusión (ej: "spotlight"+"football", "pala"+"padel") → type: "all", dos keywords  
+- Las keywords deben estar en minúsculas y ser lo más genéricas posible
+- Si el nombre es demasiado específico, críptico o ambiguo → rule: null
+- NO propongas reglas con marcas genéricas como "nike", "adidas", "under armour"
+
+Responde ÚNICAMENTE con JSON válido sin markdown ni texto adicional:
+{
+  "category": "<NOMBRE_EXACTO_DEL_CATÁLOGO>",
+  "confidence": <0.0-1.0>,
+  "rule": {
+    "type": "any|all",
+    "keywords": ["keyword1"],
+    "reason": "explicación breve de por qué esta regla es confiable"
+  }
+}
+
+Si no encaja en ninguna categoría: { "category": "SIN_CATEGORIA", "confidence": 0, "rule": null }
+Si no hay regla confiable que proponer: incluye "rule": null en la respuesta`;
+}
 
 // ─────────────────────────────────────────
 // FUNCIONES CORE
@@ -188,8 +260,8 @@ async function classifyWithAI(product) {
     },
     body: JSON.stringify({
       model: "claude-haiku-4-5-20251001",
-      max_tokens: 128,
-      system: SYSTEM_PROMPT,
+      max_tokens: 256,
+      system: buildSystemPrompt(),
       messages: [{
         role: "user",
         content: `Nombre: ${product.name}\nReferencia: ${product.default_code || "sin referencia"}`
@@ -242,39 +314,64 @@ async function processNext() {
   const label = `[${product.id}] "${product.name}"`;
   stats.processed++;
 
-  // Filtro previo — nombre con menos de 3 palabras va directo a INFORMACIÓN INSUFICIENTE
-  const wordCount = product.name.trim().split(/\s+/).filter(w => w.length > 1).length;
-  if (wordCount < 3) {
-    const categId = await getCategId(uid, "INFORMACIÓN INSUFICIENTE");
-    if (categId) {
-      await odooCall("object", "execute_kw", [
-        DB, uid, PASS,
-        "product.template", "write",
-        [[product.id], { categ_id: categId }]
-      ]);
-      console.log(`⚠️  ${label} — nombre insuficiente (${wordCount} palabras) → INFORMACIÓN INSUFICIENTE`);
-    }
-    stats.skipped++;
-    processedIds.add(product.id);
-    saveProcessed(processedIds);
-    scheduleNext();
-    return;
-  }
-
   try {
-    // Intento 1: diccionario de palabras clave (gratis, instantáneo)
-    const keywordCategory = classifyByKeyword(product.name);
     let finalCategory = null;
+    let source = "";
 
-    if (keywordCategory) {
-      console.log(`📖 ${label} → "${keywordCategory}" (diccionario)`);
-      finalCategory = keywordCategory;
-    } else {
-      // Intento 2: Claude para lo que el diccionario no reconoció
+    // Intento 1: reglas aprendidas por IA
+    if (!finalCategory) {
+      const learnedCategory = applyLearnedRules(product.name);
+      if (learnedCategory) {
+        finalCategory = learnedCategory;
+        source = "regla aprendida";
+        console.log(`🧠 ${label} → "${finalCategory}" (regla aprendida)`);
+      }
+    }
+
+    // Intento 2: nombre insuficiente → INFORMACIÓN INSUFICIENTE sin gastar tokens
+    if (!finalCategory) {
+      const wordCount = product.name.trim().split(/\s+/).filter(w => w.length > 1).length;
+      if (wordCount < 2) {
+        const insufId = await getCategId(uid, "INFORMACIÓN INSUFICIENTE");
+        if (insufId) {
+          await odooCall("object", "execute_kw", [
+            DB, uid, PASS,
+            "product.template", "write",
+            [[product.id], { categ_id: insufId }]
+          ]);
+        }
+        console.log(`⚠️  ${label} — nombre insuficiente (${wordCount} palabras) → INFORMACIÓN INSUFICIENTE`);
+        stats.skipped++;
+        processedIds.add(product.id);
+        saveProcessed(processedIds);
+        scheduleNext();
+        return;
+      }
+    }
+
+    // Intento 3: Claude clasifica Y propone regla nueva
+    if (!finalCategory) {
       const result = await classifyWithAI(product);
       console.log(`🤖 ${label} → "${result.category}" (confianza: ${result.confidence})`);
+
       if (result.category !== "SIN_CATEGORIA" && result.confidence >= 0.75) {
         finalCategory = result.category;
+        source = "claude";
+
+        // Si Claude propuso una regla válida y no existe aún, guardarla
+        if (result.rule && result.rule.keywords?.length > 0 && !ruleAlreadyExists(result.rule)) {
+          const newRule = {
+            type:     result.rule.type,
+            keywords: result.rule.keywords.map(k => k.toLowerCase()),
+            category: result.category,
+            reason:   result.rule.reason || "",
+            example:  product.name,
+            addedAt:  new Date().toISOString()
+          };
+          learnedRules.push(newRule);
+          saveRules(learnedRules);
+          console.log(`💡 Nueva regla aprendida: ${JSON.stringify(newRule.keywords)} → "${result.category}"`);
+        }
       } else {
         console.log(`⏭️  ${label} omitido — confianza insuficiente`);
         stats.skipped++;
@@ -379,7 +476,8 @@ app.get("/health", (req, res) => res.send("OK"));
 // ─────────────────────────────────────────
 
 (async () => {
-  processedIds = await loadProcessed();
+  processedIds  = await loadProcessed();
+  learnedRules  = await loadRules();
   console.log(`📂 IDs ya procesados cargados: ${processedIds.size}`);
 
   const PORT = process.env.CATEGORIZER_PORT || 3001;
