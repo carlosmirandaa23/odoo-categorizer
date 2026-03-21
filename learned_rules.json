@@ -121,5 +121,17 @@
     "reason": "La combinación 'bat pack' en contexto deportivo es inequívoca: es una bolsa/mochila específicamente diseñada para transportar bates de béisbol/softbol y equipamiento. 'Bat' solo podría significar palo de cricket en otro contexto, pero 'bat pack' es exclusivamente una categoría de bolsa de béisbol/softbol.",
     "example": "ADAMS BAT PACK ",
     "addedAt": "2026-03-21T04:45:43.826Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "catcher",
+      "leg guard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Combinación inequívoca: 'catcher' (posición específica en béisbol) + 'leg guard' (protección de piernas) es única en deportes.",
+    "example": "ADAMS CATCHERS LEG CUARDS 15'",
+    "addedAt": "2026-03-21T04:46:03.344Z"
   }
 ]
