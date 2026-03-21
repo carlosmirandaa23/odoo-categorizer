@@ -77,5 +77,29 @@
     "reason": "La combinación de 'armguard' con 'target' especifica claramente protección para arquería. 'Target' es un descriptor común en equipos de tiro con arco y evita confusión con arm guards de otros deportes (baseball, martial arts, skiing).",
     "example": "AAE TARGET STYLE ARMGUARD",
     "addedAt": "2026-03-21T03:36:48.887Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tobillera",
+      "estabilizador"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": null,
+    "reason": "El producto es claramente un soporte/tobillera para prevención de lesiones en el tobillo. La combinación de 'tobillera' + 'estabilizador' evita ambigüedad con otros soportes y captura correctamente productos de prevención y estabilidad articular.",
+    "example": "ACTIVE ANKLE T2 ESTABILIZADOR TOBILLO LG",
+    "addedAt": "2026-03-21T03:37:08.479Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "catcher",
+      "leg"
+    ],
+    "category": "PROTECCIONES",
+    "match": null,
+    "reason": "La combinación de 'catcher' (posición específica de béisbol) + 'leg' identifica sin ambigüedad las protecciones de pierna para receptores de béisbol, distinguiéndolo de otras protecciones.",
+    "example": "ADAMS CATCHERS LEG CUARDS 15'",
+    "addedAt": "2026-03-21T03:38:30.443Z"
   }
 ]
