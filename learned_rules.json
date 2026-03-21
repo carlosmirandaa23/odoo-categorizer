@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "type": "any",
+    "keywords": [
+      "backpack"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Palabra 'backpack' es específica para mochilas deportivas, nunca aplica a otra categoría",
+    "example": " Nike Varsity Elite Backpack",
+    "addedAt": "2026-03-21T07:14:34.215Z"
+  }
+]
