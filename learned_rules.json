@@ -1,5 +1,16 @@
 [
   {
+    "type": "exclude",
+    "match": "contains",
+    "keywords": [
+      "%"
+    ],
+    "category": "EXCLUIDO",
+    "reason": "Cualquier nombre con % es descuento/promoción",
+    "example": "10% en tu orden, 30% en productos",
+    "addedAt": "2026-03-21T11:00:00.000Z"
+  },
+  {
     "type": "any",
     "keywords": [
       "backpack"
@@ -9,28 +20,6 @@
     "reason": "Palabra 'backpack' es específica para mochilas deportivas, nunca aplica a otra categoría",
     "example": " Nike Varsity Elite Backpack",
     "addedAt": "2026-03-21T07:14:34.215Z"
-  },
-  {
-    "type": "exclude",
-    "match": "startswith",
-    "keywords": [
-      "10%"
-    ],
-    "category": "EXCLUIDO",
-    "reason": "Patrón automático — no es un producto",
-    "example": "10% en productos de padel",
-    "addedAt": "2026-03-21T07:15:55.209Z"
-  },
-  {
-    "type": "exclude",
-    "match": "startswith",
-    "keywords": [
-      "15%"
-    ],
-    "category": "EXCLUIDO",
-    "reason": "Patrón automático — no es un producto",
-    "example": "15% en tu orden",
-    "addedAt": "2026-03-21T07:19:07.703Z"
   },
   {
     "type": "all",
@@ -55,17 +44,6 @@
     "reason": "Protección específica para dedos en deportes de contacto/impacto",
     "example": "3 FINGERS UNDER COLOR FINGER SAVER",
     "addedAt": "2026-03-21T07:19:58.690Z"
-  },
-  {
-    "type": "exclude",
-    "match": "startswith",
-    "keywords": [
-      "30%"
-    ],
-    "category": "EXCLUIDO",
-    "reason": "Patrón automático — no es un producto",
-    "example": "30% en tu orden",
-    "addedAt": "2026-03-21T07:20:33.930Z"
   },
   {
     "type": "any",
@@ -148,18 +126,6 @@
     "reason": "Equipamiento de protección específico para catcher en béisbol",
     "example": "ADAMS CATCHERS LEG CUARDS 15'",
     "addedAt": "2026-03-21T07:26:12.235Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "catcher",
-      "helmet"
-    ],
-    "category": "PROTECCIONES",
-    "match": "contains",
-    "reason": "Casco protector específico para béisbol (posición catcher), nunca ambiguo con otros productos",
-    "example": "ADAMS CH6000 CATCHERS HELMET",
-    "addedAt": "2026-03-21T07:26:29.859Z"
   },
   {
     "type": "any",
@@ -260,30 +226,6 @@
   {
     "type": "all",
     "keywords": [
-      "freak",
-      "7v7"
-    ],
-    "category": "TACHONES",
-    "match": "contains",
-    "reason": "Freak es línea de tachones de fútbol americano; 7v7 indica variante competitiva de fútbol americano",
-    "example": "ADIDAS FREAK 23 7V7 6.5Y",
-    "addedAt": "2026-03-21T07:45:36.028Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "guante",
-      "portero"
-    ],
-    "category": "PROTECCIONES",
-    "match": "contains",
-    "reason": "guante + portero identifica inequívocamente protección de arquero, evita confusión con otros guantes deportivos",
-    "example": "ADIDAS GUANTE PORTERO",
-    "addedAt": "2026-03-21T07:57:44.358Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "guantes",
       "karate"
     ],
@@ -303,18 +245,6 @@
     "reason": "Hooded indica sudadera con capucha, categoría ABRIGO Y EXTERIOR",
     "example": "ADIDAS HOODED NAVY M",
     "addedAt": "2026-03-21T07:58:51.420Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "metalbone",
-      "padel"
-    ],
-    "category": "RAQUETAS Y PALAS",
-    "match": "contains",
-    "reason": "Metalbone es específico de palas de pádel Adidas; 'padel' con 'pala' evita ambigüedad de disciplina",
-    "example": "ADIDAS METALBONE PADEL",
-    "addedAt": "2026-03-21T08:04:20.174Z"
   },
   {
     "type": "any",
@@ -338,18 +268,6 @@
     "reason": "Tiro es la línea de pantalones deportivos de Adidas. 'Tiro' + 'pant' identifica inequívocamente pants deportivos",
     "example": "ADIDAS NEW NAVY TIRO 11 PANT",
     "addedAt": "2026-03-21T08:06:04.736Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "pantalonera",
-      "short"
-    ],
-    "category": "PRENDAS INFERIORES",
-    "match": "contains",
-    "reason": "Pantalonera es prenda inferior deportiva, excluyendo marca",
-    "example": "ADIDAS PANTALONERA 2XL",
-    "addedAt": "2026-03-21T08:07:12.676Z"
   },
   {
     "type": "any",
@@ -412,30 +330,6 @@
   {
     "type": "all",
     "keywords": [
-      "shorts",
-      "entrenamiento"
-    ],
-    "category": "PRENDAS INFERIORES",
-    "match": "contains",
-    "reason": "Shorts deportivos para entrenamiento sin ambigüedad de disciplina",
-    "example": "ADIDAS SHORTS ENTRENAMIENTO L",
-    "addedAt": "2026-03-21T08:12:53.476Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "pelota",
-      "padel"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Combinación específica de 'pelota' + 'padel' elimina ambigüedad con herramientas u otros productos",
-    "example": "ADIDAS SPEED RX PELOTA DE PADEL C/3",
-    "addedAt": "2026-03-21T08:13:11.005Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "sprintstar",
       "tachones"
     ],
@@ -446,7 +340,7 @@
     "addedAt": "2026-03-21T08:13:28.786Z"
   },
   {
-    "type": "all",
+    "type": "any",
     "keywords": [
       "sprintstar"
     ],
@@ -482,30 +376,6 @@
   {
     "type": "all",
     "keywords": [
-      "balon",
-      "soccer"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Combinación de 'balón' + 'soccer' identifica unívocamente balones de fútbol, evitando confusión con otros tipos de balones",
-    "example": "ADX BALON #4 SOCCER",
-    "addedAt": "2026-03-21T08:33:22.854Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "balon",
-      "americano"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Balón específico de fútbol americano, combinación de dos palabras evita ambigüedad con otros balones",
-    "example": "ADX BALON AMERICANO Fa7 #7",
-    "addedAt": "2026-03-21T08:33:40.617Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "balón",
       "basketball"
     ],
@@ -514,30 +384,6 @@
     "reason": "Combinación específica de balón + deporte de cancha evita ambigüedad con pelotas de otros deportes",
     "example": "ADX BALON BASKETBALL 1000",
     "addedAt": "2026-03-21T08:34:15.294Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "balon",
-      "basketball"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Balón de básquetbol identificado por marca ADX, material hule y número de balón",
-    "example": "ADX BALON BASKETBALL 1005 HULE #5",
-    "addedAt": "2026-03-21T08:34:33.155Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "balon",
-      "voleibol"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Combinación de 'balón' + 'voleibol' identifica inequívocamente balones de voleibol",
-    "example": "ADX BALON VOLEIBOL #5 BLANCO",
-    "addedAt": "2026-03-21T08:37:20.473Z"
   },
   {
     "type": "all",
@@ -574,18 +420,6 @@
     "reason": "BOSU es un equipamiento específico de entrenamiento en casa para balance y estabilidad, nunca se usa en otras categorías",
     "example": "ADX BOSU PELOTA DE EQUILIBRIO ",
     "addedAt": "2026-03-21T08:40:28.211Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "boya",
-      "entrenamiento"
-    ],
-    "category": "ENTRENAMIENTO EN CASA",
-    "match": "contains",
-    "reason": "Boya de entrenamiento es accesorio específico para entrenamiento en piscina/acuático, se clasifica como equipamiento de entrenamiento",
-    "example": "ADX BOYA DE ENTRENAMIENTO ",
-    "addedAt": "2026-03-21T08:40:46.128Z"
   },
   {
     "type": "any",
@@ -647,54 +481,6 @@
   {
     "type": "all",
     "keywords": [
-      "costal",
-      "box"
-    ],
-    "category": "PROTECCIONES",
-    "match": "contains",
-    "reason": "Costal de boxeo es equipamiento de entrenamiento específico para boxeo, clasificado en protecciones/equipamiento",
-    "example": "ADX COSTAL PARA BOX",
-    "addedAt": "2026-03-21T08:47:06.396Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "cuerda",
-      "cross"
-    ],
-    "category": "ENTRENAMIENTO EN CASA",
-    "match": "contains",
-    "reason": "Cuerda de entrenamiento funcional para ejercicios de cross training en casa",
-    "example": "ADX CUERDA CROSS ACERO 3M/PESO",
-    "addedAt": "2026-03-21T08:47:40.747Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "cuerda",
-      "azote"
-    ],
-    "category": "ENTRENAMIENTO EN CASA",
-    "match": "contains",
-    "reason": "Cuerda de azote es equipo de entrenamiento funcional para uso en casa/gym, diferente de cuerdas para otros usos",
-    "example": "ADX CUERDA DE AZOTE 38mm X 15m",
-    "addedAt": "2026-03-21T08:47:58.837Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "cuerda",
-      "yute"
-    ],
-    "category": "ENTRENAMIENTO EN CASA",
-    "match": "contains",
-    "reason": "Cuerda de entrenamiento para uso en casa, material yute típico de cuerdas de batalla",
-    "example": "ADX CUERDA YUTE 38mm x 15m",
-    "addedAt": "2026-03-21T08:49:40.324Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "desodorizante",
       "guantes"
     ],
@@ -725,18 +511,6 @@
     "reason": "Espinillera es un término específico para protección de tibia, nunca refiere otro producto",
     "example": "ADX ESPINILLERA 3 HAWK AD RED",
     "addedAt": "2026-03-21T08:50:34.000Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "guante",
-      "box"
-    ],
-    "category": "PROTECCIONES",
-    "match": "contains",
-    "reason": "Combinación específica de guante + box evita ambigüedad con otros tipos de guantes deportivos",
-    "example": "ADX GUANTE BOX PRISMA",
-    "addedAt": "2026-03-21T08:51:58.875Z"
   },
   {
     "type": "any",
@@ -831,18 +605,6 @@
     "addedAt": "2026-03-21T08:57:29.127Z"
   },
   {
-    "type": "all",
-    "keywords": [
-      "rodillera",
-      "licra"
-    ],
-    "category": "SOPORTE Y PREVENCIÓN",
-    "match": "contains",
-    "reason": "Rodillera es producto de soporte específico; licra confirma material de prendas de protección",
-    "example": "ADX PAR DE RODILLERA LICRA GRUESA NAILON",
-    "addedAt": "2026-03-21T08:58:20.887Z"
-  },
-  {
     "type": "any",
     "keywords": [
       "paracaidas"
@@ -879,18 +641,6 @@
   {
     "type": "all",
     "keywords": [
-      "pera",
-      "box"
-    ],
-    "category": "PROTECCIONES",
-    "match": "contains",
-    "reason": "Pera fija de box es equipo de entrenamiento de boxeo, clasificado como protección/equipamiento de boxeo",
-    "example": "ADX PERA FIJA DE BOX #50",
-    "addedAt": "2026-03-21T08:59:51.227Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "polaina",
       "muñeq"
     ],
@@ -911,18 +661,6 @@
     "reason": "Tenis específicos para cancha de básquetbol indoor",
     "example": "ADX RED BASQUETBOL PAR ",
     "addedAt": "2026-03-21T09:01:52.838Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "rodillera",
-      "menisco"
-    ],
-    "category": "SOPORTE Y PREVENCIÓN",
-    "match": "contains",
-    "reason": "Rodillera específica para soporte articular y prevención de lesiones de menisco",
-    "example": "ADX RODILLERA CON MENISCO G",
-    "addedAt": "2026-03-21T09:02:28.802Z"
   },
   {
     "type": "any",
@@ -1088,18 +826,6 @@
   {
     "type": "all",
     "keywords": [
-      "visor",
-      "catcher"
-    ],
-    "category": "COMPLEMENTOS",
-    "match": "contains",
-    "reason": "Visor deportivo específico para catcher (béisbol), accesorio de cabeza/protección visual",
-    "example": "ALL-STAR MVP VISOR CATCHER",
-    "addedAt": "2026-03-21T09:22:23.345Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "bajo",
       "funda"
     ],
@@ -1131,55 +857,6 @@
     "reason": "Pants de béisbol son prendas inferiores deportivas específicas para la disciplina",
     "example": "ALLESON PANT BASEBALL BLANCO ",
     "addedAt": "2026-03-21T09:31:04.576Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "ball",
-      "lime"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Palabra 'ball' combinada con color 'lime' indica claramente un balón deportivo",
-    "example": "AMERICA 1000L LIME BALL 1/2 D",
-    "addedAt": "2026-03-21T09:31:57.005Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "ball",
-      "balón",
-      "pelota"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Producto deportivo de pelota/balón confirmado por 'BALL' en nombre y contexto de producto oficial",
-    "example": "AMERICA 50 OFICIAL BALL DZ ",
-    "addedAt": "2026-03-21T09:32:51.753Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "ball",
-      "balón"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Palabra 'ball' indica explícitamente un balón/pelota deportiva, evitando ambigüedad con otros productos",
-    "example": "AMERICA 52 OFFICIALL BALL DZ",
-    "addedAt": "2026-03-21T09:33:45.669Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "ball",
-      "oficial"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Producto oficial de balón/pelota deportiva, 'ball' + contexto oficial elimina ambigüedad con otros usos",
-    "example": "AMERICA 54 OFICIAL BALL DZ",
-    "addedAt": "2026-03-21T09:34:04.019Z"
   },
   {
     "type": "all",
@@ -1351,54 +1028,6 @@
   {
     "type": "all",
     "keywords": [
-      "axis",
-      "carbon"
-    ],
-    "category": "RAQUETAS Y PALAS",
-    "match": "contains",
-    "reason": "Axis es marca de palas de pádel/tenis; carbon es material típico de estas. 'Fused energy' indica tecnología de pala deportiva. OSFA (one size fits all) confirma equipamiento.",
-    "example": "AXIS FUSED ENERGY INFUSED-CARBON 400",
-    "addedAt": "2026-03-21T09:45:49.627Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "raqueta",
-      "babolat"
-    ],
-    "category": "RAQUETAS Y PALAS",
-    "match": "contains",
-    "reason": "Babolat es marca de raquetas de tenis, Air Veron es modelo de raqueta",
-    "example": "BABOLAT AIR VERON",
-    "addedAt": "2026-03-21T09:47:17.886Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "babolat",
-      "boost drive"
-    ],
-    "category": "RAQUETAS Y PALAS",
-    "match": "contains",
-    "reason": "Babolat Boost Drive es una raqueta de tenis específica",
-    "example": "BABOLAT BOOST DRIVE",
-    "addedAt": "2026-03-21T09:47:53.257Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "babolat",
-      "boost"
-    ],
-    "category": "RAQUETAS Y PALAS",
-    "match": "contains",
-    "reason": "Babolat Boost es una raqueta de tenis conocida; sin embargo, solo proponemos regla con palabras clave de marca+modelo cuando hay certeza absoluta. Dado que 'boost' puede referirse a otros productos, reducimos confianza.",
-    "example": "BABOLAT BOOST JOIN THE TEAM",
-    "addedAt": "2026-03-21T09:48:29.342Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "court",
       "padel"
     ],
@@ -1433,7 +1062,7 @@
     "addedAt": "2026-03-21T09:50:16.213Z"
   },
   {
-    "type": "all",
+    "type": "any",
     "keywords": [
       "paletero"
     ],
@@ -1504,18 +1133,6 @@
     "addedAt": "2026-03-21T09:53:37.007Z"
   },
   {
-    "type": "all",
-    "keywords": [
-      "babolat",
-      "viper"
-    ],
-    "category": "RAQUETAS Y PALAS",
-    "match": "contains",
-    "reason": "Babolat Viper es una raqueta de tenis profesional de la marca Babolat",
-    "example": "BABOLAT TECHNICAL VIPER",
-    "addedAt": "2026-03-21T09:53:55.241Z"
-  },
-  {
     "type": "any",
     "keywords": [
       "balon"
@@ -1573,18 +1190,6 @@
     "reason": "Game points son puntas intercambiables para tachones de caza/outdoor; 'adder' refuerza identidad de punta de tacón",
     "example": "BATEMAN ADDER SMALL GAME POINTS 5PK",
     "addedAt": "2026-03-21T10:06:15.593Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "battle",
-      "teeth"
-    ],
-    "category": "PROTECCIONES",
-    "match": "contains",
-    "reason": "Battle es marca de protecciones bucales deportivas; 'teeth' confirma protector bucal/mouthguard",
-    "example": "BATTLE 3D BLACK WITH GOLD TEETH",
-    "addedAt": "2026-03-21T10:06:51.976Z"
   },
   {
     "type": "all",
@@ -1826,30 +1431,6 @@
     "addedAt": "2026-03-21T11:16:08.559Z"
   },
   {
-    "type": "all",
-    "keywords": [
-      "armguard",
-      "d-flector"
-    ],
-    "category": "PROTECCIONES",
-    "match": "contains",
-    "reason": "Armguard es protección específica de tiro con arco, D-Flector es modelo reconocido. Dos palabras previenen ambigüedad.",
-    "example": "BOHNING D-FLECTOR ARMGUARD",
-    "addedAt": "2026-03-21T11:18:41.065Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "armguard",
-      "compression"
-    ],
-    "category": "PROTECCIONES",
-    "match": "contains",
-    "reason": "armguard es protección específica para arquería/deportes, compression armguard es inequívoco",
-    "example": "BOHNING SLIP ON COMPRESSION ARMGUARD",
-    "addedAt": "2026-03-21T11:20:55.119Z"
-  },
-  {
     "type": "any",
     "keywords": [
       "bomba de aire"
@@ -1859,18 +1440,6 @@
     "reason": "Herramienta para inflar balones y pelotas de entrenamiento",
     "example": "BOMBA DE AIRE ADX",
     "addedAt": "2026-03-21T11:21:52.128Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "bomba",
-      "casco"
-    ],
-    "category": "PROTECCIONES",
-    "match": "contains",
-    "reason": "Accesorio de mantenimiento/inflado específico para cascos deportivos",
-    "example": "BOMBA PARA CASCO",
-    "addedAt": "2026-03-21T11:22:11.576Z"
   },
   {
     "type": "any",
@@ -2086,19 +1655,7 @@
     "addedAt": "2026-03-21T12:08:58.167Z"
   },
   {
-    "type": "all",
-    "keywords": [
-      "volleyball",
-      "voleibol"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Balón de voleibol identificado por disciplina + product descriptor",
-    "example": "CHAMPION RED VOLLEYBALL OLIMPIC ",
-    "addedAt": "2026-03-21T12:09:53.714Z"
-  },
-  {
-    "type": "all",
+    "type": "any",
     "keywords": [
       "athletic support"
     ],
@@ -2170,18 +1727,6 @@
   {
     "type": "all",
     "keywords": [
-      "sliding",
-      "short"
-    ],
-    "category": "PRENDAS INFERIORES",
-    "match": "contains",
-    "reason": "Sliding shorts son pantalones cortos deportivos específicos para béisbol/softbol, claramente en categoría PRENDAS INFERIORES",
-    "example": "CHAMPRO ON DECK SLIDING SHORT YXS",
-    "addedAt": "2026-03-21T12:14:20.405Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "cintas",
       "tenis"
     ],
@@ -2202,18 +1747,6 @@
     "reason": "Cinto americano es equipo de protección específico para fútbol americano",
     "example": "CINTO AMERICANO 1\" Navy",
     "addedAt": "2026-03-21T12:15:18.227Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "cinturón",
-      "tirantes"
-    ],
-    "category": "COMPLEMENTOS",
-    "match": "contains",
-    "reason": "Cinturón deportivo multiusos con tirantes es un accesorio complementario",
-    "example": "CINTURON MULTIUSOS CON TIRANTES",
-    "addedAt": "2026-03-21T12:17:46.684Z"
   },
   {
     "type": "all",
@@ -2393,18 +1926,6 @@
   {
     "type": "all",
     "keywords": [
-      "faja",
-      "térmica"
-    ],
-    "category": "SOPORTE Y PREVENCIÓN",
-    "match": "contains",
-    "reason": "Faja térmica es equipo de soporte y recuperación muscular",
-    "example": "COMAX FAJA TERMICA",
-    "addedAt": "2026-03-21T12:36:28.736Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "beisbol",
       "tachones"
     ],
@@ -2436,30 +1957,6 @@
     "reason": "Liga corta aeróbica es una prenda superior deportiva, la combinación de términos evita confusión con otros tipos de ligas o prendas",
     "example": "COMAX LIGA CORTA AEROBICA",
     "addedAt": "2026-03-21T12:38:24.413Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "shorts",
-      "authenticate"
-    ],
-    "category": "PRENDAS INFERIORES",
-    "match": "contains",
-    "reason": "Shorts es prenda inferior deportiva. 'Authentic' es descriptor de línea/modelo, no genera ambigüedad cuando va con shorts",
-    "example": "COMBINE AUTHENTIC SHORTS",
-    "addedAt": "2026-03-21T12:39:39.872Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "concha",
-      "elastico"
-    ],
-    "category": "PROTECCIONES",
-    "match": "contains",
-    "reason": "Protección genital deportiva infantil con cierre elástico",
-    "example": "CONCHA CON ELASTICO INFANTIL ",
-    "addedAt": "2026-03-21T12:40:00.812Z"
   },
   {
     "type": "any",
@@ -2794,30 +2291,6 @@
   {
     "type": "all",
     "keywords": [
-      "short",
-      "baseball"
-    ],
-    "category": "PRENDAS INFERIORES",
-    "match": "contains",
-    "reason": "DeMarini es marca de béisbol, 'short' + contexto béisbol = pantalón corto deportivo",
-    "example": "DEMARINI M 10TH INNING SHORT",
-    "addedAt": "2026-03-21T13:09:09.532Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "short",
-      "inning"
-    ],
-    "category": "PRENDAS INFERIORES",
-    "match": "contains",
-    "reason": "short es prenda inferior; inning refiere a béisbol, contexto deportivo que confirma uso atlético",
-    "example": "DEMARINI M 10TH INNING SHORT",
-    "addedAt": "2026-03-21T13:09:49.280Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "maleta",
       "wheels"
     ],
@@ -2830,18 +2303,6 @@
   {
     "type": "all",
     "keywords": [
-      "pants",
-      "talla"
-    ],
-    "category": "PRENDAS INFERIORES",
-    "match": "contains",
-    "reason": "Pants deportivos con indicación de talla son prenda inferior",
-    "example": "DEMARINI PANTS TALLA 36",
-    "addedAt": "2026-03-21T13:11:08.406Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "glove",
       "demarini"
     ],
@@ -2850,42 +2311,6 @@
     "reason": "DeMARINI es marca de béisbol/softball, glove en este contexto refiere a guante de campo de béisbol",
     "example": "DEMARINI ROGUE GLOVE 11.5''",
     "addedAt": "2026-03-21T13:15:12.764Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "wristband",
-      "wristbands"
-    ],
-    "category": "COMPLEMENTOS",
-    "match": "contains",
-    "reason": "wristbands son complementos deportivos que se usan en muñeca para absorción de sudor, independientemente de marca o deporte",
-    "example": "DEMARINI WRISTBANDS EXTRA LONG 4'' 1PAIR ",
-    "addedAt": "2026-03-21T13:15:33.149Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "pelota",
-      "ping pong"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Identifica pelotas de ping pong evitando ambigüedad con otras pelotas",
-    "example": "DHS PELOTA PIN PONG PROFESIONAL SUELTA",
-    "addedAt": "2026-03-21T13:16:31.072Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "pelota",
-      "tenis mesa"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Pelotas específicas para tenis de mesa, evita confusión con tenis de cancha",
-    "example": "DHS PELOTA TENIS MESA 10PC",
-    "addedAt": "2026-03-21T13:16:51.363Z"
   },
   {
     "type": "any",
@@ -2910,19 +2335,6 @@
     "reason": "Aletas de natación en silicón son equipamiento de nado, clasificadas en accesorios de baño/natación",
     "example": "DOLFIN ALETA LARGA DE SILICON ",
     "addedAt": "2026-03-21T13:19:24.033Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "ball",
-      "pelota",
-      "6pk"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "ITTF es la federación internacional de tenis de mesa, WORL CUP es competencia de ping pong, y 6PK indica pack de pelotas",
-    "example": "DOUBLE FISH ITTF TEAM WORL CUP 6PK",
-    "addedAt": "2026-03-21T13:19:44.284Z"
   },
   {
     "type": "all",
@@ -2975,19 +2387,6 @@
   {
     "type": "all",
     "keywords": [
-      "basketball",
-      "balón",
-      "pelota"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Basketball es disciplina específica, balón/pelota es el producto. 'all' evita confusión con otros usos de 'ball'",
-    "example": "DUXX BASKETBALL SINTETICO #5",
-    "addedAt": "2026-03-21T13:26:58.640Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "voly",
       "pvc",
       "cocido"
@@ -2999,18 +2398,6 @@
     "addedAt": "2026-03-21T13:31:25.176Z"
   },
   {
-    "type": "all",
-    "keywords": [
-      "cleat",
-      "claws"
-    ],
-    "category": "TACHONES",
-    "match": "contains",
-    "reason": "Ambos términos refieren exclusivamente a calzado con tachones para deportes de campo",
-    "example": "DYNA CLAWS PERFORMANCE FIELD CLEAT/ PK14",
-    "addedAt": "2026-03-21T13:31:45.081Z"
-  },
-  {
     "type": "any",
     "keywords": [
       "racquetball"
@@ -3020,18 +2407,6 @@
     "reason": "Racquetball es una disciplina específica que se juega con raqueta; 'racquetball' como término nunca se refiere a otro producto deportivo",
     "example": "E-FORCE BREAKOUT RACQUETBALL",
     "addedAt": "2026-03-21T13:33:41.558Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "helmet",
-      "strike"
-    ],
-    "category": "PROTECCIONES",
-    "match": "contains",
-    "reason": "Combinación de helmet (casco) + strike (golpe) indica protección deportiva para contacto",
-    "example": "EAGLE EYE ELECTR HMPLATE STRIKE1",
-    "addedAt": "2026-03-21T13:34:58.025Z"
   },
   {
     "type": "all",
@@ -3254,18 +2629,6 @@
   {
     "type": "all",
     "keywords": [
-      "cinturon",
-      "fitness"
-    ],
-    "category": "COMPLEMENTOS",
-    "match": "contains",
-    "reason": "Cinturón de fitness es complemento deportivo para soporte y entrenamiento",
-    "example": "ELITE FITNESS CINTURON",
-    "addedAt": "2026-03-21T13:55:21.648Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "encordado",
       "multifilamentos"
     ],
@@ -3322,18 +2685,6 @@
     "addedAt": "2026-03-21T13:58:59.660Z"
   },
   {
-    "type": "all",
-    "keywords": [
-      "basketball",
-      "ball"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Producto deportivo de pelota/balón basketball identificado por marca y referencia",
-    "example": "ESPN BASKETBALL TWO PLAYER",
-    "addedAt": "2026-03-21T14:17:28.230Z"
-  },
-  {
     "type": "any",
     "keywords": [
       "mochila"
@@ -3343,18 +2694,6 @@
     "reason": "Palabra 'mochila' identifica inequívocamente producto de transporte/almacenamiento deportivo",
     "example": "EVEREST MOCHILA HK100 BLACK",
     "addedAt": "2026-03-21T14:17:48.215Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "waist pack",
-      "waist bag"
-    ],
-    "category": "BOLSAS Y MOCHILAS",
-    "match": "contains",
-    "reason": "Waist pack es una bolsa deportiva de cadera, claramente diferente de mochilas por su forma y uso específico",
-    "example": "EVEREST WAIST PACK CB6P CAMO",
-    "addedAt": "2026-03-21T14:19:06.330Z"
   },
   {
     "type": "any",
@@ -3412,18 +2751,6 @@
     "reason": "Costal de box — corregido",
     "example": "EVERLAST EVERHIDE DOUBLE END BAG",
     "addedAt": "2026-03-21T14:24:01.170Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "headgear",
-      "casco"
-    ],
-    "category": "PROTECCIONES",
-    "match": "contains",
-    "reason": "headgear es equipo de protección específico para cabeza, nunca se refiere a otro tipo de producto deportivo",
-    "example": "EVERLAST HEADGEAR ADULT",
-    "addedAt": "2026-03-21T14:25:42.138Z"
   },
   {
     "type": "all",
@@ -3640,18 +2967,6 @@
   {
     "type": "all",
     "keywords": [
-      "girdle",
-      "football"
-    ],
-    "category": "PROTECCIONES",
-    "match": "contains",
-    "reason": "Girdle es prenda protectora específica de football con bolsillos para insertos, no es solo la disciplina",
-    "example": "FOOTBALL 6 POCKET GIRDLE WHITE MD",
-    "addedAt": "2026-03-21T14:49:47.489Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "padded",
       "top"
     ],
@@ -3687,18 +3002,6 @@
   {
     "type": "all",
     "keywords": [
-      "skinz",
-      "youth"
-    ],
-    "category": "PROTECCIONES",
-    "match": "contains",
-    "reason": "SKINZ es línea de protecciones (espinilleras, rodilleras) de Franklin Sports; youth indica versión infantil",
-    "example": "FRANKLIN 2ND-SKINZ YOUTH L",
-    "addedAt": "2026-03-21T14:54:08.602Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "baseball",
       "glove"
     ],
@@ -3707,18 +3010,6 @@
     "reason": "guante de béisbol es equipo de protección específico del deporte",
     "example": "FRANKLIN BASEBALL GLOVE 12\"",
     "addedAt": "2026-03-21T14:54:48.224Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "compression",
-      "short"
-    ],
-    "category": "PRENDAS INFERIORES",
-    "match": "contains",
-    "reason": "Prenda inferior deportiva de compresión con protector integrado",
-    "example": "FRANKLIN COMPRESSION SHORT & CUP",
-    "addedAt": "2026-03-21T14:55:08.822Z"
   },
   {
     "type": "all",
@@ -3813,30 +3104,6 @@
     "reason": "Volley es disciplina específica de balones. 'Dart' es modelo de pelota de voleibol.",
     "example": "GASER DART PRO SOFT TOUCH VOLLEY",
     "addedAt": "2026-03-21T15:41:37.903Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "volley",
-      "ball"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Volley ball es término específico para balón de voleibol, combinado con marca evita ambigüedad",
-    "example": "GASER DART PRO VOLLEY BALL",
-    "addedAt": "2026-03-21T15:41:58.859Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "gaser",
-      "fut"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Gaser es marca fabricante de balones de fútbol; 'fut' confirma disciplina",
-    "example": "GASER FUT #4 SUKA",
-    "addedAt": "2026-03-21T15:42:19.731Z"
   },
   {
     "type": "any",
@@ -3961,18 +3228,6 @@
   {
     "type": "all",
     "keywords": [
-      "power tube",
-      "tubo de resistencia"
-    ],
-    "category": "ENTRENAMIENTO EN CASA",
-    "match": "contains",
-    "reason": "Los tubos de resistencia (power tubes/ligas de entrenamiento) son equipamiento para ejercicio en casa",
-    "example": "GO FIT POWER TUBE 25",
-    "addedAt": "2026-03-21T15:55:29.802Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "xtrainer",
       "cross training"
     ],
@@ -4075,18 +3330,6 @@
     "reason": "Power handles son accesorios de entrenamiento para uso doméstico, generalmente para ejercicios de resistencia y fuerza",
     "example": "GOFIT POWER HANDLES",
     "addedAt": "2026-03-21T16:01:42.704Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "power tube",
-      "resistance tube"
-    ],
-    "category": "ENTRENAMIENTO EN CASA",
-    "match": "contains",
-    "reason": "Tubos de resistencia para entrenamiento en casa, claramente equipamiento de ejercicio doméstico",
-    "example": "GOFIT POWER TUBE ",
-    "addedAt": "2026-03-21T16:02:04.540Z"
   },
   {
     "type": "any",
@@ -4300,18 +3543,6 @@
     "reason": "HEAD es fabricante de raquetas de tenis; SPIN es tecnología de raqueta de tenis",
     "example": "HEAD EXTREME SPIN BIG ",
     "addedAt": "2026-03-21T16:40:54.375Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "pelota",
-      "frontenis"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "match": "contains",
-    "reason": "Pelota específica de frontenis, disciplina de raqueta. 'Frontenis' + 'pelota' elimina ambigüedad con otros tipos de pelotas o equipos.",
-    "example": "HEAD FRONTENIS PELOTA AMARILLA",
-    "addedAt": "2026-03-21T16:43:03.361Z"
   },
   {
     "type": "all",
@@ -4888,18 +4119,6 @@
   {
     "type": "all",
     "keywords": [
-      "gorra",
-      "natacion"
-    ],
-    "category": "ROPA INTERIOR Y BAÑO",
-    "reason": "Gorra de natación — distinto de gorra deportiva",
-    "match": "contains",
-    "example": "",
-    "addedAt": "2026-03-21T08:30:00.000Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
       "traje",
       "bano"
     ],
@@ -4951,30 +4170,6 @@
     ],
     "category": "TACHONES",
     "reason": "Línea Nike Alpha Menace Shark",
-    "match": "contains",
-    "example": "",
-    "addedAt": "2026-03-21T08:30:00.000Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "zoom",
-      "cleat"
-    ],
-    "category": "TACHONES",
-    "reason": "Tachón Nike Zoom",
-    "match": "contains",
-    "example": "",
-    "addedAt": "2026-03-21T08:30:00.000Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "vapor",
-      "cleat"
-    ],
-    "category": "TACHONES",
-    "reason": "Tachón Nike Vapor",
     "match": "contains",
     "example": "",
     "addedAt": "2026-03-21T08:30:00.000Z"
@@ -5108,18 +4303,6 @@
     "addedAt": "2026-03-21T08:30:00.000Z"
   },
   {
-    "type": "all",
-    "keywords": [
-      "soccer",
-      "ball"
-    ],
-    "category": "PELOTAS Y BALONES",
-    "reason": "Balón de soccer",
-    "match": "contains",
-    "example": "",
-    "addedAt": "2026-03-21T08:30:00.000Z"
-  },
-  {
     "type": "any",
     "keywords": [
       "overgrip"
@@ -5194,30 +4377,6 @@
     ],
     "category": "PROTECCIONES",
     "reason": "Barbiquejo sin ambigüedad",
-    "match": "contains",
-    "example": "",
-    "addedAt": "2026-03-21T08:30:00.000Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "batting",
-      "helmet"
-    ],
-    "category": "PROTECCIONES",
-    "reason": "Casco de bateo béisbol",
-    "match": "contains",
-    "example": "",
-    "addedAt": "2026-03-21T08:30:00.000Z"
-  },
-  {
-    "type": "all",
-    "keywords": [
-      "football",
-      "helmet"
-    ],
-    "category": "PROTECCIONES",
-    "reason": "Casco de americano",
     "match": "contains",
     "example": "",
     "addedAt": "2026-03-21T08:30:00.000Z"
@@ -5604,5 +4763,113 @@
     "reason": "Cinturón deportivo multiusos con tirantes es un accesorio complementario de uso deportivo",
     "example": "CINTURON MULTIUSOS CON TIRANTES",
     "addedAt": "2026-03-21T19:12:16.279Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "spotlight",
+      "hammer"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "UA Spotlight Hammer — tachón americano",
+    "example": "",
+    "addedAt": "2026-03-21T11:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "spotlight",
+      "cleat"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "UA Spotlight cleat",
+    "example": "",
+    "addedAt": "2026-03-21T11:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "spotlight",
+      "mc"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "UA Spotlight MC — tachón americano",
+    "example": "",
+    "addedAt": "2026-03-21T11:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "spotlight",
+      "gloves"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "UA Spotlight Gloves — guantes receptor",
+    "example": "",
+    "addedAt": "2026-03-21T11:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "spotlight",
+      "chinstrap"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "UA Spotlight Chinstrap",
+    "example": "",
+    "addedAt": "2026-03-21T11:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "blur",
+      "cleat"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "UA Blur cleat",
+    "example": "",
+    "addedAt": "2026-03-21T11:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "highlight",
+      "cleat"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "UA Highlight cleat",
+    "example": "",
+    "addedAt": "2026-03-21T11:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "hammer",
+      "mc"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "UA Hammer MC",
+    "example": "",
+    "addedAt": "2026-03-21T11:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "hammer",
+      "rm"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "UA Hammer RM",
+    "example": "",
+    "addedAt": "2026-03-21T11:30:00.000Z"
   }
 ]

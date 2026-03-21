@@ -10,7 +10,7 @@ const { ODOO_URL, DB, USER, PASS, ANTHROPIC_API_KEY } = process.env;
 
 const PROCESSED_FILE = path.join(__dirname, "processed_ids.json");
 const RULES_FILE     = path.join(__dirname, "learned_rules.json");
-const INTERVAL_MS    = 3000;
+const INTERVAL_MS    = 15000;
 const GITHUB_REPO       = "carlosmirandaa23/odoo-categorizer";
 const GITHUB_RULES_PATH = "learned_rules.json";
 const GITHUB_IDS_PATH   = "processed_ids.json";
@@ -190,19 +190,13 @@ TAREA:
 
 CRITERIOS ESTRICTOS PARA PROPONER REGLA:
 
-USA type "any" cuando UNA palabra o sinónimos identifican el producto sin ambigüedad:
-- El nombre solo necesita contener CUALQUIERA de las keywords
-- Una keyword: "backpack", "tobillera", "mouthguard", "chest protector"
-- Sinónimos: ["armguard", "arm guard"], ["mouthguard", "mouth guard"] — misma cosa escrita diferente
-- INVÁLIDOS como any solo: "pala" (herramienta), "padel" (disciplina), "catcher" (múltiple uso)
+USA type "any" ÚNICAMENTE cuando la palabra NUNCA puede referirse a otro tipo de producto:
+- Válidos: "backpack", "tobillera", "mouthguard", "chest protector", "tricep bar"
+- INVÁLIDOS: "pala" (herramienta), "catcher" (múltiples usos), "padel" (disciplina sola)
 
-USA type "all" cuando necesitas DOS palabras DISTINTAS presentes AL MISMO TIEMPO en el nombre:
-- AMBAS palabras deben aparecer juntas — NO son sinónimos, son palabras complementarias
-- ✅ ["pala","padel"] → el nombre dice "pala" Y "padel" al mismo tiempo
-- ✅ ["gloves","football"] → dice "gloves" Y "football" al mismo tiempo
-- ❌ ["armguard","arm guard"] → son sinónimos, usa "any" no "all"
-- ❌ ["mouthguard","mouth guard"] → son sinónimos, usa "any" no "all"
-- Prefiere "all" sobre "any" cuando una sola palabra sea ambigua
+USA type "all" cuando necesitas dos palabras para evitar ambigüedad:
+- Válidos: "pala"+"padel", "gloves"+"football", "shoulder"+"pads"
+- Prefiere SIEMPRE "all" sobre "any" cuando tengas la mínima duda
 
 NUNCA propongas regla con:
 - Marcas: "nike", "adidas", "under armour", "wilson", etc.
@@ -273,7 +267,11 @@ function extractJSON(text) {
   throw new Error("Sin JSON válido: " + text.slice(0, 120));
 }
 
-async function classifyWithAI(product) {
+async function callClaude(name, sku) {
+  const userContent = sku
+    ? `Nombre: ${name}\nSKU del proveedor: ${sku}\n\nEl nombre solo no fue suficiente para clasificar. El SKU puede contener información adicional del proveedor (línea de producto, modelo). Úsalo como contexto adicional.`
+    : `Nombre: ${name}`;
+
   const response = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers: {
@@ -292,10 +290,7 @@ async function classifyWithAI(product) {
           cache_control: { type: "ephemeral" }
         }
       ],
-      messages: [{
-        role: "user",
-        content: "Nombre: " + product.name + "\nReferencia: " + (product.default_code || "sin referencia")
-      }]
+      messages: [{ role: "user", content: userContent }]
     })
   });
 
@@ -308,6 +303,23 @@ async function classifyWithAI(product) {
   if (cacheRead  > 0) console.log(`💾 Cache READ:  ${cacheRead} tokens (90% ahorro)`);
 
   return extractJSON(data.content[0].text);
+}
+
+async function classifyWithAI(product) {
+  // Primer intento — solo nombre
+  const result = await callClaude(product.name, null);
+
+  // Segundo intento — nombre + SKU si confianza baja y hay SKU disponible
+  if (result.confidence < 0.75 && product.default_code) {
+    console.log(`🔎 [${product.id}] Segundo intento con SKU: ${product.default_code}`);
+    const result2 = await callClaude(product.name, product.default_code);
+    if (result2.confidence > result.confidence) {
+      console.log(`📈 Confianza mejoró: ${result.confidence} → ${result2.confidence}`);
+      return result2;
+    }
+  }
+
+  return result;
 }
 
 // ─────────────────────────────────────────
