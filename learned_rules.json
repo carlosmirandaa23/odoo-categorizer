@@ -5485,5 +5485,27 @@
     "reason": "Olimpia es línea de prendas deportivas femeninas de Joma, típicamente camisetas/tops",
     "example": "JOMA OLIMPIA MUJER  S",
     "addedAt": "2026-03-21T22:43:51.767Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "playera"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "playera es una prenda superior de uso deportivo, nunca se refiere a otro tipo de producto",
+    "example": "JOMA PLAYERA AZUL L",
+    "addedAt": "2026-03-21T22:44:31.894Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "top"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Top deportivo es prenda superior independientemente de marca o talla",
+    "example": "JOMA TOP MUJER XS ",
+    "addedAt": "2026-03-21T22:46:32.481Z"
   }
 ]
