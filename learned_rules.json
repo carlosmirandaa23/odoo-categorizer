@@ -77,5 +77,42 @@
     "reason": "Tricep bar es equipo específico de entrenamiento con pesas para uso en casa/gym. Nunca refiere a otro tipo de producto deportivo.",
     "example": "34\" OLY TRICEP BAR",
     "addedAt": "2026-03-21T07:22:14.170Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "finger",
+      "tab"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Finger tab es protección específica para arquería, evita ambigüedad con otros tipos de guantes",
+    "example": "AAE ELITE FINGER TAB ULTRA LITE",
+    "addedAt": "2026-03-21T07:22:48.749Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "blade",
+      "rest",
+      "target"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Combinación de palabras indica accesorios de soporte/descanso para palas de tenis/bádminton",
+    "example": "AAE FREAK SHOW BLADE REST TARGET",
+    "addedAt": "2026-03-21T07:23:22.512Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "armguard",
+      "arm guard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "armguard es protección específica de brazos para deportes, combinado evita confusión con otros tipos de protección",
+    "example": "AAE TARGET STYLE ARMGUARD",
+    "addedAt": "2026-03-21T07:24:46.250Z"
   }
 ]
