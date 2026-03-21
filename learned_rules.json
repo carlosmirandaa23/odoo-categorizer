@@ -3648,5 +3648,98 @@
     "reason": "Knee wraps son bandas de soporte específicas para rodilla, no confundir con vendajes generales",
     "example": "EXO KNEE WRAPS ",
     "addedAt": "2026-03-21T14:40:02.697Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "eye black"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "eye black es un complemento deportivo específico para reducir reflejos, nunca es otro tipo de producto",
+    "example": "EYE BLACK STICK",
+    "addedAt": "2026-03-21T14:40:23.116Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "elastic belt",
+      "leather tab"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Cinturones elásticos con pestaña de cuero son complementos deportivos para soporte y uso cotidiano deportivo",
+    "example": "Elastic Belt w/Leather Tab Retail - Adult Black",
+    "addedAt": "2026-03-21T14:41:22.270Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "f6",
+      "football"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "F6 es línea deportiva de prenda superior; football en descripción confirma uso deportivo intenso",
+    "example": "F6 / color: TROPIC PINK-WHITE / talla: SM / uso: FOOTBALL",
+    "addedAt": "2026-03-21T14:43:00.386Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "faceguard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Faceguard es protección facial específica para deportes de contacto, nunca otro tipo de producto",
+    "example": "FACEGUARD,FB,VARSITY, VEGOP ROYAL BLUE",
+    "addedAt": "2026-03-21T14:43:21.217Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "faja"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "startswith",
+    "reason": "Faja es prenda de soporte específica para estabilización corporal en deporte, nunca se confunde con otro producto",
+    "example": "FAJA CINTURILLA ROSA",
+    "addedAt": "2026-03-21T14:44:01.265Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "padded",
+      "girdle"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Girdle acolchado es prenda de protección para deportes de contacto (fútbol americano, rugby)",
+    "example": "FB TEAM PADDED GIRDLE5 PAD UA / color: WHITE-ZINC GRAY / talla: XXL ",
+    "addedAt": "2026-03-21T14:45:23.830Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "stabilizer",
+      "archery"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Estabilizador para arco (equipamiento de tiro con arco), accesorio especializado de competencia",
+    "example": "FIVICS CEX5 STAINLESS STABILIZER WE CAP 51G-CEX5",
+    "addedAt": "2026-03-21T14:47:22.090Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "glove",
+      "golf"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Guante deportivo específico para golf, evita confusión con guantes de box o entrenamiento",
+    "example": "FJ WEATHER SOF 2 GLOVE GOLF",
+    "addedAt": "2026-03-21T14:48:05.135Z"
   }
 ]
