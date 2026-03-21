@@ -191,5 +191,16 @@
     "reason": "La combinación de 'pala' y 'padel' identifica sin ambigüedad productos de esta categoría, evitando confusión con raquetas de tenis u otros deportes",
     "example": "ADIDAS ADIPOWER CTRL TEAM 3.3 PADEL",
     "addedAt": "2026-03-21T05:03:34.817Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "team light"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": null,
+    "reason": "ADIPOWER TEAM LIGHT es una línea de camisetas/jerseys deportivos de Adidas. La palabra 'team' combinada con 'light' identifica prendas superiores diseñadas para competición en equipo con tecnología de peso ligero.",
+    "example": "ADIDAS ADIPOWER TEAM LIGHT",
+    "addedAt": "2026-03-21T05:04:45.291Z"
   }
 ]
