@@ -1240,5 +1240,89 @@
     "reason": "Palabra 'ball' indica explícitamente un balón/pelota deportiva, evitando ambigüedad con otros productos",
     "example": "AMERICA 52 OFFICIALL BALL DZ",
     "addedAt": "2026-03-21T09:33:45.669Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "ball",
+      "oficial"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Producto oficial de balón/pelota deportiva, 'ball' + contexto oficial elimina ambigüedad con otros usos",
+    "example": "AMERICA 54 OFICIAL BALL DZ",
+    "addedAt": "2026-03-21T09:34:04.019Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "nock",
+      "american"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "NOCK es componente específico de tachones de fútbol americano; requiere 'american' para evitar confusión con otros deportes",
+    "example": "AMERICAN BJ NOCK ",
+    "addedAt": "2026-03-21T09:34:40.644Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "ankle",
+      "strap"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Ankle strap es tobillera de soporte, combinación inequívoca que evita confusión con otros productos",
+    "example": "ANKLE STRAP GO FIT",
+    "addedAt": "2026-03-21T09:34:58.908Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "guante"
+    ],
+    "category": "PROTECCIONES",
+    "match": "startswith",
+    "reason": "Guante es un término específico para protección de manos en contexto deportivo",
+    "example": "ANTIOCH GUANTE 11.5 -12",
+    "addedAt": "2026-03-21T09:35:17.040Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cleaning",
+      "prep",
+      "tool"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Combinación de palabras clave indica herramienta de limpieza y preparación de calzado",
+    "example": "APPLE ARROW CLEANING PREP TOOL",
+    "addedAt": "2026-03-21T09:35:52.221Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "renegade",
+      "aqua zone"
+    ],
+    "category": "CASUAL - SNEAKERS",
+    "match": "contains",
+    "reason": "Renegade es línea lifestyle/casual de calzado deportivo, AQUA ZONE indica uso casual-acuático",
+    "example": "AQUA ZONE PERFORMANCE RENEGADE NEGRO",
+    "addedAt": "2026-03-21T09:36:10.582Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "jammer",
+      "natación"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Jammer es una prenda de baño específica (pantalón corto de natación). Combinado con 'dama' y contexto de baño asegura clasificación única.",
+    "example": "AQUA ZONE TB DAMA JAMMER PBT ANGLEBLOCK",
+    "addedAt": "2026-03-21T09:36:46.815Z"
   }
 ]
