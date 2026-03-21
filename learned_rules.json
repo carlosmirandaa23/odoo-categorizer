@@ -2105,5 +2105,30 @@
     "reason": "Casco es equipo de protección deportiva específico, nunca puede ser otro tipo de producto",
     "example": "CASCO AMERICANO RECONSTRUIDO HELMET",
     "addedAt": "2026-03-21T11:59:54.126Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "castillo",
+      "cacha golpes"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protección especializada para golpes, comúnmente usada en boxeo y artes marciales",
+    "example": "CASTILLO CACHA GOLPES",
+    "addedAt": "2026-03-21T12:00:51.150Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sight",
+      "scope",
+      "cover"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protección para visor/mira de arco — accesorio de equipo de tiro deportivo",
+    "example": "CBE SIGHT SCOPE COVER ",
+    "addedAt": "2026-03-21T12:04:17.298Z"
   }
 ]
