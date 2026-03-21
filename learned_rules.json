@@ -5616,5 +5616,88 @@
     "reason": "Las palabras 'pad' y 'girdle' juntas identifican protecciones integradas para impacto, específicamente pantalones/cinturones protectores",
     "example": "L7 CRAMER LIGHTNING 7 INTEGRATED PAD GIRDLES - WHITE",
     "addedAt": "2026-03-21T22:56:04.344Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "lanyard"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Lanyard es un accesorio de sujeción/cordón que nunca refiere a otro tipo de producto deportivo",
+    "example": "LANYARD UNDER ARMOUR",
+    "addedAt": "2026-03-21T22:57:07.001Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "lentes",
+      "gafas",
+      "sunglasses",
+      "eyewear"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Lentes deportivos son complementos de uso deportivo, sin marca específica en la regla",
+    "example": "LENTES OAKLEY LATCH PANEL",
+    "addedAt": "2026-03-21T23:03:06.877Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "limbsaver"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Limbsaver es marca especializada en amortiguadores y soportes para arcos (archery) y equipamiento deportivo de protección/absorción de impacto",
+    "example": "LIMBSAVER BROADBAND SPLIT LIMBSAVER",
+    "addedAt": "2026-03-21T23:05:32.993Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "liner",
+      "eva"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Liner con material EVA indica protección/amortiguación para casco o equipo deportivo",
+    "example": "LINER CROWN EVA F7",
+    "addedAt": "2026-03-21T23:06:12.341Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "net",
+      "post"
+    ],
+    "category": "EQUIPAMIENTO Y MATERIAL",
+    "match": "contains",
+    "reason": "Conjunto de red y poste indica equipamiento deportivo de cancha/entrenamiento",
+    "example": "LION NET POST SET ",
+    "addedAt": "2026-03-21T23:06:20.851Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "lizard skin"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "startswith",
+    "reason": "Lizard Skin es marca de cintas deportivas de agarre para raquetas y palos, producto de complemento deportivo",
+    "example": "LIZARD SKIN CAMO VARIADO 1.1",
+    "addedAt": "2026-03-21T23:06:37.369Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "silbato",
+      "arbitro"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Silbato de árbitro es equipamiento deportivo para dirigir partidos, clasificado como accesorio de protección/equipamiento",
+    "example": "LOS ANGELES SILBATO ARBITRO",
+    "addedAt": "2026-03-21T23:11:30.785Z"
   }
 ]
