@@ -54,5 +54,16 @@
     "reason": "Patrón automático — no es un producto",
     "example": "30% en tu orden",
     "addedAt": "2026-03-21T03:31:47.533Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tricep bar"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": null,
+    "reason": "El término 'tricep bar' identifica sin ambigüedad una barra de entrenamiento especializada para ejercicios de tríceps, compatible con pesos olímpicos, usada en entrenamiento de fuerza en casa o gimnasio",
+    "example": "34\" OLY TRICEP BAR",
+    "addedAt": "2026-03-21T03:33:44.556Z"
   }
 ]
