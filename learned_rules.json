@@ -3016,5 +3016,30 @@
     "reason": "Aletas de natación en silicón son equipamiento de nado, clasificadas en accesorios de baño/natación",
     "example": "DOLFIN ALETA LARGA DE SILICON ",
     "addedAt": "2026-03-21T13:19:24.033Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "ball",
+      "pelota",
+      "6pk"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "ITTF es la federación internacional de tenis de mesa, WORL CUP es competencia de ping pong, y 6PK indica pack de pelotas",
+    "example": "DOUBLE FISH ITTF TEAM WORL CUP 6PK",
+    "addedAt": "2026-03-21T13:19:44.284Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "shoulder",
+      "comando"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Shoulder pads son protecciones deportivas específicas; 'comando' refuerza contexto de protección",
+    "example": "DOUGLAS SHOULDER COMANDO YOUT",
+    "addedAt": "2026-03-21T13:20:04.329Z"
   }
 ]
