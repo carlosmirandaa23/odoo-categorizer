@@ -48,5 +48,16 @@
     "reason": "Las barras de tríceps son equipos de entrenamiento de fuerza para uso doméstico o en gimnasio. La keyword 'tricep bar' identifica unívocamente este tipo de equipamiento sin ambigüedad.",
     "example": "34\" OLY TRICEP BAR",
     "addedAt": "2026-03-21T02:25:32.241Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "armguard",
+      "arm guard"
+    ],
+    "category": "PROTECCIONES",
+    "reason": "Armguard es un protector de brazo usado en deportes de tiro con arco y otros deportes de contacto. La combinación de 'arm' + 'guard' identifica inequívocamente este tipo de protección sin ambigüedad.",
+    "example": "AAE TARGET STYLE ARMGUARD",
+    "addedAt": "2026-03-21T02:28:06.132Z"
   }
 ]
