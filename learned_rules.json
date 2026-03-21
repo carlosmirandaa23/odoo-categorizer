@@ -3918,5 +3918,29 @@
     "reason": "Funda es contenedor de protección/transporte, típicamente accesorio de bolsas",
     "example": "FUNDA SENCILLA Adult Medium BLACK",
     "addedAt": "2026-03-21T15:22:44.378Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pad",
+      "tight"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Pantalón deportivo 3/4 con protecciones integradas (pad), característica de prendas inferiores acolchadas para contacto",
+    "example": "GAMEDAY ARMOUR 2 PAD 3/4 TIGHT L",
+    "addedAt": "2026-03-21T15:34:38.192Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "shooting",
+      "sleeve"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Las mangas de tiro son accesorios deportivos de soporte que se usan en baloncesto y otros deportes",
+    "example": "GAMEON SHOOTING SLEEVE L/XL",
+    "addedAt": "2026-03-21T15:35:38.269Z"
   }
 ]
