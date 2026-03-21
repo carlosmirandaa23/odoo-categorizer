@@ -2380,5 +2380,28 @@
     "reason": "Dispositivo de liberación de pulgar típico del tiro con arco, equipamiento de protección/accesorio de disciplina específica",
     "example": "COBRA HARVESTER THUMB RELEASE",
     "addedAt": "2026-03-21T12:21:51.230Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "wrist",
+      "strap"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Wrist strap es un complemento deportivo de soporte/accesorio para muñeca",
+    "example": "COBRA NATURAL WRIST STRAP RELEASE",
+    "addedAt": "2026-03-21T12:22:30.358Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "cold pack"
+    ],
+    "category": "PRIMEROS AUXILIOS",
+    "match": "contains",
+    "reason": "Cold pack es una compresa de frío para primeros auxilios y recuperación",
+    "example": "COLD PACK CHICO",
+    "addedAt": "2026-03-21T12:23:07.855Z"
   }
 ]
