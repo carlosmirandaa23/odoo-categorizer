@@ -233,5 +233,17 @@
     "reason": "Guantes de box requieren palabra 'gloves' + disciplina o tipo de protección para evitar confusión con guantes de otros deportes",
     "example": "ADIDAS ADIZERO 13 GLOVES BLACK M",
     "addedAt": "2026-03-21T07:31:00.798Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "gloves",
+      "boxing"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "La palabra 'gloves' combinada con contexto de boxeo/deporte de contacto evita ambigüedad con otros tipos de guantes",
+    "example": "ADIDAS ADIZERO 13 GLOVES GREY L",
+    "addedAt": "2026-03-21T07:31:18.345Z"
   }
 ]
