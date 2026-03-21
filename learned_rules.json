@@ -3601,5 +3601,28 @@
     "reason": "EvoShield XVT es un protector de pecho específico para béisbol, parte de la línea de protecciones deportivas",
     "example": "EVOSHIELD EVO XVT",
     "addedAt": "2026-03-21T14:32:31.807Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "evoshield",
+      "leg guard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Evoshield es marca especializada en protecciones deportivas; leg guard es protección de pierna específica",
+    "example": "EVOSHIELD LEG GUARD",
+    "addedAt": "2026-03-21T14:33:11.840Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "wrist guard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protección de muñeca específica para deportes, término inequívoco",
+    "example": "EVOSHIELD WRIST GUAR9",
+    "addedAt": "2026-03-21T14:34:29.930Z"
   }
 ]
