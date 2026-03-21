@@ -492,5 +492,75 @@
     "reason": "Combinación específica de 'pelota' + 'padel' elimina ambigüedad con herramientas u otros productos",
     "example": "ADIDAS SPEED RX PELOTA DE PADEL C/3",
     "addedAt": "2026-03-21T08:13:11.005Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sprintstar",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Sprintstar es modelo de tacos para atletismo/sprint de Adidas, confirmado por patrón de SKU deportivo",
+    "example": "ADIDAS SPRINTSTAR # 10",
+    "addedAt": "2026-03-21T08:13:28.786Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sprintstar"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Sprintstar es línea de tachones de atletismo/pista de Adidas",
+    "example": "ADIDAS SPRINTSTAR # 11",
+    "addedAt": "2026-03-21T08:13:46.583Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "padel",
+      "bag"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Bolsa específica para pádel, contiene ambos términos para evitar confusión con disciplina o herramienta sola",
+    "example": "ADIDAS TEAM PADEL BAG ",
+    "addedAt": "2026-03-21T08:17:06.331Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "cuerda para saltar"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Cuerda para saltar es equipo de entrenamiento portátil para uso en casa o exterior, no es disciplina específica",
+    "example": "ADURO SPORT CUERDA PARA SALTAR DE CABLE",
+    "addedAt": "2026-03-21T08:32:48.246Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "balon",
+      "soccer"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Combinación de 'balón' + 'soccer' identifica unívocamente balones de fútbol, evitando confusión con otros tipos de balones",
+    "example": "ADX BALON #4 SOCCER",
+    "addedAt": "2026-03-21T08:33:22.854Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "balon",
+      "americano"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Balón específico de fútbol americano, combinación de dos palabras evita ambigüedad con otros balones",
+    "example": "ADX BALON AMERICANO Fa7 #7",
+    "addedAt": "2026-03-21T08:33:40.617Z"
   }
 ]
