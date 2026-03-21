@@ -2071,5 +2071,27 @@
     "reason": "Camisa es prenda de uso deportivo superior, sin marca ni modelo específico que genere ambigüedad",
     "example": "CAMISA PARAGON XP ",
     "addedAt": "2026-03-21T11:45:51.188Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "mancuerna"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Mancuerna es término específico para equipo de pesa de mano, nunca se refiere a otro producto deportivo",
+    "example": "CAP BARBELL MANCUERNA 15LBS PAR",
+    "addedAt": "2026-03-21T11:47:43.394Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "stretch bands"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Las bandas elásticas de estiramiento son equipamiento de entrenamiento en casa y ejercicio",
+    "example": "CARTEL STRECH BANDS",
+    "addedAt": "2026-03-21T11:56:08.228Z"
   }
 ]
