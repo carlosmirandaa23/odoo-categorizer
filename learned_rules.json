@@ -4978,5 +4978,17 @@
     "reason": "Compound rest es accesor específico de arcos compuestos (tiro con arco). Crux es marca de descansos de arco.",
     "example": "CARTEL INFITEC CRUX COMPOUND REST WITH BLADES",
     "addedAt": "2026-03-21T21:01:05.977Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "home plate",
+      "protecciones"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Home plate es equipo de protección específico en béisbol (pectoral protector del catcher)",
+    "example": "CHAMPION SPORTS HOME PLATE PROFESIONAL",
+    "addedAt": "2026-03-21T21:05:31.602Z"
   }
 ]
