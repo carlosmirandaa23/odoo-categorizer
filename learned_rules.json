@@ -4383,5 +4383,100 @@
     "reason": "GOLS es marca especializada en tachones; TIP PRO es línea de tachones de fútbol",
     "example": "GOLS TIP PRO SERIES 22 ARROW C/U",
     "addedAt": "2026-03-21T16:21:40.358Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "gorra"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "startswith",
+    "reason": "Gorra es un complemento deportivo de uso común en actividades al aire libre",
+    "example": "GORRA CHECO ESSENTIAL TRUCKER",
+    "addedAt": "2026-03-21T16:22:22.147Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "gorro"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "startswith",
+    "reason": "Gorro es prenda de cabeza deportiva, siempre clasificable en COMPLEMENTOS sin ambigüedad",
+    "example": "GORRO CHECO PEREZ 2024",
+    "addedAt": "2026-03-21T16:25:23.713Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "kickoff",
+      "tee"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Kickoff tee es accesorio específico de fútbol americano para posicionar el balón en los saques iniciales",
+    "example": "GROUND ZERO 2\" KICKOFF TEE",
+    "addedAt": "2026-03-21T16:27:25.575Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "vanes",
+      "badminton"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Las 'vanes' son las plumas/aletas características de los volantes de bádminton, accesorio específico de la disciplina",
+    "example": "Gas Pro GX-187 Vanes",
+    "addedAt": "2026-03-21T16:32:34.338Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "band",
+      "latex"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Las bandas elásticas de latex con especificación de resistencia en libras son equipamiento de entrenamiento doméstico",
+    "example": "Gofit SUPER BAND LATEX 20-35LB",
+    "addedAt": "2026-03-21T16:35:17.063Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "head",
+      "spin"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "HEAD es fabricante de raquetas de tenis; SPIN es tecnología de raqueta de tenis",
+    "example": "HEAD EXTREME SPIN BIG ",
+    "addedAt": "2026-03-21T16:40:54.375Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pelota",
+      "frontenis"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Pelota específica de frontenis, disciplina de raqueta. 'Frontenis' + 'pelota' elimina ambigüedad con otros tipos de pelotas o equipos.",
+    "example": "HEAD FRONTENIS PELOTA AMARILLA",
+    "addedAt": "2026-03-21T16:43:03.361Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "graphene",
+      "speed",
+      "mp"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Combinación característica de raqueta de tenis HEAD con serie Speed y tamaño midplus",
+    "example": "HEAD GRAPHENE 360 SPEED MP LITE ",
+    "addedAt": "2026-03-21T16:43:25.106Z"
   }
 ]
