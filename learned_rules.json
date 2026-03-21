@@ -2036,5 +2036,29 @@
     "reason": "Accesorio de arco/tiro deportivo para reducir ruido. Silenciadores son componentes específicos de equipamiento deportivo sin ambigüedad de uso.",
     "example": "Bearpaw Beaver Puff String Silencers",
     "addedAt": "2026-03-21T11:33:14.437Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "resistance",
+      "band"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Las bandas de resistencia y asistencia son equipamiento de entrenamiento doméstico, diferenciadas de recuperación por su función de entrenamiento activo",
+    "example": "Black Power Guidence Latex Resistance Streching Band-Pull up Assist Bands",
+    "addedAt": "2026-03-21T11:33:53.114Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "flap",
+      "batter"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "C-flap es protección específica para bateadores en béisbol, evita ambigüedad con otros productos",
+    "example": "C-Flap for Left Handed Batter Bagged - Royal",
+    "addedAt": "2026-03-21T11:35:08.413Z"
   }
 ]
