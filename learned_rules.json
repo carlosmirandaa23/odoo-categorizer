@@ -1824,5 +1824,183 @@
     "reason": "BEMAN Hunter es una línea clásica de flechas/proyectiles para arco, típicamente clasificados con equipamiento de tiro deportivo próximo a raquetas/palas",
     "example": "BEMAN HUNTER CLASSIC CARBON 400/500 C/U",
     "addedAt": "2026-03-21T11:07:48.585Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "pitch machine",
+      "throw machine",
+      "pass machine"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Máquinas de entrenamiento portátiles para lanzamiento/pase de uso doméstico o de cancha",
+    "example": "BIGFOOT PITCH/THROW/PASS MACHINE",
+    "addedAt": "2026-03-21T11:10:15.159Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "supporter",
+      "bike"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Supporter para ciclismo indica tobillera, rodillera o soporte específico de recuperación/prevención",
+    "example": "BIKE 3\" SUPPORTER BK LG",
+    "addedAt": "2026-03-21T11:10:34.095Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "biofreeze",
+      "spray"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Biofreeze es un producto tópico de recuperación/alivio muscular que se aplica en spray, clasificado como cuidado y mantenimiento deportivo",
+    "example": "BIOFREEZE SPRAY PROFESSIONAL 4 OZ",
+    "addedAt": "2026-03-21T11:10:53.190Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "block",
+      "target"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Nombre típico de voleibol (bloqueo/target indica entrenamiento específico). 'Block' solo en contexto deportivo refiere a voleibol o protecciones; 'target' con 'block' apunta a balón de entrenamiento.",
+    "example": "BLOCK CLASSIC 18 TARGET",
+    "addedAt": "2026-03-21T11:11:51.155Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "fins"
+    ],
+    "category": "SANDALIAS Y CHANCLAS",
+    "match": "contains",
+    "reason": "Fins son aletas/chanclas deportivas de recuperación/natación",
+    "example": "BODOODLE SPEED FINS SIZE ",
+    "addedAt": "2026-03-21T11:14:15.585Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "loop",
+      "exercise band"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Las bandas elásticas de ejercicio (loop bands) son herramientas de entrenamiento en casa para resistencia y movilidad",
+    "example": "BODY SPORT LOOP EXERCISE BAND",
+    "addedAt": "2026-03-21T11:14:35.571Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "medicine ball"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Medicine ball es equipo exclusivo de entrenamiento en casa/funcional, sin ambigüedad",
+    "example": "BODY SPORT MEDICINE BALL",
+    "addedAt": "2026-03-21T11:15:31.079Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "liga",
+      "resistencia"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Las ligas de resistencia son equipamiento de entrenamiento en casa, la combinación de ambos términos evita ambigüedad con otros usos",
+    "example": "BODYSPORT LIGA DE RESISTENCIA",
+    "addedAt": "2026-03-21T11:16:08.559Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "armguard",
+      "d-flector"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Armguard es protección específica de tiro con arco, D-Flector es modelo reconocido. Dos palabras previenen ambigüedad.",
+    "example": "BOHNING D-FLECTOR ARMGUARD",
+    "addedAt": "2026-03-21T11:18:41.065Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "armguard",
+      "compression"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "armguard es protección específica para arquería/deportes, compression armguard es inequívoco",
+    "example": "BOHNING SLIP ON COMPRESSION ARMGUARD",
+    "addedAt": "2026-03-21T11:20:55.119Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "bomba de aire"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "startswith",
+    "reason": "Herramienta para inflar balones y pelotas de entrenamiento",
+    "example": "BOMBA DE AIRE ADX",
+    "addedAt": "2026-03-21T11:21:52.128Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bomba",
+      "casco"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Accesorio de mantenimiento/inflado específico para cascos deportivos",
+    "example": "BOMBA PARA CASCO",
+    "addedAt": "2026-03-21T11:22:11.576Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "bowjax",
+      "stopper"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Bowjax es un amortiguador específico para arcos de tiro con arco, accesorio de equipamiento deportivo especializado",
+    "example": "BOWJAX ENHANCER STOPPER ",
+    "addedAt": "2026-03-21T11:25:18.910Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "nose button",
+      "nose guard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protección facial específica para deportes de contacto, nunca se refiere a otro tipo de producto",
+    "example": "BOWMAR NOSE BUTTON",
+    "addedAt": "2026-03-21T11:25:56.256Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cap",
+      "leather"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Cap es gorra deportiva; leather confirma prenda de vestir accesoria, no es marca Bowtech sino producto",
+    "example": "BOWTECH LEATHER CAP",
+    "addedAt": "2026-03-21T11:26:16.041Z"
   }
 ]
