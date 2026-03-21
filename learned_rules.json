@@ -31,5 +31,39 @@
     "reason": "Patrón automático — no es un producto",
     "example": "15% en tu orden",
     "addedAt": "2026-03-21T04:38:02.071Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "shoulder",
+      "pads"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Shoulder pads are exclusively protective equipment used in contact sports like football, lacrosse, and ice hockey. Combined keywords eliminate ambiguity.",
+    "example": "2in1 Shoulder Pads",
+    "addedAt": "2026-03-21T04:38:42.690Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "finger saver"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "En contexto deportivo, 'finger saver' se refiere únicamente a protecciones de dedos para atletas (protecciones contra impactos, protecciones de arquería, protecciones de portero). Nunca aparece como nombre de otro tipo de producto deportivo.",
+    "example": "3 FINGERS UNDER COLOR FINGER SAVER",
+    "addedAt": "2026-03-21T04:39:02.095Z"
+  },
+  {
+    "type": "exclude",
+    "match": "startswith",
+    "keywords": [
+      "30%"
+    ],
+    "category": "EXCLUIDO",
+    "reason": "Patrón automático — no es un producto",
+    "example": "30% en tu orden",
+    "addedAt": "2026-03-21T04:39:35.116Z"
   }
 ]
