@@ -2776,5 +2776,125 @@
     "reason": "Moleskin es una cinta adhesiva especializada para prevención de ampollas y fricción, usada en contextos deportivos para cuidado y protección de pies",
     "example": "CRAMER MOLESKIN 1ROLL",
     "addedAt": "2026-03-21T12:56:13.335Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "red hot",
+      "cramer"
+    ],
+    "category": "RECUPERACIÓN",
+    "match": "contains",
+    "reason": "Cramer Red Hot es un producto de terapia térmica/calor para recuperación muscular, posicionado en paramédicos > recuperación",
+    "example": "CRAMER RED HOT 1LB",
+    "addedAt": "2026-03-21T12:57:12.441Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tape",
+      "atletico"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Tape atlético es cinta deportiva para soporte/vendaje, categorizado en cuidado y mantenimiento",
+    "example": "CRAMER TAPE ATLETICO",
+    "addedAt": "2026-03-21T12:58:09.404Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tape",
+      "cramer"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Cramer es marca especializada en cintas deportivas y vendajes para soporte preventivo",
+    "example": "CRAMER TAPE COLORES BK CAJA 32",
+    "addedAt": "2026-03-21T12:58:29.367Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tennis elbow",
+      "strap"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Combinación de 'tennis elbow' (epicondilitis) + 'strap' indica claramente una tobillera/soporte de prevención, no un producto de tenis",
+    "example": "CRAMER TENNIS ELBOW STRAP",
+    "addedAt": "2026-03-21T13:00:04.216Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tuf-skin",
+      "cramer"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Cramer TUF-SKIN es una marca conocida de protecciones deportivas, específicamente vendajes y cintas de protección",
+    "example": "CRAMER TUF-SKIN 10oz",
+    "addedAt": "2026-03-21T13:01:01.132Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "crossx",
+      "point"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "CROSSX es marca de tachones de fútbol; 'point' especifica tipo de taco de referencia deportiva",
+    "example": "CROSSX 4.2MM BASIC POINT .166",
+    "addedAt": "2026-03-21T13:01:59.079Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "cuerda",
+      "cable",
+      "triceps"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Cuerda de entrenamiento específica para ejercicios de tríceps en casa/gimnasio",
+    "example": "CUERDA PARA TRICEPS CABLE ",
+    "addedAt": "2026-03-21T13:03:53.668Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "gauze pads"
+    ],
+    "category": "PRIMEROS AUXILIOS",
+    "match": "contains",
+    "reason": "Gauze pads son vendajes/apósitos médicos de primeros auxilios, nunca otro tipo de producto deportivo",
+    "example": "CURAD GAUZE PADS ",
+    "addedAt": "2026-03-21T13:04:13.546Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "aluminum",
+      "insert"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Los insertos de aluminio half-out son componentes específicos para tachones de fútbol y deportes de contacto",
+    "example": "CX ALUMINUM HALF-OUT INSERTS",
+    "addedAt": "2026-03-21T13:04:33.349Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bean bag",
+      "official"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Bean bags de árbitro son equipamiento de protección/control en deportes de contacto",
+    "example": "DAVIS BOX OFFICIAL'S BEAN BAG",
+    "addedAt": "2026-03-21T13:07:29.497Z"
   }
 ]
