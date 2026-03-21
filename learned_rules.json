@@ -3284,5 +3284,41 @@
     "reason": "EASTON PIN es marca y modelo de tachones de béisbol, A/C/E y A/C/C son especificaciones de tachones",
     "example": "EASTON PIN A/C/E A/C/C -00ACG 610-1000",
     "addedAt": "2026-03-21T13:45:09.356Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pin",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "PIN X10 es un clavo/tachón de beisbol de Easton, identifica producto específico de fútbol americano/béisbol",
+    "example": "EASTON PIN X10 8G ",
+    "addedAt": "2026-03-21T13:45:50.011Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "breakoff",
+      "protour"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Términos específicos de palas de pádel/tenis Easton, peso en gramos indica equipo de raqueta",
+    "example": "EASTON POINT BREAKOFF X10 & PROTOUR 100-120G",
+    "addedAt": "2026-03-21T13:46:30.967Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "easton",
+      "point"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "EASTON POINT es línea de tachones de béisbol/fútbol americano. CB indica cleats de béisbol. 100G es peso/especificación técnica.",
+    "example": "EASTON POINT CB 100G",
+    "addedAt": "2026-03-21T13:47:11.778Z"
   }
 ]
