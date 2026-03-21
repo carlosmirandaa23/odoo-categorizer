@@ -5770,5 +5770,17 @@
     "reason": "Combinación de articulación específica (elbow) + función de soporte evita confusión con otros protectores",
     "example": "MACH ELBOW SUPPORT- LARGE",
     "addedAt": "2026-03-21T23:25:53.673Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "knee",
+      "support"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Combinación de 'knee' + 'support' identifica inequívocamente soportes de rodilla sin ambigüedad de marca",
+    "example": "MACH KNEE SUPPORT",
+    "addedAt": "2026-03-21T23:26:18.628Z"
   }
 ]
