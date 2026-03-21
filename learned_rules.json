@@ -2403,5 +2403,191 @@
     "reason": "Cold pack es una compresa de frío para primeros auxilios y recuperación",
     "example": "COLD PACK CHICO",
     "addedAt": "2026-03-21T12:23:07.855Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "beanie"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Beanie es siempre una prenda de cabeza deportiva, nunca otro tipo de producto",
+    "example": "COLDGEAR BLUE UNDER BEANIE",
+    "addedAt": "2026-03-21T12:23:27.106Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "compression",
+      "ua"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "UA compression es identificador de prendas deportivas compresivas de torso/superior",
+    "example": "COLDGEAR YOUTH UA COMPRESSION",
+    "addedAt": "2026-03-21T12:25:17.891Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "bonete"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "bonete es siempre un accesorio de cabeza deportivo, nunca otro tipo de producto",
+    "example": "COLUMBIA BONETE BLACK/NAVY",
+    "addedAt": "2026-03-21T12:25:37.236Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "chaleco"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "chaleco deportivo es prenda de abrigo/exterior",
+    "example": "COLUMBIA CHALECO XL",
+    "addedAt": "2026-03-21T12:26:52.231Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "chamarra"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "Chamarra es siempre una prenda de abrigo exterior, nunca otro tipo de producto",
+    "example": "COLUMBIA CHAMARRA DELTA RIDGE XXL",
+    "addedAt": "2026-03-21T12:27:11.611Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sweater",
+      "half zip"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "Combinación de términos que identifica suéteres y prendas de abrigo deportivo de media cremallera",
+    "example": "COLUMBIA SWEATER WEATHER HALF ZIP L",
+    "addedAt": "2026-03-21T12:32:42.777Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "polaina",
+      "kg"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Polaina con peso (2kg) es equipamiento de soporte y entrenamiento, diferenciable de prendas por su función de carga/compresión",
+    "example": "COMAX 2KG POLAINA",
+    "addedAt": "2026-03-21T12:34:53.450Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "almohadilla",
+      "béisbol"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Almohadillas específicas de béisbol son protecciones deportivas, no confundir con otros tipos de almohadillas",
+    "example": "COMAX ALMOHADILLAS PARA BEISBOL/ JUEGO 3",
+    "addedAt": "2026-03-21T12:35:13.778Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "faja",
+      "térmica"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Faja térmica es equipo de soporte y recuperación muscular",
+    "example": "COMAX FAJA TERMICA",
+    "addedAt": "2026-03-21T12:36:28.736Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "beisbol",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Juegos de béisbol infantil típicamente incluyen tachones de béisbol de 3 piezas",
+    "example": "COMAX JUEGO PARA BEISBOL INFANTIL 3PIEZAS",
+    "addedAt": "2026-03-21T12:37:44.297Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "knee saver"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Producto de soporte y prevención para rodilla, específicamente diseñado para protección articular",
+    "example": "COMAX KNEE SAVER 1PAIR",
+    "addedAt": "2026-03-21T12:38:04.382Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "liga",
+      "aerobica"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Liga corta aeróbica es una prenda superior deportiva, la combinación de términos evita confusión con otros tipos de ligas o prendas",
+    "example": "COMAX LIGA CORTA AEROBICA",
+    "addedAt": "2026-03-21T12:38:24.413Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "shorts",
+      "authenticate"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Shorts es prenda inferior deportiva. 'Authentic' es descriptor de línea/modelo, no genera ambigüedad cuando va con shorts",
+    "example": "COMBINE AUTHENTIC SHORTS",
+    "addedAt": "2026-03-21T12:39:39.872Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "concha",
+      "elastico"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protección genital deportiva infantil con cierre elástico",
+    "example": "CONCHA CON ELASTICO INFANTIL ",
+    "addedAt": "2026-03-21T12:40:00.812Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "concha"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Concha es protección genital deportiva, término único sin ambigüedad en contexto deportivo",
+    "example": "CONCHA CON ELÁSTICO ADULTO ",
+    "addedAt": "2026-03-21T12:40:20.677Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "conderas",
+      "ufc"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Conderas son protecciones específicas para UFC/MMA, nunca confundibles con otro producto",
+    "example": "CONTENDER UFC CONDERAS ",
+    "addedAt": "2026-03-21T12:41:55.515Z"
   }
 ]
