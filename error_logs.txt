@@ -1,3 +1,4 @@
+[2026-03-21T07:04:20.243Z] ERROR [407088] "ADX ESPINILLERA ADULTO" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFoKG1c3AJ6oUtkHouY4"}
 [2026-03-21T07:04:03.385Z] ERROR [411294] "ADX ESPINILLERA ADULTO" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFoJ1pYoqXhj339gA5SJ"}
 [2026-03-21T07:03:46.411Z] ERROR [407988] "ADX ESPINILLERA ADULTO" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFoGmb1HcRTvvDbRPbYs"}
 [2026-03-21T07:03:29.466Z] ERROR [407120] "ADX ESPINILLERA 3 HAWK AD RED" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFoFX8aML3vQ8rf1jNfT"}
