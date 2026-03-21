@@ -121,5 +121,16 @@
     "reason": "La palabra 'pádel' identifica unívocamente un tipo de deporte de raqueta y sus palas asociadas. No hay ambigüedad con otros productos deportivos. El término 'pádel' aparece en todos los contextos como descriptor del deporte y su equipamiento principal.",
     "example": "ADIDAS ADIPOWER JUNIOR PADEL",
     "addedAt": "2026-03-21T04:02:30.556Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "pala"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": null,
+    "reason": "La palabra 'pala' identifica sin ambigüedad equipamiento de pádel. Aunque 'raqueta' también se acepta, 'pala' es el término técnicamente más correcto y menos confuso con otros deportes de raqueta.",
+    "example": "ADIDAS ADIPOWER MULTIWEIGHT CTRL 3.3 PADEL",
+    "addedAt": "2026-03-21T04:02:52.739Z"
   }
 ]
