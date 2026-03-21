@@ -5556,5 +5556,53 @@
     "reason": "Babolat es marca especializada en raquetas de tenis y pádel. Air Veron es modelo de raqueta de tenis",
     "example": "BABOLAT AIR VERON",
     "addedAt": "2026-03-21T18:27:06.944Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "bases",
+      "softbol"
+    ],
+    "category": "EQUIPAMIENTO Y MATERIAL",
+    "match": "contains",
+    "reason": "Producto de equipamiento deportivo para softbol, no es prenda ni calzado",
+    "example": "BASES SOFTBOL CON CUATRO ALMOHADILLAS",
+    "addedAt": "2026-03-21T18:32:08.274Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "sand"
+    ],
+    "category": "SANDALIAS Y CHANCLAS",
+    "match": "contains",
+    "reason": "SAND es abreviación de sandalias/sandals, identifica sin ambigüedad la categoría",
+    "example": "BP MULT SAND ",
+    "addedAt": "2026-03-21T18:55:33.964Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "stretch bands",
+      "strech bands"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Bandas elásticas de estiramiento/entrenamiento para uso doméstico",
+    "example": "CARTEL STRECH BANDS",
+    "addedAt": "2026-03-21T19:05:12.442Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "cinturon",
+      "multiusos",
+      "tirantes"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Cinturón deportivo multiusos con tirantes es un accesorio complementario de uso deportivo",
+    "example": "CINTURON MULTIUSOS CON TIRANTES",
+    "addedAt": "2026-03-21T19:12:16.279Z"
   }
 ]
