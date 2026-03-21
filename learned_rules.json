@@ -352,5 +352,40 @@
     "reason": "Metalbone es línea de palas de pádel Adidas; requiere contexto 'pala' para evitar ambigüedad con otros productos",
     "example": "ADIDAS METALBONE PRO-EDT ",
     "addedAt": "2026-03-21T08:04:37.527Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "metalbone",
+      "team light"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Metalbone Team Light es una línea de camisetas/jerseys deportivos de Adidas para equipos",
+    "example": "ADIDAS METALBONE TEAM LIGHT",
+    "addedAt": "2026-03-21T08:05:13.098Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "metalbone"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Metalbone es exclusivamente protector de espinillas/canilleras, nunca se refiere a otro tipo de producto",
+    "example": "ADIDAS METALBONE YOUTH",
+    "addedAt": "2026-03-21T08:05:30.838Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tiro",
+      "pant"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Tiro es la línea de pantalones deportivos de Adidas. 'Tiro' + 'pant' identifica inequívocamente pants deportivos",
+    "example": "ADIDAS NEW NAVY TIRO 11 PANT",
+    "addedAt": "2026-03-21T08:06:04.736Z"
   }
 ]
