@@ -4122,5 +4122,65 @@
     "reason": "Los tubos de resistencia (power tubes/ligas de entrenamiento) son equipamiento para ejercicio en casa",
     "example": "GO FIT POWER TUBE 25",
     "addedAt": "2026-03-21T15:55:29.802Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "xtrainer",
+      "cross training"
+    ],
+    "category": "RUNNING Y ENTRENAMIENTO",
+    "match": "contains",
+    "reason": "XTRAINER indica tenis de entrenamiento cruzado/cross training",
+    "example": "GO FIT XTRAINER BLK L W",
+    "addedAt": "2026-03-21T15:55:50.582Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "abball",
+      "core"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Combinación específica de 'abball' (balón abdominal/fitness) + 'core' indica balón de entrenamiento para ejercicios de núcleo",
+    "example": "GOFIT ABBALL CORE",
+    "addedAt": "2026-03-21T15:56:31.637Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "canillera",
+      "gancho"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Canillera es protección específica; gancho para barra evita confusión con accesorios generales",
+    "example": "GOFIT CANILLERA CON GANCHO PARA BARRA ",
+    "addedAt": "2026-03-21T15:57:12.808Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "canillera",
+      "espinillera"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Canillera es protección de tibia/espinilla, subcategoría de SOPORTE Y PREVENCIÓN dentro de PARAMÉDICOS",
+    "example": "GOFIT CANILLERA ELASTICA",
+    "addedAt": "2026-03-21T15:57:38.566Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bands",
+      "latex"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Bandas elásticas de látex para entrenamiento, nunca son otras categorías cuando aparecen ambos términos",
+    "example": "GOFIT FLAT BANDS LATEX 3 SET BANDS",
+    "addedAt": "2026-03-21T15:57:59.880Z"
   }
 ]
