@@ -5507,5 +5507,77 @@
     "reason": "Top deportivo es prenda superior independientemente de marca o talla",
     "example": "JOMA TOP MUJER XS ",
     "addedAt": "2026-03-21T22:46:32.481Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "kempa",
+      "accedo"
+    ],
+    "category": "CANCHA - INDOOR",
+    "match": "contains",
+    "reason": "KEMPA es marca de balonmano/handball. ACCEDO es modelo de calzado indoor de cancha",
+    "example": "KEMPA ACCEDO #2",
+    "addedAt": "2026-03-21T22:51:31.597Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "match",
+      "balón"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "KEMPA es marca de balonmano, MATCH-X es línea de balones, #3 es talla estándar de balonmano",
+    "example": "KEMPA MATCH-X #3",
+    "addedAt": "2026-03-21T22:52:02.636Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "kinesio",
+      "kinesiotape"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Kinesio tape es cinta deportiva específica para soporte muscular y prevención",
+    "example": "KINESIO TEX GOLD 31mts TAPE/ BK",
+    "addedAt": "2026-03-21T22:53:04.371Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "kit",
+      "sideline"
+    ],
+    "category": "PRIMEROS_AUXILIOS",
+    "match": "contains",
+    "reason": "Kit de emergencia/primeros auxilios para uso en banda lateral de deportes de contacto",
+    "example": "KIT SCHUTT SIDELINE ",
+    "addedAt": "2026-03-21T22:53:58.678Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "eagle",
+      "magnum"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Eagle Magnum es línea de shorts/pants deportivos de marca conocida",
+    "example": "KR3 EAGLE MAGNUM-TALLA 34",
+    "addedAt": "2026-03-21T22:54:24.780Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "hydration",
+      "pack"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Hydration pack es mochila deportiva específica para hidratación, evita ambigüedad con otros tipos de bolsas",
+    "example": "KUYOU AIRFLOW HYDRATION PACK",
+    "addedAt": "2026-03-21T22:55:00.295Z"
   }
 ]
