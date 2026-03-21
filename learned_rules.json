@@ -64,5 +64,17 @@
     "reason": "El término 'chest protector' identifica inequívocamente un producto de protección corporal deportiva sin ambigüedad. Es el nombre estándar en la industria para este tipo de equipamiento.",
     "example": "ADAMS ACP CHEST PROTECTOR 16'",
     "addedAt": "2026-03-21T03:57:27.622Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "leg",
+      "guards"
+    ],
+    "category": "PROTECCIONES",
+    "match": null,
+    "reason": "La combinación 'leg guards' es específica para protecciones de extremidades inferiores en deportes. El término 'guards' solo es ambiguo (podría ser rodilleras, tobilleras, etc.), pero 'leg guards' identifica sin confusión este tipo de protección. 'Leg' + 'guards' juntos evita falsos positivos.",
+    "example": "ADAMS CATCHERS LEG CUARDS 15'",
+    "addedAt": "2026-03-21T03:58:08.254Z"
   }
 ]
