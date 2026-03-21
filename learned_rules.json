@@ -209,5 +209,17 @@
     "reason": "Adilette Aqua es una chancla deportiva de recuperación/casual de Adidas",
     "example": "ADIDAS ADILETTE AQUA",
     "addedAt": "2026-03-21T07:28:59.813Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pala",
+      "padel"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Combinación de 'pala' + 'padel' evita ambigüedad con herramientas u otros usos",
+    "example": "ADIDAS ADIPOWER CTRL TEAM 3.3 PADEL",
+    "addedAt": "2026-03-21T07:29:16.955Z"
   }
 ]
