@@ -1359,5 +1359,29 @@
     "reason": "Jammer es prenda de natación específica, no ambigua cuando se acompaña de contexto acuático",
     "example": "AQUAZONE TB CAB. PBT BASIC SOLID JAMMER",
     "addedAt": "2026-03-21T09:38:17.970Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "jammer",
+      "baño"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Jammer es prenda de baño específica para natación competitiva",
+    "example": "AQUAZONE TB CAB. PBT JAMMER",
+    "addedAt": "2026-03-21T09:38:36.560Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "jammer",
+      "bañador"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Jammer es prenda de baño específica (tipo bañador corto). Palabra 'jammer' casi nunca se refiere a otro producto deportivo.",
+    "example": "AQUAZONE TB NIÑO PBT JAMMER SIDE BINDING ",
+    "addedAt": "2026-03-21T09:39:32.732Z"
   }
 ]
