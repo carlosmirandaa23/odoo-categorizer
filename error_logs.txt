@@ -1,3 +1,4 @@
+[2026-03-21T06:22:36.889Z] ERROR [404398] "ADX BALON VOLEIBOL VXV-105" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-3-5-haiku-20241022"},"request_id":"req_011CZFk8jMFLX14BuZJFoWY5"}
 [2026-03-21T06:22:20.242Z] ERROR [412360] "ADX BALON VOLEIBOL VX-501 #5" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-3-5-haiku-20241022"},"request_id":"req_011CZFk7ViBBYbskuwxjFTe2"}
 [2026-03-21T06:22:03.466Z] ERROR [413843] "ADX BALON VOLEIBOL TERMOSELLADO TEAM" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-3-5-haiku-20241022"},"request_id":"req_011CZFk6GLjQpkshwW82ETdr"}
 [2026-03-21T06:21:30.095Z] ERROR [406837] "ADX BALON SOCCER FX-11 #5" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-3-5-haiku-20241022"},"request_id":"req_011CZFk3oYd8aYNMbXtU2BAF"}
