@@ -5449,5 +5449,41 @@
     "reason": "JOMA LIDER es línea de balones; SET indica pack de balones",
     "example": "JOMA LIDER SET L ",
     "addedAt": "2026-03-21T22:43:01.458Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "lion",
+      "joma"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "LION es línea de playeras/camisetas deportivas de JOMA; contexto de talla L confirma prenda superior",
+    "example": "JOMA LION GREEN L ",
+    "addedAt": "2026-03-21T22:43:18.052Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "olimpia",
+      "hombre"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Olimpia es línea de camisetas deportivas de Joma; contexto 'hombre' confirma prenda superior",
+    "example": "JOMA OLIMPIA HOMBRE S",
+    "addedAt": "2026-03-21T22:43:26.555Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "olimpia",
+      "mujer"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Olimpia es línea de prendas deportivas femeninas de Joma, típicamente camisetas/tops",
+    "example": "JOMA OLIMPIA MUJER  S",
+    "addedAt": "2026-03-21T22:43:51.767Z"
   }
 ]
