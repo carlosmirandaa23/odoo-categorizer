@@ -114,5 +114,17 @@
     "reason": "armguard es protección específica de brazos para deportes, combinado evita confusión con otros tipos de protección",
     "example": "AAE TARGET STYLE ARMGUARD",
     "addedAt": "2026-03-21T07:24:46.250Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tobillo",
+      "estabilizador"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Tobillo + estabilizador identifica únicamente tobilleras/soportes de tobillo",
+    "example": "ACTIVE ANKLE T2 ESTABILIZADOR TOBILLO LG",
+    "addedAt": "2026-03-21T07:25:03.521Z"
   }
 ]
