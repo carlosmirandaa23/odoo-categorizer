@@ -274,7 +274,6 @@ async function classifyWithAI(product) {
       "Content-Type": "application/json",
       "x-api-key": ANTHROPIC_API_KEY,
       "anthropic-version": "2023-06-01",
-      "anthropic-beta": "prompt-caching-2024-07-31"
     },
     body: JSON.stringify({
       model: "claude-3-5-haiku-20241022",
