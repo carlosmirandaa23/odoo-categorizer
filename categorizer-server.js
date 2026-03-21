@@ -193,34 +193,39 @@ Tu tarea es:
 1. Clasificar el producto en la categoría correcta
 2. Proponer UNA regla simple y reutilizable que capture productos similares
 
-CRITERIOS PARA PROPONER REGLA:
-- Si UNA palabra sola identifica el tipo sin ambigüedad (ej: "short", "gorra", "helmet") → type: "any", una keyword
-- Si necesitas DOS palabras para evitar confusión (ej: "spotlight"+"football", "pala"+"padel") → type: "all", dos keywords  
+CRITERIOS PARA PROPONER REGLA DE CATEGORIZACIÓN:
+- Si UNA palabra sola identifica el tipo sin ambigüedad (ej: "helmet", "backpack") → type: "any", una keyword
+- Si necesitas DOS palabras para evitar confusión (ej: "pala"+"padel") → type: "all", dos keywords
 - Las keywords deben estar en minúsculas y ser lo más genéricas posible
-- Si el nombre es demasiado específico, críptico o ambiguo → rule: null
 - NO propongas reglas con marcas genéricas como "nike", "adidas", "under armour"
+
+CASO ESPECIAL — NO ES UN PRODUCTO:
+Si el nombre es claramente un descuento, porcentaje, promoción, abono, o texto que no representa un artículo físico:
+- Usa category: "SIN_CATEGORIA", confidence: 0
+- SIEMPRE propón una regla de exclusión para evitar consultar por productos similares en el futuro
+- Usa match: "startswith" si el patrón aparece al inicio (ej: "10%", "15%", "30%")
+- Usa match: "contains" si el patrón puede aparecer en cualquier parte (ej: "abono", "descuento")
+- Ejemplos:
+  "10% en productos de padel" → exclude startswith "10%"
+  "30% en tu orden" → exclude startswith "30%" (misma regla que 10%, generaliza el patrón)
+  "Abono Richardson" → exclude contains "abono"
+
+CASO ESPECIAL — ES UN PRODUCTO PERO NO ENCAJA EN NINGUNA CATEGORÍA:
+- Usa category: "SIN_CATEGORIA", confidence: 0, rule: null
 
 Responde ÚNICAMENTE con JSON válido sin markdown ni texto adicional:
 {
   "category": "<NOMBRE_EXACTO_DEL_CATÁLOGO>",
   "confidence": <0.0-1.0>,
   "rule": {
-    "type": "any|all",
+    "type": "any|all|exclude",
+    "match": "startswith|contains",
     "keywords": ["keyword1"],
-    "reason": "explicación breve de por qué esta regla es confiable"
+    "reason": "explicación breve"
   }
 }
 
-Si no encaja en ninguna categoría: { "category": "SIN_CATEGORIA", "confidence": 0, "rule": null }
-Si no hay regla confiable que proponer: incluye "rule": null en la respuesta
-
-TIPO ESPECIAL DE REGLA — "exclude":
-Si el nombre claramente NO es un producto (descuentos, porcentajes, notas, abonos, textos promocionales):
-- Responde con category: "SIN_CATEGORIA", confidence: 0
-- Propón una regla de exclusión:
-  { "type": "exclude", "match": "startswith|contains", "keywords": ["patron"], "reason": "..." }
-- Ejemplo: "10% en tu orden" → exclude startswith "10%"
-- Ejemplo: "abono" → exclude contains "abono"`;
+Si no hay regla que proponer: "rule": null`;
 }
 
 // ─────────────────────────────────────────
