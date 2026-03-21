@@ -98,5 +98,17 @@
     "reason": "La palabra 'jacket' identifica claramente chamarras y abrigos exteriores sin ambigüedad con otras prendas. Incluye variantes como rain jacket, wind jacket, cycling jacket.",
     "example": "ADIDAS 5.10 RAIN JKT L",
     "addedAt": "2026-03-21T03:59:51.474Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pala",
+      "padel"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": null,
+    "reason": "La combinación de 'pala' + 'padel' identifica inequívocamente palas de pádel, evitando confusión con raquetas de tenis u otro equipamiento deportivo",
+    "example": "ADIDAS ADIPOWER CTRL TEAM 3.3 PADEL",
+    "addedAt": "2026-03-21T04:01:48.460Z"
   }
 ]
