@@ -5903,5 +5903,29 @@
     "reason": "Field + FITA identifica pelotas/balones de deportes específicos de campo",
     "example": "MAPLE LEAF 40 CM Y 20 CM  FITA FIELD ",
     "addedAt": "2026-03-21T23:31:47.079Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "target",
+      "face"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Target face es componente de palas de pádel/tenis, pero marca MAPLE LEAF ambigua",
+    "example": "MAPLE LEAF TA-122CM TARGET FACE 1-10",
+    "addedAt": "2026-03-21T23:31:56.235Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "barbiquejo",
+      "chin"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Barbiquejo es protección facial específica para cascos/gorras deportivas, nunca aparece en otro contexto",
+    "example": "MARKWORT 4 PT LOW BARBIQUEJO YTH",
+    "addedAt": "2026-03-21T23:32:48.484Z"
   }
 ]
