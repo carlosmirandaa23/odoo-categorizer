@@ -63,21 +63,34 @@
       "arm guard"
     ],
     "category": "PROTECCIONES",
-    "match": null,
-    "reason": "Armguard es un protector de brazo específico del equipamiento deportivo, usado en archery, tiro con arco y otros deportes. La combinación con 'guard' o 'armguard' evita confusiones con otras prendas de brazo.",
+    "match": "contains",
+    "reason": "Los términos 'armguard' o 'arm guard' identifican de forma única protecciones para brazos usadas en deportes como tiro con arco y otros deportes de contacto",
     "example": "AAE TARGET STYLE ARMGUARD",
-    "addedAt": "2026-03-21T02:46:53.206Z"
+    "addedAt": "2026-03-21T02:46:51.208Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tobillera",
+      "ankle",
+      "estabilizador tobillo"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Los productos que mencionan 'tobillera', 'ankle' o 'estabilizador tobillo' son claramente soportes de prevención para el tobillo",
+    "example": "ACTIVE ANKLE T2 ESTABILIZADOR TOBILLO LG",
+    "addedAt": "2026-03-21T02:47:08.424Z"
   },
   {
     "type": "all",
     "keywords": [
-      "tobillo",
-      "estabilizador"
+      "chest",
+      "protector"
     ],
-    "category": "SOPORTE Y PREVENCIÓN",
-    "match": null,
-    "reason": "La combinación de 'tobillo' + 'estabilizador' identifica unívocamente tobilleras de soporte y prevención, diferenciándose de otras protecciones",
-    "example": "ACTIVE ANKLE T2 ESTABILIZADOR TOBILLO LG",
-    "addedAt": "2026-03-21T02:47:10.438Z"
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protectores de pecho para deportes de contacto se identifican por estas dos palabras clave combinadas",
+    "example": "ADAMS ACP CHEST PROTECTOR 16'",
+    "addedAt": "2026-03-21T02:47:41.964Z"
   }
 ]
