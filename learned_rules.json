@@ -1028,5 +1028,17 @@
     "reason": "Soga es una cuerda de entrenamiento deportivo de uso específico en acondicionamiento físico",
     "example": "ADX SOGA POLIESTER 10MTS 9K",
     "addedAt": "2026-03-21T09:12:42.449Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "soporte",
+      "mano"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Soporte elástico para mano es equipamiento de prevención y soporte",
+    "example": "ADX SOPORTE DE MANO ELASTICA MD",
+    "addedAt": "2026-03-21T09:13:17.597Z"
   }
 ]
