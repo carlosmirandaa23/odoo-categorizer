@@ -65,5 +65,17 @@
     "reason": "El término 'tricep bar' identifica sin ambigüedad una barra de entrenamiento especializada para ejercicios de tríceps, compatible con pesos olímpicos, usada en entrenamiento de fuerza en casa o gimnasio",
     "example": "34\" OLY TRICEP BAR",
     "addedAt": "2026-03-21T03:33:44.556Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "armguard",
+      "target"
+    ],
+    "category": "PROTECCIONES",
+    "match": null,
+    "reason": "La combinación de 'armguard' con 'target' especifica claramente protección para arquería. 'Target' es un descriptor común en equipos de tiro con arco y evita confusión con arm guards de otros deportes (baseball, martial arts, skiing).",
+    "example": "AAE TARGET STYLE ARMGUARD",
+    "addedAt": "2026-03-21T03:36:48.887Z"
   }
 ]
