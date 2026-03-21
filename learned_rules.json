@@ -31,5 +31,16 @@
     "reason": "Patrón automático — no es un producto",
     "example": "15% en tu orden",
     "addedAt": "2026-03-21T04:21:53.649Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "frontenis"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Frontenis es un deporte específico de pelota con raqueta. La palabra 'frontenis' combinada con contexto de producto garantiza clasificación en pelotas/balones sin ambigüedad.",
+    "example": "201 OFICIAL FRONTENIS",
+    "addedAt": "2026-03-21T04:22:15.045Z"
   }
 ]
