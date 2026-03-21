@@ -1,2 +1,3 @@
+[2026-03-21T04:03:13.108Z] PARSE_ERROR [413366] "ADIDAS ADIPOWER TEAM LIGHT" — Sin JSON válido: El producto es una 
 [2026-03-21T04:01:27.505Z] PARSE_ERROR [410738] "ADIDAS ADILETTE AQUA" — Sin JSON válido: Based on the web search results, 
 
