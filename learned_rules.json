@@ -195,5 +195,17 @@
     "reason": "Adizero es la línea de tenis de running/entrenamiento de Adidas, independientemente del modelo numérico",
     "example": "ADIDAS ADIZERO 12",
     "addedAt": "2026-03-21T02:52:46.416Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "calceta",
+      "sock"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Calceta es un término genérico para identificar calcetines deportivos, sin importar marca o modelo específico",
+    "example": "ADIDAS CALCETA ADISOCK 12",
+    "addedAt": "2026-03-21T03:00:18.671Z"
   }
 ]
