@@ -2625,5 +2625,52 @@
     "reason": "Finger sling es un dispositivo de soporte para dedos, típicamente usado en recuperación y prevención de lesiones",
     "example": "CR FINGER SLING ",
     "addedAt": "2026-03-21T12:44:26.447Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "replacement",
+      "fiber"
+    ],
+    "category": "PRIMEROS AUXILIOS",
+    "match": "contains",
+    "reason": "Fibra de reemplazo sugiere material médico/paramédico para soporte o recuperación",
+    "example": "CR REPLACEMENT FIBER 6\" .010",
+    "addedAt": "2026-03-21T12:45:42.398Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "athletic tape",
+      "tape"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Athletic tape es un producto de soporte y cuidado deportivo, distinto a vendajes médicos de primeros auxilios",
+    "example": "CRAMER 1050i ATHLETIC TAPE WHT 1.5\"X15YDS 32RLS",
+    "addedAt": "2026-03-21T12:46:02.389Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "ankle",
+      "wrap"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Ankle wrap es tobillera de soporte, producto paramédico específico de prevención",
+    "example": "CRAMER ANKLE WRAP ROLLER",
+    "addedAt": "2026-03-21T12:47:36.460Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "balm"
+    ],
+    "category": "PARAMÉDICOS",
+    "match": "contains",
+    "reason": "Balm es ungüento/bálsamo de recuperación y cuidado muscular, exclusivo de paramédicos",
+    "example": "CRAMER ATOMIC BALM 1 LB",
+    "addedAt": "2026-03-21T12:47:56.435Z"
   }
 ]
