@@ -1383,5 +1383,137 @@
     "reason": "Jammer es prenda de baño específica (tipo bañador corto). Palabra 'jammer' casi nunca se refiere a otro producto deportivo.",
     "example": "AQUAZONE TB NIÑO PBT JAMMER SIDE BINDING ",
     "addedAt": "2026-03-21T09:39:32.732Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "barebow",
+      "tab"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Tab de tiro con arco - accesorio protector específico para la mano en archery",
+    "example": "AVALON CLASSIC BAREBOW TAB",
+    "addedAt": "2026-03-21T09:41:56.291Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "v-bar",
+      "adjustable"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "V-bar es componente de entrenamiento/calistenia que funciona como accesorio complementario para ejercicio en barra",
+    "example": "AVALON TEC DUO ADJUSTABLE V-BAR",
+    "addedAt": "2026-03-21T09:43:07.750Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bar",
+      "mount"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Barra ajustable para montar en espacios cerrados, equipamiento de entrenamiento doméstico",
+    "example": "AVALON TEC X ADJUSTABLE UNI BAR MOUNT OFFSET",
+    "addedAt": "2026-03-21T09:43:26.102Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "blade",
+      "target"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Blade + Target es indicativo de palas de pádel o raquetas de tenis. Avalon Tec X Maxx es línea de producto deportivo de raqueta/pala",
+    "example": "AVALON TEC X MAXX TARGET BLADE",
+    "addedAt": "2026-03-21T09:43:44.539Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "axis",
+      "carbon"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Axis es marca de palas de pádel/tenis; carbon es material típico de estas. 'Fused energy' indica tecnología de pala deportiva. OSFA (one size fits all) confirma equipamiento.",
+    "example": "AXIS FUSED ENERGY INFUSED-CARBON 400",
+    "addedAt": "2026-03-21T09:45:49.627Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "raqueta",
+      "babolat"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Babolat es marca de raquetas de tenis, Air Veron es modelo de raqueta",
+    "example": "BABOLAT AIR VERON",
+    "addedAt": "2026-03-21T09:47:17.886Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "babolat",
+      "boost drive"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Babolat Boost Drive es una raqueta de tenis específica",
+    "example": "BABOLAT BOOST DRIVE",
+    "addedAt": "2026-03-21T09:47:53.257Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "babolat",
+      "boost"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Babolat Boost es una raqueta de tenis conocida; sin embargo, solo proponemos regla con palabras clave de marca+modelo cuando hay certeza absoluta. Dado que 'boost' puede referirse a otros productos, reducimos confianza.",
+    "example": "BABOLAT BOOST JOIN THE TEAM",
+    "addedAt": "2026-03-21T09:48:29.342Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "court",
+      "padel"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Pelotas de pádel identificadas por marca + disciplina + cantidad (C/3)",
+    "example": "BABOLAT COURT PADEL C/3",
+    "addedAt": "2026-03-21T09:49:22.046Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "raqueta",
+      "tenis"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "BABOLAT es marca de raquetas de tenis; modelo junior 26 pulgadas indica tamaño infantil para tenis",
+    "example": "BABOLAT JUNIOR 26",
+    "addedAt": "2026-03-21T09:49:57.619Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "raqueta",
+      "junior"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Raqueta de tenis infantil. 'Raqueta' + contexto junior evita confusión con palas de pádel",
+    "example": "BABOLAT NADAL JR 25",
+    "addedAt": "2026-03-21T09:50:16.213Z"
   }
 ]
