@@ -1,3 +1,4 @@
+[2026-03-21T06:59:01.279Z] ERROR [405810] "ADX CONCHA PROTECTORA ADULTO" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFnukZuRq4uqiT3t4AxB"}
 [2026-03-21T06:58:44.575Z] ERROR [411557] "ADX CODERA MULTIDEPORTIVA" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFntX9EazW35L4a4qrCT"}
 [2026-03-21T06:57:37.546Z] ERROR [407977] "ADX CODERA LICRA BASKETBALL CH" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFnoaaUJhmka96YnGHgs"}
 [2026-03-21T06:56:13.803Z] ERROR [414332] "ADX CODERA ELASTICA COMPRESION GD" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFnhQY4WRdkTqhaTYhvk"}
