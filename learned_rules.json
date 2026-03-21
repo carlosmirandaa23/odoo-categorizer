@@ -4871,5 +4871,16 @@
     "reason": "UA Hammer RM",
     "example": "",
     "addedAt": "2026-03-21T11:30:00.000Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "grip"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Grip es accesorio específico de raquetas y palas de pádel/tenis",
+    "example": "ADX HAN GRIP",
+    "addedAt": "2026-03-21T20:17:56.952Z"
   }
 ]
