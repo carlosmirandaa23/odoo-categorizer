@@ -231,56 +231,41 @@ const CATEGORY_CATALOG = [
 function buildSystemPrompt() {
   return `Eres un clasificador de productos deportivos Y generador de reglas de clasificación.
 
-IMPORTANTE: No tienes acceso a internet ni herramientas de búsqueda. Responde ÚNICAMENTE con el JSON en tu primer y único mensaje. Sin texto previo, sin explicaciones, sin introducciones, sin disculpas. Solo el JSON.
-
 CATÁLOGO DISPONIBLE:
 ${CATEGORY_CATALOG.map(c => `- "${c.name}" (padre: ${c.parent}) → ${c.examples}`).join("\n")}
 
 Tu tarea es:
 1. Clasificar el producto en la categoría correcta
-2. Proponer UNA regla SOLO si estás completamente seguro
+2. Proponer UNA regla simple y reutilizable que capture productos similares
 
-CRITERIOS ESTRICTOS PARA PROPONER REGLA:
+CRITERIOS PARA PROPONER REGLA:
+- Si UNA palabra sola identifica el tipo sin ambigüedad (ej: "short", "gorra", "helmet") → type: "any", una keyword
+- Si necesitas DOS palabras para evitar confusión (ej: "spotlight"+"football", "pala"+"padel") → type: "all", dos keywords  
+- Las keywords deben estar en minúsculas y ser lo más genéricas posible
+- Si el nombre es demasiado específico, críptico o ambiguo → rule: null
+- NO propongas reglas con marcas genéricas como "nike", "adidas", "under armour"
 
-USA type "any" (una sola palabra) ÚNICAMENTE cuando:
-- La palabra NUNCA puede referirse a otro tipo de producto en ningún deporte
-- Ejemplos válidos: "backpack", "tobillera", "mouthguard", "chest protector"
-- Ejemplos INVÁLIDOS: "pala" (también herramienta), "catcher" (puede ser bolsa), "jacket" (genérico)
-
-USA type "all" (dos palabras) cuando:
-- Una palabra sola es ambigua pero la combinación es inequívoca
-- Ejemplos válidos: "pala"+"padel", "gloves"+"football", "ball"+"basketball"
-- Siempre prefiere "all" sobre "any" cuando tengas la mínima duda
-
-NUNCA propongas regla con:
-- Marcas: "nike", "adidas", "under armour", "wilson", "battle", etc.
-- Palabras de disciplina solas: "padel", "football", "soccer", "basketball"
-- Modelos o líneas: "adizero", "vapor", "spotlight", "blur", "freak"
-- Cualquier palabra que en contexto deportivo pueda referirse a más de un tipo de producto
-
-EN CASO DE DUDA → rule: null. Es mejor no proponer que proponer mal.
-
-FORMATO DE RESPUESTA — entrega esto y nada más:
+Responde ÚNICAMENTE con JSON válido sin markdown ni texto adicional:
 {
   "category": "<NOMBRE_EXACTO_DEL_CATÁLOGO>",
   "confidence": <0.0-1.0>,
   "rule": {
-    "type": "any|all|exclude",
-    "match": "startswith|contains",
+    "type": "any|all",
     "keywords": ["keyword1"],
-    "reason": "explicación breve"
+    "reason": "explicación breve de por qué esta regla es confiable"
   }
 }
 
-Si no encaja: { "category": "SIN_CATEGORIA", "confidence": 0, "rule": null }
-Si no hay regla confiable: pon "rule": null
+Si no encaja en ninguna categoría: { "category": "SIN_CATEGORIA", "confidence": 0, "rule": null }
+Si no hay regla confiable que proponer: incluye "rule": null en la respuesta
 
-TIPO ESPECIAL — "exclude":
-Si el nombre NO es un producto real (descuento, porcentaje, abono, texto promocional):
-- category: "SIN_CATEGORIA", confidence: 0
-- SIEMPRE propón exclude:
-  "10% en tu orden" → exclude startswith "10%"
-  "abono richardson" → exclude contains "abono"`;
+TIPO ESPECIAL DE REGLA — "exclude":
+Si el nombre claramente NO es un producto (descuentos, porcentajes, notas, abonos, textos promocionales):
+- Responde con category: "SIN_CATEGORIA", confidence: 0
+- Propón una regla de exclusión:
+  { "type": "exclude", "match": "startswith|contains", "keywords": ["patron"], "reason": "..." }
+- Ejemplo: "10% en tu orden" → exclude startswith "10%"
+- Ejemplo: "abono" → exclude contains "abono"`;
 }
 
 // ─────────────────────────────────────────
@@ -341,59 +326,40 @@ function extractJSON(text) {
 }
 
 async function classifyWithAI(product) {
-  const messages = [{
-    role: "user",
-    content: "Nombre: " + product.name + "\nReferencia: " + (product.default_code || "sin referencia") + "\n\nSi vas a proponer una regla con un término que podría referirse a múltiples tipos de producto, usa web_search para verificarlo primero."
-  }];
-
-  let finalText = null;
-  let iterations = 0;
-
-  while (!finalText && iterations < 3) {
-    iterations++;
-    const response = await fetch("https://api.anthropic.com/v1/messages", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "x-api-key": ANTHROPIC_API_KEY,
-        "anthropic-version": "2023-06-01"
-      },
-      body: JSON.stringify({
-        model: "claude-haiku-4-5-20251001",
-        max_tokens: 1024,
-        system: buildSystemPrompt(),
-        tools: [{ type: "web_search_20250305", name: "web_search" }],
-        messages
-      })
-    });
-
-    if (!response.ok) throw new Error("Claude API " + response.status + ": " + await response.text());
-    const data = await response.json();
-
-    if (data.stop_reason === "end_turn") {
-      const textBlock = data.content.find(b => b.type === "text");
-      if (textBlock) { finalText = textBlock.text; break; }
-    }
-
-    if (data.stop_reason === "tool_use") {
-      const toolUse = data.content.find(b => b.type === "tool_use");
-      console.log("🔍 [" + product.id + "] Buscando: \"" + toolUse.input.query + "\"");
-      messages.push({ role: "assistant", content: data.content });
-      messages.push({
+  const response = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "x-api-key": ANTHROPIC_API_KEY,
+      "anthropic-version": "2023-06-01",
+      "anthropic-beta": "prompt-caching-2024-07-31"
+    },
+    body: JSON.stringify({
+      model: "claude-haiku-4-5-20251001",
+      max_tokens: 256,
+      system: [
+        {
+          type: "text",
+          text: buildSystemPrompt(),
+          cache_control: { type: "ephemeral" }
+        }
+      ],
+      messages: [{
         role: "user",
-        content: [{
-          type: "tool_result",
-          tool_use_id: toolUse.id,
-          content: "Resultados obtenidos. Úsalos para determinar si el término es exclusivo de un tipo de producto. Responde ahora con el JSON solicitado."
-        }]
-      });
-      continue;
-    }
-    break;
+        content: "Nombre: " + product.name + "\nReferencia: " + (product.default_code || "sin referencia")
+      }]
+    })
+  });
+
+  if (!response.ok) throw new Error("Claude API " + response.status + ": " + await response.text());
+  const data = await response.json();
+
+  // Log cache performance ocasionalmente
+  if (data.usage?.cache_read_input_tokens > 0) {
+    console.log("💾 Cache hit — ahorro del 90% en tokens del sistema");
   }
 
-  if (!finalText) throw new Error("Sin respuesta final de Claude");
-  return extractJSON(finalText);
+  return extractJSON(data.content[0].text);
 }
 
 // ─────────────────────────────────────────
