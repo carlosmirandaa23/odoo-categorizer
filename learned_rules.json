@@ -65,5 +65,17 @@
     "reason": "La combinación 'catcher' + 'helmet' es específica del equipo de protección para el catcher de béisbol/softbol. 'Helmet' solo podría referirse a varios tipos de cascos, pero 'catcher's helmet' es inequívoco y corresponde a PROTECCIONES.",
     "example": "ADAMS CH6000 CATCHERS HELMET",
     "addedAt": "2026-03-21T03:17:31.500Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pala",
+      "padel"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": null,
+    "reason": "La combinación 'pala' + 'padel' evita confusión con otros deportes (tenis, bádminton). El producto es una pala de pádel específicamente, confirmado por múltiples fuentes. El término 'pala' es el genérico usado en español para palas de pádel.",
+    "example": "ADIDAS ADIPOWER CTRL TEAM 3.3 PADEL",
+    "addedAt": "2026-03-21T03:20:01.675Z"
   }
 ]
