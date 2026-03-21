@@ -213,5 +213,16 @@
     "reason": "Adizero es la línea de tenis de running de Adidas, diseñada específicamente para carreras y entrenamientos de velocidad. Esta keyword identifica sin ambigüedad productos de la categoría RUNNING Y ENTRENAMIENTO",
     "example": "ADIDAS ADIZERO 12",
     "addedAt": "2026-03-21T05:05:02.953Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "calceta"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": null,
+    "reason": "La palabra 'calceta' identifica sin ambigüedad productos de calcetería deportiva, independientemente de la marca o modelo específico",
+    "example": "ADIDAS CALCETA ADISOCK 12",
+    "addedAt": "2026-03-21T05:12:36.103Z"
   }
 ]
