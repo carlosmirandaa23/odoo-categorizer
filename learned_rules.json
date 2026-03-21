@@ -31,5 +31,27 @@
     "reason": "El término 'finger saver' en contexto deportivo se refiere consistentemente a protectores de dedos para varias disciplinas (portería, arquería, béisbol). Es específico en nomenclatura deportiva y se clasifica como protección.",
     "example": "3 FINGERS UNDER COLOR FINGER SAVER",
     "addedAt": "2026-03-21T03:11:51.600Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "armguard"
+    ],
+    "category": "PROTECCIONES",
+    "match": null,
+    "reason": "El término 'armguard' identifica sin ambigüedad una protección para brazos/antebrazos usada en deportes como archery, contact sports, baseball y soccer. Es un producto de protección deportiva único y diferenciable.",
+    "example": "AAE TARGET STYLE ARMGUARD",
+    "addedAt": "2026-03-21T03:16:02.980Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "bat pack"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": null,
+    "reason": "Término inequívoco para mochila de béisbol/sóftbol con compartimentos para bates y equipo deportivo",
+    "example": "ADAMS BAT PACK ",
+    "addedAt": "2026-03-21T03:17:00.879Z"
   }
 ]
