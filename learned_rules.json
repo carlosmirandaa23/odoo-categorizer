@@ -901,5 +901,16 @@
     "reason": "Rodillera es producto de soporte específico; licra confirma material de prendas de protección",
     "example": "ADX PAR DE RODILLERA LICRA GRUESA NAILON",
     "addedAt": "2026-03-21T08:58:20.887Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "paracaidas"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Paracaídas de entrenamiento es equipamiento específico para resistencia y acondicionamiento usado en casa o aire libre",
+    "example": "ADX PARACAIDAS DE PLASTICO BK",
+    "addedAt": "2026-03-21T08:58:55.763Z"
   }
 ]
