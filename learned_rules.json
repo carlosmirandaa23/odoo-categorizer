@@ -5426,5 +5426,28 @@
     "reason": "body deportivo femenino es prenda superior",
     "example": "JOMA BODY MUJER M",
     "addedAt": "2026-03-21T22:41:39.384Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "chandal"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "Chandal es prenda de abrigo/exterior deportiva, pero sin complemento claro podría ser superior o inferior",
+    "example": "JOMA CHANDAL LION II 2XS",
+    "addedAt": "2026-03-21T22:42:31.277Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "lider",
+      "set"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "JOMA LIDER es línea de balones; SET indica pack de balones",
+    "example": "JOMA LIDER SET L ",
+    "addedAt": "2026-03-21T22:43:01.458Z"
   }
 ]
