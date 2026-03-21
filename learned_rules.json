@@ -150,5 +150,16 @@
     "reason": "La palabra 'gloves' identifica sin ambigüedad guantes de protección deportiva, independientemente de la marca o modelo",
     "example": "ADIDAS ADIFAST 3.0 GLOVES YTH L",
     "addedAt": "2026-03-21T02:50:11.969Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "adilette"
+    ],
+    "category": "SANDALIAS Y CHANCLAS",
+    "match": "contains",
+    "reason": "Adilette es la línea de chanclas/sandalias deportivas de Adidas, identificable por nombre de producto",
+    "example": "ADIDAS ADILETTE AQUA",
+    "addedAt": "2026-03-21T02:51:01.615Z"
   }
 ]
