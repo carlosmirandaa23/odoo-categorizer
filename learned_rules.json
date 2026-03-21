@@ -5699,5 +5699,17 @@
     "reason": "Silbato de árbitro es equipamiento deportivo para dirigir partidos, clasificado como accesorio de protección/equipamiento",
     "example": "LOS ANGELES SILBATO ARBITRO",
     "addedAt": "2026-03-21T23:11:30.785Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "batera",
+      "ruedas"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Batera con ruedas es una maleta/bolsa de transporte para equipamiento deportivo, generalmente usada en béisbol",
+    "example": "LOUISVILLE BATERA CON RUEDAS",
+    "addedAt": "2026-03-21T23:11:57.457Z"
   }
 ]
