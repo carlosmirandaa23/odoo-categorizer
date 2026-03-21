@@ -5579,5 +5579,42 @@
     "reason": "Hydration pack es mochila deportiva específica para hidratación, evita ambigüedad con otros tipos de bolsas",
     "example": "KUYOU AIRFLOW HYDRATION PACK",
     "addedAt": "2026-03-21T22:55:00.295Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "hot pack",
+      "heat pack"
+    ],
+    "category": "PRIMEROS AUXILIOS",
+    "match": "contains",
+    "reason": "Paquetes de calor instantáneo son productos de primeros auxilios/recuperación, únicamente usado en contexto médico deportivo",
+    "example": "KWIK-HEAT INSTANT HOT PACK",
+    "addedAt": "2026-03-21T22:55:09.169Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "frame",
+      "protective",
+      "net"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "L-frame con red protectora típicamente usado en entrenamientos de golf, béisbol o deportes de impacto para contención de pelotas",
+    "example": "L-FRAME W/PROTECTIVE NET",
+    "addedAt": "2026-03-21T22:55:47.468Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pad",
+      "girdle"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Las palabras 'pad' y 'girdle' juntas identifican protecciones integradas para impacto, específicamente pantalones/cinturones protectores",
+    "example": "L7 CRAMER LIGHTNING 7 INTEGRATED PAD GIRDLES - WHITE",
+    "addedAt": "2026-03-21T22:56:04.344Z"
   }
 ]
