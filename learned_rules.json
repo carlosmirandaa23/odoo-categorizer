@@ -6083,5 +6083,17 @@
     "reason": "Equipo de protección específico para catcher en béisbol",
     "example": "MARKWORT JUEGO DE ARREOS PARA CATCHER 9-12",
     "addedAt": "2026-03-21T23:37:37.500Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "kick off",
+      "tee"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Tee de fútbol americano/golf para colocar balón. Complemento deportivo específico.",
+    "example": "MARKWORT KICK OFF TEE",
+    "addedAt": "2026-03-21T23:37:46.820Z"
   }
 ]
