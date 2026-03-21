@@ -5465,5 +5465,17 @@
     "reason": "FREAK es línea de tachones de fútbol americano; INLINE confirma diseño de tachones alineados típicos de ese deporte",
     "example": "ADIDAS FREAK 23 INLINE 10.5A",
     "addedAt": "2026-03-21T17:55:21.106Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "over grip",
+      "overgrip"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Over grip es un accesorio para envolver raquetas y palas, complemento deportivo.",
+    "example": "ADIDAS OVER GRIP ",
+    "addedAt": "2026-03-21T18:00:11.331Z"
   }
 ]
