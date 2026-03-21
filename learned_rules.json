@@ -5025,5 +5025,41 @@
     "reason": "Riddell es fabricante especializado en cascos y protecciones para fútbol americano y deportes de contacto",
     "example": "CONJUNCIONES RIDDELL SMALL",
     "addedAt": "2026-03-21T21:13:56.204Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "batt",
+      "wood composite"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "BATT es designación estándar para bates de béisbol/softball. Wood composite identifica el material. DeMarini es fabricante conocido de equipamiento de bates.",
+    "example": "DEMARINI CORNDOG CDA14 BATT 33 WOOD COMPOSITE",
+    "addedAt": "2026-03-21T21:21:42.708Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "double fish",
+      "ittf"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Double Fish es marca especializada en pelotas de tenis de mesa ITTF certificadas",
+    "example": "DOUBLE FISH ITTF TEAM WORL CUP 6PK",
+    "addedAt": "2026-03-21T21:24:51.183Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "drive",
+      "dual stripe"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Patrón de nombrado común en camisetas deportivas con diseño de rayas duales",
+    "example": "DRIVE TEAM DUAL STRIPE",
+    "addedAt": "2026-03-21T21:26:12.392Z"
   }
 ]
