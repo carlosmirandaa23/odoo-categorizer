@@ -562,5 +562,100 @@
     "reason": "Balón específico de fútbol americano, combinación de dos palabras evita ambigüedad con otros balones",
     "example": "ADX BALON AMERICANO Fa7 #7",
     "addedAt": "2026-03-21T08:33:40.617Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "balón",
+      "basketball"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Combinación específica de balón + deporte de cancha evita ambigüedad con pelotas de otros deportes",
+    "example": "ADX BALON BASKETBALL 1000",
+    "addedAt": "2026-03-21T08:34:15.294Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "balon",
+      "basketball"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Balón de básquetbol identificado por marca ADX, material hule y número de balón",
+    "example": "ADX BALON BASKETBALL 1005 HULE #5",
+    "addedAt": "2026-03-21T08:34:33.155Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "balon",
+      "voleibol"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Combinación de 'balón' + 'voleibol' identifica inequívocamente balones de voleibol",
+    "example": "ADX BALON VOLEIBOL #5 BLANCO",
+    "addedAt": "2026-03-21T08:37:20.473Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "balonera",
+      "multideportes"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Balonera es un bolso especializado para transportar balones deportivos, multideportes indica versatilidad para varios deportes",
+    "example": "ADX BALONERA MULTIDEPORTES",
+    "addedAt": "2026-03-21T08:38:28.917Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "banda",
+      "pilates"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Banda elástica de resistencia específica para pilates, usado en entrenamiento en casa",
+    "example": "ADX BANDA P/ PILATES DURA",
+    "addedAt": "2026-03-21T08:38:46.972Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bosu",
+      "equilibrio"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "BOSU es un equipamiento específico de entrenamiento en casa para balance y estabilidad, nunca se usa en otras categorías",
+    "example": "ADX BOSU PELOTA DE EQUILIBRIO ",
+    "addedAt": "2026-03-21T08:40:28.211Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "boya",
+      "entrenamiento"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Boya de entrenamiento es accesorio específico para entrenamiento en piscina/acuático, se clasifica como equipamiento de entrenamiento",
+    "example": "ADX BOYA DE ENTRENAMIENTO ",
+    "addedAt": "2026-03-21T08:40:46.128Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "bucal"
+    ],
+    "category": "PRIMEROS AUXILIOS",
+    "match": "contains",
+    "reason": "Bucal es un término médico para productos de protección oral/bucal en deportes de contacto",
+    "example": "ADX BUCAL SENCILLO",
+    "addedAt": "2026-03-21T08:41:22.381Z"
   }
 ]
