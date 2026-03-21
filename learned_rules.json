@@ -59,5 +59,16 @@
     "reason": "Armguard es un protector de brazo usado en deportes de tiro con arco y otros deportes de contacto. La combinación de 'arm' + 'guard' identifica inequívocamente este tipo de protección sin ambigüedad.",
     "example": "AAE TARGET STYLE ARMGUARD",
     "addedAt": "2026-03-21T02:28:06.132Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tobillera",
+      "ankle"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "reason": "Las palabras 'tobillera' o 'ankle' en productos deportivos identifican inequívocamente soportes de tobillo para prevención de lesiones, sin ambigüedad con otras categorías",
+    "example": "ACTIVE ANKLE T2 ESTABILIZADOR TOBILLO LG",
+    "addedAt": "2026-03-21T02:28:23.498Z"
   }
 ]
