@@ -6431,5 +6431,17 @@
     "reason": "Mikasa es fabricante de balones. Kick off y FIFA indican balón de fútbol profesional",
     "example": "MIKASA KICK OFF BRILLIANT FIFA #5",
     "addedAt": "2026-03-21T23:55:00.685Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "mikasa",
+      "voleibol"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Mikasa es marca especializada en balones de voleibol; VT2 es modelo de balón de voleibol",
+    "example": "MIKASA VT2 STARTER TWO",
+    "addedAt": "2026-03-21T23:56:44.946Z"
   }
 ]
