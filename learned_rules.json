@@ -3624,5 +3624,17 @@
     "reason": "Protección de muñeca específica para deportes, término inequívoco",
     "example": "EVOSHIELD WRIST GUAR9",
     "addedAt": "2026-03-21T14:34:29.930Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tennis",
+      "racket"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Combinación de 'tennis' + 'racket' identifica únicamente raquetas de tenis, evitando confusión con otros tipos de palas o equipamiento",
+    "example": "EXILE E-FORCE TENNIS RACKET ",
+    "addedAt": "2026-03-21T14:39:41.922Z"
   }
 ]
