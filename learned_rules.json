@@ -797,5 +797,16 @@
     "reason": "Combinación específica de guante + box evita ambigüedad con otros tipos de guantes deportivos",
     "example": "ADX GUANTE BOX PRISMA",
     "addedAt": "2026-03-21T08:51:58.875Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "costalito"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Costalito es una bolsa/mochila pequeña de transporte, específicamente para actividades deportivas",
+    "example": "ADX KIT COSTALITO",
+    "addedAt": "2026-03-21T08:54:32.395Z"
   }
 ]
