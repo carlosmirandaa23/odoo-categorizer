@@ -70,5 +70,16 @@
     "reason": "Las palabras 'tobillera' o 'ankle' en productos deportivos identifican inequívocamente soportes de tobillo para prevención de lesiones, sin ambigüedad con otras categorías",
     "example": "ACTIVE ANKLE T2 ESTABILIZADOR TOBILLO LG",
     "addedAt": "2026-03-21T02:28:23.498Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "chest",
+      "protector"
+    ],
+    "category": "PROTECCIONES",
+    "reason": "Las palabras 'chest' y 'protector' juntas identifican inequívocamente un protector de pecho, equipamiento de protección usado en deportes de contacto como fútbol americano, hockey y cricket.",
+    "example": "ADAMS ACP CHEST PROTECTOR 16'",
+    "addedAt": "2026-03-21T02:28:57.363Z"
   }
 ]
