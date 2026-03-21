@@ -137,5 +137,17 @@
     "reason": "Chest protector es equipo de protección específico para deportes de contacto, nunca puede referirse a otro tipo de producto",
     "example": "ADAMS ACP CHEST PROTECTOR 16'",
     "addedAt": "2026-03-21T07:25:37.625Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bat",
+      "pack"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Bolsa/mochila específica para transporte de bates de béisbol",
+    "example": "ADAMS BAT PACK ",
+    "addedAt": "2026-03-21T07:25:55.042Z"
   }
 ]
