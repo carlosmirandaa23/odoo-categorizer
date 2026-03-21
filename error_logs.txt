@@ -1,3 +1,4 @@
+[2026-03-21T04:27:07.139Z] PARSE_ERROR [407251] "AAE FREAK SHOW BLADE REST TARGET" — Sin JSON válido: Voy a verificar algunos términos que podrían ser ambiguos antes de clasificar este producto.
 [2026-03-21T04:26:44.670Z] PARSE_ERROR [411632] "AAE FLETCH III EMPLUMADOR" — Sin JSON válido: Based on my research, 
 [2026-03-21T04:25:39.231Z] PARSE_ERROR [406613] "34" OLY TRICEP BAR" — Sin JSON válido: Based on my research, 
 [2026-03-21T04:24:39.548Z] PARSE_ERROR [408334] "30.06 MUSTANG ULTRA COMPACT RELEASE" — Sin JSON válido: Voy a clasificar este producto. Primero, déjame verificar algunos términos clave mediante búsqueda para asegurar que pro
