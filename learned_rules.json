@@ -3138,5 +3138,53 @@
     "reason": "Combinación de helmet (casco) + strike (golpe) indica protección deportiva para contacto",
     "example": "EAGLE EYE ELECTR HMPLATE STRIKE1",
     "addedAt": "2026-03-21T13:34:58.025Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "home plate",
+      "electronic"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "home plate electronic es equipo de protección para béisbol, específicamente placa de home electrónica",
+    "example": "EAGLE EYE ELECTRONIC HOME PLATE",
+    "addedAt": "2026-03-21T13:35:18.901Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "breakoff",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Breakoff es tecnología de tachones de béisbol de Easton",
+    "example": "EASTON ACE POINT BREAKOFF 100-110-120G",
+    "addedAt": "2026-03-21T13:36:54.632Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "easton",
+      "rival"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Easton Rival es línea de tachones de béisbol/softbol; ADX50 es modelo específico",
+    "example": "EASTON ADX50 RIVAL 28",
+    "addedAt": "2026-03-21T13:37:14.623Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "quiver",
+      "belt"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Quiver belt es equipo específico de tiro con arco para sostener flechas",
+    "example": "EASTON ELITE QUIVER BELT 18\"-47\"",
+    "addedAt": "2026-03-21T13:38:50.994Z"
   }
 ]
