@@ -43,5 +43,16 @@
     "reason": "El término 'finger saver' identifica específicamente protecciones deportivas para dedos, usado en múltiples deportes (fútbol, béisbol, golf, tiro al arco). La combinación de dos palabras evita ambigüedad con otros productos de dedos (ej: calcetines).",
     "example": "3 FINGERS UNDER COLOR FINGER SAVER",
     "addedAt": "2026-03-21T03:31:13.856Z"
+  },
+  {
+    "type": "exclude",
+    "match": "startswith",
+    "keywords": [
+      "30%"
+    ],
+    "category": "EXCLUIDO",
+    "reason": "Patrón automático — no es un producto",
+    "example": "30% en tu orden",
+    "addedAt": "2026-03-21T03:31:47.533Z"
   }
 ]
