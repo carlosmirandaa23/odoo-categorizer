@@ -1040,5 +1040,29 @@
     "reason": "Soporte elástico para mano es equipamiento de prevención y soporte",
     "example": "ADX SOPORTE DE MANO ELASTICA MD",
     "addedAt": "2026-03-21T09:13:17.597Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "soporte",
+      "costal"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Accesorio de montaje para bolsa de boxeo, equipo de entrenamiento en casa",
+    "example": "ADX SOPORTE DE TECHO PARA COSTAL",
+    "addedAt": "2026-03-21T09:13:35.594Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "step",
+      "polipropileno"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Step de entrenamiento en casa para ejercicios de cardio y tonificación",
+    "example": "ADX STEP POLIPROPILENO 80cmx30cm",
+    "addedAt": "2026-03-21T09:14:28.295Z"
   }
 ]
