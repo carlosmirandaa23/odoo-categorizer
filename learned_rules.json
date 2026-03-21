@@ -3813,5 +3813,53 @@
     "reason": "FOX40 es un silbato deportivo de arbitraje icónico, nunca refiere a otro producto",
     "example": "FOX40 CLASIC 115 dB",
     "addedAt": "2026-03-21T14:52:30.571Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "skinz",
+      "youth"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "SKINZ es línea de protecciones (espinilleras, rodilleras) de Franklin Sports; youth indica versión infantil",
+    "example": "FRANKLIN 2ND-SKINZ YOUTH L",
+    "addedAt": "2026-03-21T14:54:08.602Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "baseball",
+      "glove"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "guante de béisbol es equipo de protección específico del deporte",
+    "example": "FRANKLIN BASEBALL GLOVE 12\"",
+    "addedAt": "2026-03-21T14:54:48.224Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "compression",
+      "short"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Prenda inferior deportiva de compresión con protector integrado",
+    "example": "FRANKLIN COMPRESSION SHORT & CUP",
+    "addedAt": "2026-03-21T14:55:08.822Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "franklin",
+      "digitek"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Franklin Digitek es línea de guantes de béisbol juveniles, digitek refiere a tecnología de cierre digital",
+    "example": "FRANKLIN DIGITEK YOUTH L",
+    "addedAt": "2026-03-21T14:55:29.466Z"
   }
 ]
