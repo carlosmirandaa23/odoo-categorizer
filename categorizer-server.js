@@ -11,86 +11,82 @@ const { ODOO_URL, DB, USER, PASS, ANTHROPIC_API_KEY } = process.env;
 const PROCESSED_FILE = path.join(__dirname, "processed_ids.json");
 const RULES_FILE     = path.join(__dirname, "learned_rules.json");
 const INTERVAL_MS    = 15000;
-const GITHUB_REPO      = "carlosmirandaa23/odoo-categorizer";
+const GITHUB_REPO       = "carlosmirandaa23/odoo-categorizer";
 const GITHUB_RULES_PATH = "learned_rules.json";
 const GITHUB_IDS_PATH   = "processed_ids.json";
+const GITHUB_ERRORS_PATH = "error_logs.txt";
 
 // ─────────────────────────────────────────
 // ESTADO EN MEMORIA
 // ─────────────────────────────────────────
 
 let processedIds = new Set();
+let learnedRules = [];
 let isRunning    = false;
 let isPaused     = false;
 let currentTimer = null;
 let stats = { processed: 0, categorized: 0, errors: 0, skipped: 0, startedAt: null };
-const claudeLogs = []; // Últimas 50 respuestas completas de Claude
+const claudeLogs = [];
 
 // ─────────────────────────────────────────
 // PERSISTENCIA EN GITHUB
 // ─────────────────────────────────────────
 
+async function githubGet(filePath) {
+  const res = await fetch(
+    `https://api.github.com/repos/${GITHUB_REPO}/contents/${filePath}`,
+    { headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` } }
+  );
+  if (!res.ok) return null;
+  return await res.json();
+}
+
+async function githubPut(filePath, content, message, sha) {
+  await fetch(
+    `https://api.github.com/repos/${GITHUB_REPO}/contents/${filePath}`,
+    {
+      method: "PUT",
+      headers: {
+        Authorization: `token ${process.env.GITHUB_TOKEN}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        message,
+        content: Buffer.from(content).toString("base64"),
+        ...(sha ? { sha } : {})
+      })
+    }
+  );
+}
+
 async function loadProcessed() {
   try {
-    const res = await fetch(
-      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_IDS_PATH}`,
-      { headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` } }
-    );
-    if (!res.ok) return new Set();
-    const data = await res.json();
-    const content = Buffer.from(data.content, "base64").toString("utf8");
-    return new Set(JSON.parse(content));
+    const data = await githubGet(GITHUB_IDS_PATH);
+    if (!data) return new Set();
+    return new Set(JSON.parse(Buffer.from(data.content, "base64").toString("utf8")));
   } catch (e) {
-    console.error("⚠️  No se pudo leer de GitHub, empezando vacío:", e.message);
+    console.error("⚠️  No se pudo leer processed_ids:", e.message);
     return new Set();
   }
 }
 
 async function saveProcessed(set) {
   try {
-    fs.writeFileSync(PROCESSED_FILE, JSON.stringify([...set]), "utf8");
-    const content = Buffer.from(JSON.stringify([...set])).toString("base64");
-    const getRes = await fetch(
-      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_IDS_PATH}`,
-      { headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` } }
-    );
-    const getData = await getRes.json();
-    await fetch(
-      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_IDS_PATH}`,
-      {
-        method: "PUT",
-        headers: {
-          Authorization: `token ${process.env.GITHUB_TOKEN}`,
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          message: "update processed ids",
-          content,
-          sha: getData.sha
-        })
-      }
-    );
+    const json = JSON.stringify([...set]);
+    fs.writeFileSync(PROCESSED_FILE, json, "utf8");
+    const data = await githubGet(GITHUB_IDS_PATH);
+    await githubPut(GITHUB_IDS_PATH, json, "update processed ids", data?.sha);
   } catch (e) {
-    console.error("⚠️  No se pudo guardar en GitHub:", e.message);
+    console.error("⚠️  No se pudo guardar processed_ids:", e.message);
   }
 }
 
-// ─────────────────────────────────────────
-// REGLAS APRENDIDAS POR IA
-// ─────────────────────────────────────────
-
-let learnedRules = [];
-
 async function loadRules() {
   try {
-    const res = await fetch(
-      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_RULES_PATH}`,
-      { headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` } }
-    );
-    if (!res.ok) return [];
-    const data = await res.json();
+    const data = await githubGet(GITHUB_RULES_PATH);
+    if (!data) return [];
     const rules = JSON.parse(Buffer.from(data.content, "base64").toString("utf8"));
-    console.log(`📚 ${rules.length} reglas aprendidas cargadas desde GitHub`);
+    console.log(`📚 ${rules.length} reglas aprendidas cargadas`);
     return rules;
   } catch (e) {
     console.error("⚠️  No se pudieron cargar reglas:", e.message);
@@ -100,76 +96,29 @@ async function loadRules() {
 
 async function saveRules(rules) {
   try {
-    fs.writeFileSync(RULES_FILE, JSON.stringify(rules, null, 2), "utf8");
-    const content = Buffer.from(JSON.stringify(rules, null, 2)).toString("base64");
-    const getRes = await fetch(
-      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_RULES_PATH}`,
-      { headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` } }
-    );
-    const sha = getRes.ok ? (await getRes.json()).sha : undefined;
-    await fetch(
-      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_RULES_PATH}`,
-      {
-        method: "PUT",
-        headers: {
-          Authorization: `token ${process.env.GITHUB_TOKEN}`,
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          message: "update learned rules",
-          content,
-          ...(sha ? { sha } : {})
-        })
-      }
-    );
+    const json = JSON.stringify(rules, null, 2);
+    fs.writeFileSync(RULES_FILE, json, "utf8");
+    const data = await githubGet(GITHUB_RULES_PATH);
+    await githubPut(GITHUB_RULES_PATH, json, "update learned rules", data?.sha);
   } catch (e) {
     console.error("⚠️  No se pudieron guardar reglas:", e.message);
   }
 }
 
-const GITHUB_ERRORS_PATH = "error_logs.txt";
-
 async function appendErrorLog(entry) {
   try {
-    // Leer contenido actual
-    const getRes = await fetch(
-      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_ERRORS_PATH}`,
-      { headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` } }
-    );
-
-    let currentContent = "";
-    let sha = undefined;
-    if (getRes.ok) {
-      const getData = await getRes.json();
-      currentContent = Buffer.from(getData.content, "base64").toString("utf8");
-      sha = getData.sha;
-    }
-
-    // Agregar nueva línea al inicio
-    const newLine = `[${entry.at}] ${entry.type} [${entry.productId}] "${entry.productName}" — ${entry.message}
-`;
-    const newContent = newLine + currentContent;
-
-    // Guardar
-    await fetch(
-      `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_ERRORS_PATH}`,
-      {
-        method: "PUT",
-        headers: {
-          Authorization: `token ${process.env.GITHUB_TOKEN}`,
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          message: "append error log",
-          content: Buffer.from(newContent).toString("base64"),
-          ...(sha ? { sha } : {})
-        })
-      }
-    );
+    const data = await githubGet(GITHUB_ERRORS_PATH);
+    const current = data ? Buffer.from(data.content, "base64").toString("utf8") : "";
+    const newLine = `[${entry.at}] ${entry.type} [${entry.productId}] "${entry.productName}" — ${entry.message}\n`;
+    await githubPut(GITHUB_ERRORS_PATH, newLine + current, "append error log", data?.sha);
   } catch (e) {
     console.error("⚠️  No se pudo guardar error log:", e.message);
   }
 }
+
+// ─────────────────────────────────────────
+// REGLAS
+// ─────────────────────────────────────────
 
 function applyLearnedRules(name) {
   const lower = name.toLowerCase();
@@ -183,11 +132,10 @@ function applyLearnedRules(name) {
 function applyExclusionRule(name) {
   const lower = name.toLowerCase();
   for (const rule of learnedRules) {
-    if (rule.type === "exclude") {
-      if (rule.match === "startswith" && lower.startsWith(rule.keywords[0])) return true;
-      if (rule.match === "contains"   && rule.keywords.some(k => lower.includes(k))) return true;
-      if (!rule.match                 && rule.keywords.some(k => lower.includes(k))) return true;
-    }
+    if (rule.type !== "exclude") continue;
+    if (rule.match === "startswith" && lower.startsWith(rule.keywords[0])) return true;
+    if (rule.match === "contains"   && rule.keywords.some(k => lower.includes(k))) return true;
+    if (!rule.match                 && rule.keywords.some(k => lower.includes(k))) return true;
   }
   return false;
 }
@@ -201,7 +149,7 @@ function ruleAlreadyExists(rule) {
 }
 
 // ─────────────────────────────────────────
-// CATÁLOGO DE CATEGORÍAS
+// CATÁLOGO
 // ─────────────────────────────────────────
 
 const CATEGORY_CATALOG = [
@@ -231,45 +179,47 @@ const CATEGORY_CATALOG = [
 function buildSystemPrompt() {
   return `Eres un clasificador de productos deportivos Y generador de reglas de clasificación.
 
+IMPORTANTE: No tienes acceso a internet ni herramientas de búsqueda. Responde ÚNICAMENTE con el JSON en tu primer y único mensaje. Sin texto previo, sin explicaciones, sin introducciones, sin disculpas. Solo el JSON.
+
 CATÁLOGO DISPONIBLE:
 ${CATEGORY_CATALOG.map(c => `- "${c.name}" (padre: ${c.parent}) → ${c.examples}`).join("\n")}
 
-Tu tarea es:
-1. Clasificar el producto en la categoría correcta
-2. Proponer UNA regla simple y reutilizable que capture productos similares
+TAREA:
+1. Clasificar el producto en la categoría correcta del catálogo
+2. Proponer UNA regla SOLO si estás completamente seguro
 
-CRITERIOS PARA PROPONER REGLA:
-- Si UNA palabra sola identifica el tipo sin ambigüedad (ej: "short", "gorra", "helmet") → type: "any", una keyword
-- Si necesitas DOS palabras para evitar confusión (ej: "spotlight"+"football", "pala"+"padel") → type: "all", dos keywords  
-- Las keywords deben estar en minúsculas y ser lo más genéricas posible
-- Si el nombre es demasiado específico, críptico o ambiguo → rule: null
-- NO propongas reglas con marcas genéricas como "nike", "adidas", "under armour"
+CRITERIOS ESTRICTOS PARA PROPONER REGLA:
 
-Responde ÚNICAMENTE con JSON válido sin markdown ni texto adicional:
+USA type "any" ÚNICAMENTE cuando la palabra NUNCA puede referirse a otro tipo de producto:
+- Válidos: "backpack", "tobillera", "mouthguard", "chest protector", "tricep bar"
+- INVÁLIDOS: "pala" (herramienta), "catcher" (múltiples usos), "padel" (disciplina sola)
+
+USA type "all" cuando necesitas dos palabras para evitar ambigüedad:
+- Válidos: "pala"+"padel", "gloves"+"football", "shoulder"+"pads"
+- Prefiere SIEMPRE "all" sobre "any" cuando tengas la mínima duda
+
+NUNCA propongas regla con:
+- Marcas: "nike", "adidas", "under armour", "wilson", etc.
+- Disciplinas solas: "padel", "football", "soccer", "basketball"
+- Modelos/líneas: "adizero", "vapor", "spotlight", "freak"
+
+EN CASO DE DUDA → "rule": null
+
+FORMATO — entrega SOLO esto:
 {
-  "category": "<NOMBRE_EXACTO_DEL_CATÁLOGO>",
+  "category": "<NOMBRE_EXACTO>",
   "confidence": <0.0-1.0>,
-  "rule": {
-    "type": "any|all",
-    "keywords": ["keyword1"],
-    "reason": "explicación breve de por qué esta regla es confiable"
-  }
+  "rule": { "type": "any|all|exclude", "match": "startswith|contains", "keywords": ["kw"], "reason": "breve" }
 }
 
-Si no encaja en ninguna categoría: { "category": "SIN_CATEGORIA", "confidence": 0, "rule": null }
-Si no hay regla confiable que proponer: incluye "rule": null en la respuesta
+Si no encaja: { "category": "SIN_CATEGORIA", "confidence": 0, "rule": null }
 
-TIPO ESPECIAL DE REGLA — "exclude":
-Si el nombre claramente NO es un producto (descuentos, porcentajes, notas, abonos, textos promocionales):
-- Responde con category: "SIN_CATEGORIA", confidence: 0
-- Propón una regla de exclusión:
-  { "type": "exclude", "match": "startswith|contains", "keywords": ["patron"], "reason": "..." }
-- Ejemplo: "10% en tu orden" → exclude startswith "10%"
-- Ejemplo: "abono" → exclude contains "abono"`;
+EXCLUDE — si el nombre NO es un producto (descuento, porcentaje, abono, promo):
+- Siempre propón exclude: "10% en tu orden" → startswith "10%", "abono x" → contains "abono"`;
 }
 
 // ─────────────────────────────────────────
-// FUNCIONES CORE
+// CLAUDE — con prompt caching
 // ─────────────────────────────────────────
 
 async function odooCall(service, method, args) {
@@ -296,32 +246,24 @@ async function getCategId(uid, categoryName) {
     [[["name", "=", categoryName]]],
     { fields: ["id", "name"], limit: 1 }
   ]);
-  if (!found.length) {
-    console.warn(`⚠️  Categoría "${categoryName}" no encontrada en Odoo`);
-    return null;
-  }
+  if (!found.length) { console.warn(`⚠️  Categoría "${categoryName}" no encontrada`); return null; }
   categIdCache[categoryName] = found[0].id;
   return found[0].id;
 }
 
 function extractJSON(text) {
   const cleaned = text.replace(/```json|```/g, "").trim();
-  // Buscar todos los bloques JSON y quedarse con el que tenga "category"
   let depth = 0, start = -1, results = [];
   for (let i = 0; i < cleaned.length; i++) {
     if (cleaned[i] === "{") { if (depth === 0) start = i; depth++; }
     else if (cleaned[i] === "}") {
       depth--;
-      if (depth === 0 && start !== -1) {
-        results.push(cleaned.slice(start, i + 1));
-        start = -1;
-      }
+      if (depth === 0 && start !== -1) { results.push(cleaned.slice(start, i + 1)); start = -1; }
     }
   }
   for (const r of results.reverse()) {
     try { const p = JSON.parse(r); if (p.category !== undefined) return p; } catch (e) {}
   }
-  try { const p = JSON.parse(cleaned); if (p.category !== undefined) return p; } catch (e) {}
   throw new Error("Sin JSON válido: " + text.slice(0, 120));
 }
 
@@ -335,7 +277,7 @@ async function classifyWithAI(product) {
       "anthropic-beta": "prompt-caching-2024-07-31"
     },
     body: JSON.stringify({
-      model: "claude-haiku-4-5-20251001",
+      model: "claude-haiku-3-5-20241022",
       max_tokens: 256,
       system: [
         {
@@ -354,16 +296,16 @@ async function classifyWithAI(product) {
   if (!response.ok) throw new Error("Claude API " + response.status + ": " + await response.text());
   const data = await response.json();
 
-  // Log cache performance ocasionalmente
-  if (data.usage?.cache_read_input_tokens > 0) {
-    console.log("💾 Cache hit — ahorro del 90% en tokens del sistema");
-  }
+  const cacheRead  = data.usage?.cache_read_input_tokens || 0;
+  const cacheWrite = data.usage?.cache_creation_input_tokens || 0;
+  if (cacheWrite > 0) console.log(`💾 Cache WRITE: ${cacheWrite} tokens`);
+  if (cacheRead  > 0) console.log(`💾 Cache READ:  ${cacheRead} tokens (90% ahorro)`);
 
   return extractJSON(data.content[0].text);
 }
 
 // ─────────────────────────────────────────
-// LOOP PRINCIPAL — un producto cada 15s
+// LOOP PRINCIPAL
 // ─────────────────────────────────────────
 
 async function processNext() {
@@ -387,13 +329,7 @@ async function processNext() {
       [[]],
       { fields: ["id", "name", "default_code", "categ_id"], limit: 50, offset }
     ]);
-
-    if (!batch.length) {
-      console.log("🏁 Todos los productos han sido procesados.");
-      isRunning = false;
-      return;
-    }
-
+    if (!batch.length) { console.log("🏁 Todos los productos procesados."); isRunning = false; return; }
     product = batch.find(p => !processedIds.has(p.id));
     if (!product) offset += 50;
   }
@@ -403,29 +339,19 @@ async function processNext() {
 
   try {
     let finalCategory = null;
-    let source = "";
 
-    // Intento 1: reglas aprendidas por IA
-    if (!finalCategory) {
-      const learnedCategory = applyLearnedRules(product.name);
-      if (learnedCategory) {
-        finalCategory = learnedCategory;
-        source = "regla aprendida";
-        console.log(`🧠 ${label} → "${finalCategory}" (regla aprendida)`);
-      }
+    // 1. Reglas aprendidas
+    const learnedCategory = applyLearnedRules(product.name);
+    if (learnedCategory) {
+      finalCategory = learnedCategory;
+      console.log(`🧠 ${label} → "${finalCategory}" (regla aprendida)`);
     }
 
-    // Intento 2a: regla de exclusión aprendida → sin gastar tokens
+    // 2a. Exclusión aprendida
     if (!finalCategory && applyExclusionRule(product.name)) {
-      const insufId = await getCategId(uid, "INFORMACIÓN INSUFICIENTE");
-      if (insufId) {
-        await odooCall("object", "execute_kw", [
-          DB, uid, PASS,
-          "product.template", "write",
-          [[product.id], { categ_id: insufId }]
-        ]);
-      }
-      console.log(`🚫 ${label} — excluido por regla → INFORMACIÓN INSUFICIENTE`);
+      const id = await getCategId(uid, "INFORMACIÓN INSUFICIENTE");
+      if (id) await odooCall("object", "execute_kw", [DB, uid, PASS, "product.template", "write", [[product.id], { categ_id: id }]]);
+      console.log(`🚫 ${label} — excluido → INFORMACIÓN INSUFICIENTE`);
       stats.skipped++;
       processedIds.add(product.id);
       saveProcessed(processedIds);
@@ -433,19 +359,13 @@ async function processNext() {
       return;
     }
 
-    // Intento 2b: nombre insuficiente → INFORMACIÓN INSUFICIENTE sin gastar tokens
+    // 2b. Nombre insuficiente
     if (!finalCategory) {
       const wordCount = product.name.trim().split(/\s+/).filter(w => w.length > 1).length;
       if (wordCount < 3) {
-        const insufId = await getCategId(uid, "INFORMACIÓN INSUFICIENTE");
-        if (insufId) {
-          await odooCall("object", "execute_kw", [
-            DB, uid, PASS,
-            "product.template", "write",
-            [[product.id], { categ_id: insufId }]
-          ]);
-        }
-        console.log(`⚠️  ${label} — nombre insuficiente (${wordCount} palabras) → INFORMACIÓN INSUFICIENTE`);
+        const id = await getCategId(uid, "INFORMACIÓN INSUFICIENTE");
+        if (id) await odooCall("object", "execute_kw", [DB, uid, PASS, "product.template", "write", [[product.id], { categ_id: id }]]);
+        console.log(`⚠️  ${label} — nombre insuficiente → INFORMACIÓN INSUFICIENTE`);
         stats.skipped++;
         processedIds.add(product.id);
         saveProcessed(processedIds);
@@ -454,16 +374,14 @@ async function processNext() {
       }
     }
 
-    // Intento 3: Claude clasifica Y propone regla nueva
+    // 3. Claude
     if (!finalCategory) {
       const result = await classifyWithAI(product);
       console.log(`🤖 ${label} → "${result.category}" (confianza: ${result.confidence})`);
 
       if (result.category !== "SIN_CATEGORIA" && result.confidence >= 0.75) {
         finalCategory = result.category;
-        source = "claude";
 
-        // Si Claude propuso una regla válida y no existe aún, guardarla
         if (result.rule && result.rule.keywords?.length > 0 && !ruleAlreadyExists(result.rule)) {
           const newRule = {
             type:     result.rule.type,
@@ -476,60 +394,44 @@ async function processNext() {
           };
           learnedRules.push(newRule);
           saveRules(learnedRules);
-          const icon = result.rule.type === "exclude" ? "🚫" : "💡";
-          console.log(`${icon} Nueva regla aprendida [${result.rule.type}]: ${JSON.stringify(newRule.keywords)} → "${newRule.category}"`);
+          console.log(`${result.rule.type === "exclude" ? "🚫" : "💡"} Nueva regla [${result.rule.type}]: ${JSON.stringify(newRule.keywords)} → "${newRule.category}"`);
         }
       } else {
         console.log(`⏭️  ${label} omitido — confianza insuficiente`);
         stats.skipped++;
 
-        // Generar regla de exclusión automática para patrones obvios
+        // Exclusión automática para patrones obvios
         const name = product.name.trim();
-        let autoRule = null;
-
-        if (/^\d+%/.test(name)) {
-          // "10% en...", "15% en...", "30% en..."
-          autoRule = { type: "exclude", match: "startswith", keywords: [name.match(/^\d+%/)[0]] };
-        } else if (/^abono/i.test(name)) {
-          autoRule = { type: "exclude", match: "startswith", keywords: ["abono"] };
-        } else if (/^descuento/i.test(name)) {
-          autoRule = { type: "exclude", match: "startswith", keywords: ["descuento"] };
-        }
-
-        if (autoRule && !ruleAlreadyExists(autoRule)) {
-          const newRule = {
-            ...autoRule,
-            category: "EXCLUIDO",
-            reason: "Patrón automático — no es un producto",
-            example: name,
-            addedAt: new Date().toISOString()
-          };
-          learnedRules.push(newRule);
-          saveRules(learnedRules);
-          console.log(`🚫 Regla de exclusión automática: "${newRule.keywords[0]}"`);
+        const autoPatterns = [
+          { test: /^\d+%/, rule: { type: "exclude", match: "startswith", keywords: [name.match(/^\d+%/)?.[0]] } },
+          { test: /^abono/i,     rule: { type: "exclude", match: "startswith", keywords: ["abono"] } },
+          { test: /^descuento/i, rule: { type: "exclude", match: "startswith", keywords: ["descuento"] } },
+        ];
+        for (const { test, rule } of autoPatterns) {
+          if (test.test(name) && rule.keywords[0] && !ruleAlreadyExists(rule)) {
+            const newRule = { ...rule, category: "EXCLUIDO", reason: "Patrón automático — no es un producto", example: name, addedAt: new Date().toISOString() };
+            learnedRules.push(newRule);
+            saveRules(learnedRules);
+            console.log(`🚫 Regla de exclusión automática: "${newRule.keywords[0]}"`);
+            break;
+          }
         }
       }
     }
 
     if (finalCategory) {
       const categId = await getCategId(uid, finalCategory);
-      if (!categId) {
-        console.warn(`⚠️  ${label} — categ_id no encontrado para "${finalCategory}"`);
-        stats.errors++;
-      } else {
-        await odooCall("object", "execute_kw", [
-          DB, uid, PASS,
-          "product.template", "write",
-          [[product.id], { categ_id: categId }]
-        ]);
+      if (!categId) { console.warn(`⚠️  categ_id no encontrado para "${finalCategory}"`); stats.errors++; }
+      else {
+        await odooCall("object", "execute_kw", [DB, uid, PASS, "product.template", "write", [[product.id], { categ_id: categId }]]);
         console.log(`✅ ${label} → "${finalCategory}" (categ_id: ${categId})`);
         stats.categorized++;
       }
     }
+
   } catch (e) {
     console.error(`❌ ${label} — error:`, e.message);
     stats.errors++;
-    // Guardar error en GitHub de forma asíncrona (sin bloquear el loop)
     appendErrorLog({
       at: new Date().toISOString(),
       type: e.message.includes("429") ? "RATE_LIMIT" : e.message.includes("Sin JSON") ? "PARSE_ERROR" : "ERROR",
@@ -541,7 +443,6 @@ async function processNext() {
 
   processedIds.add(product.id);
   saveProcessed(processedIds);
-
   scheduleNext();
 }
 
@@ -551,21 +452,14 @@ function scheduleNext() {
 }
 
 // ─────────────────────────────────────────
-// ENDPOINTS DE CONTROL
+// ENDPOINTS
 // ─────────────────────────────────────────
 
 app.post("/start", (req, res) => {
   if (isRunning && !isPaused) return res.json({ message: "Ya está corriendo.", stats });
-  if (isPaused) {
-    isPaused = false;
-    scheduleNext();
-    console.log("▶️  Reanudado");
-    return res.json({ message: "Reanudado.", stats });
-  }
+  if (isPaused) { isPaused = false; scheduleNext(); return res.json({ message: "Reanudado.", stats }); }
   isRunning = true;
-  isPaused  = false;
-  stats     = { processed: 0, categorized: 0, errors: 0, skipped: 0, startedAt: new Date().toISOString() };
-  console.log("▶️  Iniciando loop de categorización...");
+  stats = { processed: 0, categorized: 0, errors: 0, skipped: 0, startedAt: new Date().toISOString() };
   processNext();
   res.json({ message: "Iniciado.", stats });
 });
@@ -574,16 +468,13 @@ app.post("/pause", (req, res) => {
   if (!isRunning) return res.json({ message: "No está corriendo." });
   isPaused = true;
   if (currentTimer) clearTimeout(currentTimer);
-  console.log("⏸️  Pausado");
   res.json({ message: "Pausado.", stats });
 });
 
 app.post("/stop", (req, res) => {
-  isRunning = false;
-  isPaused  = false;
+  isRunning = false; isPaused = false;
   if (currentTimer) clearTimeout(currentTimer);
-  console.log("⏹️  Detenido");
-  res.json({ message: "Detenido. IDs procesados conservados.", stats });
+  res.json({ message: "Detenido.", stats });
 });
 
 app.get("/status", (req, res) => {
@@ -595,26 +486,16 @@ app.post("/reset-processed", (req, res) => {
   if (currentTimer) clearTimeout(currentTimer);
   processedIds.clear();
   saveProcessed(processedIds);
-  console.log("🗑️  Lista de IDs procesados borrada");
-  res.json({ message: "Lista reseteada. Llama /start para re-procesar todo." });
+  res.json({ message: "Lista reseteada." });
 });
 
 app.post("/reprocess/:id", (req, res) => {
   const id = parseInt(req.params.id);
-  if (processedIds.has(id)) {
-    processedIds.delete(id);
-    saveProcessed(processedIds);
-    res.json({ message: `Producto ${id} removido. Se procesará en el siguiente ciclo.` });
-  } else {
-    res.json({ message: `Producto ${id} no estaba en la lista.` });
-  }
+  if (processedIds.has(id)) { processedIds.delete(id); saveProcessed(processedIds); res.json({ message: `Producto ${id} removido.` }); }
+  else res.json({ message: `Producto ${id} no estaba en la lista.` });
 });
 
-// Ver últimas respuestas completas de Claude
-app.get("/claude-logs", (req, res) => {
-  res.json({ total: claudeLogs.length, logs: claudeLogs });
-});
-
+app.get("/claude-logs", (req, res) => res.json({ total: claudeLogs.length, logs: claudeLogs }));
 app.get("/health", (req, res) => res.send("OK"));
 
 // ─────────────────────────────────────────
@@ -622,22 +503,18 @@ app.get("/health", (req, res) => res.send("OK"));
 // ─────────────────────────────────────────
 
 (async () => {
-  processedIds  = await loadProcessed();
-  learnedRules  = await loadRules();
-  console.log(`📂 IDs ya procesados cargados: ${processedIds.size}`);
+  processedIds = await loadProcessed();
+  learnedRules = await loadRules();
+  console.log(`📂 IDs procesados: ${processedIds.size}`);
 
   const PORT = process.env.CATEGORIZER_PORT || 3001;
   app.listen(PORT, () => {
-    console.log(`🚀 Categorizer corriendo en puerto ${PORT}`);
-    console.log(`   POST /pause            — pausar`);
-    console.log(`   POST /stop             — detener`);
-    console.log(`   GET  /status           — ver estado y stats`);
-    console.log(`   POST /reset-processed  — borrar lista de IDs`);
-    console.log(`   POST /reprocess/:id    — re-procesar un producto`);
+    console.log(`🚀 Categorizer en puerto ${PORT}`);
+    console.log(`   POST /pause  POST /stop  GET /status  POST /reset-processed  POST /reprocess/:id`);
   });
 
   isRunning = true;
   stats = { processed: 0, categorized: 0, errors: 0, skipped: 0, startedAt: new Date().toISOString() };
-  console.log("▶️  Arrancando loop automáticamente...");
+  console.log("▶️  Arrancando automáticamente...");
   processNext();
 })();
