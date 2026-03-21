@@ -1,7 +1,1 @@
-[2026-03-21T04:05:58.423Z] PARSE_ERROR [412237] "ADIDAS ADIZERO 13 GLOVES RED S" — Sin JSON válido: Voy a verificar si el término "gloves" podría referirse a múltiples tipos de producto en el catálogo disponible.
-[2026-03-21T04:05:37.571Z] PARSE_ERROR [412235] "ADIDAS ADIZERO 13 GLOVES RED M" — Sin JSON válido: Based on the web search results, the ADIDAS ADIZERO 13 GLOVES RED M 
-[2026-03-21T04:04:33.648Z] PARSE_ERROR [412231] "ADIDAS ADIZERO 13 GLOVES GREY M" — Sin JSON válido: Based on the search results, the Adidas Adizero 13 Gloves are 
-[2026-03-21T04:03:33.101Z] PARSE_ERROR [411653] "ADIDAS ADIZERO 12" — Sin JSON válido: Based on the search results, 
-[2026-03-21T04:03:13.108Z] PARSE_ERROR [413366] "ADIDAS ADIPOWER TEAM LIGHT" — Sin JSON válido: El producto es una 
-[2026-03-21T04:01:27.505Z] PARSE_ERROR [410738] "ADIDAS ADILETTE AQUA" — Sin JSON válido: Based on the web search results, 
 
