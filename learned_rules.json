@@ -6406,5 +6406,17 @@
     "reason": "Balón de fútbol americano, independientemente de marca o material",
     "example": "MIKASA F6007 AMERICANO PIEL SINTETICA YTH",
     "addedAt": "2026-03-21T23:54:40.555Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "fustal",
+      "balón"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Fustal es una disciplina específica del fútbol de salón, combinado con 'balón' elimina ambigüedad de la marca o disciplina genérica",
+    "example": "MIKASA FUSTAL FSC-450 #4/ SOCCER ",
+    "addedAt": "2026-03-21T23:54:50.733Z"
   }
 ]
