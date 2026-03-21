@@ -18,5 +18,35 @@
     "reason": "Frontenis es un deporte de raqueta específico, similar a pádel y tenis. La palabra 'frontenis' por sí sola identifica inequívocamente un producto de raqueta/pala sin ambigüedad.",
     "example": "201 OFICIAL FRONTENIS",
     "addedAt": "2026-03-21T02:22:40.234Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "shoulder pads"
+    ],
+    "category": "PROTECCIONES",
+    "reason": "Las hombreras (shoulder pads) son protecciones específicas para deportes de contacto. La palabra 'shoulder pads' identifica claramente este tipo de equipo sin ambigüedad.",
+    "example": "2in1 Shoulder Pads",
+    "addedAt": "2026-03-21T02:22:57.511Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "finger saver"
+    ],
+    "category": "PROTECCIONES",
+    "reason": "Finger saver es un protector específico de dedos usado en deportes de contacto y levantamiento. Es un producto claramente identificable por ese término único.",
+    "example": "3 FINGERS UNDER COLOR FINGER SAVER",
+    "addedAt": "2026-03-21T02:23:16.136Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tricep bar"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "reason": "Las barras de tríceps son equipos de entrenamiento de fuerza para uso doméstico o en gimnasio. La keyword 'tricep bar' identifica unívocamente este tipo de equipamiento sin ambigüedad.",
+    "example": "34\" OLY TRICEP BAR",
+    "addedAt": "2026-03-21T02:25:32.241Z"
   }
 ]
