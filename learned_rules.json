@@ -53,5 +53,16 @@
     "reason": "Shoulder pads are unambiguous protective equipment in sports context; used in football, lacrosse, ice hockey for upper body protection",
     "example": "2in1 Shoulder Pads",
     "addedAt": "2026-03-21T04:22:37.530Z"
+  },
+  {
+    "type": "exclude",
+    "match": "startswith",
+    "keywords": [
+      "30%"
+    ],
+    "category": "EXCLUIDO",
+    "reason": "Patrón automático — no es un producto",
+    "example": "30% en tu orden",
+    "addedAt": "2026-03-21T04:23:38.531Z"
   }
 ]
