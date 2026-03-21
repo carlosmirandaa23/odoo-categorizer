@@ -5215,5 +5215,29 @@
     "reason": "Elastiloop es una liga/banda elástica para entrenamiento, artículo de ENTRENAMIENTO EN CASA",
     "example": "GOFIT SUPER ELASTILOOP S/M",
     "addedAt": "2026-03-21T22:18:46.083Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "gols",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "GOLS es marca especializada en tachones; 'tip' y 'pro series' son líneas de tachones; 'arrow' es modelo de tachón",
+    "example": "GOLS TIP PRO SERIES 22 ARROW C/U",
+    "addedAt": "2026-03-21T22:22:35.441Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "water",
+      "bottle"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Botellas de agua deportivas son complementos de hidratación",
+    "example": "GYM WATER CHIC",
+    "addedAt": "2026-03-21T22:26:12.996Z"
   }
 ]
