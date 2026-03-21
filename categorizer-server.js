@@ -10,7 +10,7 @@ const { ODOO_URL, DB, USER, PASS, ANTHROPIC_API_KEY } = process.env;
 
 const PROCESSED_FILE = path.join(__dirname, "processed_ids.json");
 const RULES_FILE     = path.join(__dirname, "learned_rules.json");
-const INTERVAL_MS    = 30000;
+const INTERVAL_MS    = 15000;
 const GITHUB_REPO      = "carlosmirandaa23/odoo-categorizer";
 const GITHUB_RULES_PATH = "learned_rules.json";
 const GITHUB_IDS_PATH   = "processed_ids.json";
@@ -171,17 +171,6 @@ const CATEGORY_CATALOG = [
   { name: "CUIDADO Y MANTENIMIENTO", parent: "ACCESORIOS",              examples: "limpia calzado, spray desodorante, cintas deportivas" },
 ];
 
-
-
-
-  return null;
-}
-  return null;
-}
-  }
-  return null;
-}
-
 function buildSystemPrompt() {
   return `Eres un clasificador de productos deportivos Y generador de reglas de clasificación.
 
@@ -331,7 +320,7 @@ async function processNext() {
     // Intento 2: nombre insuficiente → INFORMACIÓN INSUFICIENTE sin gastar tokens
     if (!finalCategory) {
       const wordCount = product.name.trim().split(/\s+/).filter(w => w.length > 1).length;
-      if (wordCount < 2) {
+      if (wordCount < 3) {
         const insufId = await getCategId(uid, "INFORMACIÓN INSUFICIENTE");
         if (insufId) {
           await odooCall("object", "execute_kw", [
