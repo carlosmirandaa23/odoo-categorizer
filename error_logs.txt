@@ -1,1 +1,2 @@
+[2026-03-21T06:31:16.110Z] ERROR [413670] "ACU STACK BRASS" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-3-5-haiku-20241022"},"request_id":"req_011CZFko1AosaxnXQXFEbW7m"}
 
