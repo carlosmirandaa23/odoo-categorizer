@@ -5298,5 +5298,133 @@
     "reason": "AEROTEC es tecnología de prenda superior deportiva; 2PZ indica conjunto de 2 piezas tipo camiseta/playera",
     "example": "HOLLOWAY AEROTEC 2PZ",
     "addedAt": "2026-03-21T22:35:09.106Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "training",
+      "tight"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Training tights son prendas inferiores ajustadas para entrenamiento deportivo",
+    "example": "HOLLOWAY TRAINING TIGHT LARGE",
+    "addedAt": "2026-03-21T22:36:15.716Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "wind",
+      "water resistant"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "Prendas de abrigo con protección contra viento y agua son chamarras/cortavientos",
+    "example": "HOLLOWAY WIND/WATER RESISTANT 2PIECE",
+    "addedAt": "2026-03-21T22:36:24.012Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "face mask"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "face mask es protección específica deportiva, requiere contexto para evitar confusión con accesorios de salud general",
+    "example": "HS FLEX FORM II NET 3/4 FACE MASK",
+    "addedAt": "2026-03-21T22:36:54.124Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "hula hula"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Hula hula es un equipamiento de entrenamiento/fitness para uso en casa, ejercicio cardiovascular",
+    "example": "HULA HULA GDE",
+    "addedAt": "2026-03-21T22:37:20.046Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "jaw pad"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "jaw pad es protección facial específica para deportes de contacto, nunca otro tipo de producto",
+    "example": "JAW PAD 1 SOFT WH FTZ",
+    "addedAt": "2026-03-21T22:38:42.014Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "muscle blaster"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Dispositivo portátil de entrenamiento/masaje muscular para uso doméstico",
+    "example": "JAWKU MUSCLE BLASTER MINI",
+    "addedAt": "2026-03-21T22:39:19.421Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "adhesive",
+      "tape"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Cinta adhesiva para deportistas, clasificada como complemento de mantenimiento y cuidado",
+    "example": "JAYBIRD ADHESIVE TAPE EX1 PZA 1.5*15YRD",
+    "addedAt": "2026-03-21T22:39:34.908Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "athletic",
+      "trainer"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Athletic trainer en rollo indica cinta/vendaje deportivo para soporte y prevención",
+    "example": "JAYBIRD ATHLETIC TRAINER BLACK 1.5*15YRD",
+    "addedAt": "2026-03-21T22:39:43.832Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tape",
+      "elastico"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Tape elástico es material de soporte y cuidado deportivo, no vendaje médico de primeros auxilios",
+    "example": "JAYBIRD CAJA TAPE ELASTICO LST 2550 LATEX FREE",
+    "addedAt": "2026-03-21T22:40:13.662Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "venda",
+      "elástica"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Las vendas elásticas son productos de soporte y prevención de lesiones, independientemente de la marca",
+    "example": "JAYBIRD VENDA ELASTICA",
+    "addedAt": "2026-03-21T22:40:30.877Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "body",
+      "mujer"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "body deportivo femenino es prenda superior",
+    "example": "JOMA BODY MUJER M",
+    "addedAt": "2026-03-21T22:41:39.384Z"
   }
 ]
