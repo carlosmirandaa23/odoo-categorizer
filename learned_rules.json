@@ -157,5 +157,16 @@
     "reason": "Combinación inequívoca de 'rain' (lluvia) y 'jkt' (jacket abreviado) que identifica chaquetas impermeables deportivas para deportes al aire libre (ciclismo, senderismo, escalada), nunca se refiere a otro tipo de producto",
     "example": "ADIDAS 5.10 RAIN JKT L",
     "addedAt": "2026-03-21T04:47:35.960Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "gloves"
+    ],
+    "category": "PROTECCIONES",
+    "match": null,
+    "reason": "La palabra 'gloves' identifica inequívocamente guantes de protección. En contexto deportivo, los guantes son protecciones de equipamiento.",
+    "example": "ADIDAS ADIFAST 3.0 GLOVES YTH L",
+    "addedAt": "2026-03-21T05:02:27.849Z"
   }
 ]
