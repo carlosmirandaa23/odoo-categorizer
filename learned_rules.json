@@ -3942,5 +3942,41 @@
     "reason": "Las mangas de tiro son accesorios deportivos de soporte que se usan en baloncesto y otros deportes",
     "example": "GAMEON SHOOTING SLEEVE L/XL",
     "addedAt": "2026-03-21T15:35:38.269Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "volley",
+      "balón"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Volley es disciplina específica de balones. 'Dart' es modelo de pelota de voleibol.",
+    "example": "GASER DART PRO SOFT TOUCH VOLLEY",
+    "addedAt": "2026-03-21T15:41:37.903Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "volley",
+      "ball"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Volley ball es término específico para balón de voleibol, combinado con marca evita ambigüedad",
+    "example": "GASER DART PRO VOLLEY BALL",
+    "addedAt": "2026-03-21T15:41:58.859Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "gaser",
+      "fut"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Gaser es marca fabricante de balones de fútbol; 'fut' confirma disciplina",
+    "example": "GASER FUT #4 SUKA",
+    "addedAt": "2026-03-21T15:42:19.731Z"
   }
 ]
