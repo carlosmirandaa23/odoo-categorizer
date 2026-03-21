@@ -109,5 +109,17 @@
     "reason": "Término específico y unívoco en equipamiento deportivo de protección. Nunca refiere a otro tipo de producto.",
     "example": "ADAMS ACP CHEST PROTECTOR 16'",
     "addedAt": "2026-03-21T04:45:22.694Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bat",
+      "pack"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "La combinación 'bat pack' en contexto deportivo es inequívoca: es una bolsa/mochila específicamente diseñada para transportar bates de béisbol/softbol y equipamiento. 'Bat' solo podría significar palo de cricket en otro contexto, pero 'bat pack' es exclusivamente una categoría de bolsa de béisbol/softbol.",
+    "example": "ADAMS BAT PACK ",
+    "addedAt": "2026-03-21T04:45:43.826Z"
   }
 ]
