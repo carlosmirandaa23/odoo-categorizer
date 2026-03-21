@@ -139,5 +139,16 @@
     "reason": "JKT es abreviatura estándar para jacket/chaqueta. Productos con esta abreviatura son prendas de abrigo exterior.",
     "example": "ADIDAS 5.10 FLOOCE JKT M",
     "addedAt": "2026-03-21T02:48:50.971Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "gloves"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "La palabra 'gloves' identifica sin ambigüedad guantes de protección deportiva, independientemente de la marca o modelo",
+    "example": "ADIDAS ADIFAST 3.0 GLOVES YTH L",
+    "addedAt": "2026-03-21T02:50:11.969Z"
   }
 ]
