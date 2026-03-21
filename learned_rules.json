@@ -855,5 +855,51 @@
     "reason": "Menisquera es protección específica de rodilla para soporte de menisco, producto único sin ambigüedad",
     "example": "ADX MENISQUERA PAR",
     "addedAt": "2026-03-21T08:55:44.339Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "muslera"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Muslera es una prenda de soporte/contención específica para el muslo, siempre es equipamiento paramédico",
+    "example": "ADX MUSLERA ELASTICA CH",
+    "addedAt": "2026-03-21T08:56:02.377Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "muñequera"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Muñequera es un dispositivo de soporte específico que nunca se refiere a otro tipo de producto deportivo",
+    "example": "ADX MUÑEQUERA ELASTICA",
+    "addedAt": "2026-03-21T08:57:11.082Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pantalon",
+      "portero"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Pantalón específico para portero (guardameta) es prenda inferior deportiva especializada",
+    "example": "ADX PANTALON PORTERO INFANTIL 12-14",
+    "addedAt": "2026-03-21T08:57:29.127Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "rodillera",
+      "licra"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Rodillera es producto de soporte específico; licra confirma material de prendas de protección",
+    "example": "ADX PAR DE RODILLERA LICRA GRUESA NAILON",
+    "addedAt": "2026-03-21T08:58:20.887Z"
   }
 ]
