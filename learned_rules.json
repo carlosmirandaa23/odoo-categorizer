@@ -3186,5 +3186,53 @@
     "reason": "Quiver belt es equipo específico de tiro con arco para sostener flechas",
     "example": "EASTON ELITE QUIVER BELT 18\"-47\"",
     "addedAt": "2026-03-21T13:38:50.994Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "inserts",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Inserts de tachones específicamente para calzado de fútbol/béisbol. Easton es fabricante de equipamiento deportivo.",
+    "example": "EASTON FATBOY INSERTS",
+    "addedAt": "2026-03-21T13:39:32.492Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "easton",
+      "fmj"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Easton FMJ es línea de tachones para béisbol/softball de la marca Easton",
+    "example": "EASTON FMJ 6MM",
+    "addedAt": "2026-03-21T13:40:32.068Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "arreo",
+      "gametime"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Arreo es arnés/protección de pecho específico para béisbol; Gametime es línea Easton de protecciones deportivas",
+    "example": "EASTON GAMETIME ARREO ADULTO",
+    "addedAt": "2026-03-21T13:41:31.109Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "hammer",
+      "easton"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Easton Hammer es un bate de béisbol/softball de marca reconocida; medidas en pulgadas y onzas son estándar de bates",
+    "example": "EASTON HAMMER 34\" 28oz",
+    "addedAt": "2026-03-21T13:41:51.375Z"
   }
 ]
