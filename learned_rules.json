@@ -5453,5 +5453,17 @@
     "reason": "Adizero Impact es línea de tachones de fútbol americano de Adidas, identificable por modelo específico",
     "example": "ADIDAS ADIZERO IMPACT 10.5A",
     "addedAt": "2026-03-21T17:52:07.154Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "freak",
+      "inline"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "FREAK es línea de tachones de fútbol americano; INLINE confirma diseño de tachones alineados típicos de ese deporte",
+    "example": "ADIDAS FREAK 23 INLINE 10.5A",
+    "addedAt": "2026-03-21T17:55:21.106Z"
   }
 ]
