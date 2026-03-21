@@ -5014,5 +5014,16 @@
     "reason": "Protecciones específicas para béisbol; 'almohadillas' sola es ambigua (cojines), pero con 'beisbol' es clara",
     "example": "COMAX ALMOHADILLAS PARA BEISBOL/ JUEGO 3",
     "addedAt": "2026-03-21T21:12:09.681Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "riddell"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Riddell es fabricante especializado en cascos y protecciones para fútbol americano y deportes de contacto",
+    "example": "CONJUNCIONES RIDDELL SMALL",
+    "addedAt": "2026-03-21T21:13:56.204Z"
   }
 ]
