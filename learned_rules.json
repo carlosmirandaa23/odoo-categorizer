@@ -3636,5 +3636,17 @@
     "reason": "Combinación de 'tennis' + 'racket' identifica únicamente raquetas de tenis, evitando confusión con otros tipos de palas o equipamiento",
     "example": "EXILE E-FORCE TENNIS RACKET ",
     "addedAt": "2026-03-21T14:39:41.922Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "knee",
+      "wraps"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Knee wraps son bandas de soporte específicas para rodilla, no confundir con vendajes generales",
+    "example": "EXO KNEE WRAPS ",
+    "addedAt": "2026-03-21T14:40:02.697Z"
   }
 ]
