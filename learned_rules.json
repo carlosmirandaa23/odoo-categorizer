@@ -92,5 +92,17 @@
     "reason": "Protectores de pecho para deportes de contacto se identifican por estas dos palabras clave combinadas",
     "example": "ADAMS ACP CHEST PROTECTOR 16'",
     "addedAt": "2026-03-21T02:47:41.964Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bat",
+      "pack"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Las palabras 'bat' y 'pack' juntas identifican una bolsa/mochila deportiva diseñada específicamente para transportar bates (baseball/sóftbol). 'Bat pack' es un término estándar en equipamiento deportivo.",
+    "example": "ADAMS BAT PACK ",
+    "addedAt": "2026-03-21T02:47:59.306Z"
   }
 ]
