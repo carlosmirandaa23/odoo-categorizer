@@ -2130,5 +2130,28 @@
     "reason": "Protección para visor/mira de arco — accesorio de equipo de tiro deportivo",
     "example": "CBE SIGHT SCOPE COVER ",
     "addedAt": "2026-03-21T12:04:17.298Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "mock",
+      "armour"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Mock neck es cuello tipo prenda superior deportiva, combined con armour indica base layer/top de entrenamiento",
+    "example": "CG ARMOUR MOCK / color: BLACK-STEEL / talla: YLG / uso: TRAIN",
+    "addedAt": "2026-03-21T12:04:55.331Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "gaiter"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Gaiter es prenda de cuello/cabeza deportiva única, nunca otro tipo de producto",
+    "example": "CGI Fleece Gaiter",
+    "addedAt": "2026-03-21T12:07:04.353Z"
   }
 ]
