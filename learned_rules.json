@@ -6346,5 +6346,53 @@
     "reason": "Blitzing es una línea de camisetas de entrenamiento deportivo, confirmado por el contexto de uso TRAIN",
     "example": "MEN'S HEATHERED BLITZING 30 / color: BLACK-GRAPHITE-BLACK / talla: L/XL / uso: TRAIN",
     "addedAt": "2026-03-21T23:47:53.633Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sleeveless",
+      "tshirt"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Combinación de 'sleeveless' + 'tshirt' identifica inequívocamente una prenda superior sin mangas",
+    "example": "MEN'S UA RAID SLEEVELESS TSHIRT",
+    "addedAt": "2026-03-21T23:50:44.656Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "weight lifting",
+      "glove"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Guantes específicos para levantamiento de pesas, protección en manos durante entrenamiento de fuerza",
+    "example": "MENS WEIGHT LIFTING GLOVE LG",
+    "addedAt": "2026-03-21T23:52:28.037Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "americano",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Balón de fútbol americano Mikasa con especificación de tachones implícitos en disciplina",
+    "example": "MIKASA F5505 AMERICANO PIEL SINTETICA PEE WEE",
+    "addedAt": "2026-03-21T23:54:12.101Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "americano",
+      "balón"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Balón de fútbol americano identificado por marca deportiva y material",
+    "example": "MIKASA F6000 AMERICANO PIEL SINTETICA",
+    "addedAt": "2026-03-21T23:54:21.395Z"
   }
 ]
