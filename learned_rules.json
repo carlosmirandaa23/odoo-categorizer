@@ -161,5 +161,17 @@
     "reason": "Equipamiento de protección específico para catcher en béisbol",
     "example": "ADAMS CATCHERS LEG CUARDS 15'",
     "addedAt": "2026-03-21T07:26:12.235Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "catcher",
+      "helmet"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Casco protector específico para béisbol (posición catcher), nunca ambiguo con otros productos",
+    "example": "ADAMS CH6000 CATCHERS HELMET",
+    "addedAt": "2026-03-21T07:26:29.859Z"
   }
 ]
