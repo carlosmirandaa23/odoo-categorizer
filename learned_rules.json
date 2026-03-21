@@ -6443,5 +6443,30 @@
     "reason": "Mikasa es marca especializada en balones de voleibol; VT2 es modelo de balón de voleibol",
     "example": "MIKASA VT2 STARTER TWO",
     "addedAt": "2026-03-21T23:56:44.946Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bate",
+      "baseball",
+      "softball"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "MIKEN CHAOS es un bate de béisbol/sóftbol profesional (34-26 indica largo-peso en onzas)",
+    "example": "MIKEN CHAOS 34-26",
+    "addedAt": "2026-03-21T23:57:03.332Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "catcher",
+      "arreo"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Arreo de catcher es equipo de protección específico para béisbol",
+    "example": "MIZUNO ARREO PARA CATCHER SAMURAI",
+    "addedAt": "2026-03-21T23:57:30.290Z"
   }
 ]
