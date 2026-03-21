@@ -9,5 +9,39 @@
     "reason": "El término 'backpack' en contexto deportivo identifica sin ambigüedad un producto de este tipo. Es lo suficientemente genérico y reutilizable para capturar mochilas deportivas, aunque tenga variantes como 'mochila' en español.",
     "example": " Nike Varsity Elite Backpack ",
     "addedAt": "2026-03-21T03:25:53.377Z"
+  },
+  {
+    "type": "exclude",
+    "match": "startswith",
+    "keywords": [
+      "10%"
+    ],
+    "category": "EXCLUIDO",
+    "reason": "Patrón automático — no es un producto",
+    "example": "10% en productos de padel",
+    "addedAt": "2026-03-21T03:26:59.161Z"
+  },
+  {
+    "type": "exclude",
+    "match": "startswith",
+    "keywords": [
+      "15%"
+    ],
+    "category": "EXCLUIDO",
+    "reason": "Patrón automático — no es un producto",
+    "example": "15% en tu orden",
+    "addedAt": "2026-03-21T03:30:12.203Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "finger",
+      "saver"
+    ],
+    "category": "PROTECCIONES",
+    "match": null,
+    "reason": "El término 'finger saver' identifica específicamente protecciones deportivas para dedos, usado en múltiples deportes (fútbol, béisbol, golf, tiro al arco). La combinación de dos palabras evita ambigüedad con otros productos de dedos (ej: calcetines).",
+    "example": "3 FINGERS UNDER COLOR FINGER SAVER",
+    "addedAt": "2026-03-21T03:31:13.856Z"
   }
 ]
