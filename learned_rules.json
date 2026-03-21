@@ -87,5 +87,16 @@
     "reason": "Armguard es un término específico y exclusivo de equipamiento de protección en arquería. Nunca se refiere a otro tipo de producto deportivo.",
     "example": "AAE TARGET STYLE ARMGUARD",
     "addedAt": "2026-03-21T04:44:26.883Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tobillera"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Palabra única y específica en contexto deportivo: un estabilizador de tobillo es SIEMPRE un artículo de protección/soporte, nunca puede referirse a otro tipo de producto deportivo.",
+    "example": "ACTIVE ANKLE T2 ESTABILIZADOR TOBILLO LG",
+    "addedAt": "2026-03-21T04:44:46.585Z"
   }
 ]
