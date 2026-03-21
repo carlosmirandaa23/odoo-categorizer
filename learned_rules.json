@@ -2060,5 +2060,16 @@
     "reason": "C-flap es protección específica para bateadores en béisbol, evita ambigüedad con otros productos",
     "example": "C-Flap for Left Handed Batter Bagged - Royal",
     "addedAt": "2026-03-21T11:35:08.413Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "camisa"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "startswith",
+    "reason": "Camisa es prenda de uso deportivo superior, sin marca ni modelo específico que genere ambigüedad",
+    "example": "CAMISA PARAGON XP ",
+    "addedAt": "2026-03-21T11:45:51.188Z"
   }
 ]
