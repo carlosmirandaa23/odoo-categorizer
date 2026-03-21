@@ -1645,5 +1645,53 @@
     "reason": "Bases de béisbol son equipamiento de protección/seguridad para campos de juego",
     "example": "BASES BEISBOL CON TRES ALMOHADILLAS GENCO",
     "addedAt": "2026-03-21T10:04:44.120Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "game points",
+      "adder"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Game points son puntas intercambiables para tachones de caza/outdoor; 'adder' refuerza identidad de punta de tacón",
+    "example": "BATEMAN ADDER SMALL GAME POINTS 5PK",
+    "addedAt": "2026-03-21T10:06:15.593Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "battle",
+      "teeth"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Battle es marca de protecciones bucales deportivas; 'teeth' confirma protector bucal/mouthguard",
+    "example": "BATTLE 3D BLACK WITH GOLD TEETH",
+    "addedAt": "2026-03-21T10:06:51.976Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "back",
+      "plate"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "back plate es equipo de protección específico para deportes de contacto",
+    "example": "BATTLE BACK PLATE",
+    "addedAt": "2026-03-21T10:09:12.838Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bicep",
+      "bands"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Las bandas para bíceps son equipamiento de entrenamiento de fuerza en casa, resistencia elástica",
+    "example": "BATTLE BICEP BANDS WHITE",
+    "addedAt": "2026-03-21T10:12:44.325Z"
   }
 ]
