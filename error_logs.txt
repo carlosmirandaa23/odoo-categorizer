@@ -1,3 +1,4 @@
+[2026-03-21T06:52:28.682Z] ERROR [411891] "ADX BANDA P/ PILATES DURA" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFnQoyEmh4P1QEcTFEdp"}
 [2026-03-21T06:51:55.516Z] ERROR [371373] "ADX BALONERA MULTIDEPORTES" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFnNNBtZSBrRFMiW61wf"}
 [2026-03-21T06:51:38.913Z] ERROR [404398] "ADX BALON VOLEIBOL VXV-105" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFnM9Ezewk7HovEa9TCX"}
 [2026-03-21T06:51:05.758Z] ERROR [413843] "ADX BALON VOLEIBOL TERMOSELLADO TEAM" — Claude API 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-haiku-3-5-20241022"},"request_id":"req_011CZFnJhNCTS7tM34kVzP9m"}
