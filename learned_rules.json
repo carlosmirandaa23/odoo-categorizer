@@ -161,5 +161,28 @@
     "reason": "Adilette es la línea de chanclas/sandalias deportivas de Adidas, identificable por nombre de producto",
     "example": "ADIDAS ADILETTE AQUA",
     "addedAt": "2026-03-21T02:51:01.615Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "padel",
+      "pala"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Productos que contienen ambas palabras clave son palas de pádel. La marca se excluye intencionalmente para generalizar la regla.",
+    "example": "ADIDAS ADIPOWER CTRL TEAM 3.3 PADEL",
+    "addedAt": "2026-03-21T02:51:18.803Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "team light"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Los productos con 'team light' en su nombre son típicamente camisetas o jerseys deportivos ligeros para competencia en equipo",
+    "example": "ADIDAS ADIPOWER TEAM LIGHT",
+    "addedAt": "2026-03-21T02:52:28.832Z"
   }
 ]
