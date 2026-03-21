@@ -444,5 +444,53 @@
     "reason": "Racketbag es una bolsa especializada para transportar raquetas de tenis/pádel",
     "example": "ADIDAS RACKETBAG CONTROL  3.3 PINK",
     "addedAt": "2026-03-21T08:10:50.076Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "scorch",
+      "destroy"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Modelo de tachones de fútbol americano de Adidas (linea Scorch Destroy)",
+    "example": "ADIDAS SCORCH DESTROY 2 LG",
+    "addedAt": "2026-03-21T08:12:18.321Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pant",
+      "select"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Pant es prenda inferior deportiva; select es línea específica de Adidas para uniformes/práctica",
+    "example": "ADIDAS SELECT PANT",
+    "addedAt": "2026-03-21T08:12:35.955Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "shorts",
+      "entrenamiento"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Shorts deportivos para entrenamiento sin ambigüedad de disciplina",
+    "example": "ADIDAS SHORTS ENTRENAMIENTO L",
+    "addedAt": "2026-03-21T08:12:53.476Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pelota",
+      "padel"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Combinación específica de 'pelota' + 'padel' elimina ambigüedad con herramientas u otros productos",
+    "example": "ADIDAS SPEED RX PELOTA DE PADEL C/3",
+    "addedAt": "2026-03-21T08:13:11.005Z"
   }
 ]
