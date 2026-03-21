@@ -5734,5 +5734,41 @@
     "reason": "Guantes de tiro (shooting) son protecciones deportivas especializadas",
     "example": "Legacy Leather Hill Style Shooting Glove L",
     "addedAt": "2026-03-21T23:19:55.384Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "hoody",
+      "hoodie"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "Hoody es prenda de abrigo exterior deportiva, nunca otro tipo de producto",
+    "example": "M'S DOUBLE THREAT AF HOODY / color: ROYAL-STEEL / talla: LG / uso: SIDELINE",
+    "addedAt": "2026-03-21T23:22:57.781Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "ankle",
+      "support"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "ankle support es específico para tobilleras de prevención/soporte",
+    "example": "MACH ANKLE SUPPORT- LARGE",
+    "addedAt": "2026-03-21T23:25:29.133Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "elbow",
+      "support"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Combinación de articulación específica (elbow) + función de soporte evita confusión con otros protectores",
+    "example": "MACH ELBOW SUPPORT- LARGE",
+    "addedAt": "2026-03-21T23:25:53.673Z"
   }
 ]
