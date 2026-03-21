@@ -5879,5 +5879,17 @@
     "reason": "Soccer + hilo macramé (construcción de balón) indica claramente balón de fútbol",
     "example": "MANRIQUEZ RED SOCCER HILO MACRAME",
     "addedAt": "2026-03-21T23:31:09.920Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "futbol",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Uruguayito es modelo de tachón de fútbol rápido/futsal",
+    "example": "MANRIQUEZ URUGUAYITO RED FUTBOL RAPIDO ",
+    "addedAt": "2026-03-21T23:31:37.698Z"
   }
 ]
