@@ -7550,5 +7550,29 @@
     "reason": "Benassi es la línea de chanclas deportivas de Nike, identificable por nombre de producto sin marca",
     "example": "NIKE NFL BENASSI STEELERS-TALLA8",
     "addedAt": "2026-03-22T02:15:47.113Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "nfl",
+      "jersey"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "NFL jerseys son camisetas deportivas de equipo de fútbol americano",
+    "example": "NIKE NFL PANTHERS NEWTON",
+    "addedAt": "2026-03-22T02:18:03.497Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "nfl",
+      "fan"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "NFL fan jerseys/camisetas son prendas superiores deportivas de equipo oficial",
+    "example": "NIKE NFL SEAHAWKS FAN 12",
+    "addedAt": "2026-03-22T02:18:50.687Z"
   }
 ]
