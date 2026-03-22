@@ -9394,5 +9394,65 @@
     "reason": "Producto de limpieza/mantenimiento deportivo. 'Cleaner kit' es específico para cuidado de equipamiento",
     "example": "THE FACTOR CLEANER KIT",
     "addedAt": "2026-03-22T08:19:15.071Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "exercise",
+      "band"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Las bandas de ejercicio (exercise bands) son equipamiento de entrenamiento en casa, la marca Thera-Band es estándar en recuperación y entrenamiento.",
+    "example": "THERA-BAND EXERCISE BAND/3 LIGHT",
+    "addedAt": "2026-03-22T08:19:47.247Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "third hand",
+      "dry fire"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Herramienta de entrenamiento para tiro deportivo (dry fire training tool) - equipo de práctica en casa sin munición",
+    "example": "THIRD HAND DRY FIRE TOOL",
+    "addedAt": "2026-03-22T08:20:04.063Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "threadborne",
+      "train"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Threadborne es línea de ropa deportiva Under Armour para entrenamiento; Train indica prenda superior de gym/entrenamiento",
+    "example": "THREADBORNE TRAIN SSV TWIST",
+    "addedAt": "2026-03-22T08:20:22.019Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cinta",
+      "arte marcial"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Cinta de arte marcial es complemento deportivo distintivo, 'cinta' sola es ambigua (zapatos, cabello), requiere 'arte marcial' para especificar",
+    "example": "TOKAIDO CINTA ARTE MARCIAL VARIOS COLORES",
+    "addedAt": "2026-03-22T08:21:27.187Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "catcher",
+      "careta"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Careta de catcher es protección específica para béisbol, evita ambigüedad con otros tipos de caretas o protecciones",
+    "example": "TPX CARETA CATCHER ",
+    "addedAt": "2026-03-22T08:23:03.299Z"
   }
 ]
