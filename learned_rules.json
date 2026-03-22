@@ -6977,5 +6977,40 @@
     "reason": "Protección específica para volante/timón en deportes de contacto como fútbol americano",
     "example": "NFL CUBRE VOLANTES",
     "addedAt": "2026-03-22T00:30:39.344Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "duck tape"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Duck tape es un producto de mantenimiento y reparación de equipamiento deportivo",
+    "example": "NFL DUCK TAPE",
+    "addedAt": "2026-03-22T00:31:28.881Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "flag",
+      "nfl"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Flag football es accesorio/complemento deportivo; NFL especifica disciplina",
+    "example": "NFL FLAG STEEELERS",
+    "addedAt": "2026-03-22T00:32:00.314Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "scarf",
+      "mascada"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Accesorios de cuello/cabeza deportivos, no marca ni disciplina sola",
+    "example": "NFL INFINITY SCARF MASCADA",
+    "addedAt": "2026-03-22T00:33:14.057Z"
   }
 ]
