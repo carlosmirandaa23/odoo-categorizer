@@ -9892,5 +9892,28 @@
     "reason": "jckt es abreviatura de jacket (chamarra/chaqueta deportiva exterior)",
     "example": "UA CITY PACK OUTRUN STORM JCKT LG",
     "addedAt": "2026-03-22T10:22:47.649Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "blitzing",
+      "protección"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Blitzing es protección defensiva en fútbol americano; UA Classic Blitzing es línea de cascos/protecciones",
+    "example": "UA CLASSIC BLITZING 3.0",
+    "addedAt": "2026-03-22T10:23:39.186Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "clean up"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Clean Up es una línea de camisetas/tops deportivos UA, identificable por nombre + talla",
+    "example": "UA CLEAN UP 2XL",
+    "addedAt": "2026-03-22T10:24:15.862Z"
   }
 ]
