@@ -8108,5 +8108,29 @@
     "reason": "Red específica para futsal es equipamiento deportivo, no confundir con disciplina sola",
     "example": "PROMOCOM RED PARA FUTBOL DE SALON ",
     "addedAt": "2026-03-22T04:38:26.045Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "anti fog",
+      "spray"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Anti fog spray es un producto de mantenimiento/cuidado específico para lentes/gafas deportivas, evita ambigüedad con otros sprays",
+    "example": "PYTHON ANTI FOG SPRAY",
+    "addedAt": "2026-03-22T04:40:24.344Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "raquet",
+      "kit"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Raquet + kit indica raquetas/palas con accesorios complementarios para tenis o similar",
+    "example": "PYTHON KIT DE RAQUET",
+    "addedAt": "2026-03-22T04:41:04.398Z"
   }
 ]
