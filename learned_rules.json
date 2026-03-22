@@ -9724,5 +9724,18 @@
     "reason": "MD indica molded stud (tachón moldeado), Blur es línea de tachones UA",
     "example": "UA BLUR ROYAL MD",
     "addedAt": "2026-03-22T09:34:19.549Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "smk",
+      "suede",
+      "mc"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "SMK (Smoke) + SUEDE + MC (molded cleats) es combinación característica de tachones de fútbol/béisbol junior",
+    "example": "UA BLUR SMK SUEDE SLCT MC JR 4.5Y",
+    "addedAt": "2026-03-22T09:35:14.645Z"
   }
 ]
