@@ -10118,5 +10118,41 @@
     "reason": "F7 es modelo de tachones de fútbol americano de UA",
     "example": "UA F7 LIMITED EDITION BL YLG",
     "addedAt": "2026-03-22T11:27:46.359Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "f7",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "F7 es modelo de tachones de fútbol americano de UA",
+    "example": "UA F7 LIMITED EDITION BL YMD",
+    "addedAt": "2026-03-22T11:28:04.498Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "f7",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "F7 es modelo de tachones de fútbol americano de Under Armour, suficientemente específico combinado con contexto de tachones",
+    "example": "UA F7 LIMITED EDITION WH RD MD",
+    "addedAt": "2026-03-22T11:29:17.111Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "f7",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "F7 es línea de tachones de fútbol americano de Under Armour",
+    "example": "UA F7 LIMITED EDITION WH RD SM",
+    "addedAt": "2026-03-22T11:29:35.897Z"
   }
 ]
