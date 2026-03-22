@@ -8167,5 +8167,17 @@
     "reason": "Accesorios específicos para raquetas que absorben vibración, no son la raqueta en sí",
     "example": "RACQUET SHOCK ABSORBERS",
     "addedAt": "2026-03-22T04:43:17.743Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "manopla",
+      "catcher"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Manopla de catcher es equipo protector específico para béisbol, evita confusión con guantes generales",
+    "example": "RADACH MANOPLA CATCHER ",
+    "addedAt": "2026-03-22T04:44:22.625Z"
   }
 ]
