@@ -9712,5 +9712,17 @@
     "reason": "UA Blur Pro es línea de tachones de fútbol americano de Under Armour, identificable por modelo específico",
     "example": "UA BLUR PRO 10.5A",
     "addedAt": "2026-03-22T09:20:52.023Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "blur",
+      "md"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "MD indica molded stud (tachón moldeado), Blur es línea de tachones UA",
+    "example": "UA BLUR ROYAL MD",
+    "addedAt": "2026-03-22T09:34:19.549Z"
   }
 ]
