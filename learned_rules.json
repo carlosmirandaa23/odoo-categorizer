@@ -9666,5 +9666,51 @@
     "reason": "Sports bra es un top deportivo específico para uso en entrenamientos y actividades físicas",
     "example": "UA ARMOUR MID SPORTS BRA",
     "addedAt": "2026-03-22T09:05:51.914Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "scarf"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Una bufanda es un accesorio deportivo/complemento que no se refiere a otra categoría de producto",
+    "example": "UA AROUND-TOWN SCARF",
+    "addedAt": "2026-03-22T09:06:39.456Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "baselayer",
+      "base layer"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Baselayer es prenda térmica superior deportiva. Siempre acompañado de 'base' para evitar ambigüedad con otros productos.",
+    "example": "UA BASE 2.0 ACTIVE BASELAYER CG MD",
+    "addedAt": "2026-03-22T09:09:14.123Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "cap"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Cap es una prenda de cabeza deportiva que no puede referirse a otro tipo de producto en contexto deportivo",
+    "example": "UA BLITZING BLANK CAP MEN LXL",
+    "addedAt": "2026-03-22T09:15:41.492Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "blur",
+      "pro"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "UA Blur Pro es línea de tachones de fútbol americano de Under Armour, identificable por modelo específico",
+    "example": "UA BLUR PRO 10.5A",
+    "addedAt": "2026-03-22T09:20:52.023Z"
   }
 ]
