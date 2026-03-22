@@ -7047,5 +7047,17 @@
     "reason": "Sudadera deportiva con tecnología de secado rápido, claramente una prenda de abrigo exterior",
     "example": "NFL SUDADERA DOLPHINS DRY FIT",
     "addedAt": "2026-03-22T00:39:21.937Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sudadera",
+      "hoodie"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "Sudadera es prenda de abrigo deportivo, independiente de la disciplina",
+    "example": "NFL SUDADERA TEAM APPERAL",
+    "addedAt": "2026-03-22T00:39:32.774Z"
   }
 ]
