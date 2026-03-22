@@ -8929,5 +8929,53 @@
     "reason": "SKLZ fabrica plataformas de equilibrio y entrenamiento funcional para acondicionamiento. 'Tabla' de equilibrio es equipamiento de entrenamiento en casa.",
     "example": "SKLZ TABLA AMERICANO",
     "addedAt": "2026-03-22T07:14:31.452Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "soporte",
+      "rótula"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Producto de soporte articular específico para prevención/protección de rodilla",
+    "example": "SOPORTE ABIERTO PARA ROTULA",
+    "addedAt": "2026-03-22T07:15:45.966Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "soporte",
+      "rodilla"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Combinación de dos palabras clave que identifica unívocamente soportes ortopédicos para rodilla, evitando ambigüedad con otros productos",
+    "example": "SOPORTE PARA RODILLA CON BISAGRAS",
+    "addedAt": "2026-03-22T07:16:16.184Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "spalding",
+      "balón"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Spalding es fabricante especializado de balones de básquetbol; 'Advanced Pro' es línea de balones, 'Junior' indica tamaño",
+    "example": "SPALDING ADVANCED PRO JUNIOR",
+    "addedAt": "2026-03-22T07:17:00.631Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "spalding",
+      "pee wee"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Spalding Pee Wee es un balón de fútbol americano específico para categorías infantiles",
+    "example": "SPALDING ADVANCED PRO PEE WEE",
+    "addedAt": "2026-03-22T07:17:15.906Z"
   }
 ]
