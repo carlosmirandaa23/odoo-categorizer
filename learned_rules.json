@@ -8905,5 +8905,29 @@
     "reason": "Dispositivo de entrenamiento portátil para mejorar técnica de bateo, categorizado como equipamiento de entrenamiento en casa",
     "example": "SKLZ HIT A WAY BATTING TRAINER",
     "addedAt": "2026-03-22T07:13:45.650Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "recoil",
+      "360"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "SKLZ Recoil 360 es un entrenador de rebote/retorno para entrenamiento de reactividad en casa, accesorio de equipamiento de entrenamiento",
+    "example": "SKLZ RECOIL 360",
+    "addedAt": "2026-03-22T07:14:01.285Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tabla",
+      "americano"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "SKLZ fabrica plataformas de equilibrio y entrenamiento funcional para acondicionamiento. 'Tabla' de equilibrio es equipamiento de entrenamiento en casa.",
+    "example": "SKLZ TABLA AMERICANO",
+    "addedAt": "2026-03-22T07:14:31.452Z"
   }
 ]
