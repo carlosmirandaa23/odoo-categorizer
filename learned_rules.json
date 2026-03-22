@@ -7035,5 +7035,17 @@
     "reason": "Protecciones acolchadas específicas para deportes de contacto, evita ambigüedad con otros tipos de pads",
     "example": "NFL SEATBELT PADS",
     "addedAt": "2026-03-22T00:38:43.720Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sudadera",
+      "dry fit"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "Sudadera deportiva con tecnología de secado rápido, claramente una prenda de abrigo exterior",
+    "example": "NFL SUDADERA DOLPHINS DRY FIT",
+    "addedAt": "2026-03-22T00:39:21.937Z"
   }
 ]
