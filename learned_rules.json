@@ -7252,5 +7252,17 @@
     "reason": "chin shield es protección facial específica para deportes de contacto, nunca se refiere a otro tipo de producto",
     "example": "NIKE DRI-FIT CHIN SHIELD",
     "addedAt": "2026-03-22T01:21:54.075Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sleeve",
+      "dri-fit"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Las mangas deportivas Dri-FIT son prendas superiores técnicas para entrenamiento",
+    "example": "NIKE DRI-FIT ELITE SLEEVE S-M",
+    "addedAt": "2026-03-22T01:22:15.740Z"
   }
 ]
