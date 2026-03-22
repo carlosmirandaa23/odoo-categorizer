@@ -7131,5 +7131,17 @@
     "reason": "Huarache + turf identifica calzado de tachones para deportes de campo",
     "example": "NIKE ALPHA HUARACHE ELITE 4 TURF 10A",
     "addedAt": "2026-03-22T00:45:37.916Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "huarache",
+      "varsity"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Huarache Varsity es línea de tachones de béisbol, identifiable por 'varsity' + silhueta específica",
+    "example": "NIKE ALPHA Huarache Varsity AO7957-001 11.5A",
+    "addedAt": "2026-03-22T00:46:07.196Z"
   }
 ]
