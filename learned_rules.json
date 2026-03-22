@@ -8977,5 +8977,63 @@
     "reason": "Spalding Pee Wee es un balón de fútbol americano específico para categorías infantiles",
     "example": "SPALDING ADVANCED PRO PEE WEE",
     "addedAt": "2026-03-22T07:17:15.906Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "spalding"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "startswith",
+    "reason": "Spalding es marca exclusiva de balones de básquetbol, sin ambigüedad de producto",
+    "example": "SPALDING ALL WEATHER COLOR",
+    "addedAt": "2026-03-22T07:17:31.373Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "block",
+      "eva"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "EVA blocks son bloques de espuma para entrenamiento, estiramiento y equilibrio en casa",
+    "example": "SPG BLOCK EVA",
+    "addedAt": "2026-03-22T07:25:38.621Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "arco",
+      "compuesto"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Arco compuesto es equipo de tiro con arco, no clasificado explícitamente pero más cercano a equipamiento deportivo especializado",
+    "example": "SPG JUNXING PHOENIX ARCO COMPUESTO",
+    "addedAt": "2026-03-22T07:28:17.844Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "stabilizer"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Stabilizer indica dispositivo de soporte y estabilización para articulaciones",
+    "example": "SPG MULTIPLE STABILIZER TP621",
+    "addedAt": "2026-03-22T07:29:53.603Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "protector",
+      "brazo"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protector de brazo es equipo de protección deportiva, 'brazo' especifica la zona corporal",
+    "example": "SPG PROTECTOR DE BRAZO",
+    "addedAt": "2026-03-22T07:31:15.066Z"
   }
 ]
