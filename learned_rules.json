@@ -7908,5 +7908,17 @@
     "reason": "Las palabras 'tight' y 'crop' juntas identifican prendas inferiores ajustadas tipo leggings deportivos",
     "example": "Nike Epic Lux Crop Tight L",
     "addedAt": "2026-03-22T03:41:46.514Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "hypercool",
+      "ar"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Hypercool es línea de camisetas térmicas/deportivas de Nike; AR indica número de modelo (ignorar marca)",
+    "example": "Nike Hypercool AR6695-458-M",
+    "addedAt": "2026-03-22T03:47:18.879Z"
   }
 ]
