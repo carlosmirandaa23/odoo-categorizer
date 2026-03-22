@@ -7885,5 +7885,16 @@
     "reason": "Tank es una prenda superior deportiva sin ambigüedad",
     "example": "Nike CITY SLEEK TANK L",
     "addedAt": "2026-03-22T03:39:30.048Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "dri-fit"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Dri-FIT es tecnología de prenda superior deportiva de Nike, universal para camisetas y tops",
+    "example": "Nike Dri-FIT BQ3280-100-SM",
+    "addedAt": "2026-03-22T03:41:09.367Z"
   }
 ]
