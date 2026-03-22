@@ -8466,5 +8466,17 @@
     "reason": "Protecciones para cadera y cóccix, específicamente para deportes de contacto y deslizamiento",
     "example": "SAGEAR HIP AND TAIL PADS",
     "addedAt": "2026-03-22T06:15:36.186Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "thigh",
+      "pads"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Dos términos necesarios para evitar ambigüedad: 'thigh pads' es protección deportiva específica de muslos, excluye otros tipos de pads o protecciones",
+    "example": "SCHUTT 2 PC THIGH PADS TABLAS",
+    "addedAt": "2026-03-22T06:17:00.824Z"
   }
 ]
