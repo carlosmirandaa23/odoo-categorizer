@@ -7955,5 +7955,29 @@
     "reason": "Overfly Rookie es un balón de voleibol reconocido por sus dimensiones estándar 32.5 y 32 pulgadas",
     "example": "OVERFLY ROOKIE 32.5\" Y 32\"",
     "addedAt": "2026-03-22T04:10:14.520Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pañuelo",
+      "árbitro"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Pañuelo específico para arbitraje deportivo, complemento de uso en cancha",
+    "example": "PAÑUELO PARA ARBITRO ",
+    "addedAt": "2026-03-22T04:18:15.858Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "field point",
+      "tapered"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Field point es punta de flecha para tiro con arco (protección/equipamiento); tapered especifica el tipo de punta",
+    "example": "PDP 5' Tapered Field Point ",
+    "addedAt": "2026-03-22T04:18:30.290Z"
   }
 ]
