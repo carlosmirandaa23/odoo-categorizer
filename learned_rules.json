@@ -8310,5 +8310,41 @@
     "reason": "GLV es abreviación de guante (glove) y BSB indica béisbol, evita confusión con guantes de box",
     "example": "RAWLINGS ZERO SHOCK BSB GLV 11.75 DER",
     "addedAt": "2026-03-22T04:59:36.284Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "protour",
+      "raqueta"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "PROTOUR es línea de raquetas de tenis; requiere 'raqueta' o equivalente para evitar confusión con otros productos",
+    "example": "RB PROTOUR PINK ",
+    "addedAt": "2026-03-22T05:00:04.843Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "soccer",
+      "net"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Combinación de 'soccer' + 'net' indica red/malla de fútbol, equipamiento de cancha",
+    "example": "RED SOCCER PAR",
+    "addedAt": "2026-03-22T05:01:44.032Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "red",
+      "voleibol"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Red específicamente diseñada para voleibol, equipamiento de cancha",
+    "example": "RED VOLIBOL EMBREADA PROFESIONAL",
+    "addedAt": "2026-03-22T05:02:25.954Z"
   }
 ]
