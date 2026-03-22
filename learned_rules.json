@@ -9035,5 +9035,53 @@
     "reason": "Protector de brazo es equipo de protección deportiva, 'brazo' especifica la zona corporal",
     "example": "SPG PROTECTOR DE BRAZO",
     "addedAt": "2026-03-22T07:31:15.066Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "punta",
+      "tachon"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "SPG punta refiere a sprig/tachón de fútbol. Arrow tip es característica técnica de clavo deportivo",
+    "example": "SPG PUNTA 6.2MM ARROW TIP",
+    "addedAt": "2026-03-22T07:31:46.978Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "finger",
+      "guard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protección específica para dedos en deportes de arco/tiro con arco",
+    "example": "SPG RUBBER BOWSTRING FINGER GUARD",
+    "addedAt": "2026-03-22T07:32:35.365Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "estabilizador",
+      "set"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Los estabilizadores son dispositivos de soporte y prevención de lesiones, típicamente tobilleras, muñequeras o rodilleras en paquetes múltiples",
+    "example": "SPG SET DE ESTABILIZADORES",
+    "addedAt": "2026-03-22T07:32:51.568Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "google",
+      "sport edition"
+    ],
+    "category": "ELECTRÓNICA",
+    "match": "contains",
+    "reason": "Google Sport Edition es línea de reloj/dispositivo deportivo inteligente",
+    "example": "SPORT EDITION GOOGLE ESPARTA MIRROR",
+    "addedAt": "2026-03-22T07:36:50.920Z"
   }
 ]
