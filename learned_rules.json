@@ -6716,5 +6716,41 @@
     "reason": "home plate throw down es equipo de protección específico para receptor de béisbol",
     "example": "MW HOME PLATE-THROW DOWN WHITE",
     "addedAt": "2026-03-22T00:15:54.586Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "homeplate",
+      "sav-a-leg"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protección específica para catcher en béisbol",
+    "example": "MW HOMEPLATE SAV-A-LEG",
+    "addedAt": "2026-03-22T00:16:04.541Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "gallitos",
+      "volante"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Gallitos es el nombre común para volantes de bádminton, producto deportivo clasificado en equipamiento",
+    "example": "MW JEX 800 GALLITOS 6PK",
+    "addedAt": "2026-03-22T00:16:15.295Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "clipboard",
+      "roster"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Complemento deportivo para organización de equipos/entrenamientos, no es prenda ni calzado",
+    "example": "MW KHOURY SOCCER ROSTER CLIPBOARD",
+    "addedAt": "2026-03-22T00:16:25.539Z"
   }
 ]
