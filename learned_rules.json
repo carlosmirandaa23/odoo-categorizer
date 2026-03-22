@@ -7920,5 +7920,28 @@
     "reason": "Hypercool es línea de camisetas térmicas/deportivas de Nike; AR indica número de modelo (ignorar marca)",
     "example": "Nike Hypercool AR6695-458-M",
     "addedAt": "2026-03-22T03:47:18.879Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "crop",
+      "top"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Crop es prenda superior deportiva, excluye confusión con crop pants (inferiores)",
+    "example": "Nike Pro Crop Spodnie L",
+    "addedAt": "2026-03-22T03:51:02.721Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "clifden"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Clifden es un modelo de gafas de sol deportivas Oakley; asociado a accesorios oculares deportivos",
+    "example": "OAKLEY CLIFDEN PRIZM SNOW",
+    "addedAt": "2026-03-22T04:05:46.848Z"
   }
 ]
