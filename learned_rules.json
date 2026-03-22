@@ -8893,5 +8893,17 @@
     "reason": "Towel es un complemento deportivo de uso en entrenamiento/recuperación, nunca refiere a otro tipo de producto",
     "example": "SKIILL TOWEL UA WHITE",
     "addedAt": "2026-03-22T07:12:47.805Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "batting",
+      "trainer"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Dispositivo de entrenamiento portátil para mejorar técnica de bateo, categorizado como equipamiento de entrenamiento en casa",
+    "example": "SKLZ HIT A WAY BATTING TRAINER",
+    "addedAt": "2026-03-22T07:13:45.650Z"
   }
 ]
