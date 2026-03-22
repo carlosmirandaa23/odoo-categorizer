@@ -6680,5 +6680,17 @@
     "reason": "Cinturón de levantamiento con pad es equipamiento de soporte y prevención para entrenamiento de fuerza",
     "example": "MW Cinturón de Levantamiento Con Pad",
     "addedAt": "2026-03-22T00:14:44.053Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "finger",
+      "protector"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protección específica para dedos en deportes de contacto o entrenamiento",
+    "example": "MW FINGER PROTECTOR",
+    "addedAt": "2026-03-22T00:15:11.720Z"
   }
 ]
