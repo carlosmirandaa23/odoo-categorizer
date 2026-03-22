@@ -8859,5 +8859,28 @@
     "reason": "Cup es protección genital específica del deporte, Shock Doctor es marca especializada en protecciones deportivas",
     "example": "SHOCK DOCTOR BIOFLEX CUP",
     "addedAt": "2026-03-22T07:02:06.715Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "shock doctor",
+      "gel"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Shock Doctor es marca especializada en protecciones bucales; Gel Max es su línea de protectores bucales con gel",
+    "example": "SHOCK DOCTOR GEL MAX STRAPPED",
+    "addedAt": "2026-03-22T07:04:43.868Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "shoe goo"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Shoe Goo es adhesivo/pegamento especializado para reparación y mantenimiento de calzado deportivo",
+    "example": "SHOE GOO  3.7 OZ  BLACK",
+    "addedAt": "2026-03-22T07:05:13.553Z"
   }
 ]
