@@ -7107,5 +7107,17 @@
     "reason": "Guante de béisbol/softball específico para defensa en campo",
     "example": "NIKE ALPHA EDGE FIELDING GLOVE",
     "addedAt": "2026-03-22T00:43:43.838Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "huarache",
+      "kystn"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Huarache es modelo de tachones de béisbol de Nike, Kystn es variante específica",
+    "example": "NIKE ALPHA HUARACHE 4 KYSTN BG 11YC",
+    "addedAt": "2026-03-22T00:44:03.633Z"
   }
 ]
