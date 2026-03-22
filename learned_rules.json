@@ -8286,5 +8286,17 @@
     "reason": "Rawlings es fabricante de equipamiento deportivo especializado en pelotas y balones de béisbol/softball. RSB indica softball, Shock es línea de producto, 13\" es tamaño estándar de softball.",
     "example": "RAWLINGS RSB SHOCK 13\"",
     "addedAt": "2026-03-22T04:57:10.876Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "rawlings",
+      "zoombang"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Rawlings fabrica protecciones deportivas; ZoomBang es tecnología de absorción de impacto en cascos y protectores",
+    "example": "RAWLINGS SRG ZOOMBANG",
+    "addedAt": "2026-03-22T04:58:42.438Z"
   }
 ]
