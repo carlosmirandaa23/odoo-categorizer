@@ -8346,5 +8346,41 @@
     "reason": "Red específicamente diseñada para voleibol, equipamiento de cancha",
     "example": "RED VOLIBOL EMBREADA PROFESIONAL",
     "addedAt": "2026-03-22T05:02:25.954Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "speedflex",
+      "rondana"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Speedflex es línea de cascos Riddell; rondana de liberación es componente de casco de fútbol americano",
+    "example": "RIDDEL SPEEDFLEX RONDANA DE LIBERACION",
+    "addedAt": "2026-03-22T05:46:20.593Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "riddell",
+      "speedflex"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Riddell Speedflex es marca y línea de cascos de fútbol americano. Los accesorios específicos (tapones, tornillos) de este casco son partes de protecciones",
+    "example": "RIDDEL SPEEDFLEX TORNILLO TAPON DE RETENCION PZA",
+    "addedAt": "2026-03-22T05:46:35.532Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cartera",
+      "arbitro"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Cartera específica para árbitros de deportes, accesorio de transporte/organización",
+    "example": "RINAT CARTERA PARA ARBITRO",
+    "addedAt": "2026-03-22T05:56:16.771Z"
   }
 ]
