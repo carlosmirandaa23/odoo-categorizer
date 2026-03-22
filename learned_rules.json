@@ -8550,5 +8550,17 @@
     "reason": "Girdle protector específico para deportes de contacto (fútbol americano, rugby). Protech es línea de protecciones, pero 'girdle' es término único para esta prenda protectora.",
     "example": "SCHUTT GIRDLE PROTECH ALL IN ONE VARSITY LG",
     "addedAt": "2026-03-22T06:27:16.993Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "chin",
+      "strap"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Componente de protección facial/casco específico para deportes de contacto",
+    "example": "SCHUTT ION HC CHIN STRAP",
+    "addedAt": "2026-03-22T06:30:57.317Z"
   }
 ]
