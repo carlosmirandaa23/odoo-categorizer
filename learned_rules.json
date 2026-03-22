@@ -7119,5 +7119,17 @@
     "reason": "Huarache es modelo de tachones de béisbol de Nike, Kystn es variante específica",
     "example": "NIKE ALPHA HUARACHE 4 KYSTN BG 11YC",
     "addedAt": "2026-03-22T00:44:03.633Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "huarache",
+      "turf"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Huarache + turf identifica calzado de tachones para deportes de campo",
+    "example": "NIKE ALPHA HUARACHE ELITE 4 TURF 10A",
+    "addedAt": "2026-03-22T00:45:37.916Z"
   }
 ]
