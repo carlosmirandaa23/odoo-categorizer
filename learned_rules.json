@@ -7023,5 +7023,17 @@
     "reason": "Decals son adhesivos/pegatinas deportivas, complemento de accesorios",
     "example": "NFL PERFORATED DECAL TEAMS ",
     "addedAt": "2026-03-22T00:37:54.642Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "seatbelt",
+      "pads"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protecciones acolchadas específicas para deportes de contacto, evita ambigüedad con otros tipos de pads",
+    "example": "NFL SEATBELT PADS",
+    "addedAt": "2026-03-22T00:38:43.720Z"
   }
 ]
