@@ -10178,5 +10178,17 @@
     "reason": "F8 es un protector bucal de Under Armour para deportes de contacto",
     "example": "UA F8 PINK MD",
     "addedAt": "2026-03-22T11:46:08.367Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "f8",
+      "mouthguard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "F8 es el modelo de protector bucal de UA, identifica específicamente este tipo de protección dental",
+    "example": "UA F8 PINK SM",
+    "addedAt": "2026-03-22T11:46:26.858Z"
   }
 ]
