@@ -8084,5 +8084,17 @@
     "reason": "ProHitter es marca reconocida de protectores bucales/mouthguards para béisbol",
     "example": "PROHITTER ADULT BLUE",
     "addedAt": "2026-03-22T04:36:41.194Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "shade",
+      "parasol"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Parasol/sombrilla son accesorios deportivos para protección solar en eventos y entrenamientos al aire libre",
+    "example": "PROMARK NFL AUTO SHADE PARASOL",
+    "addedAt": "2026-03-22T04:38:11.994Z"
   }
 ]
