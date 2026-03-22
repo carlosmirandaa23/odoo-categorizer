@@ -7276,5 +7276,17 @@
     "reason": "Head tie es una banda/complemento para la cabeza usado en deporte, distinto de gorras",
     "example": "NIKE DRI-FIT HEAD TIE",
     "addedAt": "2026-03-22T01:22:36.186Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "skull",
+      "wrap"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "skull wrap es accesorio deportivo para cabeza/cara, similar a bandanas o pañoletas deportivas",
+    "example": "NIKE DRI-FIT SKULL WRAP",
+    "addedAt": "2026-03-22T01:24:08.769Z"
   }
 ]
