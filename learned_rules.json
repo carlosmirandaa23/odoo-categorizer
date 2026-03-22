@@ -9927,5 +9927,124 @@
     "reason": "CLUTCHFIT RESISTOR es línea de guantes de protección UA; 'resistor' indica equipo de resistencia/protección deportiva",
     "example": "UA CLUTCHFIT RESISTOR",
     "addedAt": "2026-03-22T10:39:09.746Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "cold gear"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "Cold Gear es tecnología térmica de Under Armour para prendas de abrigo y capas de temperatura",
+    "example": "UA COLD GEAR",
+    "addedAt": "2026-03-22T10:40:00.332Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "combat",
+      "gloves"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Combat sin especificación de guantes es ambiguo (puede ser ropa o protección); se propone regla solo con 'combat' + 'gloves' juntos",
+    "example": "UA COMBAT 2XL ",
+    "addedAt": "2026-03-22T10:57:03.028Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "combat"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Combat es término deportivo específico para equipamiento de protección en deportes de contacto (boxeo, MMA, lucha). Acompañado de talla (3XL) refuerza que es prenda/equipo de protección, no marca genérica.",
+    "example": "UA COMBAT 3XL",
+    "addedAt": "2026-03-22T10:57:23.009Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sling",
+      "bag"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Sling es una bolsa de un solo tirante deportiva, evita confusión con otras categorías",
+    "example": "UA COMPEL SLING II",
+    "addedAt": "2026-03-22T11:02:30.394Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "charged",
+      "bandit"
+    ],
+    "category": "RUNNING Y ENTRENAMIENTO",
+    "match": "contains",
+    "reason": "Bandit es línea de tenis running de UA, Charged es tecnología de amortiguación deportiva. Combinadas identifican tenis de correr.",
+    "example": "UA Charged Bandit 2",
+    "addedAt": "2026-03-22T11:06:23.792Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "blank",
+      "str"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Blank indica camiseta/playera en blanco, STR (stripe/rayas) sugiere diseño deportivo. Excluye marca UA.",
+    "example": "UA DIGI CAMO BLANK FB STR",
+    "addedAt": "2026-03-22T11:07:38.673Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "drive",
+      "pant"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Drive es línea de pantalones deportivos UA; pant confirma prenda inferior",
+    "example": "UA DRIVE 5 POCKET PANT 32/32",
+    "addedAt": "2026-03-22T11:09:06.894Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "drive pro",
+      "strm",
+      "ins"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "UA Drive Pro Storm es línea de tachones de fútbol americano. INS=inserción de tachones, VT=Vapor Talon pattern",
+    "example": "UA DRIVE PRO STRM LT INS VT 2XL",
+    "addedAt": "2026-03-22T11:13:02.830Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pant",
+      "straight leg"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Pants deportivos de largo completo con corte recto son prendas inferiores",
+    "example": "UA ELITE STRAIGHT LEG PANT M",
+    "addedAt": "2026-03-22T11:17:14.419Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tight",
+      "tight"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "TIGHT es prenda inferior deportiva compresiva; combined con contexto deportivo evita ambigüedad con otras prendas",
+    "example": "UA F1Y FAST 2.0 TIGHT L",
+    "addedAt": "2026-03-22T11:20:40.441Z"
   }
 ]
