@@ -7383,5 +7383,29 @@
     "reason": "Savage Shark es línea de tachones de fútbol americano de Nike",
     "example": "NIKE FORCE SAVAGE 2 SHARK 10.5A",
     "addedAt": "2026-03-22T01:35:21.696Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "trout",
+      "keystone"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Trout es modelo de cleats de béisbol, Keystone es posición de béisbol",
+    "example": "NIKE FORCE TROUT 8 KEYSTONE 11YC",
+    "addedAt": "2026-03-22T01:35:33.599Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "trout",
+      "force zoom"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Trout es modelo de tachones de béisbol de Nike, Force Zoom es su tecnología específica para ese deporte",
+    "example": "NIKE FORCE ZOOM TROUT 5 AH3372-002-11A",
+    "addedAt": "2026-03-22T01:37:36.049Z"
   }
 ]
