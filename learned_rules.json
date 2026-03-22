@@ -10250,5 +10250,16 @@
     "reason": "HB (headband/banda) en paquete múltiple indica accesorios de cabello/deportivos pequeños; contexto UA sugiere calcetines deportivos 6-pack",
     "example": "UA GIRLS GRAPHIC HB 6PK FUCHSIA-PURPLE",
     "addedAt": "2026-03-22T12:36:42.975Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "scrunchie"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Scrunchie es un accesorio deportivo específico para sujetar el cabello, nunca se refiere a otro producto",
+    "example": "UA GIRLS SCRUNCHIE 2PK",
+    "addedAt": "2026-03-22T12:37:01.082Z"
   }
 ]
