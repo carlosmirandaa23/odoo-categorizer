@@ -6834,5 +6834,40 @@
     "reason": "Umpire indicator es un accesorio específico de arbitraje/deportes, nunca puede ser otra categoría de producto",
     "example": "MW UMPIRE INDICATOR",
     "addedAt": "2026-03-22T00:19:55.864Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "scope",
+      "mybo"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Scope es modelo de mira/visor en arcos, MYBO es marca de equipamiento de tiro con arco. Ten Zone es línea de producto de MYBO para arcos.",
+    "example": "MYBO TEN ZONE SCOPE ",
+    "addedAt": "2026-03-22T00:20:44.508Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "base",
+      "ancla"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Base con anclaje es equipamiento de entrenamiento en casa para fijar resistencia o sacos",
+    "example": "MacGregor Mac Major  League Base con ancla & Enchufes",
+    "addedAt": "2026-03-22T00:20:54.807Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "hat"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Hat es prenda de cabeza deportiva, siempre gorra/complemento",
+    "example": "NE ANGELS HAT 73/8",
+    "addedAt": "2026-03-22T00:24:41.329Z"
   }
 ]
