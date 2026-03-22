@@ -6799,5 +6799,28 @@
     "reason": "Ice bag es producto de recuperación (compresas frío/calor). 'Ice' + 'bag' juntos evitan confusión con otros usos.",
     "example": "MW PROSERIES ICE BAG -LARGE",
     "addedAt": "2026-03-22T00:18:09.280Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "rosin bag"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Rosin bag es un accesorio deportivo específico para deportes como béisbol y gimnasia, nunca se refiere a otro tipo de producto",
+    "example": "MW ROSIN BAG",
+    "addedAt": "2026-03-22T00:18:47.365Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "umpire",
+      "protector"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "UMPIRE es equipo de protección específico para árbitros (pechera/protector de pecho en deportes como béisbol); PLAS y DIAL sugieren componentes de ajuste/protección",
+    "example": "MW UMPIRE IND BLK PLAS 4DIAL BLISTR",
+    "addedAt": "2026-03-22T00:19:44.812Z"
   }
 ]
