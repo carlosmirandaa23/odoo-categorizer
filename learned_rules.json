@@ -9523,5 +9523,17 @@
     "reason": "Tuff Toe es un protector de punta para calzado deportivo, específicamente un refuerzo/protección",
     "example": "TUFF TOE LEFT BLACK",
     "addedAt": "2026-03-22T08:32:02.598Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "racing",
+      "tyr"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "TYR es marca especializada en trajes de natación y bañadores de competencia. 'Racing' indica traje de natación de alto rendimiento.",
+    "example": "TYR  STEALTH RACING PINK",
+    "addedAt": "2026-03-22T08:33:23.070Z"
   }
 ]
