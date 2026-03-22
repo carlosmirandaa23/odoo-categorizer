@@ -9845,5 +9845,29 @@
     "reason": "Combinación única de calcetín deportivo sin mostrar (no show) con soporte tipo tab",
     "example": "UA CHARGED CUSHION NO SHOW TAB LG",
     "addedAt": "2026-03-22T10:19:22.608Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "chin",
+      "pad"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "chin pad es protección específica para mentón, nunca otro tipo de producto",
+    "example": "UA CHIN PAD BK",
+    "addedAt": "2026-03-22T10:20:30.553Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tote",
+      "bag"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Tote es un tipo específico de bolsa/cartera deportiva, 'bag' en inglés refuerza la categoría",
+    "example": "UA CINCH PRINTED TOTE ",
+    "addedAt": "2026-03-22T10:21:55.619Z"
   }
 ]
