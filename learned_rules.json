@@ -7012,5 +7012,16 @@
     "reason": "Accesorios de cuello/cabeza deportivos, no marca ni disciplina sola",
     "example": "NFL INFINITY SCARF MASCADA",
     "addedAt": "2026-03-22T00:33:14.057Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "decal"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Decals son adhesivos/pegatinas deportivas, complemento de accesorios",
+    "example": "NFL PERFORATED DECAL TEAMS ",
+    "addedAt": "2026-03-22T00:37:54.642Z"
   }
 ]
