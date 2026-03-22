@@ -7229,5 +7229,16 @@
     "reason": "Bandana deportiva con tecnología de enfriamiento es un complemento/accesorio deportivo",
     "example": "NIKE COOLING BANDANA",
     "addedAt": "2026-03-22T01:16:37.487Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "hairband"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Hairband es un accesorio deportivo específico que nunca se refiere a otro tipo de producto",
+    "example": "NIKE DOUBLE SPORT HAIRBAND",
+    "addedAt": "2026-03-22T01:20:05.722Z"
   }
 ]
