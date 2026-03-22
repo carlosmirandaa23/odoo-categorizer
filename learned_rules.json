@@ -10226,5 +10226,17 @@
     "reason": "Pant es prenda inferior deportiva; gameday especifica contexto de competencia",
     "example": "UA GAMEDAY VANISH PANT BLACK L",
     "addedAt": "2026-03-22T12:33:13.632Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "charged",
+      "low"
+    ],
+    "category": "CASUAL - SNEAKERS",
+    "match": "contains",
+    "reason": "Charged es línea de tenis lifestyle de UA; 'low' indica corte bajo característico de sneakers casuales",
+    "example": "UA GGS CHARGED 24/7 LOW / color: BLACK-WHITE-BLACK / talla: 5 / uso: LIFESTYLE",
+    "addedAt": "2026-03-22T12:35:32.824Z"
   }
 ]
