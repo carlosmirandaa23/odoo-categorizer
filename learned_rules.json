@@ -8682,5 +8682,76 @@
     "reason": "Casco de fútbol americano/rugby de marca Schutt, modelo Vengeance",
     "example": "SCHUTT VENGEANCE Z10 MEDIUM",
     "addedAt": "2026-03-22T06:46:56.689Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "vengeance"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Vengeance es línea de cascos de fútbol americano de Schutt, siempre indica casco deportivo",
+    "example": "SCHUTT VENGEANCE Z10 SMALL",
+    "addedAt": "2026-03-22T06:47:11.353Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "buckle",
+      "release"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Buckle release es un sistema de cierre/desprendimiento común en mochilas y bolsas deportivas para ajuste rápido",
+    "example": "SCOTT BUCKLE RELEASE",
+    "addedAt": "2026-03-22T06:49:08.790Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "seguros",
+      "barra"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Los seguros para barra son accesorios de levantamiento de pesas usado en entrenamiento en casa",
+    "example": "SEGUROS PARA BARRA DE 1´´",
+    "addedAt": "2026-03-22T06:49:23.753Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "rollo",
+      "masaje"
+    ],
+    "category": "RECUPERACIÓN",
+    "match": "contains",
+    "reason": "Rollo de masaje es foam roller, herramienta de recuperación muscular",
+    "example": "SERIES 8 FITNESS ROLLO DE MASAJE",
+    "addedAt": "2026-03-22T06:49:53.219Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "ligas",
+      "agarres"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Ligas con agarres son bandas elásticas de resistencia específicamente para entrenamiento en casa",
+    "example": "SET 5 LIGAS CON AGARRES",
+    "addedAt": "2026-03-22T06:50:08.550Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "ping pong",
+      "set"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Ping pong es raqueta/pala de mesa, SET indica conjunto completo con accesorios",
+    "example": "SET DE PING PONG STAG",
+    "addedAt": "2026-03-22T06:50:24.139Z"
   }
 ]
