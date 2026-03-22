@@ -6787,5 +6787,17 @@
     "reason": "Tachones de atletismo identificados por 'picos' y 'spikes' en el nombre",
     "example": "MW PICOS ATLETISMO 14PK PYRAMID SPIKES",
     "addedAt": "2026-03-22T00:17:59.208Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "ice",
+      "bag"
+    ],
+    "category": "RECUPERACIÓN",
+    "match": "contains",
+    "reason": "Ice bag es producto de recuperación (compresas frío/calor). 'Ice' + 'bag' juntos evitan confusión con otros usos.",
+    "example": "MW PROSERIES ICE BAG -LARGE",
+    "addedAt": "2026-03-22T00:18:09.280Z"
   }
 ]
