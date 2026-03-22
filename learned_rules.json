@@ -7324,5 +7324,17 @@
     "reason": "ELITE EVERYDAY CREW es la línea de calcetines deportivos de Nike",
     "example": "NIKE ELITE EVERYDAY CREW M",
     "addedAt": "2026-03-22T01:29:35.148Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sleeve",
+      "arm"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "sleeve es una prenda superior deportiva, evita confusión con accesorios",
+    "example": "NIKE ELITE SLEEVE CELTICS (copia)",
+    "addedAt": "2026-03-22T01:30:07.348Z"
   }
 ]
