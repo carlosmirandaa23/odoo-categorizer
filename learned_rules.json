@@ -7264,5 +7264,17 @@
     "reason": "Las mangas deportivas Dri-FIT son prendas superiores técnicas para entrenamiento",
     "example": "NIKE DRI-FIT ELITE SLEEVE S-M",
     "addedAt": "2026-03-22T01:22:15.740Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "head",
+      "tie"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Head tie es una banda/complemento para la cabeza usado en deporte, distinto de gorras",
+    "example": "NIKE DRI-FIT HEAD TIE",
+    "addedAt": "2026-03-22T01:22:36.186Z"
   }
 ]
