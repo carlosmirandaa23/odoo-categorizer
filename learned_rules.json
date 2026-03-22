@@ -8037,5 +8037,52 @@
     "reason": "Sombrilla deportiva clasificada como complemento de protección solar",
     "example": "POWERSWING SUNSHADE RAINBOW GOLD",
     "addedAt": "2026-03-22T04:33:16.177Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "wrap",
+      "weight"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Accesorio de entrenamiento/acondicionamiento para deportes de bat (béisbol, softball)",
+    "example": "POWR WRAP BAT WEIGHT",
+    "addedAt": "2026-03-22T04:33:29.682Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "prince",
+      "force"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Prince Force es una línea de raquetas de tenis reconocida; el tamaño 23\" confirma producto de raqueta",
+    "example": "PRINCE FORCE 3 23\"",
+    "addedAt": "2026-03-22T04:34:07.737Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "raq",
+      "raqueta"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Raqueta junior de tenis Prince, tamaño 21 pulgadas para menores",
+    "example": "PRINCE RAQ JUNIOR 21\"",
+    "addedAt": "2026-03-22T04:34:58.544Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "prohitter"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "ProHitter es marca reconocida de protectores bucales/mouthguards para béisbol",
+    "example": "PROHITTER ADULT BLUE",
+    "addedAt": "2026-03-22T04:36:41.194Z"
   }
 ]
