@@ -6704,5 +6704,17 @@
     "reason": "Bolsa especializada para guardar y transportar bates de béisbol",
     "example": "MW HANGING BAT BAG  BLK  HOLDS 8",
     "addedAt": "2026-03-22T00:15:44.424Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "home plate",
+      "throw down"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "home plate throw down es equipo de protección específico para receptor de béisbol",
+    "example": "MW HOME PLATE-THROW DOWN WHITE",
+    "addedAt": "2026-03-22T00:15:54.586Z"
   }
 ]
