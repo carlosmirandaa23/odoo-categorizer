@@ -10046,5 +10046,17 @@
     "reason": "TIGHT es prenda inferior deportiva compresiva; combined con contexto deportivo evita ambigüedad con otras prendas",
     "example": "UA F1Y FAST 2.0 TIGHT L",
     "addedAt": "2026-03-22T11:20:40.441Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "f6",
+      "silver gold"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "F6 es modelo de tachón de fútbol americano de Under Armour",
+    "example": "UA F6 SILVER GOLD LG",
+    "addedAt": "2026-03-22T11:24:24.589Z"
   }
 ]
