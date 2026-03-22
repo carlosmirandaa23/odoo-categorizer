@@ -9915,5 +9915,17 @@
     "reason": "Clean Up es una línea de camisetas/tops deportivos UA, identificable por nombre + talla",
     "example": "UA CLEAN UP 2XL",
     "addedAt": "2026-03-22T10:24:15.862Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "clutchfit",
+      "resistor"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "CLUTCHFIT RESISTOR es línea de guantes de protección UA; 'resistor' indica equipo de resistencia/protección deportiva",
+    "example": "UA CLUTCHFIT RESISTOR",
+    "addedAt": "2026-03-22T10:39:09.746Z"
   }
 ]
