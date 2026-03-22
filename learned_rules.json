@@ -7490,5 +7490,17 @@
     "reason": "Tempo es línea de shorts deportivos Nike; printed indica shorts cortos (3'')",
     "example": "NIKE MODERN TEMPO PRINTED 3'' ",
     "addedAt": "2026-03-22T02:13:09.359Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "multiplier",
+      "crew"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Multiplier Crew es línea de calcetines deportivos Nike",
+    "example": "NIKE MULTIPLIER CREW L",
+    "addedAt": "2026-03-22T02:13:31.725Z"
   }
 ]
