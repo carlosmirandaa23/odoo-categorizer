@@ -6822,5 +6822,17 @@
     "reason": "UMPIRE es equipo de protección específico para árbitros (pechera/protector de pecho en deportes como béisbol); PLAS y DIAL sugieren componentes de ajuste/protección",
     "example": "MW UMPIRE IND BLK PLAS 4DIAL BLISTR",
     "addedAt": "2026-03-22T00:19:44.812Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "umpire",
+      "indicator"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Umpire indicator es un accesorio específico de arbitraje/deportes, nunca puede ser otra categoría de producto",
+    "example": "MW UMPIRE INDICATOR",
+    "addedAt": "2026-03-22T00:19:55.864Z"
   }
 ]
