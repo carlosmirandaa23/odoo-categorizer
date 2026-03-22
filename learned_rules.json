@@ -8622,5 +8622,17 @@
     "reason": "Combinación de 'shirt' con 'protech' (protección deportiva integrada) identifica prendas superiores con protección",
     "example": "SCHUTT SHIRT PROTECH TRI LG",
     "addedAt": "2026-03-22T06:38:42.823Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "suit",
+      "protech"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Full body protective suit para deportes de contacto, combinación única que evita confusión con prendas regulares",
+    "example": "SCHUTT SUIT PROTECH FULL BODY LARGE",
+    "addedAt": "2026-03-22T06:44:04.157Z"
   }
 ]
