@@ -9143,5 +9143,113 @@
     "reason": "Combinación de 'traje de baño' con contexto deportivo identifica unívocamente prendas de natación",
     "example": "SPORT EDITION TRAJE DE BAÑO AUAKAN",
     "addedAt": "2026-03-22T07:39:54.207Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "paddle",
+      "table tennis"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Paddle de tenis de mesa es un producto específico de RAQUETAS Y PALAS, la combinación evita ambigüedad con otros tipos de palas",
+    "example": "SPORTNEER TABLE TENNIS PADDLE",
+    "addedAt": "2026-03-22T07:41:56.870Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "padded",
+      "lineman"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Guantes acolchados para posiciones de línea en fútbol americano, protección especializada",
+    "example": "SPORTS UNLIMITED MAX CLASH PADDED LINEMAN GL LG",
+    "addedAt": "2026-03-22T07:42:27.046Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "doorway",
+      "trainer"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Equipamiento de entrenamiento doméstico que se instala en marcos de puertas",
+    "example": "STAMINA DOORWAY TRAINER",
+    "addedAt": "2026-03-22T07:49:47.804Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "stiga",
+      "performance"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "STIGA es marca de tenis de mesa, 'performance set' 4 jugadores indica equipo de raquetas",
+    "example": "STIGA CLASSIC 4 PLAYER PERFORMANCESET",
+    "addedAt": "2026-03-22T07:50:19.528Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "paddle",
+      "bat"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Palabras clave que identifican palas/raquetas deportivas de tenis de mesa y deportes similares",
+    "example": "STIGA HARDBAT PADDLE",
+    "addedAt": "2026-03-22T07:50:35.653Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "raketa",
+      "raqueta"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Raketa es término específico de raquetas de tenis de mesa/ping pong, no aplica a otros productos deportivos",
+    "example": "STIGA RAKETA BLAST 2 PACK",
+    "addedAt": "2026-03-22T07:51:50.650Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "calf",
+      "shin",
+      "support"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Combinación de palabras indica protección/soporte para pantorrilla-espinilla",
+    "example": "STROMGREN NEOPRENE CALF-SHIN SUPPORT",
+    "addedAt": "2026-03-22T07:52:36.381Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "armored",
+      "3rd axis"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Armored + 3rd axis indica protección de torso/pecho específica para deportes de contacto",
+    "example": "SURE-LOC ARMORED 3RD AXIS ATTACHMEN",
+    "addedAt": "2026-03-22T07:53:08.551Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "sweat diverter"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Accesorio deportivo de absorción/gestión de sudor, típicamente una banda o cinta para la cabeza",
+    "example": "SWEAT DIVERTER GR",
+    "addedAt": "2026-03-22T07:53:25.695Z"
   }
 ]
