@@ -8658,5 +8658,17 @@
     "reason": "Casco de fútbol americano Schutt Vengeance Hybrid es equipo de protección craneal",
     "example": "SCHUTT VENGEANCE HYBRID",
     "addedAt": "2026-03-22T06:46:26.700Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "vengeance",
+      "casco"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Casco de fútbol americano Schutt Vengeance, modelo específico de protección craneal",
+    "example": "SCHUTT VENGEANCE Z10 LARGE",
+    "addedAt": "2026-03-22T06:46:41.735Z"
   }
 ]
