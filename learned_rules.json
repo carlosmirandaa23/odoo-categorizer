@@ -9382,5 +9382,17 @@
     "reason": "Cepillos para limpieza y mantenimiento de calzado deportivo",
     "example": "THE FACTOR CEPILLO",
     "addedAt": "2026-03-22T08:18:58.719Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "cleaner",
+      "kit"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Producto de limpieza/mantenimiento deportivo. 'Cleaner kit' es específico para cuidado de equipamiento",
+    "example": "THE FACTOR CLEANER KIT",
+    "addedAt": "2026-03-22T08:19:15.071Z"
   }
 ]
