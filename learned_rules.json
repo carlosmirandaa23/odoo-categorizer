@@ -6752,5 +6752,17 @@
     "reason": "Complemento deportivo para organización de equipos/entrenamientos, no es prenda ni calzado",
     "example": "MW KHOURY SOCCER ROSTER CLIPBOARD",
     "addedAt": "2026-03-22T00:16:25.539Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "knobcuff",
+      "cuff"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Knobcuff es un tipo específico de protección/soporte para muñeca/antebrazo en deportes de contacto",
+    "example": "MW Knobcuff EZ Taper - Black",
+    "addedAt": "2026-03-22T00:16:35.715Z"
   }
 ]
