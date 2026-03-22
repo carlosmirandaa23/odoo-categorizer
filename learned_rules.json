@@ -7467,5 +7467,16 @@
     "reason": "Knee sleeves son protecciones/soportes para la rodilla, evita confusión con prendas de manga",
     "example": "NIKE HYPERSTRONG PADDED KNEE SLEEVES L/XL",
     "addedAt": "2026-03-22T01:46:46.277Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "henley"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Henley es un tipo específico de camiseta deportiva con cuello y botones, nunca se refiere a otro producto",
+    "example": "NIKE MEN'S STOCK FLUX HENLEY",
+    "addedAt": "2026-03-22T02:09:53.302Z"
   }
 ]
