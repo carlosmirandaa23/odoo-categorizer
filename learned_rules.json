@@ -9083,5 +9083,17 @@
     "reason": "Google Sport Edition es línea de reloj/dispositivo deportivo inteligente",
     "example": "SPORT EDITION GOOGLE ESPARTA MIRROR",
     "addedAt": "2026-03-22T07:36:50.920Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pantalon",
+      "lycra"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Pantalón con lycra es claramente prenda inferior deportiva",
+    "example": "SPORT EDITION PANTALON LYCRA MERLIN",
+    "addedAt": "2026-03-22T07:38:05.976Z"
   }
 ]
