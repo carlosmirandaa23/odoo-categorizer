@@ -9131,5 +9131,17 @@
     "reason": "Toalla deportiva de microfibra para uso post-entrenamiento/secado, clasificada como complemento de cuidado personal",
     "example": "SPORT EDITION TOALLA MICROFIBRA 75*150CM",
     "addedAt": "2026-03-22T07:39:23.310Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "traje de baño",
+      "bañador"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Combinación de 'traje de baño' con contexto deportivo identifica unívocamente prendas de natación",
+    "example": "SPORT EDITION TRAJE DE BAÑO AUAKAN",
+    "addedAt": "2026-03-22T07:39:54.207Z"
   }
 ]
