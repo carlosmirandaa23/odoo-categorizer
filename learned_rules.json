@@ -7514,5 +7514,41 @@
     "reason": "Multiplier Max es línea de calcetines deportivos Nike, pero sin 'calcetín' explícito en nombre hay ambigüedad. No se propone regla por nombre de modelo.",
     "example": "NIKE MULTIPLIER MAX ",
     "addedAt": "2026-03-22T02:14:26.944Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "multiplier",
+      "calcetines"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Multiplier Max es línea de calcetines deportivos Nike, pero sin palabra clave explícita se reduce confianza",
+    "example": "NIKE MULTIPLIER MAX M",
+    "addedAt": "2026-03-22T02:15:01.005Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "benassi",
+      "sandalia"
+    ],
+    "category": "SANDALIAS Y CHANCLAS",
+    "match": "contains",
+    "reason": "Benassi es la línea de chanclas deportivas de Nike; combinado con 'sandalia' identifica inequívocamente este producto",
+    "example": "NIKE NFL BENASSI STEELERS- TALLA 6",
+    "addedAt": "2026-03-22T02:15:35.395Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "benassi",
+      "chancla"
+    ],
+    "category": "SANDALIAS Y CHANCLAS",
+    "match": "contains",
+    "reason": "Benassi es la línea de chanclas deportivas de Nike, identificable por nombre de producto sin marca",
+    "example": "NIKE NFL BENASSI STEELERS-TALLA8",
+    "addedAt": "2026-03-22T02:15:47.113Z"
   }
 ]
