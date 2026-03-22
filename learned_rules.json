@@ -8190,5 +8190,29 @@
     "reason": "Bolsa deportiva multifuncional de viaje/entrenamiento",
     "example": "RADICAL MONSTERCOMBI BAG",
     "addedAt": "2026-03-22T04:44:36.146Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "big stick",
+      "rawlings"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Big Stick es la línea de bates de béisbol de Rawlings, equipamiento deportivo especializado",
+    "example": "RAWLINGS BIG STICK 33.5\"",
+    "addedAt": "2026-03-22T04:49:25.577Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "glove",
+      "rawlings"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Glove de béisbol de marca Rawlings, especialista en equipamiento de béisbol. La marca Rawlings es sinónimo de guantes de béisbol/softball.",
+    "example": "RAWLINGS GLOVE 12 1/2",
+    "addedAt": "2026-03-22T04:51:09.820Z"
   }
 ]
