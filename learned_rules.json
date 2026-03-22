@@ -6692,5 +6692,17 @@
     "reason": "Protección específica para dedos en deportes de contacto o entrenamiento",
     "example": "MW FINGER PROTECTOR",
     "addedAt": "2026-03-22T00:15:11.720Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bat",
+      "bag"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Bolsa especializada para guardar y transportar bates de béisbol",
+    "example": "MW HANGING BAT BAG  BLK  HOLDS 8",
+    "addedAt": "2026-03-22T00:15:44.424Z"
   }
 ]
