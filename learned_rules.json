@@ -9287,5 +9287,29 @@
     "reason": "Los wraps son vendajes deportivos de soporte y prevención de lesiones",
     "example": "TAC SOLID WRAP",
     "addedAt": "2026-03-22T07:56:14.035Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tape",
+      "jiu jitsu"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Cinta adhesiva especializada para sujeción y prevención de lesiones en jiu jitsu, clasificada como elemento de soporte",
+    "example": "TAPE JIU JITSU ",
+    "addedAt": "2026-03-22T08:04:35.397Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tape",
+      "lastic"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Tape (cinta) + lastic (elasticidad) = cinta deportiva elástica para soporte y vendaje",
+    "example": "TAPE PRO LASTIC GRANDE",
+    "addedAt": "2026-03-22T08:05:07.372Z"
   }
 ]
