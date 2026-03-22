@@ -9095,5 +9095,29 @@
     "reason": "Pantalón con lycra es claramente prenda inferior deportiva",
     "example": "SPORT EDITION PANTALON LYCRA MERLIN",
     "addedAt": "2026-03-22T07:38:05.976Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "pull buoy"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Pull buoy es equipo de entrenamiento acuático para natación, accesorio de entrenamiento sin disciplina específica",
+    "example": "SPORT EDITION PULL BOUY",
+    "addedAt": "2026-03-22T07:38:21.555Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tapón",
+      "silicone",
+      "silicon"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Tapón de silicona para botellas deportivas, accesorio complementario de hidratación",
+    "example": "SPORT EDITION TAPON SILICON ADULTO",
+    "addedAt": "2026-03-22T07:38:51.820Z"
   }
 ]
