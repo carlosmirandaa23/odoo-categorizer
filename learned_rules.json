@@ -10058,5 +10058,29 @@
     "reason": "F6 es modelo de tachón de fútbol americano de Under Armour",
     "example": "UA F6 SILVER GOLD LG",
     "addedAt": "2026-03-22T11:24:24.589Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "f6",
+      "silvergold"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "F6 es modelo de tachones de fútbol americano de Under Armour, silvergold es variante de color",
+    "example": "UA F6 SILVERGOLD MD",
+    "addedAt": "2026-03-22T11:25:00.048Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "f7",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "F7 es línea de tachones de fútbol americano de Under Armour, el SKU 1351546 corresponde a ese segmento",
+    "example": "UA F7 LIMITED EDITION",
+    "addedAt": "2026-03-22T11:26:32.473Z"
   }
 ]
