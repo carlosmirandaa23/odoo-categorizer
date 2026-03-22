@@ -9594,5 +9594,77 @@
     "reason": "MC indica molded cleats (tachones moldeados). Highlight es línea de tachones de fútbol Under Armour",
     "example": "UA  W HIGHLIGHT MC 10.5A",
     "addedAt": "2026-03-22T08:43:27.518Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tight",
+      "prntd"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Las palabras 'tight' y 'prntd' (printed) caracterizan leggings/mallas deportivas ajustadas",
+    "example": "UA ARMOUR FLY FAST PRNTD TIGHT",
+    "addedAt": "2026-03-22T09:01:36.322Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tight",
+      "armour"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "TIGHT es prenda inferior deportiva compresiva; ARMOUR evita confusión con marca",
+    "example": "UA ARMOUR FLY FAST TIGHT",
+    "addedAt": "2026-03-22T09:01:53.317Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tee",
+      "tee"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "TEE es sinónimo de camiseta/playera deportiva, nunca refiere a otro tipo de producto",
+    "example": "UA ARMOUR KICK 6 TEE BK",
+    "addedAt": "2026-03-22T09:03:26.619Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "crossback",
+      "mid"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Crossback es un diseño específico de top deportivo sin ambigüedad de categoría",
+    "example": "UA ARMOUR MID CROSSBACK PRINT",
+    "addedAt": "2026-03-22T09:03:58.216Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sports bra",
+      "keyhole"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Sports bra es prenda superior deportiva específica; keyhole es corte característico de este tipo de prendas",
+    "example": "UA ARMOUR MID KEYHOLE SPORTS BRA",
+    "addedAt": "2026-03-22T09:04:47.432Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sports bra",
+      "armour"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Sports bra es un top deportivo específico para uso en entrenamientos y actividades físicas",
+    "example": "UA ARMOUR MID SPORTS BRA",
+    "addedAt": "2026-03-22T09:05:51.914Z"
   }
 ]
