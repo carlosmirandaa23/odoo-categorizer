@@ -8502,5 +8502,41 @@
     "reason": "Casco deportivo (Air XP Pro) con barboquejo identifican inequívocamente protección de cabeza",
     "example": "SCHUTT AIR XP PRO L W/ CHIN STRAP ",
     "addedAt": "2026-03-22T06:17:43.983Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "costillera",
+      "camiseta"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "costillera es prenda de protección para torso; combinada con camiseta indica prenda protectora deportiva",
+    "example": "SCHUTT CAMISETA  COSTILLERA SMALL",
+    "addedAt": "2026-03-22T06:22:38.345Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "elbow",
+      "pad"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protección de codo específica para deportes de contacto",
+    "example": "SCHUTT ELBOW PAD LG",
+    "addedAt": "2026-03-22T06:24:30.180Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "field",
+      "pack"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Combinación de 'field' (contexto deportivo) + 'pack' (bolsa/mochila) identifica equipaje deportivo",
+    "example": "SCHUTT FIELD PACK",
+    "addedAt": "2026-03-22T06:25:53.036Z"
   }
 ]
