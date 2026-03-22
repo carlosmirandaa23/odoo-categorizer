@@ -7300,5 +7300,29 @@
     "reason": "Dri-fit es tecnología de camiseta deportiva; shirt + dri-fit identifica prenda superior sin ambigüedad",
     "example": "NIKE DRI-FIT WHITE SHIRT MENS LG",
     "addedAt": "2026-03-22T01:24:29.464Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "all-court",
+      "balón"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "all-court identifica balones multifuncionales de cancha; #5 y #7 son números de tamaño estándar en balones",
+    "example": "NIKE ELITE ALL-COURT #5 Y #7",
+    "addedAt": "2026-03-22T01:27:22.999Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "crew",
+      "calcetín"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "ELITE EVERYDAY CREW es la línea de calcetines deportivos de Nike",
+    "example": "NIKE ELITE EVERYDAY CREW M",
+    "addedAt": "2026-03-22T01:29:35.148Z"
   }
 ]
