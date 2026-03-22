@@ -6953,5 +6953,17 @@
     "reason": "Accesorio deportivo pequeño para sujetar/transportar artículos, categorizado como complemento",
     "example": "NFL CHUPON CLIP",
     "addedAt": "2026-03-22T00:29:57.613Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "wallet",
+      "complementos"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Billetera/cartera de color (accesorios deportivos de uso cotidiano)",
+    "example": "NFL COLOR WALLET",
+    "addedAt": "2026-03-22T00:30:08.913Z"
   }
 ]
