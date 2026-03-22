@@ -6563,5 +6563,53 @@
     "reason": "Tube trainer es equipo de entrenamiento doméstico, 'resistance' confirma función de ejercicio",
     "example": "MTUBEBB MEDIUM RESISTANCE TUBE TRAINER",
     "addedAt": "2026-03-22T00:10:22.045Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "no-glare",
+      "stick"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "No-glare stick es un producto de cuidado/mantenimiento para reducir reflejos en calzado o equipamiento deportivo",
+    "example": "MU NO-GLARE STICK .15 OZ    BULK",
+    "addedAt": "2026-03-22T00:10:32.833Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tape",
+      "mueller"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Mueller es marca especializada en cintas deportivas y vendajes; 'tape' refiere a cintas adhesivas para soporte y prevención",
+    "example": "MUELLER BAJO TAPE / CAJA",
+    "addedAt": "2026-03-22T00:10:53.370Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "elbow",
+      "sleeve"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Combinación de 'elbow' + 'sleeve' identifica inequívocamente una manga de soporte para codo, excluyendo prendas de ropa deportiva general",
+    "example": "MUELLER ELBOW SLEEVE",
+    "addedAt": "2026-03-22T00:11:20.782Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "knee",
+      "strap"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Producto de soporte articular específico para rodilla",
+    "example": "MUELLER JUMPERS KNEE STRAP",
+    "addedAt": "2026-03-22T00:11:48.350Z"
   }
 ]
