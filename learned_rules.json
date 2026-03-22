@@ -8634,5 +8634,29 @@
     "reason": "Full body protective suit para deportes de contacto, combinación única que evita confusión con prendas regulares",
     "example": "SCHUTT SUIT PROTECH FULL BODY LARGE",
     "addedAt": "2026-03-22T06:44:04.157Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "vengance",
+      "schutt"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Casco de fútbol americano - marca + modelo específico de protección",
+    "example": "SCHUTT VENGANCE A11+ YLG",
+    "addedAt": "2026-03-22T06:45:02.862Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "vengeance",
+      "hybrid"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Casco de fútbol americano Schutt Vengeance Hybrid es equipo de protección craneal",
+    "example": "SCHUTT VENGEANCE HYBRID",
+    "addedAt": "2026-03-22T06:46:26.700Z"
   }
 ]
