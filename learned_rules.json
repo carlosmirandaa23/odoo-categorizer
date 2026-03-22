@@ -7059,5 +7059,41 @@
     "reason": "Sudadera es prenda de abrigo deportivo, independiente de la disciplina",
     "example": "NFL SUDADERA TEAM APPERAL",
     "addedAt": "2026-03-22T00:39:32.774Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sudadera",
+      "therma"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "Sudadera térmica de entrenamiento/uso deportivo",
+    "example": "NFL SUDADERA THERMA",
+    "addedAt": "2026-03-22T00:39:43.186Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "termo",
+      "monito"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Termo deportivo (botella/recipiente aislante) con diseño infantil/monito, clasificado como complemento de hidratación",
+    "example": "NFL TERMO MONITO",
+    "addedAt": "2026-03-22T00:41:02.062Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "target",
+      "spot"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Targets/spots de entrenamiento son equipos de entrenamiento doméstico para ejercicio funcional",
+    "example": "NICETARGETS 3 SPOT 40CM ",
+    "addedAt": "2026-03-22T00:42:00.672Z"
   }
 ]
