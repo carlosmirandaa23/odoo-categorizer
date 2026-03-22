@@ -8753,5 +8753,52 @@
     "reason": "Ping pong es raqueta/pala de mesa, SET indica conjunto completo con accesorios",
     "example": "SET DE PING PONG STAG",
     "addedAt": "2026-03-22T06:50:24.139Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "manoplas"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Manoplas son guantes de protección para boxeo/deportes de contacto, término específico sin ambigüedad",
+    "example": "SEYER MANOPLAS CURVAS",
+    "addedAt": "2026-03-22T06:50:39.489Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "resistencia",
+      "set"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Conjuntos de bandas/ligas de resistencia para entrenamiento casero",
+    "example": "SG 100LB SET DE RESITENCIA REFORZADO",
+    "addedAt": "2026-03-22T06:51:23.203Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "banda",
+      "asistencia"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Banda de soporte y asistencia para prevención de lesiones",
+    "example": "SG BANDA AMARILLA DE ASISTENCIA",
+    "addedAt": "2026-03-22T06:52:06.958Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cinto",
+      "tochito"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Cinturón de protección específico para fútbol americano (tochito), categorizado como soporte deportivo",
+    "example": "SG CINTO TOCHITO",
+    "addedAt": "2026-03-22T06:54:44.419Z"
   }
 ]
