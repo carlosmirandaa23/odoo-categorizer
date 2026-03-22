@@ -7348,5 +7348,28 @@
     "reason": "sleeve es una prenda de cobertura superior; elite es descriptor de rendimiento deportivo",
     "example": "NIKE ELITE SLEEVE ROCKETS S/M",
     "addedAt": "2026-03-22T01:31:14.133Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "everyday",
+      "plus"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Everyday Plus de Nike es línea de calcetines deportivos de uso diario",
+    "example": "NIKE EVERYDAY PLUS M",
+    "addedAt": "2026-03-22T01:34:38.245Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "eyeshield"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "eyeshield es un accesorio deportivo específico para protección ocular/visión en actividades deportivas, nunca refiere a otro tipo de producto",
+    "example": "NIKE EYESHIELD MICA",
+    "addedAt": "2026-03-22T01:35:00.024Z"
   }
 ]
