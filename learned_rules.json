@@ -9466,5 +9466,51 @@
     "reason": "Shelf rest es un dispositivo de soporte para recuperación y prevención de lesiones en deportes",
     "example": "TRADITIONAL SHELF REST LEATHER",
     "addedAt": "2026-03-22T08:23:19.650Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tricep"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Tricep es equipamiento específico para entrenamiento de brazos, nunca se refiere a otro tipo de producto",
+    "example": "TRICEP PRESS DOWN V-BAR",
+    "addedAt": "2026-03-22T08:23:52.018Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sight",
+      "pin"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Los 'sight' con 'pin' son accesorios de tiro/arco, clasificados como protecciones/equipamiento de precisión",
+    "example": "TROPHY RIDGE MIST 3 BLACK 3 PIN SIGHT",
+    "addedAt": "2026-03-22T08:25:11.629Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "bar"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Barra de entrenamiento para ejercicio en casa, sinónimo de mancuerna o equipo de musculación casero",
+    "example": "TROY BAR 4LBS BARRA",
+    "addedAt": "2026-03-22T08:25:44.103Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "velcro",
+      "strap"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Velcro + strap indica protección ajustable (tobillera/muñequera tipo), aunque 'speed shot' genera ambigüedad con calzado",
+    "example": "TRUGLO SPEED SHOT XS VCR VELCRO STR",
+    "addedAt": "2026-03-22T08:30:09.517Z"
   }
 ]
