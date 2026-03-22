@@ -7621,5 +7621,17 @@
     "reason": "Playground es línea de balones de Nike. El #7 indica tamaño de balón de básquetbol.",
     "example": "NIKE PLAYGROUND #7",
     "addedAt": "2026-03-22T02:25:41.652Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "spikes",
+      "racing"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Sprint spikes es equipamiento específico para atletismo de pista, claramente diferenciable de tachones de fútbol/rugby por su propósito y construcción",
+    "example": "NIKE RIVAL S RACING SPRINT SPIKES 3.5",
+    "addedAt": "2026-03-22T02:34:46.908Z"
   }
 ]
