@@ -6941,5 +6941,17 @@
     "reason": "Contenedor de hidratación/bebidas para deportistas, tipo garrafa o bidón deportivo",
     "example": "NFL BARRIL 3.8L",
     "addedAt": "2026-03-22T00:28:09.208Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "chupon",
+      "clip"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Accesorio deportivo pequeño para sujetar/transportar artículos, categorizado como complemento",
+    "example": "NFL CHUPON CLIP",
+    "addedAt": "2026-03-22T00:29:57.613Z"
   }
 ]
