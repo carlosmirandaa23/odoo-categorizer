@@ -9454,5 +9454,17 @@
     "reason": "Careta de catcher es protección específica para béisbol, evita ambigüedad con otros tipos de caretas o protecciones",
     "example": "TPX CARETA CATCHER ",
     "addedAt": "2026-03-22T08:23:03.299Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "shelf",
+      "rest"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Shelf rest es un dispositivo de soporte para recuperación y prevención de lesiones en deportes",
+    "example": "TRADITIONAL SHELF REST LEATHER",
+    "addedAt": "2026-03-22T08:23:19.650Z"
   }
 ]
