@@ -8002,5 +8002,40 @@
     "reason": "Pilones son conos de entrenamiento utilizados para trabajos de agilidad y coordinación en sesiones de entrenamiento",
     "example": "PILONES C/4 ORANGE",
     "addedAt": "2026-03-22T04:22:56.914Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "allen wrench",
+      "wrench set"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Allen wrench sets son herramientas de mantenimiento/ajuste comúnmente usadas en equipamiento de gym y entrenamiento en casa para montaje y mantenimiento",
+    "example": "PINE RIDGE ALLEN WRENCH SET",
+    "addedAt": "2026-03-22T04:23:25.733Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "kisser button"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Kisser button es componente específico de arco/tiro con arco, nunca se refiere a otro producto",
+    "example": "PINE RIDGE XL KISSER BUTTON 11/16",
+    "addedAt": "2026-03-22T04:24:08.381Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sunshade",
+      "umbrella"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Sombrilla deportiva clasificada como complemento de protección solar",
+    "example": "POWERSWING SUNSHADE RAINBOW GOLD",
+    "addedAt": "2026-03-22T04:33:16.177Z"
   }
 ]
