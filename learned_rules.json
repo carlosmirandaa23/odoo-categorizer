@@ -10190,5 +10190,29 @@
     "reason": "F8 es el modelo de protector bucal de UA, identifica específicamente este tipo de protección dental",
     "example": "UA F8 PINK SM",
     "addedAt": "2026-03-22T11:46:26.858Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "leggins",
+      "leggings"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Prenda inferior deportiva de compresión/ajuste, independiente de marca",
+    "example": "UA FAVORITE CROP LEGGINS",
+    "addedAt": "2026-03-22T12:07:24.540Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "duffel",
+      "bag"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Duffel es un tipo específico de bolsa deportiva de cilindro con asas",
+    "example": "UA Favorite Duffel 20",
+    "addedAt": "2026-03-22T12:28:32.294Z"
   }
 ]
