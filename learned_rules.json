@@ -9251,5 +9251,41 @@
     "reason": "Accesorio deportivo de absorción/gestión de sudor, típicamente una banda o cinta para la cabeza",
     "example": "SWEAT DIVERTER GR",
     "addedAt": "2026-03-22T07:53:25.695Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "string",
+      "server"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "String server es accesorio de tenis/raquetas para encordado y servicio",
+    "example": "Spigarelli String Server ",
+    "addedAt": "2026-03-22T07:54:13.186Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tabla",
+      "multideportiva"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Tablas de entrenamiento multideportivo son equipamiento para trabajo en casa",
+    "example": "TABLAS MULTIDEPORTIVAS DE COLOR",
+    "addedAt": "2026-03-22T07:55:28.497Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "wrap",
+      "soporte"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Los wraps son vendajes deportivos de soporte y prevención de lesiones",
+    "example": "TAC SOLID WRAP",
+    "addedAt": "2026-03-22T07:56:14.035Z"
   }
 ]
