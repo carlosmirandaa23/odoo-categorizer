@@ -9582,5 +9582,17 @@
     "reason": "VESI es línea de trajes de baño de TYR, identificador único del producto",
     "example": "TYR VESI AZUL/CLARO",
     "addedAt": "2026-03-22T08:36:17.630Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "highlight",
+      "mc"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "MC indica molded cleats (tachones moldeados). Highlight es línea de tachones de fútbol Under Armour",
+    "example": "UA  W HIGHLIGHT MC 10.5A",
+    "addedAt": "2026-03-22T08:43:27.518Z"
   }
 ]
