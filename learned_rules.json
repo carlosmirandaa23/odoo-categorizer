@@ -10082,5 +10082,41 @@
     "reason": "F7 es línea de tachones de fútbol americano de Under Armour, el SKU 1351546 corresponde a ese segmento",
     "example": "UA F7 LIMITED EDITION",
     "addedAt": "2026-03-22T11:26:32.473Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "f7",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "F7 es línea de tachones de fútbol americano Under Armour, pero omitimos marca en regla",
+    "example": "UA F7 LIMITED EDITION BK MD",
+    "addedAt": "2026-03-22T11:27:09.304Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "f7",
+      "protección"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "F7 es línea de protecciones de Under Armour (casco/máscara deportiva), pero no se propone regla general por marca explícita",
+    "example": "UA F7 LIMITED EDITION BK SM",
+    "addedAt": "2026-03-22T11:27:27.654Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "f7",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "F7 es modelo de tachones de fútbol americano de UA",
+    "example": "UA F7 LIMITED EDITION BL YLG",
+    "addedAt": "2026-03-22T11:27:46.359Z"
   }
 ]
