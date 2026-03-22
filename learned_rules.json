@@ -7143,5 +7143,91 @@
     "reason": "Huarache Varsity es línea de tachones de béisbol, identifiable por 'varsity' + silhueta específica",
     "example": "NIKE ALPHA Huarache Varsity AO7957-001 11.5A",
     "addedAt": "2026-03-22T00:46:07.196Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "alpha",
+      "menace",
+      "shark"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Tachones de fútbol americano identificables por modelo específico",
+    "example": "NIKE ALPHA MENANCE 4 SHARK 10A",
+    "addedAt": "2026-03-22T01:03:24.696Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "alpha menace",
+      "shark"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Alpha Menace Shark es línea específica de tachones de fútbol americano. Requiere dos términos para evitar ambigüedad con otros productos deportivos.",
+    "example": "NIKE ALPHA MENANCE 4 SHARK 11.5A",
+    "addedAt": "2026-03-22T01:03:47.668Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "alpha menace",
+      "varsity"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Alpha Menace es línea de tachones de fútbol americano de Nike. Varsity indica versión de fútbol americano.",
+    "example": "NIKE ALPHA MENANCE 4 VARSITY 10.5A",
+    "addedAt": "2026-03-22T01:05:48.575Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "alpha",
+      "menace",
+      "varsity"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Tachones de fútbol americano identificados por modelo y referencia de talla en sistema americano (11A)",
+    "example": "NIKE ALPHA MENANCE 4 VARSITY 11A",
+    "addedAt": "2026-03-22T01:06:43.499Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "ankle",
+      "sleeve"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Ankle sleeve es un soporte de tobillo específico para prevención y protección",
+    "example": "NIKE ANKLE SLEEVE",
+    "addedAt": "2026-03-22T01:09:19.738Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "kneepad",
+      "rodillera"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "kneepad es protección específica para rodilla, evita confusión con rodilleras de soporte",
+    "example": "NIKE ATHENA FASTPITCH KNEEPAD S/M",
+    "addedAt": "2026-03-22T01:09:40.536Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bandana",
+      "cooling"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Bandana deportiva con tecnología de enfriamiento es un complemento/accesorio deportivo",
+    "example": "NIKE COOLING BANDANA",
+    "addedAt": "2026-03-22T01:16:37.487Z"
   }
 ]
