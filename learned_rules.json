@@ -7095,5 +7095,17 @@
     "reason": "Targets/spots de entrenamiento son equipos de entrenamiento doméstico para ejercicio funcional",
     "example": "NICETARGETS 3 SPOT 40CM ",
     "addedAt": "2026-03-22T00:42:00.672Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "fielding",
+      "glove"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Guante de béisbol/softball específico para defensa en campo",
+    "example": "NIKE ALPHA EDGE FIELDING GLOVE",
+    "addedAt": "2026-03-22T00:43:43.838Z"
   }
 ]
