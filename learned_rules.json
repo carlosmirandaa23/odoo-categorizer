@@ -7574,5 +7574,52 @@
     "reason": "NFL fan jerseys/camisetas son prendas superiores deportivas de equipo oficial",
     "example": "NIKE NFL SEAHAWKS FAN 12",
     "addedAt": "2026-03-22T02:18:50.687Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "nfl",
+      "jersey"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "NFL jerseys son camisetas deportivas de equipos profesionales, clasificadas como prendas superiores",
+    "example": "NIKE NFL SEAHAWKS WILSON 3",
+    "addedAt": "2026-03-22T02:19:14.758Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "benassi",
+      "solarsoft"
+    ],
+    "category": "SANDALIAS Y CHANCLAS",
+    "match": "contains",
+    "reason": "Benassi y Solarsoft son líneas de chanclas deportivas de recuperación, independientemente de marca o licencia",
+    "example": "NIKE NFL SOLARSOFT BENASSI STEELERS-TALLA 5",
+    "addedAt": "2026-03-22T02:19:26.988Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "slide",
+      "offcourt"
+    ],
+    "category": "SANDALIAS Y CHANCLAS",
+    "match": "contains",
+    "reason": "Slide es término específico para chanclas/sandalias deportivas de recuperación/casual",
+    "example": "NIKE OFFCOURT SLIDE",
+    "addedAt": "2026-03-22T02:21:09.370Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "playground"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Playground es línea de balones de Nike. El #7 indica tamaño de balón de básquetbol.",
+    "example": "NIKE PLAYGROUND #7",
+    "addedAt": "2026-03-22T02:25:41.652Z"
   }
 ]
