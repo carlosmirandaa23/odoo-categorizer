@@ -8562,5 +8562,29 @@
     "reason": "Componente de protección facial/casco específico para deportes de contacto",
     "example": "SCHUTT ION HC CHIN STRAP",
     "addedAt": "2026-03-22T06:30:57.317Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "liner",
+      "crown"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Combinación de 'liner' y 'crown' identifica forro/protector de casco de fútbol americano",
+    "example": "SCHUTT LINER CROWN VENGEANCE VTD II S-XL",
+    "addedAt": "2026-03-22T06:35:06.943Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "maleta",
+      "utileria"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Maleta de utilería es contenedor para transportar equipamiento deportivo",
+    "example": "SCHUTT MALETA DE UTILERIA",
+    "addedAt": "2026-03-22T06:35:21.842Z"
   }
 ]
