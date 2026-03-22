@@ -8179,5 +8179,16 @@
     "reason": "Manopla de catcher es equipo protector específico para béisbol, evita confusión con guantes generales",
     "example": "RADACH MANOPLA CATCHER ",
     "addedAt": "2026-03-22T04:44:22.625Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "combi bag"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Bolsa deportiva multifuncional de viaje/entrenamiento",
+    "example": "RADICAL MONSTERCOMBI BAG",
+    "addedAt": "2026-03-22T04:44:36.146Z"
   }
 ]
