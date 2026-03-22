@@ -7740,5 +7740,42 @@
     "reason": "Vapor Edge es línea de tachones de fútbol americano de Nike",
     "example": "NIKE VAPOR 360 EDGE PRO 10A",
     "addedAt": "2026-03-22T03:02:37.080Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "vapor",
+      "edge",
+      "tacón"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Vapor Edge Pro es línea de tachones de fútbol americano de Nike",
+    "example": "NIKE VAPOR EDGE PRO 360 13A",
+    "addedAt": "2026-03-22T03:04:15.903Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "vapor edge",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Vapor Edge es línea específica de tachones de fútbol americano de Nike",
+    "example": "NIKE VAPOR EDGE PRO 360 2 8.5A",
+    "addedAt": "2026-03-22T03:04:40.634Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "vapor",
+      "edge"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Tachones de fútbol americano de Nike, línea Vapor Edge Pro",
+    "example": "NIKE VAPOR EDGE PRO 360 9A",
+    "addedAt": "2026-03-22T03:04:53.643Z"
   }
 ]
