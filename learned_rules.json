@@ -7240,5 +7240,17 @@
     "reason": "Hairband es un accesorio deportivo específico que nunca se refiere a otro tipo de producto",
     "example": "NIKE DOUBLE SPORT HAIRBAND",
     "addedAt": "2026-03-22T01:20:05.722Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "chin",
+      "shield"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "chin shield es protección facial específica para deportes de contacto, nunca se refiere a otro tipo de producto",
+    "example": "NIKE DRI-FIT CHIN SHIELD",
+    "addedAt": "2026-03-22T01:21:54.075Z"
   }
 ]
