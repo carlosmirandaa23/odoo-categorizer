@@ -8226,5 +8226,17 @@
     "reason": "Combinación de 'leg' + 'guard' identifica protección de extremidades inferiores sin ambigüedad",
     "example": "RAWLINGS HITTER'S LEG GUARD",
     "addedAt": "2026-03-22T04:52:15.294Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "arreos",
+      "protección"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Arreos son equipos de protección para béisbol/softball, típicamente incluyen peto, casco y protectores",
+    "example": "RAWLINGS JUEGO DE ARREOS ADULTO",
+    "addedAt": "2026-03-22T04:52:30.846Z"
   }
 ]
