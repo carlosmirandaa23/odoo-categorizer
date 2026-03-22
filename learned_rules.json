@@ -6775,5 +6775,17 @@
     "reason": "Whistle es un artículo deportivo de complemento usado en entrenamientos y competiciones",
     "example": "MW METAL WHISTLE 1.75\"",
     "addedAt": "2026-03-22T00:17:40.493Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "spikes",
+      "picos"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Tachones de atletismo identificados por 'picos' y 'spikes' en el nombre",
+    "example": "MW PICOS ATLETISMO 14PK PYRAMID SPIKES",
+    "addedAt": "2026-03-22T00:17:59.208Z"
   }
 ]
