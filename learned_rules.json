@@ -7825,5 +7825,29 @@
     "reason": "Tachones de fútbol identificados por 'soccer' + altura knee-high",
     "example": "NIKE VAPOR STRIKE KNEE-HIGH SOCCER 10-11.5",
     "addedAt": "2026-03-22T03:26:41.468Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "shower",
+      "slide"
+    ],
+    "category": "SANDALIAS Y CHANCLAS",
+    "match": "contains",
+    "reason": "Combinación de palabras que identifica chanclas/sandalias de ducha sin ambigüedad",
+    "example": "NIKE VICTORI ONE SHOWER SLIDE",
+    "addedAt": "2026-03-22T03:28:28.042Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "hyperdiamond",
+      "keystone"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Hyperdiamond es la línea de tachones de béisbol de Nike. Keystone indica posición defensiva específica en béisbol.",
+    "example": "NIKE W HYPERDIAMOND 4 KEYSTONE GG 1.5Y",
+    "addedAt": "2026-03-22T03:29:27.314Z"
   }
 ]
