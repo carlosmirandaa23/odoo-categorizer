@@ -6468,5 +6468,76 @@
     "reason": "Arreo de catcher es equipo de protección específico para béisbol",
     "example": "MIZUNO ARREO PARA CATCHER SAMURAI",
     "addedAt": "2026-03-21T23:57:30.290Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "catcher",
+      "mitt"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Combinación de 'catcher' + 'mitt' identifica inequívocamente guante de béisbol de receptor",
+    "example": "MIZUNO GXC90B2 CATCHER 33.5 MITT REG BK",
+    "addedAt": "2026-03-21T23:58:52.268Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "basemitt",
+      "baseball"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "basemitt es guante específico de béisbol, requiere contexto de disciplina para evitar confundir con otros guantes",
+    "example": "MIZUNO GXF90B2 1ST BASEMITT 12.5\" REG",
+    "addedAt": "2026-03-21T23:59:02.455Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "licra"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Licra es tejido deportivo base para prendas superiores, no para accesorios",
+    "example": "MIZUNO LICRA LARGE",
+    "addedAt": "2026-03-21T23:59:12.217Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "wheeled",
+      "bag"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Bolsa con ruedas para transporte de equipamiento deportivo",
+    "example": "MIZUNO MX G2 WHEELED BAG",
+    "addedAt": "2026-03-22T00:00:05.086Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "prospect",
+      "power close"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Prospect es línea de guantes de béisbol de Mizuno; Power Close identifica el cierre específico del guante",
+    "example": "MIZUNO PROSPECT 12 POWER CLOSE",
+    "addedAt": "2026-03-22T00:00:32.428Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "jammer",
+      "lycra"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Jammer es un traje de baño deportivo de una sola pieza, siempre en lycra o material similar",
+    "example": "MOLKS T-B MKS NIÑA LYCRA JAMMER SOLID \"T\"/ TALLA 10",
+    "addedAt": "2026-03-22T00:03:08.678Z"
   }
 ]
