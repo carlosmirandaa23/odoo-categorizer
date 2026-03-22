@@ -7336,5 +7336,17 @@
     "reason": "sleeve es una prenda superior deportiva, evita confusión con accesorios",
     "example": "NIKE ELITE SLEEVE CELTICS (copia)",
     "addedAt": "2026-03-22T01:30:07.348Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sleeve",
+      "elite"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "sleeve es una prenda de cobertura superior; elite es descriptor de rendimiento deportivo",
+    "example": "NIKE ELITE SLEEVE ROCKETS S/M",
+    "addedAt": "2026-03-22T01:31:14.133Z"
   }
 ]
