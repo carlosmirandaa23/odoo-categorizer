@@ -8298,5 +8298,17 @@
     "reason": "Rawlings fabrica protecciones deportivas; ZoomBang es tecnología de absorción de impacto en cascos y protectores",
     "example": "RAWLINGS SRG ZOOMBANG",
     "addedAt": "2026-03-22T04:58:42.438Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "glv",
+      "baseball"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "GLV es abreviación de guante (glove) y BSB indica béisbol, evita confusión con guantes de box",
+    "example": "RAWLINGS ZERO SHOCK BSB GLV 11.75 DER",
+    "addedAt": "2026-03-22T04:59:36.284Z"
   }
 ]
