@@ -8132,5 +8132,16 @@
     "reason": "Raquet + kit indica raquetas/palas con accesorios complementarios para tenis o similar",
     "example": "PYTHON KIT DE RAQUET",
     "addedAt": "2026-03-22T04:41:04.398Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "shuttlecock"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Shuttlecock es un término único para volantes de bádminton, nunca se refiere a otro tipo de producto",
+    "example": "QUEST MULTI-COLOR SHUTTLECOCKS",
+    "addedAt": "2026-03-22T04:42:36.494Z"
   }
 ]
