@@ -6881,5 +6881,17 @@
     "reason": "Almohadilla específica para barra de entrenamiento, accesorio de gym casero",
     "example": "NEALFIT ALMOHADILLA PARA BARRA",
     "addedAt": "2026-03-22T00:25:09.855Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bib",
+      "nfl"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Bib en contexto deportivo NFL refiere a protección de pecho/torso específica de fútbol americano, no prenda de ropa superior convencional",
+    "example": "NFL ALL PRO BIB",
+    "addedAt": "2026-03-22T00:26:20.175Z"
   }
 ]
