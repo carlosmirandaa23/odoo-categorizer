@@ -10214,5 +10214,17 @@
     "reason": "Duffel es un tipo específico de bolsa deportiva de cilindro con asas",
     "example": "UA Favorite Duffel 20",
     "addedAt": "2026-03-22T12:28:32.294Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pant",
+      "gameday"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Pant es prenda inferior deportiva; gameday especifica contexto de competencia",
+    "example": "UA GAMEDAY VANISH PANT BLACK L",
+    "addedAt": "2026-03-22T12:33:13.632Z"
   }
 ]
