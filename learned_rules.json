@@ -6869,5 +6869,17 @@
     "reason": "Hat es prenda de cabeza deportiva, siempre gorra/complemento",
     "example": "NE ANGELS HAT 73/8",
     "addedAt": "2026-03-22T00:24:41.329Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "almohadilla",
+      "barra"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Almohadilla específica para barra de entrenamiento, accesorio de gym casero",
+    "example": "NEALFIT ALMOHADILLA PARA BARRA",
+    "addedAt": "2026-03-22T00:25:09.855Z"
   }
 ]
