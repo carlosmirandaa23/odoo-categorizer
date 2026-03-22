@@ -8238,5 +8238,53 @@
     "reason": "Arreos son equipos de protección para béisbol/softball, típicamente incluyen peto, casco y protectores",
     "example": "RAWLINGS JUEGO DE ARREOS ADULTO",
     "addedAt": "2026-03-22T04:52:30.846Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "player preferred",
+      "rawlings"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Rawlings Player Preferred es guante de béisbol (11 3/4 es medida estándar de guante), pero la categoría más cercana en catálogo es RAQUETAS Y PALAS dentro de EQUIPAMIENTO. Sin embargo, no existe categoría para guantes de béisbol específicamente. Clasificado como equipamiento deportivo.",
+    "example": "RAWLINGS PLAYER PREFERRED 11 3/4",
+    "addedAt": "2026-03-22T04:54:04.426Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "rawlings",
+      "cm33"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Rawlings CM33 es un bate de béisbol exclusivo de 33 pulgadas, producto de equipamiento deportivo",
+    "example": "RAWLINGS RCS EXCLUSIVE CM33 33\"",
+    "addedAt": "2026-03-22T04:54:45.400Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "renegade",
+      "rawlings"
+    ],
+    "category": "RAQUETAS Y PALAS",
+    "match": "contains",
+    "reason": "Renegade es línea de guantes/mitts de béisbol de Rawlings, pero sin contexto explícito de 'glove' o 'mitt' y con medida 13\", podría ser bate. Ambigüedad moderada.",
+    "example": "RAWLINGS RENEGADE 13\"",
+    "addedAt": "2026-03-22T04:55:15.504Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "rawlings",
+      "softball"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Rawlings es fabricante de equipamiento deportivo especializado en pelotas y balones de béisbol/softball. RSB indica softball, Shock es línea de producto, 13\" es tamaño estándar de softball.",
+    "example": "RAWLINGS RSB SHOCK 13\"",
+    "addedAt": "2026-03-22T04:57:10.876Z"
   }
 ]
