@@ -9512,5 +9512,16 @@
     "reason": "Velcro + strap indica protección ajustable (tobillera/muñequera tipo), aunque 'speed shot' genera ambigüedad con calzado",
     "example": "TRUGLO SPEED SHOT XS VCR VELCRO STR",
     "addedAt": "2026-03-22T08:30:09.517Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tuff toe"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Tuff Toe es un protector de punta para calzado deportivo, específicamente un refuerzo/protección",
+    "example": "TUFF TOE LEFT BLACK",
+    "addedAt": "2026-03-22T08:32:02.598Z"
   }
 ]
