@@ -7861,5 +7861,29 @@
     "reason": "Track spikes son tachones especializados para atletismo en pista",
     "example": "NIKE ZOOM RIVAL MD Track Spikes 9.5",
     "addedAt": "2026-03-22T03:32:12.073Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "lip protector",
+      "mouthguard",
+      "mouth guard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protector bucal/labial es equipo de protección deportiva específico",
+    "example": "Nike Alpha Elite Lip Protector",
+    "addedAt": "2026-03-22T03:39:05.954Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tank"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Tank es una prenda superior deportiva sin ambigüedad",
+    "example": "Nike CITY SLEEK TANK L",
+    "addedAt": "2026-03-22T03:39:30.048Z"
   }
 ]
