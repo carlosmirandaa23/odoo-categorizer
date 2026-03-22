@@ -9535,5 +9535,29 @@
     "reason": "TYR es marca especializada en trajes de natación y bañadores de competencia. 'Racing' indica traje de natación de alto rendimiento.",
     "example": "TYR  STEALTH RACING PINK",
     "addedAt": "2026-03-22T08:33:23.070Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "anti-fog",
+      "spray"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Anti-fog spray es un producto de mantenimiento específico para equipamiento deportivo (gafas de natación), no es marca ni disciplina",
+    "example": "TYR ANTI-FOG SPRAY .5 OZ",
+    "addedAt": "2026-03-22T08:33:40.438Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "mask",
+      "swim"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "La palabra 'mask' en contexto de natación (marca TYR) siempre refiere a gafas/máscaras de natación, categoría PROTECCIONES",
+    "example": "TYR ARC 180 MASK",
+    "addedAt": "2026-03-22T08:33:57.072Z"
   }
 ]
