@@ -8382,5 +8382,89 @@
     "reason": "Cartera específica para árbitros de deportes, accesorio de transporte/organización",
     "example": "RINAT CARTERA PARA ARBITRO",
     "addedAt": "2026-03-22T05:56:16.771Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "rodillo"
+    ],
+    "category": "RECUPERACIÓN",
+    "match": "contains",
+    "reason": "Rodillo es término exclusivo para foam rollers y pelotas de masaje en contexto deportivo",
+    "example": "RODILLO PARA MASAJE",
+    "addedAt": "2026-03-22T06:00:30.087Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "kick tee",
+      "place kick"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "kick tee es equipo de entrenamiento específico para patadas de fútbol americano/fútbol, no es pelota ni balón",
+    "example": "RUBBER PLACE KICK TEE 2\"",
+    "addedAt": "2026-03-22T06:01:12.047Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "compression",
+      "tee"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Camiseta de compresión deportiva (prenda superior)",
+    "example": "RUSSELL COOLCORE HS COMPRESSION TEE BK 2XL",
+    "addedAt": "2026-03-22T06:02:20.285Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "girdle",
+      "football"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "girdle es prenda de protección específica para fútbol americano",
+    "example": "RUSSELL INTEGRATED FB GIRDLE 2XL",
+    "addedAt": "2026-03-22T06:04:08.195Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pant",
+      "pants"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Palabra clave 'pant' o 'pants' siempre indica prenda inferior deportiva",
+    "example": "RUSSELL LEGEND PANT BLACK L",
+    "addedAt": "2026-03-22T06:06:02.846Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pant",
+      "legend"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Russell Legend Pant es una línea de pantalones deportivos reconocida",
+    "example": "RUSSELL LEGEND PANT KHAKI XL ",
+    "addedAt": "2026-03-22T06:07:01.199Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "hip",
+      "tail",
+      "pads"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protecciones para cadera y cóccix, específicamente para deportes de contacto y deslizamiento",
+    "example": "SAGEAR HIP AND TAIL PADS",
+    "addedAt": "2026-03-22T06:15:36.186Z"
   }
 ]
