@@ -7371,5 +7371,17 @@
     "reason": "eyeshield es un accesorio deportivo específico para protección ocular/visión en actividades deportivas, nunca refiere a otro tipo de producto",
     "example": "NIKE EYESHIELD MICA",
     "addedAt": "2026-03-22T01:35:00.024Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "savage",
+      "shark"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Savage Shark es línea de tachones de fútbol americano de Nike",
+    "example": "NIKE FORCE SAVAGE 2 SHARK 10.5A",
+    "addedAt": "2026-03-22T01:35:21.696Z"
   }
 ]
