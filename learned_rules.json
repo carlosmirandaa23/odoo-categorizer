@@ -8214,5 +8214,17 @@
     "reason": "Glove de béisbol de marca Rawlings, especialista en equipamiento de béisbol. La marca Rawlings es sinónimo de guantes de béisbol/softball.",
     "example": "RAWLINGS GLOVE 12 1/2",
     "addedAt": "2026-03-22T04:51:09.820Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "leg",
+      "guard"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Combinación de 'leg' + 'guard' identifica protección de extremidades inferiores sin ambigüedad",
+    "example": "RAWLINGS HITTER'S LEG GUARD",
+    "addedAt": "2026-03-22T04:52:15.294Z"
   }
 ]
