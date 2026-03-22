@@ -8096,5 +8096,17 @@
     "reason": "Parasol/sombrilla son accesorios deportivos para protección solar en eventos y entrenamientos al aire libre",
     "example": "PROMARK NFL AUTO SHADE PARASOL",
     "addedAt": "2026-03-22T04:38:11.994Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "red",
+      "futbol"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Red específica para futsal es equipamiento deportivo, no confundir con disciplina sola",
+    "example": "PROMOCOM RED PARA FUTBOL DE SALON ",
+    "addedAt": "2026-03-22T04:38:26.045Z"
   }
 ]
