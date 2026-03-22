@@ -8670,5 +8670,17 @@
     "reason": "Casco de fútbol americano Schutt Vengeance, modelo específico de protección craneal",
     "example": "SCHUTT VENGEANCE Z10 LARGE",
     "addedAt": "2026-03-22T06:46:41.735Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "vengeance",
+      "helmet"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Casco de fútbol americano/rugby de marca Schutt, modelo Vengeance",
+    "example": "SCHUTT VENGEANCE Z10 MEDIUM",
+    "addedAt": "2026-03-22T06:46:56.689Z"
   }
 ]
