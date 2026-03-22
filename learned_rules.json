@@ -7657,5 +7657,40 @@
     "reason": "Combinación de palabras identifica protecciones para deslizamientos en deportes (béisbol, softball)",
     "example": "NIKE SLIDING PAD OSFA",
     "addedAt": "2026-03-22T02:42:15.106Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "no show",
+      "calcetín"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "NO SHOW identifica calcetines cortos deportivos; talla numerada confirma calcetería",
+    "example": "NIKE SPARK LIGHTWEIGHT NO SHOW 10-11.5",
+    "addedAt": "2026-03-22T02:44:26.438Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "no show",
+      "sock"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "NO SHOW es descriptor exclusivo de calcetines deportivos cortos que no se ven sobre el calzado",
+    "example": "NIKE SPARK LIGHTWEIGHT NO SHOW 8-9.5",
+    "addedAt": "2026-03-22T02:44:38.847Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "sudadera"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "Sudadera es prenda de abrigo sin ambigüedad de categoría",
+    "example": "NIKE SUDADERA GREEN BAY L",
+    "addedAt": "2026-03-22T02:46:14.720Z"
   }
 ]
