@@ -6539,5 +6539,29 @@
     "reason": "Jammer es un traje de baño deportivo de una sola pieza, siempre en lycra o material similar",
     "example": "MOLKS T-B MKS NIÑA LYCRA JAMMER SOLID \"T\"/ TALLA 10",
     "addedAt": "2026-03-22T00:03:08.678Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "hand",
+      "pad"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Hand pads son protecciones específicas para artes marciales y boxeo, evita confusión con otros pads",
+    "example": "MOOTO HAND PAD",
+    "addedAt": "2026-03-22T00:09:24.893Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tube",
+      "resistance"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Tube trainer es equipo de entrenamiento doméstico, 'resistance' confirma función de ejercicio",
+    "example": "MTUBEBB MEDIUM RESISTANCE TUBE TRAINER",
+    "addedAt": "2026-03-22T00:10:22.045Z"
   }
 ]
