@@ -6611,5 +6611,74 @@
     "reason": "Producto de soporte articular específico para rodilla",
     "example": "MUELLER JUMPERS KNEE STRAP",
     "addedAt": "2026-03-22T00:11:48.350Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "no glare stick"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Producto de cuidado/mantenimiento deportivo para reducir reflejo en actividades outdoor",
+    "example": "MUELLER NO GLARE STICK .15oz",
+    "addedAt": "2026-03-22T00:11:58.190Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "glare strip"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Anti-glare strips son accesorios complementarios deportivos para reducir reflejo solar en ojos durante actividad física",
+    "example": "MUELLER NO GLARE STRIP PLAIN",
+    "addedAt": "2026-03-22T00:12:18.385Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "stickum",
+      "spray"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Stickum es un spray adhesivo deportivo para mejorar agarre en deportes, categorizado como cuidado/mantenimiento de equipamiento",
+    "example": "MUELLER STICKUM  4 OZ SPRAY",
+    "addedAt": "2026-03-22T00:12:54.488Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "vendita",
+      "mueller"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Mueller es marca especializada en vendajes y soportes deportivos. 'Vendita' (venda en italiano) refuerza clasificación como producto de soporte/prevención",
+    "example": "MUELLER VENDITA 1\" PREMIUM",
+    "addedAt": "2026-03-22T00:13:40.275Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "pair"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "1PAIR indica producto por unidad/par, típico de calcetines o prendas interiores",
+    "example": "MW CHECKERED FLAG 1PAIR",
+    "addedAt": "2026-03-22T00:14:34.415Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cinturón",
+      "levantamiento"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Cinturón de levantamiento con pad es equipamiento de soporte y prevención para entrenamiento de fuerza",
+    "example": "MW Cinturón de Levantamiento Con Pad",
+    "addedAt": "2026-03-22T00:14:44.053Z"
   }
 ]
