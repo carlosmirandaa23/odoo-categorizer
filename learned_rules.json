@@ -6893,5 +6893,53 @@
     "reason": "Bib en contexto deportivo NFL refiere a protección de pecho/torso específica de fútbol americano, no prenda de ropa superior convencional",
     "example": "NFL ALL PRO BIB",
     "addedAt": "2026-03-22T00:26:20.175Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "baby",
+      "3pk"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "3pk indica pack de 3 unidades típico de calcetines o ropa interior infantil deportiva",
+    "example": "NFL BABY 3PK ",
+    "addedAt": "2026-03-22T00:26:50.323Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "mameluco",
+      "baby"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Mameluco es prenda superior de una pieza para bebé, aunque NFL es disciplina no afecta clasificación de prenda",
+    "example": "NFL BABY MAMELUCO",
+    "addedAt": "2026-03-22T00:27:20.169Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "pantunflas",
+      "baby"
+    ],
+    "category": "SANDALIAS Y CHANCLAS",
+    "match": "contains",
+    "reason": "Pantunflas son chanclas/sandalias infantiles de uso casual-deportivo",
+    "example": "NFL BABY PANTUNFLAS",
+    "addedAt": "2026-03-22T00:27:39.960Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "barril",
+      "litros"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Contenedor de hidratación/bebidas para deportistas, tipo garrafa o bidón deportivo",
+    "example": "NFL BARRIL 3.8L",
+    "addedAt": "2026-03-22T00:28:09.208Z"
   }
 ]
