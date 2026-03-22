@@ -8882,5 +8882,16 @@
     "reason": "Shoe Goo es adhesivo/pegamento especializado para reparación y mantenimiento de calzado deportivo",
     "example": "SHOE GOO  3.7 OZ  BLACK",
     "addedAt": "2026-03-22T07:05:13.553Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "towel"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Towel es un complemento deportivo de uso en entrenamiento/recuperación, nunca refiere a otro tipo de producto",
+    "example": "SKIILL TOWEL UA WHITE",
+    "addedAt": "2026-03-22T07:12:47.805Z"
   }
 ]
