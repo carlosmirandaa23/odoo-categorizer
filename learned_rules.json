@@ -7703,5 +7703,42 @@
     "reason": "Superbad 3.0 es modelo de tachones de fútbol americano",
     "example": "NIKE SUPERBAD 3.0 L ",
     "addedAt": "2026-03-22T02:46:39.196Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tight",
+      "fit"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Tight fit es descriptor de leggings/pants ajustados deportivos",
+    "example": "NIKE TIGHT FIT WOMENS M",
+    "addedAt": "2026-03-22T03:01:02.105Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "tornament",
+      "tournament"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Nike Tournament Elite es un balón de voleibol oficial de competencia",
+    "example": "NIKE TORNAMENT ELITE #7",
+    "addedAt": "2026-03-22T03:01:26.645Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "vapor",
+      "edge",
+      "tachones"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Vapor Edge es línea de tachones de fútbol americano de Nike",
+    "example": "NIKE VAPOR 360 EDGE PRO 10A",
+    "addedAt": "2026-03-22T03:02:37.080Z"
   }
 ]
