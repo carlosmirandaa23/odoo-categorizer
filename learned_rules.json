@@ -9311,5 +9311,76 @@
     "reason": "Tape (cinta) + lastic (elasticidad) = cinta deportiva elástica para soporte y vendaje",
     "example": "TAPE PRO LASTIC GRANDE",
     "addedAt": "2026-03-22T08:05:07.372Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "protector",
+      "barra"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Protector específico para barra de entrenamiento en casa, no es protección corporal",
+    "example": "TAYGA PROTECTOR PARA BARRA  40CM",
+    "addedAt": "2026-03-22T08:07:10.773Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "debris inhibitor"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Producto de limpieza/mantenimiento deportivo específico para calzado",
+    "example": "TCK  THE DEBRIS INHIBITOR RAZUR BLACK",
+    "addedAt": "2026-03-22T08:07:56.794Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "hustle",
+      "mochila",
+      "backpack"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Team Hustle es línea de mochilas deportivas de Nike; patrón consistente para entrenamientos",
+    "example": "TEAM HUSTLE 30 / color: GRAPHITE MEDIUM HEATHER-BLACK-WHITE / talla: OSFA / uso: TRAIN",
+    "addedAt": "2026-03-22T08:08:28.012Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "hustle",
+      "train"
+    ],
+    "category": "RUNNING Y ENTRENAMIENTO",
+    "match": "contains",
+    "reason": "TEAM HUSTLE es modelo específico de tenis de entrenamiento/training",
+    "example": "TEAM HUSTLE 30 / color: MIDNIGHT NAVY-GRAY-GRAY / talla: OSFA / uso: TRAIN",
+    "addedAt": "2026-03-22T08:08:43.900Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "termo"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Termo es un objeto de hidratación/complemento deportivo que nunca refiere a otro tipo de producto",
+    "example": "TERMO NFL 30oz",
+    "addedAt": "2026-03-22T08:17:57.291Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cepillo",
+      "limpia"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Cepillos para limpieza y mantenimiento de calzado deportivo",
+    "example": "THE FACTOR CEPILLO",
+    "addedAt": "2026-03-22T08:18:58.719Z"
   }
 ]
