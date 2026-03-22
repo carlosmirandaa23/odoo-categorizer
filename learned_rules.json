@@ -7943,5 +7943,17 @@
     "reason": "Clifden es un modelo de gafas de sol deportivas Oakley; asociado a accesorios oculares deportivos",
     "example": "OAKLEY CLIFDEN PRIZM SNOW",
     "addedAt": "2026-03-22T04:05:46.848Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "overfly",
+      "rookie"
+    ],
+    "category": "PELOTAS Y BALONES",
+    "match": "contains",
+    "reason": "Overfly Rookie es un balón de voleibol reconocido por sus dimensiones estándar 32.5 y 32 pulgadas",
+    "example": "OVERFLY ROOKIE 32.5\" Y 32\"",
+    "addedAt": "2026-03-22T04:10:14.520Z"
   }
 ]
