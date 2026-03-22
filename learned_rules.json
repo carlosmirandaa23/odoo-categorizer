@@ -9737,5 +9737,76 @@
     "reason": "SMK (Smoke) + SUEDE + MC (molded cleats) es combinación característica de tachones de fútbol/béisbol junior",
     "example": "UA BLUR SMK SUEDE SLCT MC JR 4.5Y",
     "addedAt": "2026-03-22T09:35:14.645Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "blur",
+      "mc"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "MC = molded cleat (tachones moldeados). Blur es línea de tachones de Under Armour para múltiples deportes de contacto",
+    "example": "UA BLUR SMOKE 2.0 MC 11.5A",
+    "addedAt": "2026-03-22T09:37:07.207Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "blur",
+      "vif"
+    ],
+    "category": "CASUAL - SNEAKERS",
+    "match": "contains",
+    "reason": "UA Blur VIF es modelo de tenis lifestyle/casual de Under Armour",
+    "example": "UA BLUR VIF M",
+    "addedAt": "2026-03-22T09:49:54.462Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "crop",
+      "breathelux"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Crop top deportivo de marca UA, característica de prendas superiores ajustadas",
+    "example": "UA BREATHELUX CROP LG",
+    "addedAt": "2026-03-22T09:55:46.208Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tshirt",
+      "sportstyle"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Camiseta deportiva de corte casual pero claramente identificada como prenda superior deportiva",
+    "example": "UA CC SPORTSTYLE LOGO TSHIRT ",
+    "addedAt": "2026-03-22T10:04:38.104Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "liner",
+      "storm"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Liner deportivo es prenda superior térmica/base layer; storm indica prenda de clima",
+    "example": "UA CG STORM LINER SM",
+    "addedAt": "2026-03-22T10:14:17.858Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tracksuit"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "tracksuit refiere específicamente a conjunto deportivo de sudadera/chamarra con pants",
+    "example": "UA CHALLENGER TRACKSUIT LG",
+    "addedAt": "2026-03-22T10:16:11.760Z"
   }
 ]
