@@ -9559,5 +9559,28 @@
     "reason": "La palabra 'mask' en contexto de natación (marca TYR) siempre refiere a gafas/máscaras de natación, categoría PROTECCIONES",
     "example": "TYR ARC 180 MASK",
     "addedAt": "2026-03-22T08:33:57.072Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "swim",
+      "clip"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Accesorio de natación (clip ergonómico para traje de baño o gafas de natación)",
+    "example": "TYR ERGO SWIM CLIP",
+    "addedAt": "2026-03-22T08:35:14.926Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "vesi"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "startswith",
+    "reason": "VESI es línea de trajes de baño de TYR, identificador único del producto",
+    "example": "TYR VESI AZUL/CLARO",
+    "addedAt": "2026-03-22T08:36:17.630Z"
   }
 ]
