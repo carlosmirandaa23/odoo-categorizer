@@ -7407,5 +7407,65 @@
     "reason": "Trout es modelo de tachones de béisbol de Nike, Force Zoom es su tecnología específica para ese deporte",
     "example": "NIKE FORCE ZOOM TROUT 5 AH3372-002-11A",
     "addedAt": "2026-03-22T01:37:36.049Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "future",
+      "field"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Future Field es línea de tachones de Nike para fútbol, identifica calzado especializado con tacos",
+    "example": "NIKE FUTURE FIELD 1Y",
+    "addedAt": "2026-03-22T01:38:08.679Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "hair",
+      "pack"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Hair pack es un accesorio deportivo para el cabello, complemento deportivo similar a gorras o bandas de cabeza",
+    "example": "NIKE GAME READY HAIR PACK BK",
+    "addedAt": "2026-03-22T01:41:26.225Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "straw",
+      "botella"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Straw indica accesorio de hidratación (pajilla/botella). Sin imagen es inferencia por nombre.",
+    "example": "NIKE HYPERCHARGE STRAW BK",
+    "addedAt": "2026-03-22T01:45:20.862Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "straw",
+      "water bottle"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "HYPERCHARGE STRAW es botella de agua deportiva con pajilla, clasificada en complementos. No se propone regla con marca NIKE.",
+    "example": "NIKE HYPERCHARGE STRAW PINK",
+    "addedAt": "2026-03-22T01:45:43.611Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "knee",
+      "sleeve"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Knee sleeves son protecciones/soportes para la rodilla, evita confusión con prendas de manga",
+    "example": "NIKE HYPERSTRONG PADDED KNEE SLEEVES L/XL",
+    "addedAt": "2026-03-22T01:46:46.277Z"
   }
 ]
