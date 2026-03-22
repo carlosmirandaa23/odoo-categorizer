@@ -7813,5 +7813,17 @@
     "reason": "Las toallas deportivas son accesorios complementarios, no prendas de ropa ni equipamiento técnico",
     "example": "NIKE VAPOR STREAMER TOWEL PINK ",
     "addedAt": "2026-03-22T03:26:17.347Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "soccer",
+      "knee-high"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Tachones de fútbol identificados por 'soccer' + altura knee-high",
+    "example": "NIKE VAPOR STRIKE KNEE-HIGH SOCCER 10-11.5",
+    "addedAt": "2026-03-22T03:26:41.468Z"
   }
 ]
