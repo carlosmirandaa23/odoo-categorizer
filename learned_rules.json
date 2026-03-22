@@ -9820,5 +9820,17 @@
     "reason": "Charged Cotton es línea de ropa interior/calcetines Under Armour. El '6pack' indica conjunto de prendas íntimas o calcetines.",
     "example": "UA CHARGED COTTON 6PACK",
     "addedAt": "2026-03-22T10:18:40.313Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "charged cotton",
+      "6pk"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Charged Cotton es la línea de ropa interior de Under Armour; 6PK indica pack de 6 pares",
+    "example": "UA CHARGED COTTON 6PK",
+    "addedAt": "2026-03-22T10:18:58.717Z"
   }
 ]
