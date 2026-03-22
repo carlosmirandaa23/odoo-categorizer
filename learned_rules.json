@@ -6965,5 +6965,17 @@
     "reason": "Billetera/cartera de color (accesorios deportivos de uso cotidiano)",
     "example": "NFL COLOR WALLET",
     "addedAt": "2026-03-22T00:30:08.913Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cubre",
+      "volante"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Protección específica para volante/timón en deportes de contacto como fútbol americano",
+    "example": "NFL CUBRE VOLANTES",
+    "addedAt": "2026-03-22T00:30:39.344Z"
   }
 ]
