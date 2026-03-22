@@ -7896,5 +7896,17 @@
     "reason": "Dri-FIT es tecnología de prenda superior deportiva de Nike, universal para camisetas y tops",
     "example": "Nike Dri-FIT BQ3280-100-SM",
     "addedAt": "2026-03-22T03:41:09.367Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tight",
+      "crop"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Las palabras 'tight' y 'crop' juntas identifican prendas inferiores ajustadas tipo leggings deportivos",
+    "example": "Nike Epic Lux Crop Tight L",
+    "addedAt": "2026-03-22T03:41:46.514Z"
   }
 ]
