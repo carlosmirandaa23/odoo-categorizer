@@ -7502,5 +7502,17 @@
     "reason": "Multiplier Crew es línea de calcetines deportivos Nike",
     "example": "NIKE MULTIPLIER CREW L",
     "addedAt": "2026-03-22T02:13:31.725Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "multiplier",
+      "calcetín"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Multiplier Max es línea de calcetines deportivos Nike, pero sin 'calcetín' explícito en nombre hay ambigüedad. No se propone regla por nombre de modelo.",
+    "example": "NIKE MULTIPLIER MAX ",
+    "addedAt": "2026-03-22T02:14:26.944Z"
   }
 ]
