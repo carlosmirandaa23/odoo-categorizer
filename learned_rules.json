@@ -7288,5 +7288,17 @@
     "reason": "skull wrap es accesorio deportivo para cabeza/cara, similar a bandanas o pañoletas deportivas",
     "example": "NIKE DRI-FIT SKULL WRAP",
     "addedAt": "2026-03-22T01:24:08.769Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "dri-fit",
+      "shirt"
+    ],
+    "category": "PRENDAS SUPERIORES",
+    "match": "contains",
+    "reason": "Dri-fit es tecnología de camiseta deportiva; shirt + dri-fit identifica prenda superior sin ambigüedad",
+    "example": "NIKE DRI-FIT WHITE SHIRT MENS LG",
+    "addedAt": "2026-03-22T01:24:29.464Z"
   }
 ]
