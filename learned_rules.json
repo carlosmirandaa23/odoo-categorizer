@@ -7979,5 +7979,17 @@
     "reason": "Field point es punta de flecha para tiro con arco (protección/equipamiento); tapered especifica el tipo de punta",
     "example": "PDP 5' Tapered Field Point ",
     "addedAt": "2026-03-22T04:18:30.290Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "converta",
+      "inserts"
+    ],
+    "category": "SOPORTE Y PREVENCIÓN",
+    "match": "contains",
+    "reason": "Insertos ortopédicos de soporte para calzado, típicamente usados en prevención y alineación",
+    "example": "PDP CONVERTA INSERTS",
+    "addedAt": "2026-03-22T04:18:44.712Z"
   }
 ]
