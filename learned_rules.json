@@ -7633,5 +7633,29 @@
     "reason": "Sprint spikes es equipamiento específico para atletismo de pista, claramente diferenciable de tachones de fútbol/rugby por su propósito y construcción",
     "example": "NIKE RIVAL S RACING SPRINT SPIKES 3.5",
     "addedAt": "2026-03-22T02:34:46.908Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "rival",
+      "xc"
+    ],
+    "category": "RUNNING Y ENTRENAMIENTO",
+    "match": "contains",
+    "reason": "Rival XC es línea de tenis para cross country/running de Nike",
+    "example": "NIKE RIVAL XC 6 10",
+    "addedAt": "2026-03-22T02:34:58.565Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "sliding",
+      "pad"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Combinación de palabras identifica protecciones para deslizamientos en deportes (béisbol, softball)",
+    "example": "NIKE SLIDING PAD OSFA",
+    "addedAt": "2026-03-22T02:42:15.106Z"
   }
 ]
