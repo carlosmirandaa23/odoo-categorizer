@@ -8800,5 +8800,64 @@
     "reason": "Cinturón de protección específico para fútbol americano (tochito), categorizado como soporte deportivo",
     "example": "SG CINTO TOCHITO",
     "addedAt": "2026-03-22T06:54:44.419Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "resistance loop"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Resistance loops son ligas elásticas de entrenamiento para ejercicios en casa, sin ambigüedad con otros productos",
+    "example": "SG RESISTANCE LOOP",
+    "addedAt": "2026-03-22T06:58:15.965Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "turf",
+      "tape"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "tape deportivo para cancha/terreno artificial se clasifica en complementos deportivos",
+    "example": "SG TURF TAPE",
+    "addedAt": "2026-03-22T06:59:27.676Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "stabilizer",
+      "weight"
+    ],
+    "category": "ENTRENAMIENTO EN CASA",
+    "match": "contains",
+    "reason": "Stabilizer weight es equipo de entrenamiento para casa/gimnasio, usado en barras y mancuernas para ajustar carga",
+    "example": "SHIBUYA SS FLAT STABILIZER WEIGHT",
+    "addedAt": "2026-03-22T07:01:07.687Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tape",
+      "athletic"
+    ],
+    "category": "CUIDADO Y MANTENIMIENTO",
+    "match": "contains",
+    "reason": "Athletic tape es material de soporte y mantenimiento deportivo, diferenciado de vendajes médicos por su uso preventivo en entrenamientos",
+    "example": "SHIELD REFLEX STRECH TAPE ATHLETIC C/6",
+    "addedAt": "2026-03-22T07:01:37.263Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cup",
+      "shock doctor"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Cup es protección genital específica del deporte, Shock Doctor es marca especializada en protecciones deportivas",
+    "example": "SHOCK DOCTOR BIOFLEX CUP",
+    "addedAt": "2026-03-22T07:02:06.715Z"
   }
 ]
