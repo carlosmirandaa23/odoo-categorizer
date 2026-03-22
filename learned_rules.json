@@ -8586,5 +8586,17 @@
     "reason": "Maleta de utilería es contenedor para transportar equipamiento deportivo",
     "example": "SCHUTT MALETA DE UTILERIA",
     "addedAt": "2026-03-22T06:35:21.842Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "bumper",
+      "protector"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "bumper es protección específica; al combinar con términos deportivos evita confusión con otros usos",
+    "example": "SCHUTT REAR BUMPER F7 LOGO",
+    "addedAt": "2026-03-22T06:35:36.933Z"
   }
 ]
