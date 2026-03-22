@@ -9869,5 +9869,28 @@
     "reason": "Tote es un tipo específico de bolsa/cartera deportiva, 'bag' en inglés refuerza la categoría",
     "example": "UA CINCH PRINTED TOTE ",
     "addedAt": "2026-03-22T10:21:55.619Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "cinch",
+      "tote"
+    ],
+    "category": "BOLSAS Y MOCHILAS",
+    "match": "contains",
+    "reason": "Cinch y tote son términos específicos de bolsas deportivas; cinch evita confusión con otros productos",
+    "example": "UA CINCH PRINTED TOTE GREEN",
+    "addedAt": "2026-03-22T10:22:14.020Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "jckt"
+    ],
+    "category": "ABRIGO Y EXTERIOR",
+    "match": "contains",
+    "reason": "jckt es abreviatura de jacket (chamarra/chaqueta deportiva exterior)",
+    "example": "UA CITY PACK OUTRUN STORM JCKT LG",
+    "addedAt": "2026-03-22T10:22:47.649Z"
   }
 ]
