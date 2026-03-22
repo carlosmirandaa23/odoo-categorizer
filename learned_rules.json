@@ -7478,5 +7478,17 @@
     "reason": "Henley es un tipo específico de camiseta deportiva con cuello y botones, nunca se refiere a otro producto",
     "example": "NIKE MEN'S STOCK FLUX HENLEY",
     "addedAt": "2026-03-22T02:09:53.302Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "tempo",
+      "printed"
+    ],
+    "category": "PRENDAS INFERIORES",
+    "match": "contains",
+    "reason": "Tempo es línea de shorts deportivos Nike; printed indica shorts cortos (3'')",
+    "example": "NIKE MODERN TEMPO PRINTED 3'' ",
+    "addedAt": "2026-03-22T02:13:09.359Z"
   }
 ]
