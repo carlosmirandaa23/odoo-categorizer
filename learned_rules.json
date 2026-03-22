@@ -7777,5 +7777,41 @@
     "reason": "Tachones de fútbol americano de Nike, línea Vapor Edge Pro",
     "example": "NIKE VAPOR EDGE PRO 360 9A",
     "addedAt": "2026-03-22T03:04:53.643Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "glove",
+      "skill"
+    ],
+    "category": "PROTECCIONES",
+    "match": "contains",
+    "reason": "Guantes deportivos especializados para deportes de contacto/campo",
+    "example": "NIKE VAPOR KNIT SKILL GLOVE SL",
+    "addedAt": "2026-03-22T03:25:39.593Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "towel",
+      "toalla"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Las toallas deportivas son complementos de uso en entrenamiento y competencia",
+    "example": "NIKE VAPOR STREAMER TOWEL BLACK ",
+    "addedAt": "2026-03-22T03:26:04.177Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "towel",
+      "streamer"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Las toallas deportivas son accesorios complementarios, no prendas de ropa ni equipamiento técnico",
+    "example": "NIKE VAPOR STREAMER TOWEL PINK ",
+    "addedAt": "2026-03-22T03:26:17.347Z"
   }
 ]
