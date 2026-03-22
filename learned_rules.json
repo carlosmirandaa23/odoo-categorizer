@@ -9119,5 +9119,17 @@
     "reason": "Tapón de silicona para botellas deportivas, accesorio complementario de hidratación",
     "example": "SPORT EDITION TAPON SILICON ADULTO",
     "addedAt": "2026-03-22T07:38:51.820Z"
+  },
+  {
+    "type": "any",
+    "keywords": [
+      "toalla",
+      "microfibra"
+    ],
+    "category": "COMPLEMENTOS",
+    "match": "contains",
+    "reason": "Toalla deportiva de microfibra para uso post-entrenamiento/secado, clasificada como complemento de cuidado personal",
+    "example": "SPORT EDITION TOALLA MICROFIBRA 75*150CM",
+    "addedAt": "2026-03-22T07:39:23.310Z"
   }
 ]
