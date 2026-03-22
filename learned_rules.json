@@ -7692,5 +7692,16 @@
     "reason": "Sudadera es prenda de abrigo sin ambigüedad de categoría",
     "example": "NIKE SUDADERA GREEN BAY L",
     "addedAt": "2026-03-22T02:46:14.720Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "superbad"
+    ],
+    "category": "TACHONES",
+    "match": "contains",
+    "reason": "Superbad 3.0 es modelo de tachones de fútbol americano",
+    "example": "NIKE SUPERBAD 3.0 L ",
+    "addedAt": "2026-03-22T02:46:39.196Z"
   }
 ]
