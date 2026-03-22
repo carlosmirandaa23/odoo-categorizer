@@ -9808,5 +9808,17 @@
     "reason": "tracksuit refiere específicamente a conjunto deportivo de sudadera/chamarra con pants",
     "example": "UA CHALLENGER TRACKSUIT LG",
     "addedAt": "2026-03-22T10:16:11.760Z"
+  },
+  {
+    "type": "all",
+    "keywords": [
+      "charged cotton",
+      "pack"
+    ],
+    "category": "ROPA INTERIOR Y BAÑO",
+    "match": "contains",
+    "reason": "Charged Cotton es línea de ropa interior/calcetines Under Armour. El '6pack' indica conjunto de prendas íntimas o calcetines.",
+    "example": "UA CHARGED COTTON 6PACK",
+    "addedAt": "2026-03-22T10:18:40.313Z"
   }
 ]
